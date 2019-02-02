@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HostRoot.Text">
+    <value>Racine de l'hôte</value>
+  </data>
+  <data name="PortalRoot.Text">
+    <value>Racine du site</value>
+  </data>
+  <data name="Skin.Text">
+    <value>Thème</value>
+  </data>
+  <data name="Container.Text">
+    <value>Container</value>
+  </data>
+  <data name="Module.Text">
+    <value>Module personalisé</value>
+  </data>
+  <data name="Decompress.Text">
+    <value>Décompresser les fichiers ZIP</value>
+  </data>
+  <data name="LogTitle.Text">
+    <value>Journal des envois de ressources</value>
+  </data>
+  <data name="cmdReturn.Text">
+    <value>Retour au gestionnaire de fichier</value>
+  </data>
+  <data name="InvalidExt.Text">
+    <value>L'extension du fichier est invalide pour</value>
+  </data>
+  <data name="ControlTitle_file manager.Text">
+    <value>Importation Fichier</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Importation Fichier</value>
+  </data>
+  <data name="File.Text">
+    <value>Contenu</value>
+  </data>
+  <data name="LanguagePack.Text">
+    <value>Pack de langue</value>
+  </data>
+  <data name="UploadTypeContainer.Text">
+    <value>Charger un container</value>
+  </data>
+  <data name="cmdRemove.Text">
+    <value>Supprimer</value>
+  </data>
+  <data name="UploadTypeSkin.Text">
+    <value>Charger un thème</value>
+  </data>
+  <data name="UploadTypeFile.Text">
+    <value>Charger</value>
+  </data>
+  <data name="UploadTypeModule.Text">
+    <value>Charger un module</value>
+  </data>
+  <data name="UploadTypeLanguagePack.Text">
+    <value>Charger un pack de langue</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Importation de fichiers&lt;/h1&gt;&lt;p&gt;Vous pouvez enrichir votre site en téléchargeant des données telles que les images, documents PDF, etc...&lt;/p&gt;</value>
+  </data>
+  <data name="cmdUpload.Text">
+    <value>Enregistrer</value>
+  </data>
+  <data name="NoFile.Text">
+    <value>Vous devez choisir un document  - Utilisez le bouton "parcourir" pour sélectionner le document sur votre ordinateur</value>
+  </data>
+</root>

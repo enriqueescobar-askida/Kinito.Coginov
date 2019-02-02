@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 02/08/2011 17:55:03   UTC: 2011-08-02 15:55:03Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="plSource.Text">
+    <value>Source</value>
+  </data>
+  <data name="plSource.Help">
+    <value>Indiquez la provenance de la bannière</value>
+  </data>
+  <data name="plType.Text">
+    <value>Type</value>
+  </data>
+  <data name="plType.Help">
+    <value>Spécifiez le type de bannière</value>
+  </data>
+  <data name="plGroup.Text">
+    <value>Groupe&amp;nbsp;&amp;nbsp;</value>
+  </data>
+  <data name="plGroup.Help">
+    <value>Spécifiez le groupe de bannière</value>
+  </data>
+  <data name="plCount.Text">
+    <value>Nombre</value>
+  </data>
+  <data name="plCount.Help">
+    <value>Indiquez le nombre maximum de bannières à montrer</value>
+  </data>
+  <data name="plOrientation.Text">
+    <value>Orientation.</value>
+  </data>
+  <data name="plOrientation.Help">
+    <value>Spécifiez dans quel sens la bannière doit être affichée</value>
+  </data>
+  <data name="plBorder.Text">
+    <value>Bordure</value>
+  </data>
+  <data name="plBorder.Help">
+    <value>Spécifiez la largeur de bordure en pixels</value>
+  </data>
+  <data name="plRowHeight.Text">
+    <value>Hauteur</value>
+  </data>
+  <data name="plRowHeight.Help">
+    <value>Spécifiez la hauteur de chaque cellule</value>
+  </data>
+  <data name="plColWidth.Text">
+    <value>Largeur</value>
+  </data>
+  <data name="plColWidth.Help">
+    <value>Spécifiez la largeur de chaque cellule</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Annuler</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Paramètres du module "bannières"</value>
+  </data>
+  <data name="plBorderColor.Text">
+    <value>Couleur</value>
+  </data>
+  <data name="plBorderColor.Help">
+    <value>Spécifiez la couleur de la bordure</value>
+  </data>
+  <data name="AllTypes.Text">
+    <value>&lt;Tout&gt;</value>
+  </data>
+  <data name="Horizontal.Text">
+    <value>Horizontale</value>
+  </data>
+  <data name="Host.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="plPadding.Help">
+    <value>Espace entre la bannière et la bordure</value>
+  </data>
+  <data name="plPadding.Text">
+    <value>Espace</value>
+  </data>
+  <data name="Site.Text">
+    <value>site :</value>
+  </data>
+  <data name="valBorder.ErrorMessage">
+    <value>&lt;br&gt;La valeur doit être un nombre entier</value>
+  </data>
+  <data name="valColWidth.ErrorMessage">
+    <value>&lt;br&gt;La valeur doit être un nombre entier</value>
+  </data>
+  <data name="valCount.ErrorMessage">
+    <value>&lt;br&gt;La valeur doit être un nombre entier</value>
+  </data>
+  <data name="valPadding.ErrorMessage">
+    <value>&lt;br&gt;La valeur doit être un nombre entier</value>
+  </data>
+  <data name="valRowHeight.ErrorMessage">
+    <value>&lt;br&gt;La valeur doit être un nombre entier</value>
+  </data>
+  <data name="Vertical.Text">
+    <value>Verticale</value>
+  </data>
+  <data name="plBannerClickThroughURL.Help">
+    <value>Rediriger les annonces sur une page intermédiaire</value>
+  </data>
+  <data name="plBannerClickThroughURL.Text">
+    <value>Clic de bannière vers une URL</value>
+  </data>
+  <data name="valBannerClickThroughURL.ErrorMessage">
+    <value>&lt;br&gt;L'URL de redirection de la bannière doit être valide et de la forme : "http://..."</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 12:16:42   UTC: 2011-07-29 10:16:42Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="LogTitle.Text">
+    <value>Logs d'installation du Package</value>
+  </data>
+  <data name="Cancel.Text">
+    <value>Retour</value>
+  </data>
+  <data name="InvalidExt.Text">
+    <value>Extension de fichier invalide - {0}</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos de l'installation de Packages&lt;/h1&gt;&lt;p&gt;Vous permet de charger et d'installer de nouveaux Packages sur votre portail.&lt;/p&gt;</value>
+  </data>
+  <data name="NoFile.Text">
+    <value>Vous devez choisir un fichier à charger - Cliquer sur le bouton Parcourir afin de sélectionner le fichier présent sur votre ordinateur.</value>
+  </data>
+  <data name="InstallCustomPackage.Text">
+    <value>Installe le nouveau package {0}</value>
+  </data>
+  <data name="InstallPackage.Text">
+    <value>Installer un nouveau Package</value>
+  </data>
+  <data name="UploadPackage.Text">
+    <value>Charger un package</value>
+  </data>
+  <data name="AcceptLicense.Text">
+    <value>Accepter la licence ?</value>
+  </data>
+  <data name="Introduction.Help">
+    <value>DotNetNuke peut être étendu de plusieurs façons. Ce wizard va vous aider à charger et à installer des Packages pour DotNetNuke.&lt;br/&gt;&lt;br/&gt;La première étape consiste à choisir le package à installer. Cliquer sur le bouton Parcourir afin de choisir le fichier de package à installer.&lt;br/&gt;&lt;br/&gt;Lorsque vous avez choisi votre fichier zip à installer, cliquer sur suivant afin de finaliser l'installation de celui-ci.</value>
+  </data>
+  <data name="Introduction.Title">
+    <value>Installer un nouveau Package</value>
+  </data>
+  <data name="ZipCriticalError.Text">
+    <value>Erreur critique pendant la lecture du fichier zip du package</value>
+  </data>
+  <data name="ZipError.Text">
+    <value>Erreur pendant la lecture du ficher zip du Package :&lt;br /&gt;</value>
+  </data>
+  <data name="AcceptTerms.Text">
+    <value>Vous devez accepter les termes de la licence pour pouvoir installer ce produit.</value>
+  </data>
+  <data name="InstallError.Text">
+    <value>Erreur au chargement des fichiers dans le dossier temporaire :&lt;br /&gt;</value>
+  </data>
+  <data name="InstallResults.Help">
+    <value>Le package a été installé correctement :&lt;br /&gt;</value>
+  </data>
+  <data name="InstallResults.Title">
+    <value>Le package a été installé correctement.</value>
+  </data>
+  <data name="PackageInfo.Help">
+    <value>L'information suivante à été trouvé dans le Manifeste du Package.</value>
+  </data>
+  <data name="PackageInfo.Title">
+    <value>Informations sur le Package</value>
+  </data>
+  <data name="BrowseFile.Text">
+    <value>Rechercher un fichier :</value>
+  </data>
+  <data name="BrowseFileHelp.Text">
+    <value>Utilisez le bouton Parcourir pour naviguer pour trouver l'extension que vous souhaitez installer sur votre système de fichiers local, puis cliquez sur Suivant pour continuer.</value>
+  </data>
+  <data name="Container.Text">
+    <value>Container</value>
+  </data>
+  <data name="CoreLanguageError.Text">
+    <value>Le langage de base pour lequel est conçu ce pack de langue n'est pas installé.  Installer le pack de langue de base avant d'installer les packs de langue extension pour cette langue.</value>
+  </data>
+  <data name="DependencyError.Text">
+    <value>Ce pack de langue est conçu pour une extension qui ne semble pas être installé.</value>
+  </data>
+  <data name="IgnoreRestrictedFilesWarning.Text">
+    <value>ATTENTION : Vous avez choisi d'ignorer la vérification des types de fichier restreint.  Cette action comporte un risque de sécurité pour votre site et vous devez le faire uniquement si le package que vous installez provient d'une source fiable.</value>
+  </data>
+  <data name="IgnoreWhiteList.Text">
+    <value>Ignorer les restrictions de fichier ?</value>
+  </data>
+  <data name="IgnoreWhiteListHelp.Text">
+    <value>Le programme d'installation maintient une liste de fichiers autorisés (liste blanche) qui peut être installé sur votre site.  Si vous êtes convaincu que le package que vous installez provient d'une source fiable puis vous pouvez choisir d'ignorer cette liste.</value>
+  </data>
+  <data name="InvalidFiles.Text">
+    <value>Le package contient des fichiers avec les extensions de fichier non valide ({0})</value>
+  </data>
+  <data name="LegacySkin.Text">
+    <value>Thème/Container hérités :</value>
+  </data>
+  <data name="LegacySkinHelp.Text">
+    <value>Les thèmes et de containers hérités peuvent être installés à l'aide de ce programme d'installation, mais comme ils n'ont pas de manifestes vous devez vérifier que le package est hérité du thème ou du container (en cas de doute, cochez la case).</value>
+  </data>
+  <data name="License.Help">
+    <value>Avant de poursuivre, vous devez accepter les termes de la licence pour cette extension.  Veuillez la lire puis cocher la case "Accepter la licence"</value>
+  </data>
+  <data name="License.Title">
+    <value>Licence</value>
+  </data>
+  <data name="NoManifest.Text">
+    <value>Ce package ne semble pas être une Extension DotNetNuke valide car il ne dispose pas d'un fichier manifeste.  Les anciens Thèmes (classique) et containers ne contiennent pas de manifestes.  Si ce package est un thème, veuillez cocher l’option ci-dessous et cliquez sur Suivant.</value>
+  </data>
+  <data name="None.Text">
+    <value>Pas un thème/container</value>
+  </data>
+  <data name="PackageInstalled.Text">
+    <value>Le package est déjà installé.</value>
+  </data>
+  <data name="ReleaseNotes.Help">
+    <value>Vous pouvez consulter les notes de version de ce package.</value>
+  </data>
+  <data name="ReleaseNotes.Title">
+    <value>Notes de version</value>
+  </data>
+  <data name="RepairInstall.Text">
+    <value>Réparer l'installation</value>
+  </data>
+  <data name="RepairInstallHelp.Text">
+    <value>Par défaut, le programme d'installation n'écrase pas les versions de package identiques.  Si vous souhaitez que le programme d'installation poursuive et répare : cochez cette case.</value>
+  </data>
+  <data name="RepairInstallWarning.Text">
+    <value>ATTENTION : Vous avez choisi réparer l'installation de ce package.  Cela entraînera le remplacement tous les fichiers qui ont été précédemment installés.</value>
+  </data>
+  <data name="Return.Text">
+    <value>Retour</value>
+  </data>
+  <data name="Skin.Text">
+    <value>Thème</value>
+  </data>
+  <data name="Warnings.Help">
+    <value>Le programme d'installation doit recueillir certains renseignements avant de poursuivre.</value>
+  </data>
+  <data name="Warnings.Title">
+    <value>Télécharger les résultats</value>
+  </data>
+  <data name="AcceptLicense.Help">
+    <value>Check this box to accept the terms of the license.</value>
+  </data>
+  <data name="ControlTitle_install.Text">
+    <value>Install Extension</value>
+  </data>
+  <data name="FileSizeRestriction.Text">
+    <value>Your site is configured with a maximum file upload size of {0} MB.</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plStartDate.Text">
+    <value>*Date de début&amp;nbsp;</value>
+  </data>
+  <data name="plStartDate.Help">
+    <value>Spécifiez une date de départ et de fin pour contrôler le taux en fonction de la durée du contrat de l'affiliation</value>
+  </data>
+  <data name="plEndDate.Text">
+    <value>*Date de fin&amp;nbsp;</value>
+  </data>
+  <data name="plCPC.Text">
+    <value>Coût Par Clic (CPC)&amp;nbsp;</value>
+  </data>
+  <data name="plCPC.Help">
+    <value>CPC : le Coût Par Acquisition correspond au montant de base de la commission payée par le fournisseur quand une visite est générée à partir de votre site vers son site</value>
+  </data>
+  <data name="CPC.ErrorMessage">
+    <value>Vous devez spécifier un CPC valide</value>
+  </data>
+  <data name="plCPA.Text">
+    <value>Coût Par Acquisition (CPA)&amp;nbsp;</value>
+  </data>
+  <data name="plCPA.Help">
+    <value>CPA : le Coût Par Acquisition correspond au montant de la commission payée au fournisseur quand un visiteur devient "Membre" de votre site</value>
+  </data>
+  <data name="CPA.ErrorMessage">
+    <value>Vous devez spécifier un CPA valide</value>
+  </data>
+  <data name="Optional.Text">
+    <value>* = Optionnel</value>
+  </data>
+  <data name="cmdSend.Text">
+    <value>Envoyer une notification</value>
+  </data>
+  <data name="ControlTitle_affiliate.Text">
+    <value>Gestion des affiliations</value>
+  </data>
+  <data name="NotificationSuccess.Text">
+    <value>Notification envoyée</value>
+  </data>
+  <data name="NotificationFailure.Text">
+    <value>Notification non envoyée : {0}</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos des Annonceurs&lt;/h1&gt;&lt;p&gt;Cet outil permet de gérer les annonceurs et 
+les bannières qui leurs sont associés.&lt;/p&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 11:29:52   UTC: 2011-08-03 09:29:52Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="BasicSettings.Text">
+    <value>Paramètres de base</value>
+  </data>
+  <data name="BasicSettingsHelp.Text">
+    <value>Cette section sert à configurer les paramètres de base de votre site : son titre, la description utilisé par défaut pour les moteurs de recherche et les mots clés associés...</value>
+  </data>
+  <data name="SiteDetails.Text">
+    <value>Informations sur le site</value>
+  </data>
+  <data name="plPortalName.Text">
+    <value>Titre :</value>
+  </data>
+  <data name="plPortalName.Help">
+    <value>Saisissez le titre que vous souhaitez donner à votre site. Il apparaitra dans la barre de titre du navigateur internet.</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Description :</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Décrivez votre site en quelques mots. Ces informations seront utilisées par les moteurs de recherche pour indexer votre site. Cette description sera présentée accompagnée d'un METATAG automatiquement générée par DotNetNuke !</value>
+  </data>
+  <data name="plKeyWords.Text">
+    <value>Mots clés :</value>
+  </data>
+  <data name="plKeyWords.Help">
+    <value>Saisissez une série de mots séparés par des virgules (,) qui permettrons aux moteurs de recherche d'indexer votre site.</value>
+  </data>
+  <data name="plGUID.Text">
+    <value>GUID :</value>
+  </data>
+  <data name="plGUID.Help">
+    <value>Identificateur global unique servant à identifier ce site.</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>Apparence (Logo, Fond de page, Thèmes)</value>
+  </data>
+  <data name="plLogo.Text">
+    <value>Logo :</value>
+  </data>
+  <data name="plLogo.Help">
+    <value>L'emplacement du logo dépend du thème utilisé. Certains thèmes ne supportent pas cette fonction.</value>
+  </data>
+  <data name="plPortalSkin.Text">
+    <value>Thème du site :</value>
+  </data>
+  <data name="plPortalSkin.Help">
+    <value>Sélectionnez le Thème par défaut qui sera utilisé sur ce Site. Vous pourrez utiliser un thème différent sur les pages de votre site.</value>
+  </data>
+  <data name="plPortalContainer.Text">
+    <value>Container par défaut :</value>
+  </data>
+  <data name="plPortalContainer.Help">
+    <value>Sélectionnez le container par défaut qui sera utilisé sur ce Sites. Vous pourrez utiliser un container différent sur les pages de votre site.</value>
+  </data>
+  <data name="plAdminSkin.Text">
+    <value>Thème en mode Edition :</value>
+  </data>
+  <data name="plAdminSkin.Help">
+    <value>Sélectionnez le thème par défaut qui sera utilisé sur les pages d'administration.</value>
+  </data>
+  <data name="plAdminContainer.Text">
+    <value>Container en mode Edition :</value>
+  </data>
+  <data name="plAdminContainer.Help">
+    <value>Le thème sélectionné sera utilisé lors de l'édition des paramètres des modules</value>
+  </data>
+  <data name="plBackground.Text">
+    <value>Fond de page :</value>
+  </data>
+  <data name="plBackground.Help">
+    <value>Si le thème choisi le supporte, l'image sélectionnée apparaîtra sur le fond de votre site.</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>Paramètres avancés</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>Spécifiez le &lt;b&gt;mode d'inscription&lt;/b&gt;,
+les pages qui accueilleront les internautes, les &lt;b&gt;Opérateurs de paiements&lt;/b&gt;, les paramètres de la &lt;b&gt;barre d'outils&lt;/b&gt;...</value>
+  </data>
+  <data name="SecuritySettings.Text">
+    <value>Paramètres de sécurité</value>
+  </data>
+  <data name="plUserRegistration.Text">
+    <value>Mode d'inscription :</value>
+  </data>
+  <data name="plUserRegistration.Help">
+    <value>"Aucune" = les internautes ne peuvent pas s'inscrire, "Privée" = l'inscription sera validée par l'administrateur du site, "Publique" = inscription immédiate sans vérification, "Vérifiée" = adresse de courriel vérifiée par l'envoi d'un message</value>
+  </data>
+  <data name="None.Text">
+    <value>Aucune</value>
+  </data>
+  <data name="Private.Text">
+    <value>Privé</value>
+  </data>
+  <data name="Public.Text">
+    <value>public</value>
+  </data>
+  <data name="Verified.Text">
+    <value>Vérifié</value>
+  </data>
+  <data name="Pages.Text">
+    <value>Pages personnalisées</value>
+  </data>
+  <data name="plSplashTabId.Text">
+    <value>Pré-accueil :</value>
+  </data>
+  <data name="plSplashTabId.Help">
+    <value>Sélectionnez une page qui s'affichera avant la page d'accueil (si l'utilisateur arrive sur votre site directement par l'URL).</value>
+  </data>
+  <data name="plHomeTabId.Text">
+    <value>Accueil :</value>
+  </data>
+  <data name="plHomeTabId.Help">
+    <value>Choisissez la page d'accueil de votre site.</value>
+  </data>
+  <data name="plLoginTabId.Text">
+    <value>Identification :</value>
+  </data>
+  <data name="plLoginTabId.Help">
+    <value>Choisissez la page servant à l'identification des internautes.</value>
+  </data>
+  <data name="plUserTabId.Text">
+    <value>Utilisateurs :</value>
+  </data>
+  <data name="plUserTabId.Help">
+    <value>La page d'accueil des utilisateurs de votre site.</value>
+  </data>
+  <data name="Payment.Text">
+    <value>Opérateur de paiement</value>
+  </data>
+  <data name="plCurrency.Text">
+    <value>Devise :</value>
+  </data>
+  <data name="plCurrency.Help">
+    <value>Devise utilisée sur le site.</value>
+  </data>
+  <data name="plProcessor.Text">
+    <value>Opérateur :</value>
+  </data>
+  <data name="plProcessor.Help">
+    <value>Choisissez un Opérateur de Paiement afin d’accepter les paiements en ligne sur votre site.</value>
+  </data>
+  <data name="ProcessorWebSite.Text">
+    <value>Connexion au site de l'Opérateur de Paiement</value>
+  </data>
+  <data name="plUserId.Text">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="plUserId.Help">
+    <value>Saisissez votre identifiant pour cet Opérateur de Paiement.</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>Saisissez le mot de passe pour cet Opérateur de Paiement</value>
+  </data>
+  <data name="Usability.Text">
+    <value>Paramètres de la barre d'outils</value>
+  </data>
+  <data name="plInlineEditor.Text">
+    <value>Edition en ligne ?</value>
+  </data>
+  <data name="plInlineEditor.Help">
+    <value>Sélectionnez cette option pour activer l'édition en ligne.</value>
+  </data>
+  <data name="plControlPanelMode.Text">
+    <value>Mode :</value>
+  </data>
+  <data name="plControlPanelMode.Help">
+    <value>Sélectionnez le mode par défaut de la barre d'outils pour les utilisateurs autorisés.</value>
+  </data>
+  <data name="plControlPanelVisibility.Text">
+    <value>Visibilité :</value>
+  </data>
+  <data name="plControlPanelVisibility.Help">
+    <value>Sélectionnez le mode par défaut de la barre d'outils pour les utilisateurs autorisés.</value>
+  </data>
+  <data name="ControlPanelModeView.Text">
+    <value>Aperçu</value>
+  </data>
+  <data name="ControlPanelModeEdit.Text">
+    <value>Edition</value>
+  </data>
+  <data name="ControlPanelVisibilityMinimized.Text">
+    <value>Fermée</value>
+  </data>
+  <data name="ControlPanelVisibilityMaximized.Text">
+    <value>Ouverte</value>
+  </data>
+  <data name="Other.Text">
+    <value>Langue du site et administrateur par défaut</value>
+  </data>
+  <data name="plFooterText.Text">
+    <value>Copyright :</value>
+  </data>
+  <data name="plFooterText.Help">
+    <value>Si le thème choisi le supporte, ce copyright apparaitra à l'emplacement prévu.</value>
+  </data>
+  <data name="Site.Text">
+    <value>site</value>
+  </data>
+  <data name="Host.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="plAdministrator.Text">
+    <value>Administrateur :</value>
+  </data>
+  <data name="plAdministrator.Help">
+    <value>Choisissez le compte utilisé pour l'administration du site.</value>
+  </data>
+  <data name="plDefaultLanguage.Text">
+    <value>Langue :</value>
+  </data>
+  <data name="plDefaultLanguage.Help">
+    <value>Langue par défaut qui sera utilisée sur votre site.</value>
+  </data>
+  <data name="plTimeZone.Text">
+    <value>Fuseau horaire :</value>
+  </data>
+  <data name="plTimeZone.Help">
+    <value>Choisissez le fuseau horaire applicable à votre site.</value>
+  </data>
+  <data name="HostSettings.Text">
+    <value>Paramètres d'Hébergement (Super-utilisateur)</value>
+  </data>
+  <data name="plPortalAlias.Text">
+    <value>Alias :</value>
+  </data>
+  <data name="plPortalAlias.Help">
+    <value>L'alias est l'URL utilisé pour atteindre votre site.</value>
+  </data>
+  <data name="plExpiryDate.Text">
+    <value>Fin de contrat :</value>
+  </data>
+  <data name="plExpiryDate.Help">
+    <value>Spécifiez la date d'expiration du contrat d'hébergement de ce site.</value>
+  </data>
+  <data name="plHostFee.Text">
+    <value>Mensualités :</value>
+  </data>
+  <data name="plHostFee.Help">
+    <value>Spécifiez le montant de la mensualité perçue par l'hébergeur pour se site.</value>
+  </data>
+  <data name="plHostSpace.Text">
+    <value>Espace Disque :</value>
+  </data>
+  <data name="plHostSpace.Help">
+    <value>Précisez la quantité d'espace disque attribuée à ce site (Mettez 0 pour un espace illimité).</value>
+  </data>
+  <data name="plSiteLogHistory.Text">
+    <value>Statistiques :</value>
+  </data>
+  <data name="plSiteLogHistory.Help">
+    <value>Saisissez la durée d'enregistrement des évènements pour le calcul des statistiques en nombre de jours.</value>
+  </data>
+  <data name="plDesktopModules.Text">
+    <value>Modules Prémium</value>
+  </data>
+  <data name="plDesktopModules.Help">
+    <value>Les modules "Prémium" ne sont accessibles qu'à certains sites</value>
+  </data>
+  <data name="StylesheetEditor.Text">
+    <value>Gestion de la feuille de styles (CSS)</value>
+  </data>
+  <data name="SaveStyleSheet.Text">
+    <value>Enregistrer la feuille de style</value>
+  </data>
+  <data name="RestoreDefaultStyleSheet.Text">
+    <value>Restaurer la feuille de style par défaut</value>
+  </data>
+  <data name="LoginInstructions.Text">
+    <value>Instructions de connexion</value>
+  </data>
+  <data name="RegistrationInstructions.Text">
+    <value>Informations lors de l'inscription</value>
+  </data>
+  <data name="NewUserSignupMessage.Text">
+    <value>Notification d'inscription</value>
+  </data>
+  <data name="DeleteMessage.Text">
+    <value>Etes-vous certain de vouloir supprimer ce site ?</value>
+  </data>
+  <data name="SubmitGoogle.Text">
+    <value>Soumettre le site à Google</value>
+  </data>
+  <data name="plHomeDirectory.Text">
+    <value>Racine de site :</value>
+  </data>
+  <data name="plHomeDirectory.Help">
+    <value>La racine correspond au niveau le plus bas de l'arborescence de votre site pour le stockage des fichiers</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Paramètres du site</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Configuration du site</value>
+  </data>
+  <data name="SkinUpload.Text">
+    <value>Charger un thème</value>
+  </data>
+  <data name="ContainerUpload.Text">
+    <value>Charger un container</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du paramétrage du site&lt;/h1&gt;&lt;p&gt;Les différents paramètres vous  permettent de personnaliser l'application en fonction de vos besoins.&lt;/p&gt;</value>
+  </data>
+  <data name="RestoreCCSMessage.Text">
+    <value>Etes-vous certain de vouloir restaurer la feuille de style par défaut (Toutes les modifications seront perdues) ?</value>
+  </data>
+  <data name="valHostFee.Error">
+    <value>Montant invalide.</value>
+  </data>
+  <data name="ControlPanelSecurityModule.Text">
+    <value>Edition des modules</value>
+  </data>
+  <data name="ControlPanelSecurityTab.Text">
+    <value>Edition des pages</value>
+  </data>
+  <data name="plBanners.Help">
+    <value>Indiquez le type de bannière qui sera affiché sur votre site.</value>
+  </data>
+  <data name="plBanners.Text">
+    <value>Bannières :</value>
+  </data>
+  <data name="plControlPanelSecurity.Help">
+    <value>Sélectionnez la façon dont la barre d'outils sera affichée.</value>
+  </data>
+  <data name="plControlPanelSecurity.Text">
+    <value>Sécurité :</value>
+  </data>
+  <data name="plSearchEngine.Help">
+    <value>Soumettez votre site pour qu'il soit indexé par les moteur de recherche sélectionné.</value>
+  </data>
+  <data name="plSearchEngine.Text">
+    <value>Moteur de recherche :</value>
+  </data>
+  <data name="plSiteMap.Help">
+    <value>Soumettez le plan de votre site (Sitemap) à Google pour optimiser son indexation. Cliquez sur soumettre pour créer un compte "Webmaster Tools" et le valider (en utilisant l'option ci-dessous). Après vérification, vous pourrez sélectionner l'option "Ajouter un plan Sitemap" à partir de votre compte "Outils pour les webmasters" de Google et coller l'URL Sitemap affichée.</value>
+  </data>
+  <data name="plSiteMap.Text">
+    <value>URL Sitemap :</value>
+  </data>
+  <data name="plVerification.Help">
+    <value>Lors de votre enregistrement sur "Outils pour les webmasters" de Google, votre compte sera vérifié. Vous devrez choisir la méthode "Transférer un fichier HTML". Google génerera un fichier de vérification prenant la forme suivante : google53c0cef435b2b81e.html. Collez le nom de ce fichier dans la zone de saisi "Vérification" puis cliquez sur créer. Retournez ensuite sur Google et cliquez sur le bouton "Vérifier".</value>
+  </data>
+  <data name="plVerification.Text">
+    <value>Vérification :</value>
+  </data>
+  <data name="cmdSiteMap.Text">
+    <value>Soumettre cette URL</value>
+  </data>
+  <data name="cmdVerification.Text">
+    <value>Enregistrer</value>
+  </data>
+  <data name="plPageQuota.Help">
+    <value>Vous pouvez spécifier le nombre maximal de page pour le site.</value>
+  </data>
+  <data name="plPageQuota.Text">
+    <value>Nombre de page :</value>
+  </data>
+  <data name="plSSLEnabled.Help">
+    <value>Indiquez si un certificat SSL a été installé sur ce site</value>
+  </data>
+  <data name="plSSLEnabled.Text">
+    <value>Activer SSL ?</value>
+  </data>
+  <data name="plSSLEnforced.Help">
+    <value>Si cette case est cochée, les pages qui ne sont pas marquées comme "sécurisées" ne seront pas accessibles via SSL (https)</value>
+  </data>
+  <data name="plSSLEnforced.Text">
+    <value>Imposer SSL ?</value>
+  </data>
+  <data name="plSSLURL.Help">
+    <value>Si vous ne disposez pas de votre propre certificat SSL, vous devez spécifier l'URL à utiliser pour la sécurité. Typiquement, il s'agit d'une URL fournie par votre hébergeur (certificat partagé)</value>
+  </data>
+  <data name="plSSLURL.Text">
+    <value>URL SSL :</value>
+  </data>
+  <data name="plSTDURL.Help">
+    <value>Si une URL est spécifiée ci-dessus, vous devez indiquer l'URL à utiliser pour les connexions non-sécurisées.</value>
+  </data>
+  <data name="plSTDURL.Text">
+    <value>URL Standard :</value>
+  </data>
+  <data name="plUserQuota.Help">
+    <value>Vous pouvez spécifier le nombre maximal d'utilisateurs pour le site.</value>
+  </data>
+  <data name="plUserQuota.Text">
+    <value>Nombre d'utilisateurs :</value>
+  </data>
+  <data name="SSLSettings.Text">
+    <value>Paramètres SSL</value>
+  </data>
+  <data name="lblBanners.Text">
+    <value>&lt;br&gt;Les paramètres de bannières ont été fixés par l'hébergeur et ne peuvent pas être modifiés</value>
+  </data>
+  <data name="AddAllModules.Text">
+    <value>Ajouter tous les modules</value>
+  </data>
+  <data name="AddModule.Text">
+    <value>Ajouter le module</value>
+  </data>
+  <data name="ctlDesktopModules_Available.Text">
+    <value>Modules disponibles</value>
+  </data>
+  <data name="ctlDesktopModules_Selected.Text">
+    <value>Modules attribués</value>
+  </data>
+  <data name="plSkinWidgestEnabled.Help">
+    <value>Cocher cette case pour activer l'utilisation des "Widgets" pour ce site.</value>
+  </data>
+  <data name="plSkinWidgestEnabled.Text">
+    <value>Activer les "Widgets" :</value>
+  </data>
+  <data name="PortalAliases.Text">
+    <value>Alias du site</value>
+  </data>
+  <data name="RemoveModule.Text">
+    <value>Enlever le module</value>
+  </data>
+  <data name="EnglishName.Text">
+    <value>Nom Anglais</value>
+  </data>
+  <data name="NativeName.Text">
+    <value>Nom natif</value>
+  </data>
+  <data name="plHideSystemFolders.Help">
+    <value>Cochez cette casse pour prévenir  l'ajout des dossiers cachés ou dossiers qui commencent par un le caractère « souligné » lorsque vous effectuez la synchronisation des dossiers.</value>
+  </data>
+  <data name="plHideSystemFolders.Text">
+    <value>Cacher les dossier système</value>
+  </data>
+  <data name="plLanguageSelector.Help">
+    <value>Sélectionnez la langue dont vous souhaitez mettre à jour les paramètres.  Vous pouvez choisir la langue dans la liste déroulante qui s'affiche en anglais ou dans la langue native.</value>
+  </data>
+  <data name="plLanguageSelector.Text">
+    <value>Langue :</value>
+  </data>
+  <data name="plPayPalSandboxEnabled.Help">
+    <value>Cochez pour utiliser le mode Sandbox de PayPal plutôt la passerelle de paiement réel.</value>
+  </data>
+  <data name="plPayPalSandboxEnabled.Text">
+    <value>Mode SandBox :</value>
+  </data>
+  <data name="plPayPaylCancelURL.Help">
+    <value>Par défaut, un abonné est redirigé vers la page d'accueil du site quand un paiement est annulé. Si vous utilisez la fonctionnalité d'abonnement, vous pouvez créer une page avec les informations à afficher à l'utilisateur si le paiement a été annulé. Entrez l'URL entièrement qualifiée de cette page.</value>
+  </data>
+  <data name="plPayPaylCancelURL.Text">
+    <value>URL d'annulation PayPal :</value>
+  </data>
+  <data name="plPayPaylReturnURL.Help">
+    <value>Par défaut, un abonné est redirigé vers la page d'accueil du site lorsqu'un paiement est validé. Si vous utilisez la fonctionnalité d'abonnement, vous pouvez rediriger l'abonné sur une page spécifique. Entrez l'URL entièrement qualifiée de cette page.</value>
+  </data>
+  <data name="plPayPaylReturnURL.Text">
+    <value>URL de retour de PayPal :</value>
+  </data>
+  <data name="plRegisterTabId.Help">
+    <value>La page utilisée pour l'inscription des utilisateurs du site.</value>
+  </data>
+  <data name="plRegisterTabId.Text">
+    <value>Page d'inscription :</value>
+  </data>
+  <data name="Submission.Text">
+    <value>Présentation du site</value>
+  </data>
+  <data name="valPortalName.ErrorMessage">
+    <value>&lt;br/&gt;Vous devez fournir un titre pour votre site.</value>
+  </data>
+  <data name="Submit.Text">
+    <value>Envoyer</value>
+  </data>
+  <data name="plFavIcon.Text">
+    <value>Favicon.ico :</value>
+  </data>
+  <data name="plFavIcon.Help">
+    <value>La favicon sélectionnée s'appliquera à toutes les pages du site.</value>
+  </data>
+  <data name="RemoveAllModules.Text">
+    <value>Supprimer tous les Modules</value>
+  </data>
+  <data name="plSearchTabId.Help">
+    <value>Page de résultats de recherche </value>
+  </data>
+  <data name="plSearchTabId.Text">
+    <value>Page de résultats de recherche </value>
+  </data>
+  <data name="portalAliasModeButtonListLabel.Help">
+    <value>Determines how the site responds to urls which are defined as alias, but are not the default-alias. None - no additional action is taken,  Canonical - the alias url is handled as a Canaonical url, Redirect - redirected to default alias.</value>
+  </data>
+  <data name="portalAliasModeButtonListLabel.Text">
+    <value>Mode de mappage du PortalAlias:</value>
+  </data>
+  <data name="Canonical.Text">
+    <value>Canonique</value>
+  </data>
+  <data name="Redirect.Text">
+    <value>Redirection</value>
+  </data>
+  <data name="plAutoAddPortalAlias.Help">
+    <value>This setting determines how the site responds to urls which are mapped to the site but are not currently in the list of aliases. Setting is effective in single-portal configuration only. Select this option to automatically map new url.</value>
+  </data>
+  <data name="plAutoAddPortalAlias.Text">
+    <value>Auto-ajout d'un alias de site:</value>
+  </data>
+  <data name="defaultAliasDropDownLabel.Help">
+    <value>The default alias is used in conjunction with the Mapping Mode.  If the mode is set to Canonical then the default alias is used as the canonical alias for search engines.  If the mode is redirect then the default alias is used as the permanent redirect.</value>
+  </data>
+  <data name="defaultAliasDropDownLabel.Text">
+    <value>Alias par défaut :</value>
+  </data>
+  <data name="enablePopUpsLabel.Help">
+    <value>Check this box to enable the new Modal Pop-Up User Interface.</value>
+  </data>
+  <data name="enablePopUpsLabel.Text">
+    <value>Activer les fenêtres pop-up ?</value>
+  </data>
+  <data name="Marketing.Text">
+    <value>Marketing du site</value>
+  </data>
+  <data name="EditSkinPreview.Text">
+    <value>Prévisu des thèmes et conainer en mode Edit</value>
+  </data>
+  <data name="SkinPreview.Text">
+    <value>Prévisu des thèmes et conainer en mode Edit</value>
+  </data>
+  <data name="ExpandAll.Text">
+    <value>Tout développer</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text">
+    <value>Thème ou container à prévisualiser</value>
+  </data>
+  <data name="valExpiryDate.ErrorMessage">
+    <value>Date d'expiration invalide</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

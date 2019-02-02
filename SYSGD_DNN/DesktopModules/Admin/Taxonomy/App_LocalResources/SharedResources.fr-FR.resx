@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Application.Text" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Description.ToolTip" xml:space="preserve">
+    <value>La description du vocabulaire.</value>
+  </data>
+  <data name="Hierarchy.Text" xml:space="preserve">
+    <value>Hiérarchie</value>
+  </data>
+  <data name="Name.Required" xml:space="preserve">
+    <value>&lt;br/&gt;Un nom est requis pour le vocabulaire.</value>
+  </data>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Name.ToolTip" xml:space="preserve">
+    <value>Le nom du vocabulaire.</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Scope.Text" xml:space="preserve">
+    <value>Portée</value>
+  </data>
+  <data name="Scope.ToolTip" xml:space="preserve">
+    <value>La portée de ce vocabulaire, à l'échelle de l'application ou spécifique au site.</value>
+  </data>
+  <data name="Simple.Text" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="Type.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Type.ToolTip" xml:space="preserve">
+    <value>Le type de vocabulaire, hiérarchique ou simple.</value>
+  </data>
+</root>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>Ajouter une planification</value>
+  </data>
+  <data name="lblStatusLabel.Text">
+    <value>Statut :</value>
+  </data>
+  <data name="lblMaxThreadsLabel.Text">
+    <value>Threads max. :</value>
+  </data>
+  <data name="lblActiveThreadsLabel.Text">
+    <value>Threads actifs :</value>
+  </data>
+  <data name="lblFreeThreadsLabel.Text">
+    <value>Threads libres :</value>
+  </data>
+  <data name="lblCommand.Text">
+    <value>Commande :</value>
+  </data>
+  <data name="lblProcessing.Text">
+    <value>Objets traités</value>
+  </data>
+  <data name="ScheduleID.Header">
+    <value>ID</value>
+  </data>
+  <data name="Type.Header">
+    <value>Type</value>
+  </data>
+  <data name="Started.Header">
+    <value>Démarré</value>
+  </data>
+  <data name="Duration.Header">
+    <value>Durée&lt;br&gt;(secondes)</value>
+  </data>
+  <data name="ObjectDependencies.Header">
+    <value>Dépendance</value>
+  </data>
+  <data name="TriggeredBy.Header">
+    <value>Déclencheur</value>
+  </data>
+  <data name="Thread.Header">
+    <value>Thread</value>
+  </data>
+  <data name="Notes.Header">
+    <value>Notes</value>
+  </data>
+  <data name="lblQueue.Text">
+    <value>Planifications en file d&amp;#146;attente</value>
+  </data>
+  <data name="NextStart.Header">
+    <value>Prochaine&lt;br&gt;exécution</value>
+  </data>
+  <data name="Overdue.Header">
+    <value>Retard&lt;br&gt;(secondes)</value>
+  </data>
+  <data name="TimeRemaining.Header">
+    <value>&lt;nobr&gt;Temps restant&lt;/nobr&gt;&lt;br&gt;(secondes)</value>
+  </data>
+  <data name="NoTasks.Text">
+    <value>Il n&amp;#146;y a pas de tâche en fil d&amp;#146;attente et aucune tâche n&amp;#146;a été effectué.</value>
+  </data>
+  <data name="DisabledMessage.Text">
+    <value>Le planificateur est actuellement désactivé.</value>
+  </data>
+  <data name="Disabled.Text">
+    <value>Désactivé</value>
+  </data>
+  <data name="ManuallyStopped.Text">
+    <value>Arrêté manuellement à partir du planificateur</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du planificateur de tâches&lt;/h1&gt;&lt;p&gt;Vous permet de spécifier des tâches qui s'exécuteront à intervalle régulier.&lt;/p&gt;</value>
+  </data>
+  <data name="cmdStart.Text">
+    <value>Démarrer</value>
+  </data>
+  <data name="cmdStop.Text">
+    <value>Arrêter</value>
+  </data>
+  <data name="ControlTitle_status.Text">
+    <value>Statut</value>
+  </data>
+  <data name="Servers.Header">
+    <value>Serveurs</value>
+  </data>
+  <data name="ScheduleHistory.Action">
+    <value>Historique des planifications</value>
+  </data>
+</root>

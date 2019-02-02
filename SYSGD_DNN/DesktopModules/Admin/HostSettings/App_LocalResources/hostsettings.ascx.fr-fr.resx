@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 11:21:30   UTC: 2011-08-03 09:21:30Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="plHostPortal.Text">
+    <value>Site de base :</value>
+  </data>
+  <data name="plHostTitle.Text">
+    <value>Hébergeur :</value>
+  </data>
+  <data name="plHostURL.Text">
+    <value>Site internet :</value>
+  </data>
+  <data name="plHostEmail.Text">
+    <value>Adresse Email :</value>
+  </data>
+  <data name="plHostSkin.Text">
+    <value>Thème de l'hôte :</value>
+  </data>
+  <data name="plHostContainer.Text">
+    <value>Container de l'hôte</value>
+  </data>
+  <data name="plAdminSkin.Text">
+    <value>Thème en édition :</value>
+  </data>
+  <data name="plAdminContainer.Text">
+    <value>Container en édition :</value>
+  </data>
+  <data name="plProcessor.Text">
+    <value>Opérateur :</value>
+  </data>
+  <data name="plUserId.Text">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="plHostFee.Text">
+    <value>Mensualités :</value>
+  </data>
+  <data name="plHostCurrency.Text">
+    <value>Devise :</value>
+  </data>
+  <data name="plHostSpace.Text">
+    <value>Espace disque :</value>
+  </data>
+  <data name="plDemoPeriod.Text">
+    <value>Durée de la démo :&lt;br&gt;(en jours)</value>
+  </data>
+  <data name="plDemoSignup.Text">
+    <value>Démo anonyme ? :</value>
+  </data>
+  <data name="plSiteLogBuffer.Text">
+    <value>Tampon d'evènements :</value>
+  </data>
+  <data name="plSiteLogHistory.Text">
+    <value>Statistiques du site :</value>
+  </data>
+  <data name="plUsersOnline.Text">
+    <value>Désactiver Utilisateurs en ligne ?</value>
+  </data>
+  <data name="plUsersOnlineTime.Text">
+    <value>Cache utilisateurs :</value>
+  </data>
+  <data name="plProxyServer.Text">
+    <value>Serveur proxy :</value>
+  </data>
+  <data name="plProxyPort.Text">
+    <value>Port :</value>
+  </data>
+  <data name="plProxyUsername.Text">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="plProxyPassword.Text">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="plWebRequestTimeout.Text">
+    <value>Expiration des requètes :</value>
+  </data>
+  <data name="plSMTPServer.Text">
+    <value>Serveur SMTP :</value>
+  </data>
+  <data name="EmailTest.Text">
+    <value>Tester</value>
+  </data>
+  <data name="plSMTPUsername.Text">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="plSMTPPassword.Text">
+    <value>Mot de Passe :</value>
+  </data>
+  <data name="plFileExtensions.Text">
+    <value>Extensions autorisées :</value>
+  </data>
+  <data name="plSkinUpload.Text">
+    <value>Chargement de thèmes :</value>
+  </data>
+  <data name="plCache.Text">
+    <value>Expiration du Cache :&lt;br&gt;(en secondes)</value>
+  </data>
+  <data name="ClearCache.Text">
+    <value>Effacer le cache</value>
+  </data>
+  <data name="plCopyright.Text">
+    <value>Affichers le Copyright DotNetNuke ?</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Text">
+    <value>Messages d'erreurs personnalisés ?</value>
+  </data>
+  <data name="UpgradeLog.Text">
+    <value>Notification de mise à niveau de Version</value>
+  </data>
+  <data name="EmailSentMessage.Text">
+    <value>Courriel envoyé avec succès</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text">
+    <value>Vous devez spécifier l'adresse du serveur de messagerie (SMTP)</value>
+  </data>
+  <data name="plPerformance.Text">
+    <value>Options du cache :</value>
+  </data>
+  <data name="HeavyCaching.Text">
+    <value>Cache important</value>
+  </data>
+  <data name="ModerateCaching.Text">
+    <value>Cache moyen</value>
+  </data>
+  <data name="LightCaching.Text">
+    <value>Cache léger</value>
+  </data>
+  <data name="NoCaching.Text">
+    <value>Aucun</value>
+  </data>
+  <data name="BasicSettingsHelp.Text">
+    <value>L'Hôte désigne l'installation de dotnetnuke de référence qui supporte l'ensemble des sites.&lt;br&gt;Configurez ici les paramètres de base pour de cet Hôte</value>
+  </data>
+  <data name="BasicSettings.Text">
+    <value>Paramètres de base</value>
+  </data>
+  <data name="HostDetails.Text">
+    <value>Informations sur l'hôte</value>
+  </data>
+  <data name="plHostTitle.Help">
+    <value>Saisissez le nom de l'hébergeur</value>
+  </data>
+  <data name="plHostURL.Help">
+    <value>Saisissez l'URL du site de l'hégergeur</value>
+  </data>
+  <data name="plHostEmail.Help">
+    <value>Saisissez une adresse Email pour le support</value>
+  </data>
+  <data name="plHostSkin.Help">
+    <value>Sélectionnez le thème par défaut qui sera utilisé sur les sites</value>
+  </data>
+  <data name="plHostContainer.Help">
+    <value>Sélectionnez le container par défaut qui sera utilisé sur les Sites</value>
+  </data>
+  <data name="plAdminSkin.Help">
+    <value>Sélectionnez le thème par défaut qui sera utilisé sur les pages d'administration</value>
+  </data>
+  <data name="plAdminContainer.Help">
+    <value>Sélectionnez le container par défaut qui sera utilisé dans les pages d'administration</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>Apparence</value>
+  </data>
+  <data name="Payment.Text">
+    <value>Paramètres et opérateur de paiement</value>
+  </data>
+  <data name="Proxy.Text">
+    <value>Paramètres PROXY</value>
+  </data>
+  <data name="SMTP.Text">
+    <value>Paramètres SMTP</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>Paramètres avancés</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>En fonction du contexte d'installation de dotnetnuke, vous pouvez être amenés à utiliser des ressources supplémentaires comme un serveur « Proxy », un serveur « SMTP » et d'autres paramètres affectant les performances ou le type d’extensions autorisées au téléchargement.</value>
+  </data>
+  <data name="Other.Text">
+    <value>Autres paramètres</value>
+  </data>
+  <data name="plCopyright.Help">
+    <value>Cochez cette case pour afficher le copyright DotNetNuke</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Help">
+    <value>Cochez cette case pour activer les messages d'erreurs personnalisés</value>
+  </data>
+  <data name="plProcessor.Help">
+    <value>Choisissez un "Opérateur de paiement" afin d'accepter les paiements en ligne de vos sites clients</value>
+  </data>
+  <data name="plUserId.Help">
+    <value>Saisissez votre identifiant pour cet Opérateur de Paiement</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>Saisissez le "Mot de passe" pour cet opérateur de paiement</value>
+  </data>
+  <data name="plHostFee.Help">
+    <value>Saisissez le tarif de base pour l'hébergement</value>
+  </data>
+  <data name="plHostCurrency.Help">
+    <value>Sélectionnez la devise utilisée pour les paiements</value>
+  </data>
+  <data name="plDemoPeriod.Help">
+    <value>Saisissez la durée de la période de démonstration (en jours)</value>
+  </data>
+  <data name="plDemoSignup.Help">
+    <value>Cochez cette case pour activer le mode démo</value>
+  </data>
+  <data name="plHostSpace.Help">
+    <value>Saisissez la taille par défaut de l'espace disque attribué pour chaque site (en Mo)</value>
+  </data>
+  <data name="plSMTPServer.Help">
+    <value>Saisissez l'adresse du Serveur SMTP utilisé par l'instance de DotNetNuke. Si le port utilisé est différent du port par défaut (25), vous pouvez spécifier un autre port en précisant le numéro de cette manière : smtp.googlemail.com:587</value>
+  </data>
+  <data name="plSMTPUsername.Help">
+    <value>Saisissez le "Nom d'utilisateur" SMTP (uniquement pour les serveurs qui requièrent une authentification)</value>
+  </data>
+  <data name="plSMTPPassword.Help">
+    <value>Saisissez le Mot de Passe d'accès au serveur SMTP (uniquement pour les serveurs qui requièrent une authentification)</value>
+  </data>
+  <data name="plControlPanel.Text">
+    <value>Type de barre d'outils :</value>
+  </data>
+  <data name="plControlPanel.Help">
+    <value>Spécifiez le type de Panneau de Contrôle utilisé pour l'administration du Site</value>
+  </data>
+  <data name="plFileExtensions.Help">
+    <value>Saisissez le type d'extensions autorisé lors des envois de fichier vers le Site (séparées par des virgules)</value>
+  </data>
+  <data name="plSkinUpload.Help">
+    <value>Spécifiez qui à le droit de télécharger des Thèmes : l'Hôte ou les administrateurs de Sites</value>
+  </data>
+  <data name="Host.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="Portal.Text">
+    <value>Site</value>
+  </data>
+  <data name="plCache.Help">
+    <value>Saisissez la duré de rétention des objets en cache</value>
+  </data>
+  <data name="plPerformance.Help">
+    <value>Ajuster le niveau de performances.</value>
+  </data>
+  <data name="plUpgrade.Help">
+    <value>Cochez cette option pour vérifier la disponibilité d'une mise à jour de DotNetNuke</value>
+  </data>
+  <data name="plProxyServer.Help">
+    <value>Saisissez l'adresse du serveur proxy</value>
+  </data>
+  <data name="plProxyPort.Help">
+    <value>Saisissez le port du serveur proxy</value>
+  </data>
+  <data name="plProxyUsername.Help">
+    <value>Saisissez le "Nom d'utilisateur" du serveur proxy (uniquement pour les serveurs qui requièrent une authentification)</value>
+  </data>
+  <data name="plProxyPassword.Help">
+    <value>Saisissez le "Mot de passe" du serveur proxy (uniquement pour les serveurs qui requièrent une authentification)</value>
+  </data>
+  <data name="plWebRequestTimeout.Help">
+    <value>Saisissez une valeur d'expiration des requètes Web</value>
+  </data>
+  <data name="plSiteLogBuffer.Help">
+    <value>Saisissez le nombre d'objets stockés dans le tampon du journal d'activité</value>
+  </data>
+  <data name="plSiteLogHistory.Help">
+    <value>Saisissez le nombre de jour enregistrés dans les statistiques du site</value>
+  </data>
+  <data name="plUsersOnline.Help">
+    <value>Cochez cette case pour désactiver la fonction "Utilisateurs en ligne"</value>
+  </data>
+  <data name="plUsersOnlineTime.Help">
+    <value>Saisissez la valeur en minutes du tampon pour les utilisateurs en ligne</value>
+  </data>
+  <data name="plUseFriendlyUrls.Text">
+    <value>Mode "Friendly Urls"</value>
+  </data>
+  <data name="plUseFriendlyUrls.Help">
+    <value>Chochez cette case pour activer la fonction "Friendly Urls".</value>
+  </data>
+  <data name="plHostPortal.Help">
+    <value>Sélectionnez le site par défaut</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Configuration de l'hôte</value>
+  </data>
+  <data name="SkinUpload.Text">
+    <value>Charger un Thème</value>
+  </data>
+  <data name="ContainerUpload.Text">
+    <value>Charger un container</value>
+  </data>
+  <data name="plSMTPAuthentication.Text">
+    <value>Identification SMTP :</value>
+  </data>
+  <data name="plSMTPAuthentication.Help">
+    <value>Spécifiez la méthode d'identification du serveur SMTP (défaut = Anonyme)</value>
+  </data>
+  <data name="SMTPAnonymous.Text">
+    <value>Anonyme</value>
+  </data>
+  <data name="SMTPBasic.Text">
+    <value>De base</value>
+  </data>
+  <data name="SMTPNTLM.Text">
+    <value>Identification Windows</value>
+  </data>
+  <data name="plSiteLogStorage.Text">
+    <value>Enregistrement des logs :</value>
+  </data>
+  <data name="plSiteLogStorage.Help">
+    <value>Choisissez l'endroit ou seront stockés les logs du site</value>
+  </data>
+  <data name="Database.Text">
+    <value>Base de données</value>
+  </data>
+  <data name="FileSystem.Text">
+    <value>Système de fichier</value>
+  </data>
+  <data name="Configuration.Text">
+    <value>configuration</value>
+  </data>
+  <data name="plVersion.Text">
+    <value>Version de DNN :</value>
+  </data>
+  <data name="plDataProvider.Text">
+    <value>Type de connecteur :</value>
+  </data>
+  <data name="plFramework.Text">
+    <value>Framework .NET :</value>
+  </data>
+  <data name="plIdentity.Text">
+    <value>Utilisateur ASP.NET :</value>
+  </data>
+  <data name="plHostName.Text">
+    <value>Serveur hôte :</value>
+  </data>
+  <data name="plVersion.Help">
+    <value>Version de DotNetNuke actuellement installée sur cet hôte</value>
+  </data>
+  <data name="plDataProvider.Help">
+    <value>C'est le connecteur qui a été identifier comme connecteur de données par défaut dans le fichier web.config</value>
+  </data>
+  <data name="plFramework.Help">
+    <value>Version du Framework .NET actuellement en vigeur sur le serveur - Paramètre spécifique à IIS</value>
+  </data>
+  <data name="plIdentity.Help">
+    <value>Compte Windows sous lequel l'application se lance. Ce compte doit avoir des permissions adaptées sur le serveur.</value>
+  </data>
+  <data name="plHostName.Help">
+    <value>Nom d'hôte du site.</value>
+  </data>
+  <data name="plSchedulerMode.Text">
+    <value>Mode de planification :</value>
+  </data>
+  <data name="plSchedulerMode.Help">
+    <value>La méthode par Timer maintient un thread séparé pour s'exécuter pendant l'activité du processus. La méthode par Requête s'exécute lors des requêtes HTTP.
+Vous pouvez également désactiver la planification.</value>
+  </data>
+  <data name="Disabled.Text">
+    <value>Désactivé</value>
+  </data>
+  <data name="TimerMethod.Text">
+    <value>Méthode de Timer</value>
+  </data>
+  <data name="RequestMethod.Text">
+    <value>Requête</value>
+  </data>
+  <data name="15Seconds.Text">
+    <value>15 Secondes</value>
+  </data>
+  <data name="30Seconds.Text">
+    <value>30 Secondes</value>
+  </data>
+  <data name="45Seconds.Text">
+    <value>45 Secondes</value>
+  </data>
+  <data name="60Seconds.Text">
+    <value>60 Secondes</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos de la configuration&lt;/h1&gt;&lt;p&gt;Le Superutilisateur peut ici gèrer les paramètres qui seront appliqués au site dans son ensemble.&lt;/p&gt;</value>
+  </data>
+  <data name="plLogBuffer.Text">
+    <value>Logs en mémoire ?</value>
+  </data>
+  <data name="plLogBuffer.Help">
+    <value>Cochez cette case pour que les logs soient stockés en mémoire puis purgés régulièrement.  Décochez cette case pour qu'ils soient écris immédiatement.</value>
+  </data>
+  <data name="plAutoAccountUnlock.Text">
+    <value>Déverrouillage des comptes :</value>
+  </data>
+  <data name="plAutoAccountUnlock.Help">
+    <value>Après qu'un compte ait été verrouillé suite à de trop nombreuses tentatives de connexion, il peut être automatiquement déverrouillé après un délai en minutes que vous pouvez définir ici. Mettez "0" si vous ne souhaitez pas activer cette fonction. L'administrateur devra déverrouiller le compte manuellement.</value>
+  </data>
+  <data name="plCacheMethod.Text">
+    <value>Cache des modules :</value>
+  </data>
+  <data name="plCacheMethod.Help">
+    <value>La gestion du cache en mémoire (par défaut) est la plus flexible et la plus performante, c'est également la méthode qui consomme le plus de ressources. La gestion du cache sur le disque est la moins couteuse en terme de ressources mais elle offre moins de flexibilité</value>
+  </data>
+  <data name="Memory.Text">
+    <value>En mémoire</value>
+  </data>
+  <data name="Disk.Text">
+    <value>Sur le disque</value>
+  </data>
+  <data name="ProcessorWebSite.Text">
+    <value>Allez sur le site de l'Opérateur de Paiement</value>
+  </data>
+  <data name="plHelpUrl.Text">
+    <value>URL de l'aide en ligne :</value>
+  </data>
+  <data name="plHelpUrl.Help">
+    <value>Spécifier l'URL de l'aide en ligne. Si vous laissez ce champ vide, aucune aide ne sera proposée dans les pages "Site" et "Hôte" de DotNetNuke.</value>
+  </data>
+  <data name="plEnableHelp.Text">
+    <value>Activer l'aide en ligne :</value>
+  </data>
+  <data name="plEnableHelp.Help">
+    <value>Vous pouvez activer ou désactiver le bouton "aide en ligne" des modules. Si elle est activée, vous devez spécifier l'URL de l'aide, dans les définitions du module, ou à défaut, celle fournie par le développeur du module.</value>
+  </data>
+  <data name="NoCache.Text">
+    <value>Pas de cache</value>
+  </data>
+  <data name="plCacheability.Help">
+    <value>Spécifie la valeur du cache HTTP pour l'authentification des utilisateurs.</value>
+  </data>
+  <data name="plCacheability.Text">
+    <value>Cache d'authentification</value>
+  </data>
+  <data name="plUpgrade.Text">
+    <value>Vérifier MAJ ?</value>
+  </data>
+  <data name="Private.Text">
+    <value>Privé</value>
+  </data>
+  <data name="Public.Text">
+    <value>public</value>
+  </data>
+  <data name="Server.Text">
+    <value>Serveur</value>
+  </data>
+  <data name="ServerAndNoCache.Text">
+    <value>Serveur et Pas de cache</value>
+  </data>
+  <data name="ServerAndPrivate.Text">
+    <value>Serveur et Privé</value>
+  </data>
+  <data name="FriendlyUrl.Text">
+    <value>Paramètres de "Friendly Url"</value>
+  </data>
+  <data name="cmdRestart.Text">
+    <value>Redémarrer l'application</value>
+  </data>
+  <data name="plAutoSync.Help">
+    <value>Cochez cette case pour activer la synchronisatio automatique du système de fichier</value>
+  </data>
+  <data name="plAutoSync.Text">
+    <value>Synchronisation auto du système de fichier ?</value>
+  </data>
+  <data name="plAvailable.Help">
+    <value>Affiche une icône si une mise à jour de module CORE est disponible</value>
+  </data>
+  <data name="plAvailable.Text">
+    <value>MAJ dispo ?</value>
+  </data>
+  <data name="plLog.Help">
+    <value>Cette fonction vous permet de voir l'historique des mises à jour de DNN</value>
+  </data>
+  <data name="plLog.Text">
+    <value>Historique des mises à jour :</value>
+  </data>
+  <data name="Compression.Text">
+    <value>Paramètres de compression</value>
+  </data>
+  <data name="Deflate.Text">
+    <value>Deflate compression</value>
+  </data>
+  <data name="GZip.Text">
+    <value>Compression GZip</value>
+  </data>
+  <data name="NoCompression.Text">
+    <value>Aucune Compression</value>
+  </data>
+  <data name="Page.Text">
+    <value>page</value>
+  </data>
+  <data name="Performance.Text">
+    <value>Performances de l'hôte</value>
+  </data>
+  <data name="plCompression.Help">
+    <value>Sélectionnez le type de compression HTTP.</value>
+  </data>
+  <data name="plCompression.Text">
+    <value>Paramètre de compression :</value>
+  </data>
+  <data name="plExcludedPaths.Help">
+    <value>Chemins exclus lors de la compression.</value>
+  </data>
+  <data name="plExcludedPaths.Text">
+    <value>Chemins exclus :</value>
+  </data>
+  <data name="plPageQuota.Help">
+    <value>Nombre de pages maximum par site.</value>
+  </data>
+  <data name="plPageQuota.Text">
+    <value>Quota de page :</value>
+  </data>
+  <data name="plPageState.Help">
+    <value>Sélectionnez ce mode pour utiliser la persistance de page.  Ce peut être un champ caché dans la page (par défaut) ou en mémoire (cache).</value>
+  </data>
+  <data name="plPageState.Text">
+    <value>Persistance de l'état de page :</value>
+  </data>
+  <data name="plSMTPEnableSSL.Help">
+    <value>A utiliser pour les services SMTP requérant une connexion sécurisée</value>
+  </data>
+  <data name="plSMTPEnableSSL.Text">
+    <value>SMTP SSL :</value>
+  </data>
+  <data name="plUserQuota.Help">
+    <value>Nombre maximum d'utilisateurs par site.</value>
+  </data>
+  <data name="plUserQuota.Text">
+    <value>Quota d'utilisateurs :</value>
+  </data>
+  <data name="plWhitespace.Help">
+    <value>A utiliser si vous souhaitez supprimer les espaces blanc envoyés au client - le résultat sera un téléchargement diminué d'environ 10 à 15% mais le code Html sera moins lisible.</value>
+  </data>
+  <data name="plWhitespace.Text">
+    <value>Flitre d'espaces blancs :</value>
+  </data>
+  <data name="plWhitespaceFilter.Help">
+    <value>Expression régulière pour filitrer les espaces blancs.</value>
+  </data>
+  <data name="plWhitespaceFilter.Text">
+    <value>Filtre d'espaces blancs :</value>
+  </data>
+  <data name="LogEmpty.Text">
+    <value>Le fichier de logs est vide ce qui indique généralement qu'il s'exécute correctement</value>
+  </data>
+  <data name="NoLog.Text">
+    <value>Il n'y a pas de logs enregistrés pour la version de script spécifiée. Cela indique en général que le script n'a jamais été exécuté.</value>
+  </data>
+  <data name="plApplicationMapPath.Help">
+    <value>Chemin de la racine de l'hôte sur le serveur.</value>
+  </data>
+  <data name="plApplicationMapPath.Text">
+    <value>Chemin physique :</value>
+  </data>
+  <data name="plApplicationPath.Help">
+    <value>Chemin de la racine de l'application dans le système de fichier.</value>
+  </data>
+  <data name="plApplicationPath.Text">
+    <value>Chemin relatif :</value>
+  </data>
+  <data name="plGUID.Help">
+    <value>Identificateur global unique servant à identifier l'application</value>
+  </data>
+  <data name="plGUID.Text">
+    <value>GUID :</value>
+  </data>
+  <data name="plPermissions.Help">
+    <value>Permissions d'accès au code pour et hôte.</value>
+  </data>
+  <data name="plPermissions.Text">
+    <value>Permissions :</value>
+  </data>
+  <data name="valHostFee.Error">
+    <value>Montant invalide.</value>
+  </data>
+  <data name="UpgradeNever.Text">
+    <value>Jamais</value>
+  </data>
+  <data name="plEnableRequestFilters.Help">
+    <value>Cochez la case pour activer les filtres de requètes.</value>
+  </data>
+  <data name="plEnableRequestFilters.Text">
+    <value>Activer le filtrage ?</value>
+  </data>
+  <data name="RequestFilter.Text">
+    <value>Paramètres des filtres de requètes</value>
+  </data>
+  <data name="Authentication.Text">
+    <value>Paramètres d'identification</value>
+  </data>
+  <data name="EmailErrorMessage.Text">
+    <value>Erreur lors de l'envoi du courriel de test :&lt;br /&gt;{0}</value>
+  </data>
+  <data name="plAJAX.Help">
+    <value>Cocher cette case pour activer AJAX.</value>
+  </data>
+  <data name="plAJAX.Text">
+    <value>Activer AJAX?</value>
+  </data>
+  <data name="plebFarm.Text">
+    <value>Ferme de sites autorisé ?</value>
+  </data>
+  <data name="plServerTime.Help">
+    <value>Date/Heure courante sur le serveur</value>
+  </data>
+  <data name="plServerTime.Text">
+    <value>Heure sur le serveur</value>
+  </data>
+  <data name="plWebFarm.Help">
+    <value>Indique si le site est exécuté sur une ferme de sites. Ce paramètre peut être activé dans le fichier de configuration de votre site.</value>
+  </data>
+  <data name="HostEmail.Error">
+    <value>Adresse de courriel invalide</value>
+  </data>
+  <data name="Items.Text">
+    <value>Objets</value>
+  </data>
+  <data name="JQuery.Text">
+    <value>Paramètres JQuery</value>
+  </data>
+  <data name="LegacyDoctype.Text">
+    <value>HTML 4 (compatibilité)</value>
+  </data>
+  <data name="NoPermissions.Text">
+    <value>Pas de permissions</value>
+  </data>
+  <data name="plHostDefaultDocType.Help">
+    <value>Définit le thème de repli pour les pages Web.  Il est utilisé si le thème n'a pas de DocType défini.</value>
+  </data>
+  <data name="plHostDefaultDocType.Text">
+    <value>DocType par défaut:</value>
+  </data>
+  <data name="plJQueryDebugVersion.Help">
+    <value>If checked, then the standard jQuery script file is used.  If unchecked, then a minified version is used which  significantly reduces the size of the the javascript file, but decreases readability of the javascript.</value>
+  </data>
+  <data name="plJQueryDebugVersion.Text">
+    <value>Utiliser la version Debug de jQuery ?</value>
+  </data>
+  <data name="plJQueryHostUrl.Help">
+    <value>URL complète pour le script jQuery.  Par défaut, le dernier jQuery minimisé sur les serveurs Google</value>
+  </data>
+  <data name="plJQueryHostUrl.Text">
+    <value>URL jQuery Hébergée :</value>
+  </data>
+  <data name="plJQueryUseHosted.Help">
+    <value>Si cette case est cochée, la version jQuery associée à l'URL sera utilisée. Dans le cas contraire, c'est la version locale qui sera utilisée.</value>
+  </data>
+  <data name="plJQueryUseHosted.Text">
+    <value>Utiliser une version jQuery hébergée sur l'internet ?</value>
+  </data>
+  <data name="plJQueryVersion.Help">
+    <value>Permet d'indentifier la version de jQuery utilisée.</value>
+  </data>
+  <data name="plJQueryVersion.Text">
+    <value>Version jQuery installée :</value>
+  </data>
+  <data name="plNotifyUpgrade.Help">
+    <value>Si cette case est cochée, l'hébergeur sera notifié des mises à jour par courriel.</value>
+  </data>
+  <data name="plNotifyUpgrade.Text">
+    <value>Notifier l'hébergeur ?</value>
+  </data>
+  <data name="plRememberMe.Help">
+    <value>Permet d'afficher la case permettant à l'utilisateur de mémoriser ses paramètres de connexion afin de lui éviter de ressaisir ses identifiants à chaque visite.</value>
+  </data>
+  <data name="plRememberMe.Text">
+    <value>Activer la reconnexion automatique ?</value>
+  </data>
+  <data name="plWebFarm.Text">
+    <value>Activer le mode "Web Farm" ?</value>
+  </data>
+  <data name="StrictDoctype.Text">
+    <value>XHTML 1 strict</value>
+  </data>
+  <data name="TransDoctype.Text">
+    <value>XHTML 1 transitional</value>
+  </data>
+  <data name="UpgradeFramework.Text">
+    <value>Mettre à jour vers le Framework en cours</value>
+  </data>
+  <data name="UserRestart.Text">
+    <value>Utiliser un déclencheur pour redémarrer l'application</value>
+  </data>
+  <data name="valFileExtensions.Error">
+    <value>&lt;br/&gt;Les extensions de fichier peuvent inclure uniquement les lettres, chiffres et le caractère "_", séparés par des virgules.</value>
+  </data>
+  <data name="FrameworkDownLevel.Text">
+    <value>Remarque : Vous utilisez une ancienne version du  Framework .NET. Les futures mises à niveau de la plate-forme DotNetNuke exigeront le Framework .NET 3.5 SP1 ou version ultérieure. Si vous pensez que le Framework .NET 3.5 SP1 est déjà installé, veuillez vérifier votre fichier web.config et assurez-vous que la version 3.5 ou au-dessus des versions de « System.Core » et « System.Data.LINQ » sont référencées dans le nœud « assemblies ».</value>
+  </data>
+  <data name="ModuleCacheProvider.Help">
+    <value>Sélectionnez le fournisseur de mise en cache du module par défaut.  Ce paramètre peut être remplacé par chaque module individuel.</value>
+  </data>
+  <data name="ModuleCacheProvider.Text">
+    <value>Fournisseur de cache du module</value>
+  </data>
+  <data name="PageCacheProvider.Help">
+    <value>Sélectionnez le fournisseur de mise en cache de page par défaut.  Le fournisseur de mise en cache doit être activé en définissant le délai d'expiration du cache sur chaque page.</value>
+  </data>
+  <data name="PageCacheProvider.Text">
+    <value>Fournisseur de cache de sortie de page</value>
+  </data>
+  <data name="plBetaNotice.Help">
+    <value>Cochez cette case pour afficher un message indiquant que la version en cours d'exécution est une version bêta.</value>
+  </data>
+  <data name="plBetaNotice.Text">
+    <value>Indiquer les versions Bêta ?</value>
+  </data>
+  <data name="plContentLocalization.Help">
+    <value>Cochez cette option si vous souhaiter activer la localisation dynamique</value>
+  </data>
+  <data name="plContentLocalization.Text">
+    <value>Activer la localisation de contenu ?</value>
+  </data>
+  <data name="plIPAddress.Help">
+    <value>Adresse IP du serveur.</value>
+  </data>
+  <data name="plIPAddress.Text">
+    <value>Adresse IP :</value>
+  </data>
+  <data name="plProduct.Help">
+    <value>Indique le type de core de DotNetNuke utilisé</value>
+  </data>
+  <data name="plProduct.Text">
+    <value>Core DotNetNuke utilisé :</value>
+  </data>
+  <data name="plPsWarning.Text">
+    <value>** Avertissement : la persistance de l'état de page en mémoire peut entraîner des problèmes avec AJAX **</value>
+  </data>
+  <data name="plThrowExceptions.Help">
+    <value>Check this to enable core exceptions that are due to missing fields in data returned from the database to be rethrown.  If this is not checked the error is logged in the Event Log.  If this is checked the error is bubbled up. This setting is primarily used for developers to diagnose problems.</value>
+  </data>
+  <data name="plThrowExceptions.Text">
+    <value>Renvoyer une erreur CBO</value>
+  </data>
+  <data name="OtherSettings.Text">
+    <value>Autres paramètres</value>
+  </data>
+  <data name="plUseCustomModuleCssClass.Help">
+    <value>Sélectionnez cette option pour permettre à une classe css personnalisé basée sur la définition du module doivent être rendus.  Cela</value>
+  </data>
+  <data name="plUseCustomModuleCssClass.Text">
+    <value>Utilisez une classe Css de module personnalisée ?</value>
+  </data>
+  <data name="plEnableContentLocalization.Help">
+    <value>Cochez cette case pour permettre aux administrateurs de site d'activer le multilinguismee.</value>
+  </data>
+  <data name="plEnableContentLocalization.Text">
+    <value>Autoriser la traduction de contenus ?</value>
+  </data>
+  <data name="SkinPreview.Text">
+    <value>Prévisualisation d'un thème hôte et de ses containers</value>
+  </data>
+  <data name="EditSkinPreview.Text">
+    <value>Prévisualisation d'un thème d'administration hôte et de ses containers</value>
+  </data>
+  <data name="plJQueryUIHostUrl.Help">
+    <value>This is the full URL for the jQuery UI script.  By default this is set to the latest jQuery UI minified script hosted on Google's CDN servers for optimum performance.</value>
+  </data>
+  <data name="plJQueryUIHostUrl.Text">
+    <value> jQuery UI URL hébergée:</value>
+  </data>
+  <data name="plJQueryUIVersion.Help">
+    <value>Identifie la version incorporée dans le script  jQuery.</value>
+  </data>
+  <data name="plJQueryUIVersion.Text">
+    <value>Version jQuery UI installée</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text">
+    <value>Thème et/ou container à prévisualiser :</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

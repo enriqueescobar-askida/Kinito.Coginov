@@ -1,0 +1,647 @@
+2011-08-31 12:26:40,602 [Jean-PC][Thread:5][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-31 12:28:53,395 [Jean-PC][Thread:13][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 12:28:53,444 [Jean-PC][Thread:13][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-31 12:29:32,265 [Jean-PC][Thread:12][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 12:29:32,272 [Jean-PC][Thread:12][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-31 12:36:45,587 [Jean-PC][Thread:13][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-31 14:02:55,377 [Jean-PC][Thread:5][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-31 14:48:23,122 [Jean-PC][Thread:5][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-31 14:48:29,141 [Jean-PC][Thread:5][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 14:48:43,786 [Jean-PC][Thread:7][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 14:48:43,804 [Jean-PC][Thread:7][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 14:48:44,626 [Jean-PC][Thread:6][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 14:48:44,632 [Jean-PC][Thread:6][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 14:48:54,098 [Jean-PC][Thread:8][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 14:48:54,111 [Jean-PC][Thread:8][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeur.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 14:49:30,372 [Jean-PC][Thread:14][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType)
+2011-08-31 15:08:50,984 [Jean-PC][Thread:21][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-31 15:09:26,773 [Jean-PC][Thread:29][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 15:09:26,796 [Jean-PC][Thread:29][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 15:10:46,441 [Jean-PC][Thread:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 15:10:46,456 [Jean-PC][Thread:33][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>"). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-31 15:10:55,023 [Jean-PC][Thread:28][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 15:10:55,031 [Jean-PC][Thread:28][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 15:10:55,183 [Jean-PC][Thread:32][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 15:10:55,188 [Jean-PC][Thread:32][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 15:16:07,052 [Jean-PC][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 15:16:07,057 [Jean-PC][Thread:27][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>"). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-31 15:16:22,112 [Jean-PC][Thread:24][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 15:16:22,120 [Jean-PC][Thread:24][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 15:16:22,287 [Jean-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 15:16:22,290 [Jean-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 15:16:34,151 [Jean-PC][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'C:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\TestEmployeurs.ascx'.
+File name: 'C:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\TestEmployeurs.ascx'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.OpenText(String path)
+   at DotNetNuke.Modules.Admin.Modules.ViewSource.DisplayFile() in c:\Projets\SYSGDII\SYSGD_DNN\admin\Modules\viewsource.ascx.cs:line 133
+   at DotNetNuke.Modules.Admin.Modules.ViewSource.OnFileIndexChanged(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\admin\Modules\viewsource.ascx.cs:line 177
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 15:16:34,203 [Jean-PC][Thread:24][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=55&error=Could+not+find+file+%27C%3a%5cProjets%5cSYSGDII%5cSYSGD_DNN%5cDesktopModules%5cCoginov%5cTestEmployeurs%5cTestEmployeurs.ascx%27.
+System.IO.FileNotFoundException: Could not find file 'C:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\TestEmployeurs.ascx'.
+File name: 'C:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\TestEmployeurs.ascx'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.OpenText(String path)
+   at DotNetNuke.Modules.Admin.Modules.ViewSource.DisplayFile() in c:\Projets\SYSGDII\SYSGD_DNN\admin\Modules\viewsource.ascx.cs:line 133
+   at DotNetNuke.Modules.Admin.Modules.ViewSource.OnFileIndexChanged(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\admin\Modules\viewsource.ascx.cs:line 177
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 15:16:40,641 [Jean-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 15:16:40,649 [Jean-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: test is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): The file '/SYSGDII_DNN/DesktopModules/Coginov/TestEmployeurs/TestEmployeurs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 15:19:35,722 [Jean-PC][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 15:19:35,729 [Jean-PC][Thread:23][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>"). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$ctr345$EditModuleControl$cboIcon="<Not Specified>").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-31 15:33:01,682 [Jean-PC][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Entities.Modules.ModuleController.AddModule(ModuleInfo module)
+   at DotNetNuke.UI.ControlPanel.AddModule.DoAddNewModule(String title, Int32 desktopModuleId, String paneName, Int32 position, Int32 permissionType, String align) in c:\Projets\SYSGDII\SYSGD_DNN\admin\ControlPanel\AddModule.ascx.cs:line 723
+   at DotNetNuke.UI.ControlPanel.AddModule.CmdAddModuleClick(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\admin\ControlPanel\AddModule.ascx.cs:line 247
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 15:33:01,722 [Jean-PC][Thread:28][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=55&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Entities.Modules.ModuleController.AddModule(ModuleInfo module)
+   at DotNetNuke.UI.ControlPanel.AddModule.DoAddNewModule(String title, Int32 desktopModuleId, String paneName, Int32 position, Int32 permissionType, String align) in c:\Projets\SYSGDII\SYSGD_DNN\admin\ControlPanel\AddModule.ascx.cs:line 723
+   at DotNetNuke.UI.ControlPanel.AddModule.CmdAddModuleClick(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\admin\ControlPanel\AddModule.ascx.cs:line 247
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:05:01,300 [Jean-PC][Thread:50][ERROR] DotNetNuke.UI.Modules.ModuleHost - c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs(15): error CS0012: The type 'System.Data.Objects.DataClasses.EntityObject' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+System.Web.HttpCompileException (0x80004005): c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs(15): error CS0012: The type 'System.Data.Objects.DataClasses.EntityObject' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:05:01,319 [Jean-PC][Thread:50][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: TestEmployeurs is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs(15): error CS0012: The type 'System.Data.Objects.DataClasses.EntityObject' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:08:07,321 [Jean-PC][Thread:44][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:08:07,394 [Jean-PC][Thread:44][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: TestEmployeurs is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:08:15,068 [Jean-PC][Thread:50][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:08:15,075 [Jean-PC][Thread:50][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: TestEmployeurs is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:08:22,171 [Jean-PC][Thread:51][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:08:22,178 [Jean-PC][Thread:51][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: TestEmployeurs is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:09:05,053 [Jean-PC][Thread:44][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:09:05,057 [Jean-PC][Thread:44][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: TestEmployeurs is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:09:51,752 [Jean-PC][Thread:44][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:10:41,574 [Jean-PC][Thread:44][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:11:06,370 [Jean-PC][Thread:47][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:11:06,374 [Jean-PC][Thread:47][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: TestEmployeurs is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:11:06,680 [Jean-PC][Thread:43][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:11:06,684 [Jean-PC][Thread:43][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: TestEmployeurs is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:11:28,651 [Jean-PC][Thread:47][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:11:28,665 [Jean-PC][Thread:47][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: TestEmployeurs is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:11:40,433 [Jean-PC][Thread:48][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:11:40,438 [Jean-PC][Thread:48][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: allo is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:15:22,392 [Jean-PC][Thread:50][ERROR] DotNetNuke.UI.Modules.ModuleHost - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2011-08-31 16:15:22,396 [Jean-PC][Thread:50][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: allo is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2011-08-31 16:20:11,082 [Jean-PC][Thread:48][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:20:11,124 [Jean-PC][Thread:48][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:20:16,911 [Jean-PC][Thread:48][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:20:16,912 [Jean-PC][Thread:48][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:21:46,491 [Jean-PC][Thread:17][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:21:46,518 [Jean-PC][Thread:17][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:23:19,185 [Jean-PC][Thread:17][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.MetadataException: Unable to load the specified metadata resource.
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource.LoadResources(String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource..ctor(String originalPath, String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource.CreateResourceLoader(String path, ExtensionCheck extensionCheck, String validExtension, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataCache.SplitPaths(String paths)
+   at System.Data.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   at System.Data.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:23:19,275 [Jean-PC][Thread:17][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=Unable+to+load+the+specified+metadata+resource.&content=0
+System.Data.MetadataException: Unable to load the specified metadata resource.
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource.LoadResources(String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource..ctor(String originalPath, String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource.CreateResourceLoader(String path, ExtensionCheck extensionCheck, String validExtension, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataCache.SplitPaths(String paths)
+   at System.Data.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   at System.Data.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:25:06,052 [Jean-PC][Thread:48][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.MetadataException: Unable to load the specified metadata resource.
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource.LoadResources(String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource..ctor(String originalPath, String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource.CreateResourceLoader(String path, ExtensionCheck extensionCheck, String validExtension, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataCache.SplitPaths(String paths)
+   at System.Data.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   at System.Data.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-31 16:25:06,053 [Jean-PC][Thread:48][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.Data.MetadataException: Unable to load the specified metadata resource.
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource.LoadResources(String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource..ctor(String originalPath, String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataArtifactLoaderCompositeResource.CreateResourceLoader(String path, ExtensionCheck extensionCheck, String validExtension, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Metadata.Edm.MetadataCache.SplitPaths(String paths)
+   at System.Data.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   at System.Data.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at SYSGD_DAL.SYSGDIIEntities..ctor() in C:\Projets\SYSGDII\SYSGD_DAL\CoginovModel.cs:line 62
+   at SYSGD_DAL.Framework.BaseDataCtrl`1.get_context() in C:\Projets\SYSGDII\SYSGD_DAL\Framework\BaseDataCtrl.cs:line 36
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\Projets\SYSGDII\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 39
+   at DesktopModules_Coginov_TestEmployeurs_ViewTest.Page_Load(Object sender, EventArgs e) in c:\Projets\SYSGDII\SYSGD_DNN\DesktopModules\Coginov\TestEmployeurs\ViewTest.ascx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

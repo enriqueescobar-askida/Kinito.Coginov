@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 31/08/2011 17:51:50   UTC: 2011-08-31 15:51:50Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="ModuleHelp.Text">
+    <value>Soit la possibilité de tester en préproduction les articles qui vont être publiés avant de les transmettre du serveur de production.
+
+
+
+
+&lt;P&gt; Le texte / HTML rend Module texte brut, RTF ou HTML. Cinq points de vue différents d'édition sont disponibles: &lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt; &lt;STRONG&gt; Basic Text Box / Texte &lt;/STRONG&gt;: tags Renders texte de base et HTML. Le texte saisi sur une nouvelle ligne est affichée comme un saut de ligne. Le style de texte est le style Normal, tel que défini dans votre feuille de style.
+&lt;/LI&gt;&lt;LI&gt; &lt;STRONG&gt; Basic Text Box / HTML &lt;/STRONG&gt;: Affiche le texte de base au format HTML.
+&lt;/LI&gt;&lt;LI&gt; &lt;STRONG&gt; Basic Text Box Raw / &lt;/STRONG&gt;: Affiche le texte de base au format HTML. Le texte saisi sur une nouvelle ligne n'est pas rendue comme un saut de ligne.
+&lt;/LI&gt;&lt;LI&gt; &lt;STRONG&gt; Rich Text Editor / HTML &lt;/STRONG&gt;: Permet de coller le code HTML à partir d'autres sources.
+&lt;/LI&gt;&lt;LI&gt; &lt;STRONG&gt; Rich Text Editor / Design &lt;/STRONG&gt;: Un traitement de texte intégral ou WYSIWYG (What You See What You Get) éditeur avec des fonctionnalités telles que des liens hypertexte, liens e-mail, fichier galerie d'images Manager, puces, sort contrôle et autres.&lt;/LI&gt;&lt;/OL&gt;</value>
+  </data>
+  <data name="ControlTitle_mywork.Text">
+    <value>Mon travail</value>
+  </data>
+  <data name="lblMessage.Text">
+    <value>Contenus à valider avant publication :</value>
+  </data>
+  <data name="lblNoRecords.Text">
+    <value>Pas de contenu associé à votre compte.</value>
+  </data>
+  <data name="Page.Header">
+    <value>Page</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

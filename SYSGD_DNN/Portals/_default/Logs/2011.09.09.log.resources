@@ -1,0 +1,65 @@
+2011-09-09 09:09:34,868 [enrique-lap][Thread:29][ERROR] Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche - FriendlyMessage="Erreur: SYSGD_ResultatsRecherche est actuellement indisponible." ctrl="ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\coginov\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 41
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData() in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 66
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Page_Load(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 126"
+2011-09-09 09:09:34,868 [enrique-lap][Thread:26][ERROR] Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche - FriendlyMessage="Erreur: SYSGD_ResultatsRecherche est actuellement indisponible." ctrl="ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\coginov\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 41
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData() in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 66
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Page_Load(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 126"
+2011-09-09 09:15:21,410 [enrique-lap][Thread:29][ERROR] Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche - FriendlyMessage="Erreur: SYSGD_ResultatsRecherche est actuellement indisponible." ctrl="ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\coginov\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 41
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData() in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 66
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Page_Load(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 126"
+2011-09-09 09:27:18,343 [enrique-lap][Thread:11][ERROR] Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche - FriendlyMessage="Erreur: SYSGD_ResultatsRecherche est actuellement indisponible." ctrl="ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at SYSGD_DAL.EmployeursDataCtrl.Select(Int32 id) in C:\coginov\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 41
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData() in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 66
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Page_Load(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 126"
+2011-09-09 10:17:12,349 [enrique-lap][Thread:13][ERROR] Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche - FriendlyMessage="Erreur: SYSGD_ResultatsRecherche est actuellement indisponible." ctrl="ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx" exc="System.Exception: Exception of type 'System.Exception' was thrown.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Page_Load(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 129"
+2011-09-09 10:17:12,383 [enrique-lap][Thread:7][ERROR] Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche - FriendlyMessage="Erreur: SYSGD_ResultatsRecherche est actuellement indisponible." ctrl="ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx" exc="System.Exception: Exception of type 'System.Exception' was thrown.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Page_Load(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 129"
+2011-09-09 10:17:12,670 [enrique-lap][Thread:9][ERROR] Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche - FriendlyMessage="Erreur: SYSGD_ResultatsRecherche est actuellement indisponible." ctrl="ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx" exc="System.Exception: Exception of type 'System.Exception' was thrown.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Page_Load(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 129"
+2011-09-09 10:17:12,842 [enrique-lap][Thread:5][ERROR] Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche - FriendlyMessage="Erreur: SYSGD_ResultatsRecherche est actuellement indisponible." ctrl="ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx" exc="System.Exception: Exception of type 'System.Exception' was thrown.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Page_Load(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 129"
+2011-09-09 15:29:29,114 [enrique-lap][Thread:10][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: 'SYSGD_DAL.FicheEmployeur' does not contain a property with the name 'Name'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 74
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 226
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-09 15:29:29,421 [enrique-lap][Thread:10][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - DataBinding: 'SYSGD_DAL.FicheEmployeur' does not contain a property with the name 'Name'.
+DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: 'SYSGD_DAL.FicheEmployeur' does not contain a property with the name 'Name'. ---> System.Web.HttpException: DataBinding: 'SYSGD_DAL.FicheEmployeur' does not contain a property with the name 'Name'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 74
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 226
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-09-09 15:57:38,153 [enrique-lap][Thread:12][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)

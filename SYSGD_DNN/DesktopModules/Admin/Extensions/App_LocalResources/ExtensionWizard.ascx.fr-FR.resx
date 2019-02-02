@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 12:16:23   UTC: 2011-07-29 10:16:23Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="Cancel.Text">
+    <value>Retour</value>
+  </data>
+  <data name="ControlTitle_newextension.Text">
+    <value>Nouvel Assistant d'Extension</value>
+  </data>
+  <data name="Core.Text">
+    <value>Langue de base</value>
+  </data>
+  <data name="DuplicateName.Text">
+    <value>Le nom-{0} - existe déjà.  Veuillez fournir un autre nom et essayez à nouveau.</value>
+  </data>
+  <data name="IntroductionHelp.Text">
+    <value>Dans la première étape, veuillez fournir un nom unique pour la nouvelle Extension, - il est recommandé que vous u</value>
+  </data>
+  <data name="Introduction.Help">
+    <value>L'Assistant Création de nouvelle Extension permet de créer de nouvelles Extensions.  Entrez l'information requeste</value>
+  </data>
+  <data name="Introduction.Title">
+    <value>Créer la nouvelle Extension</value>
+  </data>
+  <data name="OwnerInfo.Help">
+    <value>Dans cette dernière étape, vous pouvez facultatif fournir des détails sur le propriétaire de l'Extension.  Cette renseignements</value>
+  </data>
+  <data name="OwnerInfo.Title">
+    <value>Détails du propriétaire</value>
+  </data>
+  <data name="Package.Text">
+    <value>Langage d'extension</value>
+  </data>
+  <data name="PackageType.Error">
+    <value>Vous devez sélectionner un Type de Pack de langue</value>
+  </data>
+  <data name="plExtensionType.Help">
+    <value>Sélectionnez le type d'Extension pour créer</value>
+  </data>
+  <data name="plExtensionType.Text">
+    <value>Sélectionnez le Type d'Extension :</value>
+  </data>
+  <data name="plPackageType.Help">
+    <value>Sélectionnez si c'est un pack Core ou un pack de langue pour une autre Extension.</value>
+  </data>
+  <data name="plPackageType.Text">
+    <value>Sélectionnez le Type de Pack de langue :</value>
+  </data>
+  <data name="Specific_CoreLanguagePack.Help">
+    <value>Dans cette étape, veuillez choisir la langue pour du pack.</value>
+  </data>
+  <data name="Specific_CoreLanguagePack.Title">
+    <value>Détails spécifiques du pack de langue</value>
+  </data>
+  <data name="Specific_Module.Help">
+    <value>Dans cette étape, veuillez fournir toute information spécifique au module.</value>
+  </data>
+  <data name="Specific_Module.Title">
+    <value>Détails de module spécifiques</value>
+  </data>
+  <data name="Specific_ExtensionLanguagePack.Help">
+    <value>Dans cette étape, veuillez choisir la langue et l'extension pour le Pack.</value>
+  </data>
+  <data name="Specific_ExtensionLanguagePack.Title">
+    <value>Détails spécifiques au pack de langue</value>
+  </data>
+  <data name="ExtensionLanguageHelp.Text">
+    <value>&lt;b&gt;Note :&lt;/b&gt; Si vous créez une extension 'pack de langue', l'extension doit être définie.</value>
+  </data>
+  <data name="LanguageHelp.Text">
+    <value>&lt;b&gt;Note :&lt;/b&gt; Si vous créez un pack de langue, la langue doit déjà être définie dans l'Admin/L</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

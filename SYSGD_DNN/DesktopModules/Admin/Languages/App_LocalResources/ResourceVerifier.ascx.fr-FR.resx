@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text">
+    <value>&lt;P&gt;With this module you can verify all the installed language packs in the portal and check their status against the default system language. The verificacion process will look at all the system default resource files and compare them to the localized version for all supported languages.&lt;/P&gt;
+&lt;P&gt;Once you get the report, and if any issues are found, you can use the &lt;STRONG&gt;Languages Localization Editor&lt;/STRONG&gt; to solve all the issues reported.&lt;/P&gt;
+&lt;P&gt;There are three different issues that can be found for any resource file:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;Missing File&lt;/SPAN&gt;: The localized version for a given resource file is missing. To correct this issue select the resource file on the &lt;STRONG&gt;Languages Localization Editor&lt;/STRONG&gt; and the language where the error is given. The localized file will be automatically created. 
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;Missing Entry:&lt;/SPAN&gt; The localized version for a given resource file does not include some entries that are present on the default system resource file. To correct this issue select the resource file on the &lt;STRONG&gt;Languages Localization Editor&lt;/STRONG&gt; and the language where the error is given. You will be given the option to add all missing keys to the localized resource file. 
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;Obsolete Entry&lt;/SPAN&gt;: The localized version for a given resource file includes some entries that are not present on the default system resource file. To correct this issue select the resource file on the &lt;STRONG&gt;Languages Localization Editor&lt;/STRONG&gt; and the language where the error is given. All keys that are not necessary will be automatically deleted.&lt;/LI&gt;&lt;/UL&gt;</value>
+  </data>
+  <data name="cmdVerify.Text">
+    <value>Vérifier les ressources</value>
+  </data>
+  <data name="Locale.Text">
+    <value>Langue :&amp;nbsp; </value>
+  </data>
+  <data name="MissingFiles.Text">
+    <value>Fichiers de ressources manquants :&amp;nbsp;</value>
+  </data>
+  <data name="MissingEntries.Text">
+    <value>Fichiers avec entrées manquantes :&amp;nbsp;</value>
+  </data>
+  <data name="ObsoleteEntries.Text">
+    <value>Fichiers avec entrées obsolètes :&amp;nbsp;</value>
+  </data>
+  <data name="ControlTitle_verify.Text">
+    <value>Vérificateur de ressource</value>
+  </data>
+  <data name="OldFiles.Text">
+    <value>Fichiers plus anciens que les ressources par défaut :&amp;nbsp;</value>
+  </data>
+  <data name="DuplicateEntries.Text">
+    <value>Fichiers contenant des doublons :&amp;nbsp;</value>
+  </data>
+  <data name="ErrorFiles.Text">
+    <value>Fichiers de ressource incorrect :&amp;nbsp;</value>
+  </data>
+</root>

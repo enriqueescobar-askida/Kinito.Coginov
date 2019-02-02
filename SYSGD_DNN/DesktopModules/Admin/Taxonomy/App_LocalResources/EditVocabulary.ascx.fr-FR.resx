@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelEdit.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="ControlTitle_editvocabulary.Text" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="SaveVocabulary.Text" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="CurrentTerm.Text" xml:space="preserve">
+    <value>Modifier le terme</value>
+  </data>
+  <data name="DeleteVocabulary.Text" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="Terms.Text" xml:space="preserve">
+    <value>Termes</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Modifier le vocabulaire</value>
+  </data>
+  <data name="DeleteTerm.Text" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="SaveTerm.Text" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="AddTerm.Text" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="CreateTerm.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="NewTerm.Text" xml:space="preserve">
+    <value>Nouveau terme</value>
+  </data>
+  <data name="TermValidationError.Message" xml:space="preserve">
+    <value>Il y avait une erreur de validation de l'expression.  Les termes doivent inclure un nom.</value>
+  </data>
+  <data name="TermValidationError.MessageHeader" xml:space="preserve">
+    <value>Erreur de validation</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Description.ToolTip" xml:space="preserve">
+    <value>Description du terme</value>
+  </data>
+  <data name="ParentTerm.Text" xml:space="preserve">
+    <value>Terme parent</value>
+  </data>
+  <data name="ParentTerm.ToolTip" xml:space="preserve">
+    <value>Terme parent dans la hiérarchie</value>
+  </data>
+  <data name="TermName.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="TermName.ToolTip" xml:space="preserve">
+    <value>Nom du terme</value>
+  </data>
+  <data name="TermName.Required" xml:space="preserve">
+    <value>&lt;br/&gt;Le nom du terme est un champ obligatoire.</value>
+  </data>
+  <data name="CancelTerm.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+</root>

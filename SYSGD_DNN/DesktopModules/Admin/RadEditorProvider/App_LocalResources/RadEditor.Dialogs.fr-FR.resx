@@ -1,0 +1,1366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 31/08/2011 15:54:30   UTC: 2011-08-31 13:54:30Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="About_Copyright">
+    <value>Copyright 2002-2009 ©Telerik  Tous droits réservés.</value>
+  </data>
+  <data name="About_Title">
+    <value>RadEditor par Telerik</value>
+  </data>
+  <data name="Common_AddCustomTarget">
+    <value>[ajouter personnalisé cible...]</value>
+  </data>
+  <data name="Common_AllowedExtensions">
+    <value>Extentions de fichiers permises</value>
+  </data>
+  <data name="Common_Back">
+    <value>Retour</value>
+  </data>
+  <data name="Common_BackgroundColor">
+    <value>Couleur de fond</value>
+  </data>
+  <data name="Common_BackgroundImage">
+    <value>Image de fond</value>
+  </data>
+  <data name="Common_Black">
+    <value>Noir</value>
+  </data>
+  <data name="Common_Blue">
+    <value>Bleu</value>
+  </data>
+  <data name="Common_BorderColor">
+    <value>Couleur de bordure</value>
+  </data>
+  <data name="Common_BorderWidth">
+    <value>Largeur de la bordure</value>
+  </data>
+  <data name="Common_Bottom">
+    <value>Fond</value>
+  </data>
+  <data name="Common_bytes">
+    <value>octets</value>
+  </data>
+  <data name="Common_Cancel">
+    <value>Annuler</value>
+  </data>
+  <data name="Common_CellCss">
+    <value>Cellule CSS</value>
+  </data>
+  <data name="Common_ClassID">
+    <value>Spécifier l'ID de classe</value>
+  </data>
+  <data name="Common_ClassIDText">
+    <value>ID de classe</value>
+  </data>
+  <data name="Common_Client_AlertFile">
+    <value>Indiquer des fichiers à charger !</value>
+  </data>
+  <data name="Common_Close">
+    <value>Fermer</value>
+  </data>
+  <data name="Common_ConfirmDelete">
+    <value>Vous êtes certain que vous voulez supprimer le fichier sélectionné ?
+Le fichier sélectionné peut être utilisé. Si les supprimée, certains</value>
+  </data>
+  <data name="Common_ConstrainProportions">
+    <value>Fixer les proportions ?</value>
+  </data>
+  <data name="Common_ControlButtons">
+    <value>Boutons de contrôle</value>
+  </data>
+  <data name="Common_Create">
+    <value>Créer</value>
+  </data>
+  <data name="Common_CreateNewFolder">
+    <value>Entrez le nouveau nom de dossier</value>
+  </data>
+  <data name="Common_CreateThumbnail">
+    <value>Créer la miniature</value>
+  </data>
+  <data name="Common_CssClass">
+    <value>Classe CSS</value>
+  </data>
+  <data name="Common_CustomTargets">
+    <value>Cibles personnalisées</value>
+  </data>
+  <data name="Common_Delete">
+    <value>Supprimer</value>
+  </data>
+  <data name="Common_DimensionUnit">
+    <value>Unité de dimension</value>
+  </data>
+  <data name="Common_FileExists">
+    <value>A fichier avec un nom identique comme la cible existe déjà !</value>
+  </data>
+  <data name="Common_Green">
+    <value>Vert</value>
+  </data>
+  <data name="Common_Height">
+    <value>Hauteur</value>
+  </data>
+  <data name="Common_Id">
+    <value>ID</value>
+  </data>
+  <data name="Common_ImageAltText">
+    <value>Texte ALT</value>
+  </data>
+  <data name="Common_ImageEditor">
+    <value>Éditeur d'images</value>
+  </data>
+  <data name="Common_ImageFieldSet">
+    <value>Propriétés de l'image</value>
+  </data>
+  <data name="Common_Insert">
+    <value>INSERT</value>
+  </data>
+  <data name="Common_InvalidCharactersInPath">
+    <value>Caractères non valides dans le nom du dossier.</value>
+  </data>
+  <data name="Common_InvalidFileExtension">
+    <value>L'extension du fichier téléchargé n'est pas valide. Veuillez fournir un fichier valide !</value>
+  </data>
+  <data name="Common_InvalidFileSize">
+    <value>La taille du fichier téléchargé dépasse la taille maximum autorisée</value>
+  </data>
+  <data name="Common_Kilobytes">
+    <value>KO</value>
+  </data>
+  <data name="Common_Left">
+    <value>Gauche</value>
+  </data>
+  <data name="Common_LookIn">
+    <value>Regardez dans</value>
+  </data>
+  <data name="Common_MaxFileSize">
+    <value>Taille de fichier maximale autorisée</value>
+  </data>
+  <data name="Common_Megabytes">
+    <value>MO</value>
+  </data>
+  <data name="Common_MessageCannotWriteToFolder">
+    <value>Impossible d'écrire dans le dossier cible !</value>
+  </data>
+  <data name="Common_MessageNoValidDimensions">
+    <value>Veuillez fournir des dimensions de l'image valide</value>
+  </data>
+  <data name="Common_MessageSourceNotLocal">
+    <value>Le spécifié pour le fichier de conversion des image réside sur un serveur différent !</value>
+  </data>
+  <data name="Common_Middle">
+    <value>Milieu</value>
+  </data>
+  <data name="Common_NameExists">
+    <value>Un objet avec le même nom existe déjà dans ce répertoire !</value>
+  </data>
+  <data name="Common_NewFolder">
+    <value>Nouveau dossier</value>
+  </data>
+  <data name="Common_NewImageName">
+    <value>Nouveau nom de l'image</value>
+  </data>
+  <data name="Common_No">
+    <value>Aucun</value>
+  </data>
+  <data name="Common_NoColor">
+    <value>Aucune couleur</value>
+  </data>
+  <data name="Common_None">
+    <value>Aucun</value>
+  </data>
+  <data name="Common_NoPermissionsToCreateFolder">
+    <value>Le dossier sélectionné n'a pas pu être créé parce que la demande n'avait pas suffisamment les autorisations. PL</value>
+  </data>
+  <data name="Common_NoPermissionsToDeleteFile">
+    <value>Le fichier sélectionné n'a pas pourrait être supprimé parce que la demande n'avait pas suffisamment les autorisations. Plaidoyer</value>
+  </data>
+  <data name="Common_NoPermissionsToDeleteFolder">
+    <value>Le dossier sélectionné n'a pas pourrait être supprimé parce que la demande n'avait pas suffisamment les autorisations. PL</value>
+  </data>
+  <data name="Common_NoUploadedFile">
+    <value>Veuillez sélectionner un fichier à télécharger !</value>
+  </data>
+  <data name="Common_OK">
+    <value>Bien</value>
+  </data>
+  <data name="Common_Orange">
+    <value>orange</value>
+  </data>
+  <data name="Common_OverwriteExisting">
+    <value>Écraser si le fichier existe ?</value>
+  </data>
+  <data name="Common_Paste">
+    <value>Coller</value>
+  </data>
+  <data name="Common_Percent">
+    <value>Pour cent</value>
+  </data>
+  <data name="Common_Pixel">
+    <value>pixel</value>
+  </data>
+  <data name="Common_PresetTargets">
+    <value>Cibles prédéfinis</value>
+  </data>
+  <data name="Common_Preview">
+    <value>Aperçu</value>
+  </data>
+  <data name="Common_Properties">
+    <value>Propriétés</value>
+  </data>
+  <data name="Common_PropertiesPanel">
+    <value>Panneau Propriétés</value>
+  </data>
+  <data name="Common_Red">
+    <value>Rouge</value>
+  </data>
+  <data name="Common_Refresh">
+    <value>Actualisez</value>
+  </data>
+  <data name="Common_Right">
+    <value>Droit</value>
+  </data>
+  <data name="Common_SelectFile">
+    <value>Sélectionnez fichier</value>
+  </data>
+  <data name="Common_SortByExt">
+    <value>Ext.</value>
+  </data>
+  <data name="Common_SortByExtTitle">
+    <value>Trier par Extension</value>
+  </data>
+  <data name="Common_SortByFilename">
+    <value>Nom de fichier</value>
+  </data>
+  <data name="Common_SortByFilenameTitle">
+    <value>Trier par nom de fichier</value>
+  </data>
+  <data name="Common_SortBySize">
+    <value>Taille</value>
+  </data>
+  <data name="Common_SortBySizeTitle">
+    <value>Tri par taille</value>
+  </data>
+  <data name="Common_TableCss">
+    <value>CSS de la table</value>
+  </data>
+  <data name="Common_Target">
+    <value>Cible</value>
+  </data>
+  <data name="Common_TargetBlank">
+    <value>Nouvelle fenêtre</value>
+  </data>
+  <data name="Common_TargetMedia">
+    <value>Volet Media</value>
+  </data>
+  <data name="Common_TargetParent">
+    <value>Fenêtre parente</value>
+  </data>
+  <data name="Common_TargetSearch">
+    <value>Volet recherche</value>
+  </data>
+  <data name="Common_TargetSelf">
+    <value>Même fenêtre</value>
+  </data>
+  <data name="Common_TargetTop">
+    <value>Fenêtre de navigateur</value>
+  </data>
+  <data name="Common_Top">
+    <value>Retour au début</value>
+  </data>
+  <data name="Common_Up">
+    <value>Jusqu'à</value>
+  </data>
+  <data name="Common_Upload">
+    <value>Chargement</value>
+  </data>
+  <data name="Common_UploadFile">
+    <value>Chargement</value>
+  </data>
+  <data name="Common_Uploading">
+    <value>Chargement</value>
+  </data>
+  <data name="Common_Url">
+    <value>Url</value>
+  </data>
+  <data name="Common_UseControlVMessage">
+    <value>S'il vous plaît utiliser CTRL + V pour coller ci-dessous le contenu que vous aimeriez être nettoyés</value>
+  </data>
+  <data name="Common_White">
+    <value>Blanc</value>
+  </data>
+  <data name="Common_Width">
+    <value>Largeur</value>
+  </data>
+  <data name="Common_Yellow">
+    <value>Jaune</value>
+  </data>
+  <data name="Common_Yes">
+    <value>Oui</value>
+  </data>
+  <data name="DocumentManager_DocumentPropertiesLegend">
+    <value>Propriétés du document</value>
+  </data>
+  <data name="DocumentManager_Title">
+    <value>Gestionnaire de document</value>
+  </data>
+  <data name="DocumentManager_Tooltip">
+    <value>Info-bulle</value>
+  </data>
+  <data name="FindAndReplace_CaseSensitive">
+    <value>Casse</value>
+  </data>
+  <data name="FindAndReplace_Down">
+    <value>Bas</value>
+  </data>
+  <data name="FindAndReplace_EntireText">
+    <value>Texte intégral</value>
+  </data>
+  <data name="FindAndReplace_Find">
+    <value>Trouver</value>
+  </data>
+  <data name="FindAndReplace_FindNext">
+    <value>Trouver la prochaine</value>
+  </data>
+  <data name="FindAndReplace_MatchCase">
+    <value>Respecter la casse</value>
+  </data>
+  <data name="FindAndReplace_MatchWholeWords">
+    <value>Match des mots entiers</value>
+  </data>
+  <data name="FindAndReplace_Replace">
+    <value>Remplacer</value>
+  </data>
+  <data name="FindAndReplace_ReplaceAll">
+    <value>Remplacer tous</value>
+  </data>
+  <data name="FindAndReplace_ReplaceWith">
+    <value>Remplacez</value>
+  </data>
+  <data name="FindAndReplace_Search">
+    <value>Recherche</value>
+  </data>
+  <data name="FindAndReplace_SearchDirection">
+    <value>direction</value>
+  </data>
+  <data name="FindAndReplace_SearchIn">
+    <value>Recherche In</value>
+  </data>
+  <data name="FindAndReplace_SearchOptions">
+    <value>Options de recherche</value>
+  </data>
+  <data name="FindAndReplace_SearchText">
+    <value>Trouver</value>
+  </data>
+  <data name="FindAndReplace_Selection">
+    <value>Sélection</value>
+  </data>
+  <data name="FindAndReplace_Title">
+    <value>Rechercher et remplacer</value>
+  </data>
+  <data name="FlashManager_AlertClassID">
+    <value>Veuillez fournir une ID de classe !</value>
+  </data>
+  <data name="FlashManager_AlertWidthHeight">
+    <value>Veuillez fournir la largeur et la hauteur du fichier flash !</value>
+  </data>
+  <data name="FlashManager_Baseline">
+    <value>Base</value>
+  </data>
+  <data name="FlashManager_CenterBottom">
+    <value>Centre bas</value>
+  </data>
+  <data name="FlashManager_CenterCenter">
+    <value>Center Centre</value>
+  </data>
+  <data name="FlashManager_CenterTop">
+    <value>Centre Haut</value>
+  </data>
+  <data name="FlashManager_Custom">
+    <value>Spécifique</value>
+  </data>
+  <data name="FlashManager_FlashAlign">
+    <value>Flash aligner</value>
+  </data>
+  <data name="FlashManager_FlashMenu">
+    <value>Menu Flash</value>
+  </data>
+  <data name="FlashManager_FlashPropertiesLegend">
+    <value>Flash Movie propriétés</value>
+  </data>
+  <data name="FlashManager_High">
+    <value>Haute</value>
+  </data>
+  <data name="FlashManager_HtmlAlign">
+    <value>HTML 'Align'</value>
+  </data>
+  <data name="FlashManager_Left">
+    <value>Gauche</value>
+  </data>
+  <data name="FlashManager_LeftBottom">
+    <value>Bas gauche</value>
+  </data>
+  <data name="FlashManager_LeftCenter">
+    <value>Centre gauche</value>
+  </data>
+  <data name="FlashManager_LeftTop">
+    <value>Haut gauche</value>
+  </data>
+  <data name="FlashManager_Loop">
+    <value>Boucle</value>
+  </data>
+  <data name="FlashManager_Low">
+    <value>Faible</value>
+  </data>
+  <data name="FlashManager_Medium">
+    <value>Médium</value>
+  </data>
+  <data name="FlashManager_Middle">
+    <value>Milieu</value>
+  </data>
+  <data name="FlashManager_Play">
+    <value>Jouer</value>
+  </data>
+  <data name="FlashManager_Quality">
+    <value>Qualité</value>
+  </data>
+  <data name="FlashManager_Right">
+    <value>Droit</value>
+  </data>
+  <data name="FlashManager_RightBottom">
+    <value>Bas à droite</value>
+  </data>
+  <data name="FlashManager_RightCenter">
+    <value>Centre droit</value>
+  </data>
+  <data name="FlashManager_RightTop">
+    <value>Droite haut</value>
+  </data>
+  <data name="FlashManager_TextTop">
+    <value>Haut du texte</value>
+  </data>
+  <data name="FlashManager_Title">
+    <value>Gestionnaire de Flash</value>
+  </data>
+  <data name="FlashManager_Top">
+    <value>Retour au début</value>
+  </data>
+  <data name="FlashManager_Transparent">
+    <value>Transparent</value>
+  </data>
+  <data name="FormatCodeBlock_DisplayLineNumbers">
+    <value>Afficher les numéros de ligne</value>
+  </data>
+  <data name="FormatCodeBlock_LanguageCS">
+    <value>C#</value>
+  </data>
+  <data name="FormatCodeBlock_LanguageCss">
+    <value>CSS</value>
+  </data>
+  <data name="FormatCodeBlock_LanguageDelphi">
+    <value>Delphi</value>
+  </data>
+  <data name="FormatCodeBlock_LanguageJavascript">
+    <value>JavaScript</value>
+  </data>
+  <data name="FormatCodeBlock_LanguagePhp">
+    <value>PHP</value>
+  </data>
+  <data name="FormatCodeBlock_LanguagePython">
+    <value>Python</value>
+  </data>
+  <data name="FormatCodeBlock_LanguageSQL">
+    <value>SQL</value>
+  </data>
+  <data name="FormatCodeBlock_LanguageVB">
+    <value>VB</value>
+  </data>
+  <data name="FormatCodeBlock_LanguageXml">
+    <value>Balisage - en (x) HTML, XML, ASPX...</value>
+  </data>
+  <data name="FormatCodeBlock_MaxSnippetHeight">
+    <value>Hauteur de Max Snippet</value>
+  </data>
+  <data name="FormatCodeBlock_MaxSnippetWidth">
+    <value>Largeur max Snippet</value>
+  </data>
+  <data name="FormatCodeBlock_PasteSourceCode">
+    <value>Collez le code source ci-dessous</value>
+  </data>
+  <data name="FormatCodeBlock_SelectLanguage">
+    <value>Sélectionner une langue</value>
+  </data>
+  <data name="ImageEditor_Crop">
+    <value>Récolte</value>
+  </data>
+  <data name="ImageEditor_DisableCrop">
+    <value>Désactiver la récolte</value>
+  </data>
+  <data name="ImageEditor_EnableCrop">
+    <value>Permettre aux cultures</value>
+  </data>
+  <data name="ImageEditor_Flip">
+    <value>Rotation</value>
+  </data>
+  <data name="ImageEditor_FlipBoth">
+    <value>Les deux Flip</value>
+  </data>
+  <data name="ImageEditor_FlipHorizontal">
+    <value>Retournement Horizontal</value>
+  </data>
+  <data name="ImageEditor_FlipVertical">
+    <value>Rotation verticale</value>
+  </data>
+  <data name="ImageEditor_Opacity">
+    <value>Opacité</value>
+  </data>
+  <data name="ImageEditor_Resize">
+    <value>Redimensionner</value>
+  </data>
+  <data name="ImageEditor_RestoreImage">
+    <value>Restaurer l'Image</value>
+  </data>
+  <data name="ImageEditor_Rotate">
+    <value>Faites pivoter</value>
+  </data>
+  <data name="ImageEditor_Save">
+    <value>Enregistrez</value>
+  </data>
+  <data name="ImageEditor_SaveAs">
+    <value>Enregistrer sous...</value>
+  </data>
+  <data name="ImageManager_ActualSize">
+    <value>Taille réelle</value>
+  </data>
+  <data name="ImageManager_AlertDimensions">
+    <value>Veuillez fournir soit miniature largeur ou hauteur miniature.</value>
+  </data>
+  <data name="ImageManager_AlertHeight">
+    <value>S'il vous plaît fournir a hauteur de l'image valide.</value>
+  </data>
+  <data name="ImageManager_AlertWidth">
+    <value>Veuillez fournir largeur de l'image valide.</value>
+  </data>
+  <data name="ImageManager_BestFit">
+    <value>Meilleur ajustement</value>
+  </data>
+  <data name="ImageManager_Title">
+    <value>Gestionnaire d'images</value>
+  </data>
+  <data name="ImageManager_ZoomIn">
+    <value>Zoom avant</value>
+  </data>
+  <data name="ImageManager_ZoomOut">
+    <value>Zoom arrière</value>
+  </data>
+  <data name="ImageMap_AlertDeleteAllAreas">
+    <value>Vous êtes certain de que vouloir supprimer tous les domaines.</value>
+  </data>
+  <data name="ImageMap_AlertDeleteArea">
+    <value>Vous êtes certain de que vouloir supprimer ce domaine.</value>
+  </data>
+  <data name="ImageMap_AreaFieldSet">
+    <value>Propriétés de zone sélectionnée</value>
+  </data>
+  <data name="ImageMap_ChooseImage">
+    <value>Choisissez Image</value>
+  </data>
+  <data name="ImageMap_Circle">
+    <value>Cercle</value>
+  </data>
+  <data name="ImageMap_AlertInvalidAreaProperties">
+    <value>Propriétés de la zone non valide. Entrez l'url.</value>
+  </data>
+  <data name="ImageMap_AlertInvalidProperties">
+    <value>Propriétés non valides !</value>
+  </data>
+  <data name="ImageMap_AlertWrongAreaDimensions">
+    <value>Dimensions de la zone mal détectées. Sauter cette zone.</value>
+  </data>
+  <data name="ImageMap_Comment">
+    <value>Texte ALT</value>
+  </data>
+  <data name="ImageMap_DefineAreaPropertiesLegend">
+    <value>Définir les propriétés de la zone</value>
+  </data>
+  <data name="ImageMap_HowToAdd">
+    <value>Vous pouvez glisser sur l'image pour créer un nouveau domaine.</value>
+  </data>
+  <data name="ImageMap_ImageSrc">
+    <value>Image Src</value>
+  </data>
+  <data name="ImageMap_NewArea">
+    <value>Nouvelle zone</value>
+  </data>
+  <data name="ImageMap_Polygon">
+    <value>Polygone</value>
+  </data>
+  <data name="ImageMap_Rectangle">
+    <value>Rectangle</value>
+  </data>
+  <data name="ImageMap_RemoveAllAreas">
+    <value>Supprimer tous</value>
+  </data>
+  <data name="ImageMap_RemoveArea">
+    <value>Supprimer une zone</value>
+  </data>
+  <data name="ImageMap_SelectAreaShape">
+    <value>Sélectionnez la forme de zone</value>
+  </data>
+  <data name="ImageMap_SelectImage">
+    <value>Veuillez choisir une image afin de créer l'image map.</value>
+  </data>
+  <data name="ImageMap_ShapeAlt">
+    <value>Faites glisser le coin inférieur droit pour redimensionner la zone.</value>
+  </data>
+  <data name="ImageMap_UpdateArea">
+    <value>Zone de mise à jour</value>
+  </data>
+  <data name="LinkManager_AnchorTab">
+    <value>Ancre</value>
+  </data>
+  <data name="LinkManager_EmailTab">
+    <value>Courriel</value>
+  </data>
+  <data name="LinkManager_ExistingAnchor">
+    <value>Ancre existant</value>
+  </data>
+  <data name="LinkManager_HyperlinkTab">
+    <value>Lien hypertexte</value>
+  </data>
+  <data name="LinkManager_LinkAddress">
+    <value>Adresse</value>
+  </data>
+  <data name="LinkManager_LinkName">
+    <value>Nom</value>
+  </data>
+  <data name="LinkManager_LinkSubject">
+    <value>Objet</value>
+  </data>
+  <data name="LinkManager_LinkTarget">
+    <value>Cible</value>
+  </data>
+  <data name="LinkManager_LinkText">
+    <value>Texte du lien</value>
+  </data>
+  <data name="LinkManager_TrackLink">
+    <value>Lien de piste</value>
+  </data>
+  <data name="LinkManager_LinkTooltip">
+    <value>Info-bulle</value>
+  </data>
+  <data name="LinkManager_LinkType">
+    <value>Type</value>
+  </data>
+  <data name="LinkManager_LinkUrl">
+    <value>URL</value>
+  </data>
+  <data name="LinkManager_Other">
+    <value>autres</value>
+  </data>
+  <data name="LinkManager_Title">
+    <value>Gestionnaire de lien hypertexte</value>
+  </data>
+  <data name="MediaManager_AlertValue">
+    <value>Veuillez fournir la valeur de propriété valide !</value>
+  </data>
+  <data name="MediaManager_AlertWidthHeight">
+    <value>Veuillez fournir la largeur et la hauteur du fichier multimédia !</value>
+  </data>
+  <data name="MediaManager_Align">
+    <value>Aligner</value>
+  </data>
+  <data name="MediaManager_AllowChangeDisplaySize">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la taille d'affichage peut être modifiée.</value>
+  </data>
+  <data name="MediaManager_AllowScan">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le balayage est activé pour les fichiers que s</value>
+  </data>
+  <data name="MediaManager_AnimationAtStart">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si l'animation s'exécute avant la première imag</value>
+  </data>
+  <data name="MediaManager_Arrowhourglass">
+    <value>Flèche standard et petit sablier</value>
+  </data>
+  <data name="MediaManager_AudioStream">
+    <value>Cette propriété spécifie ou récupère le nombre de cours d'eau du flux audio actuel.</value>
+  </data>
+  <data name="MediaManager_AutoRewind">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle aut</value>
+  </data>
+  <data name="MediaManager_AutoSize">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle aut</value>
+  </data>
+  <data name="MediaManager_AutoStart">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant s'il faut commencer à jouer le clip automatica</value>
+  </data>
+  <data name="MediaManager_Balance">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant la balance stéréo.</value>
+  </data>
+  <data name="MediaManager_Baseline">
+    <value>Base</value>
+  </data>
+  <data name="MediaManager_Bottom">
+    <value>Fond</value>
+  </data>
+  <data name="MediaManager_Caption2">
+    <value>Caption2</value>
+  </data>
+  <data name="MediaManager_CCActive">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le sous-titrage est activé ou désactivé.</value>
+  </data>
+  <data name="MediaManager_ClickToPlay">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si l'utilisateur peut activer/désactiver la lecture sur et</value>
+  </data>
+  <data name="MediaManager_ColorKey">
+    <value>Cette propriété spécifie ou récupère la clé de couleur utilisée par la lecture de DVD.</value>
+  </data>
+  <data name="MediaManager_Crosshair">
+    <value>Réticule</value>
+  </data>
+  <data name="MediaManager_CurrentAngle">
+    <value>Cette propriété spécifie ou récupère un numéro identifiant l'angle de la caméra actuel.</value>
+  </data>
+  <data name="MediaManager_CurrentAudioStream">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant le flux audio actuel.</value>
+  </data>
+  <data name="MediaManager_CurrentCCService">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant que le courant fermé service de sous-titrage.</value>
+  </data>
+  <data name="MediaManager_CurrentMarker">
+    <value>Cette propriété spécifie ou récupère le nombre actuel de marqueur.</value>
+  </data>
+  <data name="MediaManager_CurrentPosition">
+    <value>Cette propriété spécifie ou récupère la position courante du clip, en secondes.</value>
+  </data>
+  <data name="MediaManager_CurrentSubpictureStream">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant le flux actuel de sous-image.</value>
+  </data>
+  <data name="MediaManager_CursorType">
+    <value>Cette propriété spécifie ou récupère le type de curseur.</value>
+  </data>
+  <data name="MediaManager_Custom">
+    <value>Custom</value>
+  </data>
+  <data name="MediaManager_Customh">
+    <value>Custom-</value>
+  </data>
+  <data name="MediaManager_DefaultCaption1">
+    <value>Par défaut. Caption1</value>
+  </data>
+  <data name="MediaManager_DefaultFrame">
+    <value>Cette propriété spécifie ou récupère une valeur qui représente le frame HTTP cible par défaut.</value>
+  </data>
+  <data name="MediaManager_Description">
+    <value>&lt;br&gt;&lt;b&gt;Description :&lt;/b&gt;</value>
+  </data>
+  <data name="MediaManager_DesignTime">
+    <value>Taille spécifiée au moment du design</value>
+  </data>
+  <data name="MediaManager_DisplayBackColor">
+    <value>Cette propriété spécifie ou récupère la couleur d'arrière-plan du panneau.</value>
+  </data>
+  <data name="MediaManager_DisplayForeColor">
+    <value>Cette propriété spécifie ou récupère la couleur de premier plan du panneau.</value>
+  </data>
+  <data name="MediaManager_DisplayMode">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la barre d'État affiche le courant</value>
+  </data>
+  <data name="MediaManager_DisplaySize">
+    <value>Cette propriété spécifie ou récupère la taille de la fenêtre d'affichage de l'image.</value>
+  </data>
+  <data name="MediaManager_DoublepointedNESW">
+    <value>Deux pointes de flèche NE-SW.</value>
+  </data>
+  <data name="MediaManager_DoublepointedNS">
+    <value>Deux pointes de flèche N.-S.</value>
+  </data>
+  <data name="MediaManager_DoublepointedNWSE">
+    <value>Deux pointes de flèche NW-SE.</value>
+  </data>
+  <data name="MediaManager_DoublepointedWE">
+    <value>Deux pointes de flèche pointant W-E.</value>
+  </data>
+  <data name="MediaManager_DoubleSourceImage">
+    <value>Doubler les dimensions de l'image source</value>
+  </data>
+  <data name="MediaManager_EnableContextMenu">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le menu contextuel s'affiche lorsque l'américaine</value>
+  </data>
+  <data name="MediaManager_Enabled">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le contrôle de Windows Media Player est</value>
+  </data>
+  <data name="MediaManager_EnableFullScreenControls">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media affiche contro</value>
+  </data>
+  <data name="MediaManager_EnablePositionControls">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le contrôle de position est activés sur</value>
+  </data>
+  <data name="MediaManager_EnableTracker">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le contrôle trackbar est activé.</value>
+  </data>
+  <data name="MediaManager_EntireScreen">
+    <value>Taille de l'écran entier</value>
+  </data>
+  <data name="MediaManager_ExtendedDataServices">
+    <value>Services de données étendues (XDS)</value>
+  </data>
+  <data name="MediaManager_Fourpointedarrow">
+    <value>Quatre pointes de flèche</value>
+  </data>
+  <data name="MediaManager_HalfScreen">
+    <value>La moitié de l'écran.</value>
+  </data>
+  <data name="MediaManager_HalfSourceImage">
+    <value>W et h sont la moitié de l'image source</value>
+  </data>
+  <data name="MediaManager_Handpointing">
+    <value>Main avec pointage index doigt</value>
+  </data>
+  <data name="MediaManager_Hidden">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le joueur est visible dans le navigateur.</value>
+  </data>
+  <data name="MediaManager_Hourglass">
+    <value>Sablier</value>
+  </data>
+  <data name="MediaManager_InvokeURLs">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle aut</value>
+  </data>
+  <data name="MediaManager_Language">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant le paramètres régionaux utilisé pour les langues nationales</value>
+  </data>
+  <data name="MediaManager_MediaPropertiesLegend">
+    <value>Propriétés médias</value>
+  </data>
+  <data name="MediaManager_Middle">
+    <value>Milieu</value>
+  </data>
+  <data name="MediaManager_Mute">
+    <value>Cette propriété spécifie ou récupère l'État muet actuel du contrôle Windows Media Player.</value>
+  </data>
+  <data name="MediaManager_NA">
+    <value>S/O</value>
+  </data>
+  <data name="MediaManager_None">
+    <value>Aucun</value>
+  </data>
+  <data name="MediaManager_Nosubpicturestream">
+    <value>Il n'y a aucun flux de sous-titres</value>
+  </data>
+  <data name="MediaManager_PlayCount">
+    <value>Cette propriété spécifie ou récupère le nombre de fois où qu'un clip joue</value>
+  </data>
+  <data name="MediaManager_PreviewMode">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media est en avant-première m</value>
+  </data>
+  <data name="MediaManager_QuarterScreen">
+    <value>La taille de l'écran du quart</value>
+  </data>
+  <data name="MediaManager_Rate">
+    <value>Cette propriété spécifie ou récupère le taux de lecture du clip.</value>
+  </data>
+  <data name="MediaManager_Right">
+    <value>Droit</value>
+  </data>
+  <data name="MediaManager_Samesize">
+    <value>Même taille que l'image source</value>
+  </data>
+  <data name="MediaManager_SelectionEnd">
+    <value>Cette propriété spécifie ou récupère le délai dans le clip en cours à laquelle la lecture s'arrête. T</value>
+  </data>
+  <data name="MediaManager_SelectionStart">
+    <value>Cette propriété spécifie ou récupère le délai dans le clip en cours commenceront à laquelle la lecture.</value>
+  </data>
+  <data name="MediaManager_SelectProperty">
+    <value>Sélectionnez la propriété</value>
+  </data>
+  <data name="MediaManager_SendErrorEvents">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle sen</value>
+  </data>
+  <data name="MediaManager_SendKeyboardEvents">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle sen</value>
+  </data>
+  <data name="MediaManager_SendMouseClickEvents">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle sen</value>
+  </data>
+  <data name="MediaManager_SendMouseMoveEvents">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle sen</value>
+  </data>
+  <data name="MediaManager_SendOpenStateChangeEvents">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle sen</value>
+  </data>
+  <data name="MediaManager_SendPlayStateChangeEvents">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle sen</value>
+  </data>
+  <data name="MediaManager_SendWarningEvents">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le lecteur Windows Media contrôle sen</value>
+  </data>
+  <data name="MediaManager_ShowAudioControls">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si les contrôles audio s'affichent sur la con</value>
+  </data>
+  <data name="MediaManager_ShowCaptioning">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la zone de sous-titrage est visible une</value>
+  </data>
+  <data name="MediaManager_ShowControls">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la barre de contrôle est visible.</value>
+  </data>
+  <data name="MediaManager_ShowDisplay">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le panneau d'affichage est visible.</value>
+  </data>
+  <data name="MediaManager_ShowGotoBar">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la barre d'aller à est visible.</value>
+  </data>
+  <data name="MediaManager_ShowPositionControls">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le contrôle de position s'affichent sur la</value>
+  </data>
+  <data name="MediaManager_ShowStatusBar">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la barre d'État est visible.</value>
+  </data>
+  <data name="MediaManager_ShowTracker">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la barre de suivi est visible.</value>
+  </data>
+  <data name="MediaManager_SixteenthScreen">
+    <value>Un seizième la taille de l'écran.</value>
+  </data>
+  <data name="MediaManager_SlashedCircle">
+    <value>Cercle barré</value>
+  </data>
+  <data name="MediaManager_Standardarrow">
+    <value>Flèche standard</value>
+  </data>
+  <data name="MediaManager_Streamisvalid">
+    <value>Le flux est valide</value>
+  </data>
+  <data name="MediaManager_SubpictureOn">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la sous-image est affichée.</value>
+  </data>
+  <data name="MediaManager_Text1">
+    <value>Texte 1</value>
+  </data>
+  <data name="MediaManager_Text2">
+    <value>Texte 2</value>
+  </data>
+  <data name="MediaManager_TextIbeam">
+    <value>Texte en (I)</value>
+  </data>
+  <data name="MediaManager_TextTop">
+    <value>Haut du texte</value>
+  </data>
+  <data name="MediaManager_Title">
+    <value>Gestionnaire de médias</value>
+  </data>
+  <data name="MediaManager_TransparentAtStart">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si le contrôle de Windows Media Player est</value>
+  </data>
+  <data name="MediaManager_ValidateAudio">
+    <value>Veuillez entrer une valeur allant de zéro à sept indiquant le flux audio actuel ou 0xFFFFFFFF</value>
+  </data>
+  <data name="MediaManager_ValidateLCID">
+    <value>Veuillez spécifier une valeur numérique qui correspond à un LCID identification des paramètres régionaux pour la langue nationale</value>
+  </data>
+  <data name="MediaManager_ValidateNumber">
+    <value>S'il vous plaît entrez seulement les valeurs numériques.</value>
+  </data>
+  <data name="MediaManager_ValidateNumber10">
+    <value>Veuillez entrer une valeur allant de –10.00 à 10 h 00.</value>
+  </data>
+  <data name="MediaManager_ValidateNumber10000">
+    <value>Veuillez entrer une valeur allant de – 10, 000 à 10 000.</value>
+  </data>
+  <data name="MediaManager_ValidateNumberHex">
+    <value>Veuillez spécifier une valeur hexadécimale.</value>
+  </data>
+  <data name="MediaManager_Value">
+    <value>Valeur</value>
+  </data>
+  <data name="MediaManager_Verticalarrow">
+    <value>Flèche verticale</value>
+  </data>
+  <data name="MediaManager_VideoBorder3D">
+    <value>Cette propriété spécifie ou récupère une valeur indiquant si la vidéo en trois dimensions de la frontière électronique</value>
+  </data>
+  <data name="MediaManager_VideoBorderColor">
+    <value>Cette propriété spécifie ou récupère la couleur de la bordure de la vidéo.</value>
+  </data>
+  <data name="MediaManager_VideoBorderWidth">
+    <value>Cette propriété spécifie ou récupère la largeur de la bordure vidéo, en pixels.</value>
+  </data>
+  <data name="MediaManager_Volume">
+    <value>Cette propriété spécifie ou récupère le volume, en centièmes de décibels.</value>
+  </data>
+  <data name="PageProperties_BackColor">
+    <value>Couleur de retour.</value>
+  </data>
+  <data name="PageProperties_BaseLocation">
+    <value>Emplacement de base</value>
+  </data>
+  <data name="PageProperties_BodyAttributes">
+    <value>Attributs de corps</value>
+  </data>
+  <data name="PageProperties_BottomMargin">
+    <value>Marge inférieure</value>
+  </data>
+  <data name="PageProperties_ClassName">
+    <value>Nom de classe</value>
+  </data>
+  <data name="PageProperties_Description">
+    <value>Description</value>
+  </data>
+  <data name="PageProperties_Keywords">
+    <value>Mots-clés</value>
+  </data>
+  <data name="PageProperties_LeftMargin">
+    <value>Marge gauche</value>
+  </data>
+  <data name="PageProperties_PageAttributes">
+    <value>Attributs de page</value>
+  </data>
+  <data name="PageProperties_PageTitle">
+    <value>Titre de la page</value>
+  </data>
+  <data name="PageProperties_RightMargin">
+    <value>Marge droite</value>
+  </data>
+  <data name="PageProperties_TopMargin">
+    <value>Marge supérieure</value>
+  </data>
+  <data name="ReservedResource">
+    <value>SVP, ne supprimez pas de cette chaîne. RadEditor en a besoin pour déterminer si un fichier de ressources externes est p</value>
+  </data>
+  <data name="SetImageProperties_Constrain">
+    <value>Contraindre</value>
+  </data>
+  <data name="SetImageProperties_HorizontalSpacing">
+    <value>Espacement horizontal</value>
+  </data>
+  <data name="SetImageProperties_ImageAlignment">
+    <value>Alignement de l'image</value>
+  </data>
+  <data name="SetImageProperties_ImageSrc">
+    <value>Image Src</value>
+  </data>
+  <data name="SetImageProperties_LongDescription">
+    <value>Description longue</value>
+  </data>
+  <data name="SetImageProperties_Title">
+    <value>Propriétés de l'image</value>
+  </data>
+  <data name="SetImageProperties_VerticalSpacing">
+    <value>Espacement vertical</value>
+  </data>
+  <data name="TableWizard_AddCustomColor">
+    <value>Ajoutez de la couleur personnalisée...</value>
+  </data>
+  <data name="TableWizard_AddHexColor">
+    <value>Ajoutez de la couleur Hex...</value>
+  </data>
+  <data name="TableWizard_Additional">
+    <value>Supplémentaires</value>
+  </data>
+  <data name="TableWizard_Alignment">
+    <value>Alignement</value>
+  </data>
+  <data name="TableWizard_AllFourSides">
+    <value>Les quatre côtés</value>
+  </data>
+  <data name="TableWizard_AllRowsAndColomns">
+    <value>Toutes les lignes et les colonnes</value>
+  </data>
+  <data name="TableWizard_AssociateCellsWithHeaders">
+    <value>Associer des cellules avec en-têtes</value>
+  </data>
+  <data name="TableWizard_Background">
+    <value>Arrière-plan</value>
+  </data>
+  <data name="TableWizard_Baseline">
+    <value>Base</value>
+  </data>
+  <data name="TableWizard_Betweenall">
+    <value>Entre toutes les lignes et les colonnes</value>
+  </data>
+  <data name="TableWizard_BetweenColumns">
+    <value>Entre les colonnes</value>
+  </data>
+  <data name="TableWizard_Betweengroup">
+    <value>Entre groupe de ligne et de colonne</value>
+  </data>
+  <data name="TableWizard_BetweenRows">
+    <value>Entre les rangées</value>
+  </data>
+  <data name="TableWizard_Border">
+    <value>Frontière</value>
+  </data>
+  <data name="TableWizard_Bottom">
+    <value>Fond</value>
+  </data>
+  <data name="TableWizard_BottomSide">
+    <value>Côté Bottom seulement</value>
+  </data>
+  <data name="TableWizard_Caption">
+    <value>Légende</value>
+  </data>
+  <data name="TableWizard_CaptionAlign">
+    <value>Alignement de la légende</value>
+  </data>
+  <data name="TableWizard_CellPadding">
+    <value>Cellules rembourrage</value>
+  </data>
+  <data name="TableWizard_CellSpacing">
+    <value>Espacement des cellules</value>
+  </data>
+  <data name="TableWizard_Center">
+    <value>Centre</value>
+  </data>
+  <data name="TableWizard_Columns">
+    <value>Colonnes</value>
+  </data>
+  <data name="TableWizard_ColumnSettings">
+    <value>Numéro de colonne et de la durée de la colonne</value>
+  </data>
+  <data name="TableWizard_ColumnSpan">
+    <value>Durée de la colonne</value>
+  </data>
+  <data name="TableWizard_Content">
+    <value>Contenu</value>
+  </data>
+  <data name="TableWizard_ContentAlignment">
+    <value>Alignement de contenu</value>
+  </data>
+  <data name="TableWizard_Custom">
+    <value>Custom</value>
+  </data>
+  <data name="TableWizard_Customh">
+    <value>Custom-</value>
+  </data>
+  <data name="TableWizard_Dimensions">
+    <value>Dimensions</value>
+  </data>
+  <data name="TableWizard_Frame">
+    <value>Trame</value>
+  </data>
+  <data name="TableWizard_HeadingColumns">
+    <value>Rubrique colonnes</value>
+  </data>
+  <data name="TableWizard_HeadingRows">
+    <value>Rubrique lignes</value>
+  </data>
+  <data name="TableWizard_HeadingsLabel">
+    <value>Rubriques</value>
+  </data>
+  <data name="TableWizard_Horizontal">
+    <value>Horizontal</value>
+  </data>
+  <data name="TableWizard_InvalidCellHeight">
+    <value>Hauteur des cellules non valide.</value>
+  </data>
+  <data name="TableWizard_InvalidCellWidth">
+    <value>Largeur de la cellule non valide.</value>
+  </data>
+  <data name="TableWizard_InvalidTableHeight">
+    <value>Hauteur de table non valide.</value>
+  </data>
+  <data name="TableWizard_InvalidTableWidth">
+    <value>Largeur de la table non valide.</value>
+  </data>
+  <data name="TableWizard_Layout">
+    <value>Mise en page</value>
+  </data>
+  <data name="TableWizard_LeftAndRightSide">
+    <value>Côtés droit et gauche seulement</value>
+  </data>
+  <data name="TableWizard_LeftSide">
+    <value>Côté gauche</value>
+  </data>
+  <data name="TableWizard_Middle">
+    <value>Milieu</value>
+  </data>
+  <data name="TableWizard_NoBorders">
+    <value>Pas de frontières</value>
+  </data>
+  <data name="TableWizard_NoInteriorBorders">
+    <value>Pas de frontières intérieures</value>
+  </data>
+  <data name="TableWizard_NoTextWrapping">
+    <value>aucun habillage de texte</value>
+  </data>
+  <data name="TableWizard_NoWrapping">
+    <value>Aucun emballage</value>
+  </data>
+  <data name="TableWizard_OtherOptionsLabel">
+    <value>Autres Options</value>
+  </data>
+  <data name="TableWizard_PixelsOrPercents">
+    <value>pixels %</value>
+  </data>
+  <data name="TableWizard_PromptColor">
+    <value>Veuillez fournir la couleur personnalisée valeur HEX</value>
+  </data>
+  <data name="TableWizard_Right">
+    <value>Droit</value>
+  </data>
+  <data name="TableWizard_RightSide">
+    <value>Seule la partie droite</value>
+  </data>
+  <data name="TableWizard_Rows">
+    <value>Lignes</value>
+  </data>
+  <data name="TableWizard_RowSettings">
+    <value>Numéro de ligne et de la durée de ligne</value>
+  </data>
+  <data name="TableWizard_RowSpan">
+    <value>Ligne Span</value>
+  </data>
+  <data name="TableWizard_Size">
+    <value>Taille</value>
+  </data>
+  <data name="TableWizard_Summary">
+    <value>Résumé</value>
+  </data>
+  <data name="TableWizard_Tab1HeaderText">
+    <value>Table Design</value>
+  </data>
+  <data name="TableWizard_Tab2HeaderText">
+    <value>Propriétés du tableau</value>
+  </data>
+  <data name="TableWizard_Tab3HeaderText">
+    <value>Propriétés de cellule</value>
+  </data>
+  <data name="TableWizard_Tab4HeaderText">
+    <value>Accessibilité</value>
+  </data>
+  <data name="TableWizard_TableBorderControlSizeOverflow">
+    <value>Vous essayez de définir la taille de la bordure d'une valeur supérieure maximale (1000). Il doit être réglé à 1000.</value>
+  </data>
+  <data name="TableWizard_TableControls">
+    <value>Contrôles de table</value>
+  </data>
+  <data name="TableWizard_TableDesignPreviewLabel">
+    <value>Table Design Prévisu</value>
+  </data>
+  <data name="TableWizard_Title">
+    <value>Assistant Tableau</value>
+  </data>
+  <data name="TableWizard_TopAndBottomSide">
+    <value>Haut et bas côtés seulement</value>
+  </data>
+  <data name="TableWizard_TopSide">
+    <value>Haut de la page côté seulement</value>
+  </data>
+  <data name="TableWizard_UseColor">
+    <value>Utiliser des couleurs</value>
+  </data>
+  <data name="TableWizard_Vertical">
+    <value>Vertical</value>
+  </data>
+  <data name="Common_Rename">
+    <value>Renommez</value>
+  </data>
+  <data name="Common_Add">
+    <value>Ajouter</value>
+  </data>
+  <data name="Common_Clear">
+    <value>Claire</value>
+  </data>
+  <data name="Common_Remove">
+    <value>Supprimer</value>
+  </data>
+  <data name="Common_Select">
+    <value>Sélectionnez</value>
+  </data>
+  <data name="Common_Open">
+    <value>Ouvert</value>
+  </data>
+  <data name="SilverlightManager_AutoUpgrade">
+    <value>Mise à niveau automatique</value>
+  </data>
+  <data name="SilverlightManager_EnableHtmlAccess">
+    <value>Activer Htm lAccess</value>
+  </data>
+  <data name="SilverlightManager_MinVersion">
+    <value>Version du Runtime min</value>
+  </data>
+  <data name="SilverlightManager_Windowless">
+    <value>Sans fenêtre</value>
+  </data>
+  <data name="Common_StyleBuilder">
+    <value>Générateur de styles</value>
+  </data>
+  <data name="TableWizard_AccessibilityOptions">
+    <value>Options d'accessibilité</value>
+  </data>
+  <data name="TableWizard_ApplySpecialFormatsTo">
+    <value>Appliquez des formats spéciaux à</value>
+  </data>
+  <data name="TableWizard_FirstColumn">
+    <value>Première colonne</value>
+  </data>
+  <data name="TableWizard_HeadingRow">
+    <value>Ligne d'en-tête</value>
+  </data>
+  <data name="TableWizard_LastColumn">
+    <value>Dernière colonne</value>
+  </data>
+  <data name="TableWizard_LastRow">
+    <value>Dernière rangée</value>
+  </data>
+  <data name="TableWizard_NoCSSClassLayout">
+    <value>Aucune disposition de la classe CSS</value>
+  </data>
+  <data name="FindAndReplace_AllReplaced">
+    <value>{0} occurrences dans le texte ont été remplacés !</value>
+  </data>
+  <data name="FindAndReplace_NotFound">
+    <value>La chaîne de recherche n'a pas été trouvée.</value>
+  </data>
+  <data name="FindAndReplace_NotSupported">
+    <value>La fonction Rechercher n'est pas prise en charge par ce navigateur !</value>
+  </data>
+  <data name="Common_Forward">
+    <value>Avant</value>
+  </data>
+  <data name="Common_ApplyClass">
+    <value>Appliquer la classe</value>
+  </data>
+  <data name="Common_ClearClass">
+    <value>Effacer la classe</value>
+  </data>
+  <data name="Common_Decrease">
+    <value>Diminuer</value>
+  </data>
+  <data name="Common_Increase">
+    <value>Augmenter</value>
+  </data>
+  <data name="Common_GridPagerText">
+    <value>{4} La page &lt;strong&gt;{0}&lt;/strong&gt;{1}  de  &lt;strong&gt; {2} &lt;/strong&gt; à &lt;strong&gt;{3}&lt;/strong&gt;</value>
+  </data>
+  <data name="Common_GridSortedAscToolTip">
+    <value>Tri asc.</value>
+  </data>
+  <data name="Common_GridSortedDescToolTip">
+    <value>Tri desc.</value>
+  </data>
+  <data name="Common_GridSortToolTip">
+    <value>Trier par ordre croissant ou descendant</value>
+  </data>
+  <data name="TableWizard_SelectAll">
+    <value>Tout</value>
+  </data>
+  <data name="Common_Margin">
+    <value>Marge</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

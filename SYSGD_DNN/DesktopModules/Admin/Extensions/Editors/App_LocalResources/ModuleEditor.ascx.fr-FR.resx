@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 10:53:38   UTC: 2011-08-03 08:53:38Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="cmdUpdate.Text">
+    <value>Mettre à jour le module</value>
+  </data>
+  <data name="HostHelp.Text">
+    <value>Cet éditeur permet de configurer le Module.</value>
+  </data>
+  <data name="Title.Text">
+    <value>Paramètres du module</value>
+  </data>
+  <data name="Controls.Text">
+    <value>Contrôles du module</value>
+  </data>
+  <data name="Definitions.Text">
+    <value>Définitions de modules</value>
+  </data>
+  <data name="cmdAddControl.Text">
+    <value>Ajouter un contrôle de module</value>
+  </data>
+  <data name="cmdAddDefinition.Text">
+    <value>Ajouter une définition</value>
+  </data>
+  <data name="cmdSaveControl.Text">
+    <value>Mise à jour le controle de module</value>
+  </data>
+  <data name="ModuleControlInfo_ControlKey.Help">
+    <value>Entrez une clé unique pour ce contrôle.</value>
+  </data>
+  <data name="ModuleControlInfo_ControlKey.Text">
+    <value>"Control Key" :</value>
+  </data>
+  <data name="ModuleControlInfo_ControlSrc.Help">
+    <value>Entrez la source pour ce contrôle.</value>
+  </data>
+  <data name="ModuleControlInfo_ControlSrc.Text">
+    <value>Source du contrôle :</value>
+  </data>
+  <data name="ModuleControlInfo_ControlTitle.Help">
+    <value>Entrez le titre de ce contrôle.</value>
+  </data>
+  <data name="ModuleControlInfo_ControlTitle.Text">
+    <value>Titre du contrôle</value>
+  </data>
+  <data name="Admin.Text">
+    <value>admin</value>
+  </data>
+  <data name="Anonymous.Text">
+    <value>Anonyme</value>
+  </data>
+  <data name="cmdCreateDefinition.Text">
+    <value>Créer une définition</value>
+  </data>
+  <data name="cmdDeleteDefinition.Text">
+    <value>Supprimer la définition</value>
+  </data>
+  <data name="cmdUpdateDefinition.Text">
+    <value>Mise à jour de la définition</value>
+  </data>
+  <data name="ControlPanel.Text">
+    <value>Panneau de contrôle</value>
+  </data>
+  <data name="Host.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="ModuleControlInfo_ControlType.Help">
+    <value>Contôle d'accès pour ce module</value>
+  </data>
+  <data name="ModuleControlInfo_ControlType.Text">
+    <value>Type de contrôle :</value>
+  </data>
+  <data name="ModuleControlInfo_HelpURL.Help">
+    <value>Vous pouvez fournir une Url pour l'aide de ce contrôle. Elle apparaîtra dans le menu Actions.</value>
+  </data>
+  <data name="ModuleControlInfo_HelpURL.Text">
+    <value>URL d'aide :</value>
+  </data>
+  <data name="ModuleControlInfo_IconFile.Help">
+    <value>Url de l'icône de ce contrôle</value>
+  </data>
+  <data name="ModuleControlInfo_IconFile.Text">
+    <value>Icône :</value>
+  </data>
+  <data name="ModuleControlInfo_SupportsPartialRendering.Help">
+    <value>Indique si le contrôle du module prend en charge le rendu partiel d'AJAX.</value>
+  </data>
+  <data name="ModuleControlInfo_SupportsPartialRendering.Text">
+    <value>Rendu partiel AJAX :</value>
+  </data>
+  <data name="ModuleControlInfo_ViewOrder.Help">
+    <value>Entrez l'ordre d'affichage pour le contrôle de ce module.</value>
+  </data>
+  <data name="ModuleControlInfo_ViewOrder.Text">
+    <value>Ordre d'affichage</value>
+  </data>
+  <data name="plSelectDefinition.Help">
+    <value>Vous pouvez sélectionner un contrôle module à modifier dans la liste déroulante.</value>
+  </data>
+  <data name="plSelectDefinition.Text">
+    <value>Sélectionnez la définition :</value>
+  </data>
+  <data name="SkinObject.Text">
+    <value>skin objet</value>
+  </data>
+  <data name="View.Text">
+    <value>Vue</value>
+  </data>
+  <data name="cmdCreateControl.Text">
+    <value>Créer le contrôle de module</value>
+  </data>
+  <data name="cmdDeleteControl.Text">
+    <value>Supprimer le contrôle de module</value>
+  </data>
+  <data name="cmdUpdateControl.Text">
+    <value>Mise à jour du controle de module</value>
+  </data>
+  <data name="plSelectControl.Help">
+    <value>Vous pouvez sélectionner un contrôle de module à éditer dans la liste déroulante.</value>
+  </data>
+  <data name="plSelectControl.Text">
+    <value>Contrôle :</value>
+  </data>
+  <data name="ctlPortals_Available.Text">
+    <value>Disponible</value>
+  </data>
+  <data name="ctlPortals_Selected.Text">
+    <value>Assigné</value>
+  </data>
+  <data name="Permissions.Text">
+    <value>Permissions du module :</value>
+  </data>
+  <data name="DuplicateName.Text">
+    <value>Vous avez entré un nom convivial qui est déjà en cours d'utilisation.  Nom convivial doit être unique - Veuillez saisir un nom différent et réessayez.</value>
+  </data>
+  <data name="AdminHelp.Text">
+    <value>Cette section vous permet de définir les permissions de déploiement pour ce module. Cliquer deux fois sur les cases affichera une croix rouge qui indique l'interdiction de déploiement pour un groupe d'utilisateurs.</value>
+  </data>
+  <data name="NoPermission.Text">
+    <value>Vous n'êtes autorisé à mettre ce module sur une page dans ce site. Pour plus d'informations, veuillez contacter votre fournisseur d'hébergement</value>
+  </data>
+  <data name="Control.Header">
+    <value>Contrôle</value>
+  </data>
+  <data name="Source.Header">
+    <value>source</value>
+  </data>
+  <data name="Title.Header">
+    <value>Titre</value>
+  </data>
+  <data name="plPremium.Text">
+    <value>Assigné en tant que moudle Prémium</value>
+  </data>
+  <data name="BusinessControllerClass.Help">
+    <value>namespace complet de la classe qui implémente les interfaces du modules (IPortable, ISearchable etc)</value>
+  </data>
+  <data name="BusinessControllerClass.Text">
+    <value>Classe Business Controller :</value>
+  </data>
+  <data name="IsPortable.Help">
+    <value>Identifie si le module prend en charge l'interface IPortable permettant à l'exportation et l'importation de contenu.</value>
+  </data>
+  <data name="IsPortable.Text">
+    <value>Portable?</value>
+  </data>
+  <data name="IsSearchable.Help">
+    <value>Identifie si le module prend en charge l'interface ISearchable lui permettant d'avoir son contenu indexé.</value>
+  </data>
+  <data name="IsSearchable.Text">
+    <value>Searchable ?</value>
+  </data>
+  <data name="IsUpgradeable.Help">
+    <value>Identifie si le module prend en charge le IUpgradable interface lui permettant d'exécuter personnalisée de code quand upgr</value>
+  </data>
+  <data name="IsUpgradeable.Text">
+    <value>Upgradable ?</value>
+  </data>
+  <data name="ModuleName.Help">
+    <value>Nom du module</value>
+  </data>
+  <data name="ModuleName.Text">
+    <value>Nom du module</value>
+  </data>
+  <data name="DefaultCacheTime.Help">
+    <value>Durée du cache par défaut pour le module. A default cache time of "-1" indicates that the module does not support output caching.</value>
+  </data>
+  <data name="DefaultCacheTime.Text">
+    <value>Durée du cache par défaut :</value>
+  </data>
+  <data name="FriendlyName.Help">
+    <value>Entrez un nom convivial pour la définition du Module.</value>
+  </data>
+  <data name="FriendlyName.Text">
+    <value>Nom convivial :</value>
+  </data>
+  <data name="IsPremium.Help">
+    <value>Tous les Modules peuvent être attribués à un site mais les modules Premium ne sont pas automatiquement proposés.</value>
+  </data>
+  <data name="IsPremium.Text">
+    <value>Module Premium ?</value>
+  </data>
+  <data name="FolderName.Help">
+    <value>Spécifiez le nom du dossier pour ce module</value>
+  </data>
+  <data name="FolderName.Text">
+    <value>Nom du dossier :</value>
+  </data>
+  <data name="Dependencies.Help">
+    <value>Vous pouvez répertorier les dépendances du module.</value>
+  </data>
+  <data name="Dependencies.Text">
+    <value>Dépendances :</value>
+  </data>
+  <data name="Permissions.Help">
+    <value>Indiquer ici tout prérequis au niveau des permissions</value>
+  </data>
+  <data name="Category.Text">
+    <value>Catégorie du module</value>
+  </data>
+  <data name="Category.Help">
+    <value>Catégorie du module</value>
+  </data>
+  <data name="Dependencies.Hint">
+    <value>Dépendances</value>
+  </data>
+  <data name="Permissions.Hint">
+    <value>Entrez les autorisations d'accès au Code</value>
+  </data>
+  <data name="BusinessControllerClass.Hint">
+    <value>Classe Business Controller</value>
+  </data>
+  <data name="ModuleSettings.Text">
+    <value>Paramètres de module</value>
+  </data>
+  <data name="None.Text">
+    <value>&lt; aucun&gt;</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

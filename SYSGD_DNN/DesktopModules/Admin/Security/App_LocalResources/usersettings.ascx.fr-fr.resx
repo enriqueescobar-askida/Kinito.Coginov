@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_usersettings.Text" xml:space="preserve">
+    <value>Paramétres utilisateurs</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordFormat.Text" xml:space="preserve">
+    <value>Type de mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_RequiresQuestionAndAnswer.Text" xml:space="preserve">
+    <value>Question/réponse requis</value>
+  </data>
+  <data name="MembershipProviderConfig_MinPasswordLength.Text" xml:space="preserve">
+    <value>Longueur minimum du mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_MinNonAlphanumericCharacters.Text" xml:space="preserve">
+    <value>Nombre de caractères minimum</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordStrengthRegularExpression.Text" xml:space="preserve">
+    <value>Expression régulière de mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordFormat.Help" xml:space="preserve">
+    <value>Type de mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_RequiresQuestionAndAnswer.Help" xml:space="preserve">
+    <value>Un jeu de question/réponse est-il requis pour modifier le mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_MinPasswordLength.Help" xml:space="preserve">
+    <value>Nombre minimum de caractères d'un mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_MinNonAlphanumericCharacters.Help" xml:space="preserve">
+    <value>Nombre minimum de caractères alphanumériques requis dans un mot de passe.</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordStrengthRegularExpression.Help" xml:space="preserve">
+    <value>Expression régulière utilisée pour valider le mot de passe.</value>
+  </data>
+  <data name="ProviderSettings.Text" xml:space="preserve">
+    <value>Paramètres de Membership Provider</value>
+  </data>
+  <data name="UserAccounts.Text" xml:space="preserve">
+    <value>Paramétres de comptes utilisateurs</value>
+  </data>
+  <data name="Column_Address.Text" xml:space="preserve">
+    <value>Voir la colonne Adresse</value>
+  </data>
+  <data name="Column_Address.Help" xml:space="preserve">
+    <value>Voir la colonne Adresse</value>
+  </data>
+  <data name="Column_Authorized.Text" xml:space="preserve">
+    <value>Voir la colonne Autorisé</value>
+  </data>
+  <data name="Column_Authorized.Help" xml:space="preserve">
+    <value>Voir la colonne Autorisé</value>
+  </data>
+  <data name="Column_CreatedDate.Text" xml:space="preserve">
+    <value>Voir la colonne Date de création</value>
+  </data>
+  <data name="Column_CreatedDate.Help" xml:space="preserve">
+    <value>Voir la colonne Date de création</value>
+  </data>
+  <data name="Column_DisplayName.Text" xml:space="preserve">
+    <value>Voir la colonne Nom complet</value>
+  </data>
+  <data name="Column_DisplayName.Help" xml:space="preserve">
+    <value>Voir la colonne Nom complet</value>
+  </data>
+  <data name="Column_Email.Text" xml:space="preserve">
+    <value>Voir la colonne Email</value>
+  </data>
+  <data name="Column_Email.Help" xml:space="preserve">
+    <value>Voir la colonne Email</value>
+  </data>
+  <data name="Column_FirstName.Text" xml:space="preserve">
+    <value>Voir la colonne Prénom</value>
+  </data>
+  <data name="Column_FirstName.Help" xml:space="preserve">
+    <value>Voir la colonne Prénom</value>
+  </data>
+  <data name="Column_LastLogin.Text" xml:space="preserve">
+    <value>Voir la colonne Dernière connexion</value>
+  </data>
+  <data name="Column_LastLogin.Help" xml:space="preserve">
+    <value>Voir la colonne Dernière connexion</value>
+  </data>
+  <data name="Column_LastName.Text" xml:space="preserve">
+    <value>Voir la colonne Nom</value>
+  </data>
+  <data name="Column_LastName.Help" xml:space="preserve">
+    <value>Voir la colonne Nom</value>
+  </data>
+  <data name="Column_Telephone.Text" xml:space="preserve">
+    <value>Voir la colonne Téléphone</value>
+  </data>
+  <data name="Column_Telephone.Help" xml:space="preserve">
+    <value>Voir la colonne Téléphone</value>
+  </data>
+  <data name="Records_PerPage.Text" xml:space="preserve">
+    <value>Utilisateurs par page</value>
+  </data>
+  <data name="Records_PerPage.Help" xml:space="preserve">
+    <value>Permet de spécifier le nombre d'utilisateur affiché par page.</value>
+  </data>
+  <data name="MembershipProviderConfig_MaxInvalidPasswordAttempts.Text" xml:space="preserve">
+    <value>Nombre d'erreur de saisie du mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_MaxInvalidPasswordAttempts.Help" xml:space="preserve">
+    <value>Nombre maximum de tentative de saisi du mot de passe avant bannissement</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordAttemptWindow.Text" xml:space="preserve">
+    <value>Bannissement (en minutes)</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordAttemptWindow.Help" xml:space="preserve">
+    <value>Durée en minutes (in minutes) pendant laquelle l'utilisateur ne pourra plus s'identifier</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordResetEnabled.Text" xml:space="preserve">
+    <value>Réinitialisation de mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordResetEnabled.Help" xml:space="preserve">
+    <value>Autorise ou nom l'administrateur à réinitialiser le mot de passe de l'utilisateur.</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordRetrievalEnabled.Text" xml:space="preserve">
+    <value>Rappel de mot de passe</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordRetrievalEnabled.Help" xml:space="preserve">
+    <value>Le mot de passe de l'utilisateur peut-il être rappelé.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
+    <value>Expiration du mot de passe (en jours)</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
+    <value>Nombre de jours avant qu'un utilisateur doive changer son mot de passe (la valeur 0 indique que le mot de passe n'expire jamais)</value>
+  </data>
+  <data name="ProviderSettingsHelp.Text" xml:space="preserve">
+    <value>Cette section vous permet de spécifier les paramétres concernant les utilisateurs. Certains paramétres ne peuvent pas être modifiés car ils demandent l'édition du fichier web.config</value>
+  </data>
+  <data name="PasswordSettings.Text" xml:space="preserve">
+    <value>Durée de vie du mot de passe</value>
+  </data>
+  <data name="PasswordSettingsHelp.Text" xml:space="preserve">
+    <value>Permet de spécifier la durée de vie du mot de passe.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Text" xml:space="preserve">
+    <value>Rappel d'expiration de mot de passe (en jours)</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Help" xml:space="preserve">
+    <value>Nombre de jour avant l'expiration d'un mot de passe à partir duquel l'utilisateur sera informé.</value>
+  </data>
+  <data name="Display_Mode.Text" xml:space="preserve">
+    <value>Présentation par défaut</value>
+  </data>
+  <data name="Display_Mode.Help" xml:space="preserve">
+    <value>Choisissez les paramètres par défaut pour la grille de données utilisateurs</value>
+  </data>
+  <data name="Security_CaptchaLogin.Text" xml:space="preserve">
+    <value>CAPTCHA à la connexion</value>
+  </data>
+  <data name="Security_CaptchaLogin.Help" xml:space="preserve">
+    <value>Indiquer si le site utilise la méthode "CAPTCHA" lors de l'authentification. CAPTCHA : Completely Automated Public Turing test to Tell Computers and Humans Apart, forme de test de Turing</value>
+  </data>
+  <data name="Security_CaptchaRegister.Text" xml:space="preserve">
+    <value>CAPTCHA à l'inscription</value>
+  </data>
+  <data name="Security_CaptchaRegister.Help" xml:space="preserve">
+    <value>Indiquer si le site utilise la méthode "CAPTCHA" à l'inscription. CAPTCHA : Completely Automated Public Turing test to Tell Computers and Humans Apart, forme de test de Turing</value>
+  </data>
+  <data name="Redirect_AfterLogin.Text" xml:space="preserve">
+    <value>Redirection après connexion</value>
+  </data>
+  <data name="Redirect_AfterLogin.Help" xml:space="preserve">
+    <value>Permet d'indiquer la page sur laquelle l'utilisateur authentifié est automatiquement redirigé</value>
+  </data>
+  <data name="Redirect_AfterLogout.Text" xml:space="preserve">
+    <value>Redirection après déconnexion</value>
+  </data>
+  <data name="Redirect_AfterLogout.Help" xml:space="preserve">
+    <value>Permet d'indiquer la page sur laquelle l'utilisateur qui se déconnecte est automatiquement redirigé.</value>
+  </data>
+  <data name="Security_UsersControl.Text" xml:space="preserve">
+    <value>Présentation des groupes de rôles</value>
+  </data>
+  <data name="Security_UsersControl.Help" xml:space="preserve">
+    <value>Choix du type de présentation de la rubrique de gestion des rôles</value>
+  </data>
+  <data name="Combo.Text" xml:space="preserve">
+    <value>Liste déroulante</value>
+  </data>
+  <data name="FirstLetter.Text" xml:space="preserve">
+    <value>Première lettre</value>
+  </data>
+  <data name="TextBox.Text" xml:space="preserve">
+    <value>Zone de saisie</value>
+  </data>
+  <data name="Redirect_AfterRegistration.Help" xml:space="preserve">
+    <value>Permet d'indiquer la page sur laquelle l'utilisateur qui s'inscrit est automatiquement redirigé.</value>
+  </data>
+  <data name="Redirect_AfterRegistration.Text" xml:space="preserve">
+    <value>Redirection après inscription</value>
+  </data>
+  <data name="Security_RequireValidProfile.Help" xml:space="preserve">
+    <value>Vous pouvez demander qu'un utilisateur donne un profil valide avant de pouvoir s'inscrire.</value>
+  </data>
+  <data name="Security_RequireValidProfile.Text" xml:space="preserve">
+    <value>Profil valide requis à l'inscription</value>
+  </data>
+  <data name="Display_SuppressPager.Help">
+    <value>Cochez cette case pour cacher le compteur de page si il n'y a qu'une page pour les enregistrements</value>
+  </data>
+  <data name="Display_SuppressPager.Text">
+    <value>Suppression du compteur de page ?</value>
+  </data>
+  <data name="MembersOnly.Text">
+    <value>Membres</value>
+  </data>
+  <data name="Profile_DefaultVisibility.Help">
+    <value>Choisissez le mode d'affichage par défaut du mode de profil</value>
+  </data>
+  <data name="Profile_DefaultVisibility.Text">
+    <value>Profil d'affichage par défaut</value>
+  </data>
+  <data name="Profile_DisplayVisibility.Help">
+    <value>Cochez cette case pour afficher les choix de visibilité du profil</value>
+  </data>
+  <data name="Profile_DisplayVisibility.Text">
+    <value>Choix de visibilité du profil</value>
+  </data>
+  <data name="Profile_ManageServices.Help">
+    <value>Cochez cette case pour activer le choix des services dans le profil de l'utilisateur</value>
+  </data>
+  <data name="Profile_ManageServices.Text">
+    <value>Afficher la gestion des services</value>
+  </data>
+  <data name="Security_RequireValidProfileAtLogin.Help">
+    <value>Vous pouvez demander à l'utilisateur de mettre à jour son profil avant de se connecter si celui-ci n'est plus valide.</value>
+  </data>
+  <data name="Security_RequireValidProfileAtLogin.Text">
+    <value>Profil valide requis à la connexion</value>
+  </data>
+  <data name="Security_DisplayNameFormat.Help">
+    <value>Vous pouvez spécifier le format d'affichage du nom de l'utilisateur. Le formatage peut utiliser des jetons de substitution : [FIRSTNAME] et[LASTNAME]. Ce formatage se substitue au pseudonyme qui ne pourra plus alors être modifié.</value>
+  </data>
+  <data name="Security_DisplayNameFormat.Text">
+    <value>Affichage du nom :</value>
+  </data>
+  <data name="Security_EmailValidation.Help">
+    <value>Vous pouvez modifier l'expression régulière employée pour valider le formatage des adresses de courriel.</value>
+  </data>
+  <data name="Security_EmailValidation.Text">
+    <value>Validation des adresses :</value>
+  </data>
+  <data name="MembershipProviderConfig_RequiresUniqueEmail.Help">
+    <value>Le fournisseur nécessite une adresse Email unique</value>
+  </data>
+  <data name="MembershipProviderConfig_RequiresUniqueEmail.Text">
+    <value>Email unique :</value>
+  </data>
+</root>

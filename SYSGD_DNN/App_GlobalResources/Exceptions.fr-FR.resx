@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 28/07/2011 21:35:54   UTC: 2011-07-28 19:35:54Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="AddFileExtensionNotAllowed.Text">
+    <value>L'extension « {0} » n'est pas autorisée. Le fichier n'a pas été ajouté.</value>
+  </data>
+  <data name="AddFileNoSpaceAvailable.Text">
+    <value>Le portail n'a aucun espace disponible pour stocker le fichier spécifié. Le fichier n'a pas été ajouté.</value>
+  </data>
+  <data name="AddFilePermissionsNotMet.Text">
+    <value>Les autorisations ne sont pas respectées. Le fichier n'a pas été ajouté.</value>
+  </data>
+  <data name="AddFileUnderlyingSystemError.Text">
+    <value>Le système sous-jacent a signalé une erreur. Le fichier n'a pas été ajouté.</value>
+  </data>
+  <data name="AddFolderParentCannotBeFound.Text">
+    <value>Impossible de trouver le dossier parent.</value>
+  </data>
+  <data name="AddFolderUnderlyingSystemError.Text">
+    <value>Le système sous-jacent a signalé une erreur. Le dossier n'a pas été ajouté.</value>
+  </data>
+  <data name="ArgumentCannotBeNullOrEmpty.Text">
+    <value>L'argument « {0} » ne peut pas être null ou vide.</value>
+  </data>
+  <data name="DeleteFileUnderlyingSystemError.Text">
+    <value>Le système sous-jacent a signalé une erreur. Le fichier n'a pas été supprimé.</value>
+  </data>
+  <data name="DeleteFolderUnderlyingSystemError.Text">
+    <value>Le système sous-jacent a signalé une erreur Le dossier n'a pas été supprimé.</value>
+  </data>
+  <data name="InvalidZipFile.Text">
+    <value>Le fichier spécifié n'est pas un fichier compressé zip.</value>
+  </data>
+  <data name="PropertyCannotBeNegative.Text">
+    <value>La propriété « {1} » dans l'objet « {0} » ne peut pas être négative.</value>
+  </data>
+  <data name="PropertyCannotBeNull.Text">
+    <value>La propriété « {1} » dans l'objet « {0} » ne peut pas être nulle.</value>
+  </data>
+  <data name="PropertyCannotBeNullOrEmpty.Text">
+    <value>La propriété « {1} » dans l'objet « {0} » ne peut pas être null ou vide.</value>
+  </data>
+  <data name="RenameFileAlreadyExists.Text">
+    <value>Ce dossier contient déjà un fichier portant le même nom. Le fichier n'a pas été renommé.</value>
+  </data>
+  <data name="RenameFileUnderlyingSystemError.Text">
+    <value>Le système sous-jacent a signalé une erreur. Le fichier n'a pas été renommé.</value>
+  </data>
+  <data name="RenameFolderUnderlyingSystemError.Text">
+    <value>Le système sous-jacent a signalé une erreur. Le dossier n'a pas été renommé.</value>
+  </data>
+  <data name="UnderlyingSystemError.Text">
+    <value>Le système sous-jacent a signalé une erreur.</value>
+  </data>
+  <data name="ValueCannotBeNegative.Text">
+    <value>L'argument « {0} » ne peut pas être négatif.</value>
+  </data>
+  <data name="ValueMustBeOfType.Text">
+    <value>L'argument « {0} » doit être de type « {1} ».</value>
+  </data>
+  <data name="WriteFileToResponsePermissionsNotMet.Text">
+    <value>Les autorisations ne sont pas respectées. Le fichier ne peut pas être téléchargé.</value>
+  </data>
+  <data name="AddFolderAlreadyExists.Text">
+    <value>Le chemin du dossier existe déjà. Le dossier n'a pas été ajouté.</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

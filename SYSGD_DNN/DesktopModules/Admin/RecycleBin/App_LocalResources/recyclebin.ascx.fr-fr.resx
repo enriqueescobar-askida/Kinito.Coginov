@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Tabs.Text">
+    <value>Pages</value>
+  </data>
+  <data name="Modules.Text">
+    <value>Modules</value>
+  </data>
+  <data name="cmdEmpty.Text">
+    <value>Vider définitivement la corbeille</value>
+  </data>
+  <data name="DeleteTab.Text">
+    <value>Etes-vous certain de vouloir supprimer définitivement cette page ?</value>
+  </data>
+  <data name="DeleteModule.Text">
+    <value>Etes-vous certain de vouloir supprimer définitivement ce module ?</value>
+  </data>
+  <data name="DeleteAll.Text">
+    <value>Etes-vous certain de vouloir supprimer définitivement toutes les pages et tous le modules ?</value>
+  </data>
+  <data name="ParentTab.ErrorMessage">
+    <value>&lt;b&gt;{0}&lt;/b&gt; Supprimez les pages enfants avant de supprimer cette page.</value>
+  </data>
+  <data name="ChildTab.ErrorMessage">
+    <value>&lt;b&gt;{0}&lt;/b&gt;Restaurez la page parente avant de restaurer cette page.</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Corbeille</value>
+  </data>
+  <data name="cmdRestoreTab.Help">
+    <value>Restaurer la page sélectionnée</value>
+  </data>
+  <data name="cmdDeleteTab.Help">
+    <value>Supprimer la page sélectionnée</value>
+  </data>
+  <data name="cmdRestoreModule.Help">
+    <value>Restaurer le(s) module(s) sélectionné(s) sur la page spécifiée</value>
+  </data>
+  <data name="cmdDeleteModule.Help">
+    <value>Supprimer définitivement le module sélectionné</value>
+  </data>
+  <data name="cmdRestoreTab.Text">
+    <value>Restaurer la page sélectionnée</value>
+  </data>
+  <data name="cmdDeleteTab.Text">
+    <value>Supprimer la page sélectionnée</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos de la corbeille&lt;/h1&gt;&lt;p&gt;La corbeille vous fournit une interface permettant de restaurer ou d'effacer définitivement des Pages/Modules.&lt;/p&gt;</value>
+  </data>
+</root>

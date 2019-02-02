@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 11:04:14   UTC: 2011-08-03 09:04:14Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="FileManager.Text">
+    <value>Gestionnaire de fichiers</value>
+  </data>
+  <data name="HostRoot.Text">
+    <value>Racine de l'hôte</value>
+  </data>
+  <data name="PortalRoot.Text">
+    <value>Racine du site</value>
+  </data>
+  <data name="FileName.Header">
+    <value>Nom</value>
+  </data>
+  <data name="Size.Header">
+    <value>Taille (octets)</value>
+  </data>
+  <data name="DiskSpace.Text">
+    <value>Espace disque</value>
+  </data>
+  <data name="Capacity.Text">
+    <value>Capacité</value>
+  </data>
+  <data name="Used.Text">
+    <value>Utilisé</value>
+  </data>
+  <data name="Free.Text">
+    <value>Libre</value>
+  </data>
+  <data name="MB.Text">
+    <value>&amp;nbsp;Mo</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>&lt;nobr&gt;Charger des fichiers&lt;/nobr&gt;</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Gestionnaire de fichiers</value>
+  </data>
+  <data name="Ok.Text">
+    <value>ok</value>
+  </data>
+  <data name="Cancel.Text">
+    <value>Annuler</value>
+  </data>
+  <data name="CopyFiles.Text">
+    <value>Copier</value>
+  </data>
+  <data name="CancelCopy.Text">
+    <value>Annuler la copie</value>
+  </data>
+  <data name="MoveFiles.Text">
+    <value>Déplacer</value>
+  </data>
+  <data name="CancelMove.Text">
+    <value>Annuler le déplacement</value>
+  </data>
+  <data name="NoFilesChecked.Text">
+    <value>Aucun fichier sélectionné</value>
+  </data>
+  <data name="PleaseSpecifyAFolderNameFirst.Text">
+    <value>Commencez par la sélection d&amp;#146;un nom de dossier</value>
+  </data>
+  <data name="CopyCheckedFiles.Text">
+    <value>Copier les fichiers sélectionnés ?</value>
+  </data>
+  <data name="MoveCheckedFiles.Text">
+    <value>Déplacer les fichiers cochés ?</value>
+  </data>
+  <data name="DeleteFolder.Text">
+    <value>Supprimer le dossier :</value>
+  </data>
+  <data name="MoveSelectedFilesTo.Text">
+    <value>Déplacer les documents sélectionnés dans :</value>
+  </data>
+  <data name="CopySelectedFilesTo.Text">
+    <value>Copier les fichiers sélectionnés dans :</value>
+  </data>
+  <data name="UnzipSelectedFilesTo.Text">
+    <value>Décompresser le fichier dans :</value>
+  </data>
+  <data name="AddFolderImg.AlternateText">
+    <value>Ajouter un dossier</value>
+  </data>
+  <data name="DeleteFolderImg.AlternateText">
+    <value>Supprimer le dossier</value>
+  </data>
+  <data name="RefreshImg.AlternateText">
+    <value>Actualiser</value>
+  </data>
+  <data name="CopyImg.AlternateText">
+    <value>Copier</value>
+  </data>
+  <data name="MoveImg.AlternateText">
+    <value>Déplacer</value>
+  </data>
+  <data name="UploadImg.AlternateText">
+    <value>Charger</value>
+  </data>
+  <data name="DeleteImg.AlternateText">
+    <value>Supprimer</value>
+  </data>
+  <data name="FilterImg.AlternateText">
+    <value>Filtre</value>
+  </data>
+  <data name="RenameFileImg.AlternateText">
+    <value>Renommer le fichier</value>
+  </data>
+  <data name="SaveChangesImg.AlternateText">
+    <value>Enregistrer les modifications</value>
+  </data>
+  <data name="DeleteFileImg.AlternateText">
+    <value>Supprimer le fichier</value>
+  </data>
+  <data name="CancelRenameImg.AlternateText">
+    <value>Annuler la modification du nom</value>
+  </data>
+  <data name="UnzipFileImg.AlternateText">
+    <value>Décompresser le fichier</value>
+  </data>
+  <data name="GetFolderProperties.AlternateText">
+    <value>Voir les propriétés du dossier</value>
+  </data>
+  <data name="NotAllowedToDeleteRootFolder.Text">
+    <value>Suppression du dossier racine interdite...</value>
+  </data>
+  <data name="FolderAlreadyRemoved.Text">
+    <value>Dossier déjà supprimé...</value>
+  </data>
+  <data name="PleaseRemoveFilesBeforeDeleting.Text">
+    <value>Vous devez supprimer les fichiers et les sous-dossiers pour pouvoir supprimer ce dossier</value>
+  </data>
+  <data name="ErrorMovingFile.Text">
+    <value>Erreur en déplaçant le fichier :</value>
+  </data>
+  <data name="ErrorCopyingFile.Text">
+    <value>Erreur en copiant le fichier :</value>
+  </data>
+  <data name="plPermissions.Text">
+    <value>Permissions :</value>
+  </data>
+  <data name="plPermissions.Help">
+    <value>Droits sur le dossier</value>
+  </data>
+  <data name="Folders.Text">
+    <value>&amp;nbsp;Explorateur de dossiers</value>
+  </data>
+  <data name="Date.Header">
+    <value>date</value>
+  </data>
+  <data name="ErrorDeletingFolder.Text">
+    <value>Erreur en supprimant le dossier :&lt;BR&gt;</value>
+  </data>
+  <data name="NotEnoughSpace.Text">
+    <value>Il n'y a plus assez de place sur le site</value>
+  </data>
+  <data name="PleaseLogin.Text">
+    <value>Identifiez-vous avant de copier ou déplacer des fichiers</value>
+  </data>
+  <data name="ErrorUnzippingFile.Text">
+    <value>Erreur en décompressant le fichier :</value>
+  </data>
+  <data name="ItemsPerPage.Text">
+    <value>Objets par page :</value>
+  </data>
+  <data name="SpaceUsed.Text">
+    <value>{0} utilisés sur {1} alloués</value>
+  </data>
+  <data name="MovingFiles.Text">
+    <value>Déplacer les fichiers :</value>
+  </data>
+  <data name="CopyingFiles.Text">
+    <value>Copier les fichiers :</value>
+  </data>
+  <data name="UnzippingFile.Text">
+    <value>Décompression du fichier :</value>
+  </data>
+  <data name="FromFolder.Text">
+    <value>Du dossier :</value>
+  </data>
+  <data name="ToFolder.Text">
+    <value>Dans le dossier : sélectionnez le dossier de destination dans l&amp;#146;explorateur de dossier.</value>
+  </data>
+  <data name="DeleteFiles.Text">
+    <value>Supprimer</value>
+  </data>
+  <data name="Security.Text">
+    <value>Paramètres de sécurité</value>
+  </data>
+  <data name="SelectAll.Text">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="UnSelectAll.Text">
+    <value>Tout désélectionner</value>
+  </data>
+  <data name="Rename.Error">
+    <value>Erreur en renommant le fichier : &lt;BR&gt;</value>
+  </data>
+  <data name="SetAttrubute.Error">
+    <value>Une erreur est survenue lors du changement des attributs du fichier : &lt;BR&gt;</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du gestionnaire de fichiers&lt;/h1&gt;&lt;p&gt;Cet outil permet aux 
+administrateurs de gérer les documents disponibles sur le site en créant des 
+dossiers et en téléchargeant des fichiers afin de les rendre disponibles pour la 
+publication.&lt;/p&gt;</value>
+  </data>
+  <data name="Refresh.Text">
+    <value>Actualiser</value>
+  </data>
+  <data name="EnsureDeleteFile.Text">
+    <value>Etes-vous sur de vouloir supprimer le fichier {0} ?</value>
+  </data>
+  <data name="EnsureDeleteFolder.Text">
+    <value>Etes-vous sur de vouloir supprimer le dossier {0} ?</value>
+  </data>
+  <data name="ErrorDeletingFile.Text">
+    <value>Erreur lors de la suppression du fichier :&amp;nbsp;</value>
+  </data>
+  <data name="AddFolder.Text">
+    <value>Ajouter</value>
+  </data>
+  <data name="DeleteFolderLabel.Text">
+    <value>Supprimer</value>
+  </data>
+  <data name="FileBar.Text">
+    <value>Fichiers :</value>
+  </data>
+  <data name="FolderBar.Text">
+    <value>Dossiers :</value>
+  </data>
+  <data name="InsecureFileSystem.Text">
+    <value>Non sécurisé - Fichier système</value>
+  </data>
+  <data name="lnkSyncFolderIMG.AlternateText">
+    <value>Synchroniser le système de fichier avec la base de DotNetNuke</value>
+  </data>
+  <data name="plStorageLocation.Help">
+    <value>Méthode utilisée pour le stockage des données.</value>
+  </data>
+  <data name="plStorageLocation.Text">
+    <value>Emplacement :</value>
+  </data>
+  <data name="Recursive.Text">
+    <value>Récursive</value>
+  </data>
+  <data name="SecureDatabase.Text">
+    <value>Sécurisé - Base de données</value>
+  </data>
+  <data name="SecureFileSystem.Text">
+    <value>Sécurisé - Fichier système</value>
+  </data>
+  <data name="SynchronizeFolder.Text">
+    <value>Synchronisation</value>
+  </data>
+  <data name="UnlimitedSpace.Text">
+    <value>[pas de limite]</value>
+  </data>
+  <data name="NoWritePermission.Text">
+    <value>Vous n'avez pas les autorisations d'écriture sur le dossier de destination.</value>
+  </data>
+  <data name="PermissionsError.Text">
+    <value>Une erreur sur les autorisations de mise à jour est survenue.  Vérifiez le journal des événements pour plus de détails.</value>
+  </data>
+  <data name="PermissionsUpdated.Text">
+    <value>Autorisations sur les dossier mises à jour.</value>
+  </data>
+  <data name="ManageFolderTypes.Action">
+    <value>Gérer les Types de dossiers</value>
+  </data>
+  <data name="SecureFolderWarning.Text">
+    <value>Ces autorisations s'appliquent à DNN.  Les utilisateurs anonymes pourraient contourner DNN accéder directement au système de fichiers</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

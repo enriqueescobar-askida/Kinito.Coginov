@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 10:08:56   UTC: 2011-08-03 08:08:56Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="plModule.Text">
+    <value>Module :</value>
+  </data>
+  <data name="plDefinition.Text">
+    <value>Définition :</value>
+  </data>
+  <data name="plKey.Text">
+    <value>Clé :</value>
+  </data>
+  <data name="plKey.Help">
+    <value>Entrer un nom unique pour identifier le contrôle dans le module</value>
+  </data>
+  <data name="plTitle.Text">
+    <value>Titre :</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>Entrer un titre pour ce contrôle.  Celui-ci sera affiché dans le container si il le permet.</value>
+  </data>
+  <data name="plSource.Text">
+    <value>Source :</value>
+  </data>
+  <data name="plSource.Help">
+    <value>Sélectionner une source pour ce contrôle.</value>
+  </data>
+  <data name="plType.Text">
+    <value>Type :</value>
+  </data>
+  <data name="plType.Help">
+    <value>Sélectionner le type du contrôle dans la liste.</value>
+  </data>
+  <data name="Skin.Text">
+    <value>Objet thème</value>
+  </data>
+  <data name="Anonymous.Text">
+    <value>Anonyme</value>
+  </data>
+  <data name="View.Text">
+    <value>Voir</value>
+  </data>
+  <data name="Edit.Text">
+    <value>Editer</value>
+  </data>
+  <data name="Admin.Text">
+    <value>admin</value>
+  </data>
+  <data name="Host.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="plViewOrder.Text">
+    <value>Ordre de vue :</value>
+  </data>
+  <data name="plViewOrder.Help">
+    <value>Saisissez l&amp;#146;ordre de vue pour ce contrôle dans la liste des définitions de contrôle.</value>
+  </data>
+  <data name="plIcon.Text">
+    <value>Icône :</value>
+  </data>
+  <data name="plIcon.Help">
+    <value>Sélectionner un icône.  Celui-ci sera affiché dans le container si il le permet.</value>
+  </data>
+  <data name="plHelpURL.Text">
+    <value>Aide :</value>
+  </data>
+  <data name="plHelpURL.Help">
+    <value>Vous pouvez implémenter une aide pour ce contrôle.  Elle apparaitra dans son menu.</value>
+  </data>
+  <data name="plModule.Help">
+    <value>Saisissez un nom convivial pour le module.</value>
+  </data>
+  <data name="plDefinition.Help">
+    <value>Saisissez le nom de la définition du module</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos de la gestion des modules&lt;/h1&gt;&lt;p&gt;Cet outil permet au Superutilisateur de gérer les modules de DotNetNuke.&lt;/p&gt;</value>
+  </data>
+  <data name="AddControl.ErrorMessage">
+    <value>Un contrôle porte déjà ce nom.</value>
+  </data>
+  <data name="MissingSource.ErrorMessage">
+    <value>Vous devez spécifier une source pour ce contrôle.</value>
+  </data>
+  <data name="plSupportsPartialRendering.Help">
+    <value>Cochez cette case si le module supporte le rendu partiel (AJAX).</value>
+  </data>
+  <data name="plSupportsPartialRendering.Text">
+    <value>Rendu partiel (AJAX) ?</value>
+  </data>
+  <data name="ControlTitle_editcontrol.Text">
+    <value>Contrôle d'édition de module</value>
+  </data>
+  <data name="supportsModalPopUpsLabel.Help">
+    <value>Cet indicateur indique si le contrôle de module prend en charge les popups modaux introduits avec la version DNN 6.0.</value>
+  </data>
+  <data name="supportsModalPopUpsLabel.Text">
+    <value>Prend en charge les popups :</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

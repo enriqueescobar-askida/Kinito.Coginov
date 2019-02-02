@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 11:01:42   UTC: 2011-08-03 09:01:42Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="ControlTitle.Text">
+    <value>{0} Type de dossier</value>
+  </data>
+  <data name="Description.Text">
+    <value>Utilisez cette boîte de dialogue pour définir un nouveau type de dossier.</value>
+  </data>
+  <data name="DuplicateMappingName.Text">
+    <value>Un mapping de même nom existe déjà. Les changements n'ont pas été enregistrées.</value>
+  </data>
+  <data name="FolderProviderSettings.Text">
+    <value>Provider de dossiers</value>
+  </data>
+  <data name="GeneralSettings.Text">
+    <value>Paramètres généraux</value>
+  </data>
+  <data name="plFolderProvider.Help">
+    <value>Sélectionnez le provider de dossier à utiliser.</value>
+  </data>
+  <data name="plFolderProvider.Text">
+    <value>Provider de dossier</value>
+  </data>
+  <data name="plName.Help">
+    <value>Mapping de dossier.</value>
+  </data>
+  <data name="plName.Text">
+    <value>Nom</value>
+  </data>
+  <data name="RequiredFields.Text">
+    <value>champs requis</value>
+  </data>
+  <data name="SelectFolderProvider.Text">
+    <value>-Choisir un fournisseur de dossier-</value>
+  </data>
+  <data name="Update.Text">
+    <value>Mise à jour</value>
+  </data>
+  <data name="valFolderProvider.ErrorMessage">
+    <value>Fournisseur de dossier requis</value>
+  </data>
+  <data name="valName.ErrorMessage">
+    <value>Nom requis</value>
+  </data>
+  <data name="SyncWarning.Text">
+    <value>Après la mise à jour le type de dossier, une synchronisation est effectuée sur les dossiers à l'aide de ce type.</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

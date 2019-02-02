@@ -1,0 +1,413 @@
+2011-09-13 12:31:11,272 [enrique-lap][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:31:11,601 [enrique-lap][Thread:28][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:32:00,300 [enrique-lap][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:32:00,306 [enrique-lap][Thread:24][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:32:43,129 [enrique-lap][Thread:38][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:32:43,135 [enrique-lap][Thread:38][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:37:18,871 [enrique-lap][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:37:18,933 [enrique-lap][Thread:5][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:38:47,403 [enrique-lap][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 12:38:47,426 [enrique-lap][Thread:8][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 73
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 238
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 15:02:22,328 [enrique-lap][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.MappingException: The number of members in the conceptual type 'SYSGDIIModel.FicheEmployeur' does not match with the number of members on the object side type 'SYSGD_DAL.FicheEmployeur'. Make sure the number of members are the same.
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, Map& map)
+   at System.Data.Metadata.Edm.ClrPerspective.TryGetTypeByName(String fullName, Boolean ignoreCase, TypeUsage& typeUsage)
+   at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+   at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity](String entitySetName)
+   at SYSGD_DAL.SYSGDIIEntities.get_FicheEmployeurSet() in C:\coginov\SYSGD_DAL\CoginovModel.cs:line 217
+   at SYSGD_DAL.FicheEmployeursDataCtrl.Select(String aChercher) in C:\coginov\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 83
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 65
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 243
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 15:02:22,694 [enrique-lap][Thread:24][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.Data.MappingException: The number of members in the conceptual type 'SYSGDIIModel.FicheEmployeur' does not match with the number of members on the object side type 'SYSGD_DAL.FicheEmployeur'. Make sure the number of members are the same.
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, Map& map)
+   at System.Data.Metadata.Edm.ClrPerspective.TryGetTypeByName(String fullName, Boolean ignoreCase, TypeUsage& typeUsage)
+   at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+   at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity](String entitySetName)
+   at SYSGD_DAL.SYSGDIIEntities.get_FicheEmployeurSet() in C:\coginov\SYSGD_DAL\CoginovModel.cs:line 217
+   at SYSGD_DAL.FicheEmployeursDataCtrl.Select(String aChercher) in C:\coginov\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 83
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 65
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 243
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 15:21:41,019 [enrique-lap][Thread:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.MappingException: The number of members in the conceptual type 'SYSGDIIModel.FicheEmployeur' does not match with the number of members on the object side type 'SYSGD_DAL.FicheEmployeur'. Make sure the number of members are the same.
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, Map& map)
+   at System.Data.Metadata.Edm.ClrPerspective.TryGetTypeByName(String fullName, Boolean ignoreCase, TypeUsage& typeUsage)
+   at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+   at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity](String entitySetName)
+   at SYSGD_DAL.SYSGDIIEntities.get_FicheEmployeurSet() in C:\coginov\SYSGD_DAL\CoginovModel.cs:line 217
+   at SYSGD_DAL.FicheEmployeursDataCtrl.Select(String aChercher) in C:\coginov\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 83
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 67
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 246
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 15:21:41,031 [enrique-lap][Thread:9][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.Data.MappingException: The number of members in the conceptual type 'SYSGDIIModel.FicheEmployeur' does not match with the number of members on the object side type 'SYSGD_DAL.FicheEmployeur'. Make sure the number of members are the same.
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+   at System.Data.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, Map& map)
+   at System.Data.Metadata.Edm.ClrPerspective.TryGetTypeByName(String fullName, Boolean ignoreCase, TypeUsage& typeUsage)
+   at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+   at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity](String entitySetName)
+   at SYSGD_DAL.SYSGDIIEntities.get_FicheEmployeurSet() in C:\coginov\SYSGD_DAL\CoginovModel.cs:line 217
+   at SYSGD_DAL.FicheEmployeursDataCtrl.Select(String aChercher) in C:\coginov\SYSGD_DAL\DataControllers\EmployeurCTRL.cs:line 83
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 67
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 246
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 15:33:36,931 [enrique-lap][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Item has already been added. Key in dictionary: 'Telerik.Web.SkinsAssembly'  Key being added: 'Telerik.Web.SkinsAssembly'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Specialized.NameObjectCollectionBase.BaseAdd(String name, Object value)
+   at Telerik.Web.SkinRegistrar.GetDefaultSkinsAssemblyName()
+   at Telerik.Web.SkinRegistrar.GetAllEmbeddedSkinAttributes(RadSkinManager skinManager, Type controlType)
+   at Telerik.Web.UI.Common.BaseClass.GetValueFromConfig(String keyFormat, Control control)
+   at Telerik.Web.UI.Common.BaseClass.GetGlobalEnableEmbeddedSkins(Control control)
+   at Telerik.Web.SkinRegistrar.GetEmbeddedSkinAttributes(ISkinnableControl control, Type controlType)
+   at Telerik.Web.UI.RadStyleSheetManager.RegisterSkinnableControl(ISkinnableControl control)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 15:33:37,381 [enrique-lap][Thread:8][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentException: Item has already been added. Key in dictionary: 'Telerik.Web.SkinsAssembly'  Key being added: 'Telerik.Web.SkinsAssembly'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Specialized.NameObjectCollectionBase.BaseAdd(String name, Object value)
+   at Telerik.Web.SkinRegistrar.GetDefaultSkinsAssemblyName()
+   at Telerik.Web.SkinRegistrar.GetAllEmbeddedSkinAttributes(RadSkinManager skinManager, Type controlType)
+   at Telerik.Web.UI.Common.BaseClass.GetValueFromConfig(String keyFormat, Control control)
+   at Telerik.Web.UI.Common.BaseClass.GetGlobalEnableEmbeddedSkins(Control control)
+   at Telerik.Web.SkinRegistrar.GetEmbeddedSkinAttributes(ISkinnableControl control, Type controlType)
+   at Telerik.Web.UI.RadStyleSheetManager.RegisterSkinnableControl(ISkinnableControl control)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 15:47:23,977 [enrique-lap][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NotSupportedException: LINQ to Entities does not recognize the method 'System.String ToString()' method, and this method cannot be translated into a store expression.
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   at System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SelectTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 65
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 243
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 15:47:24,135 [enrique-lap][Thread:19][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.NotSupportedException: LINQ to Entities does not recognize the method 'System.String ToString()' method, and this method cannot be translated into a store expression.
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   at System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SelectTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 65
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 243
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 16:05:52,626 [enrique-lap][Thread:42][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e)
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 16:05:52,700 [enrique-lap][Thread:42][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e)
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 16:09:33,523 [enrique-lap][Thread:42][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 69
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 246
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 16:09:33,537 [enrique-lap][Thread:42][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentNullException: Value cannot be null.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 69
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 246
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-13 16:10:45,787 [enrique-lap][Thread:42][ERROR] DotNetNuke.Services.Log.EventLog.LogController - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, SqlConnectionOwnership connectionOwnership)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SqlDataProvider.GetLogTypeConfigInfo()
+   at DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DBLoggingProvider.GetLogTypeConfigInfo()
+   at DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DBLoggingProvider.GetLogTypeConfigInfoByKey(String logTypeKey, String logTypePortalID)
+   at DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DBLoggingProvider.AddLog(LogInfo logInfo)
+   at DotNetNuke.Services.Log.EventLog.LogController.AddLog(LogInfo logInfo)

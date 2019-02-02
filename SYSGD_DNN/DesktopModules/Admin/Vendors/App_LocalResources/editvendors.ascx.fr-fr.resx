@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plVendorName.Text">
+    <value>Société&amp;nbsp;</value>
+  </data>
+  <data name="plVendorName.Help">
+    <value>Saisissez le nom du contact.</value>
+  </data>
+  <data name="plFirstName.Text">
+    <value>Prénom&amp;nbsp;</value>
+  </data>
+  <data name="plFirstName.Help">
+    <value>Saisissez le prénom du contact.</value>
+  </data>
+  <data name="plLastName.Text">
+    <value>Nom&amp;nbsp;</value>
+  </data>
+  <data name="plLastName.Help">
+    <value>Saisissez le nom du contact.</value>
+  </data>
+  <data name="plEmail.Text">
+    <value>Courriel&amp;nbsp;</value>
+  </data>
+  <data name="plEmail.Help">
+    <value>Saisissez l'adresse Email du contact.</value>
+  </data>
+  <data name="plFax.Text">
+    <value>Télécopie&amp;nbsp;</value>
+  </data>
+  <data name="plFax.Help">
+    <value>Saisissez le numéro de télécopie du contact.</value>
+  </data>
+  <data name="plWebsite.Text">
+    <value>Site Web&amp;nbsp;</value>
+  </data>
+  <data name="plWebsite.Help">
+    <value>Saisissez l'URL du site web (ex : www.dotnetnuke.com)</value>
+  </data>
+  <data name="plLogo.Text">
+    <value>Logo</value>
+  </data>
+  <data name="plLogo.Help">
+    <value>Sélectionnez le logo du contact</value>
+  </data>
+  <data name="plAuthorized.Text">
+    <value>Autorisé&amp;nbsp;</value>
+  </data>
+  <data name="plAuthorized.Help">
+    <value>Le contact est-il autorisé ?</value>
+  </data>
+  <data name="plClassifications.Text">
+    <value>Classification du contact&amp;nbsp;</value>
+  </data>
+  <data name="plClassifications.Help">
+    <value>Classez votre contact</value>
+  </data>
+  <data name="plKeyWords.Text">
+    <value>Mots clés&amp;nbsp;</value>
+  </data>
+  <data name="plKeyWords.Help">
+    <value>Saisissez des mots clés liés à ce contact</value>
+  </data>
+  <data name="Settings.Text">
+    <value>Contact</value>
+  </data>
+  <data name="Address.Text">
+    <value>Contact</value>
+  </data>
+  <data name="Other.Text">
+    <value>Autres informations</value>
+  </data>
+  <data name="VendorClassification.Text">
+    <value>Classification du contact</value>
+  </data>
+  <data name="Views.Text">
+    <value>Vues&amp;nbsp;</value>
+  </data>
+  <data name="Clicks.Text">
+    <value>Cliquées&amp;nbsp;</value>
+  </data>
+  <data name="BannerAdvertising.Text">
+    <value>Bannières publicitaires</value>
+  </data>
+  <data name="AffiliateReferrals.Text">
+    <value>Références d&amp;#146;affiliation</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Modifier un contact</value>
+  </data>
+  <data name="ControlTitle_view vendor.Text">
+    <value>Voir les contacts</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos des Annonceurs&lt;/h1&gt;&lt;p&gt;Cet outil permet de gérer les annonceurs et 
+les bannières qui leurs sont associés.&lt;/p&gt;</value>
+  </data>
+  <data name="EmailErrorAdmin.Text">
+    <value>Problème lors de l'envoi du courriel à l'administrateur.</value>
+  </data>
+  <data name="EmailErrorVendor.Text">
+    <value>Problème lors de l'envoi du courriel au partenaire.</value>
+  </data>
+  <data name="ErrorAddVendor.Text">
+    <value>Erreur en ajoutant le partenaire. Consultez les logs pour plus d'information.</value>
+  </data>
+</root>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>Ajouter une nouvelle propriété</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Text">
+    <value>Type de données :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Help">
+    <value>Sélectionnez le type de données</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Text">
+    <value>Valeur par défaut :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Help">
+    <value>Valeur par défaut de la propriété</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Text">
+    <value>Catégorie :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Help">
+    <value>Saisissez un nom de catégorie pour cette propriété. Le nom sert au regroupement des valeurs.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Text">
+    <value>Nom :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Help">
+    <value>Saisissez un nom pour cette propriété</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Text">
+    <value>Expression régulière :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Help">
+    <value>Vous pouvez spécifiez une expression régulière afin de valider ce champ</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Text">
+    <value>Ordre :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Help">
+    <value>Saisissez le numéro d'ordre d'affichage de cette propriété</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Text">
+    <value>Visible :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Help">
+    <value>Vous pouvez spécifier si l'utilisateur voit cette propriété.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Text">
+    <value>Requis :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Help">
+    <value>Spécifiez si cette propriété est requise.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Text">
+    <value>Longueur :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Help">
+    <value>Longueur maximale de cette propriété.</value>
+  </data>
+  <data name="DuplicateName.Text">
+    <value>Cette propriété existe déjà.  Les noms de propriétés doivent être uniques.  Choisissez un nom différent.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Required">
+    <value>La catégorie est requise</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Required">
+    <value>Le nom de la propriété est requis</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Retour à la liste des propriétés</value>
+  </data>
+  <data name="cmdCreate.Text">
+    <value>Nouvelle propriété</value>
+  </data>
+  <data name="cmdSaveKeys.Text">
+    <value>Enregistrer la propriété</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="Introduction.Help">
+    <value>La première étape consiste à mettre à jour les informations du champ. Modifiez les informations si besoin puis cliquez sur "Suivant" pour enregistrer et passer à l'étape suivante.</value>
+  </data>
+  <data name="Introduction.Title">
+    <value>Informations de la propriété</value>
+  </data>
+  <data name="Introduction_Add.Help">
+    <value>La première étape consiste à définir les informations du champ. Saisissez les informations puis cliquez sur "Suivant" pour l'enregistrer. &lt;b&gt;Note : &lt;/b&gt; les champs suivis du symbole 
+&lt;img border="0" src="/images/required.gif"&gt; sont requis.</value>
+  </data>
+  <data name="Introduction_Add.Title">
+    <value>Ajouter une propriété</value>
+  </data>
+  <data name="List.Help">
+    <value>La propriété a été créée. Vous devez maintenant définir les éléments de la liste ed choix.</value>
+  </data>
+  <data name="List.Title">
+    <value>Gestion de la liste</value>
+  </data>
+  <data name="Localization.Help">
+    <value>L'étape suivante consiste en la localisation de la propriété. Choisissez la langue attribuée à cette propriété et/ou modifiez le texte existant puis cliquez sur "Enregistrer la propriété"</value>
+  </data>
+  <data name="Localization.Title">
+    <value>Gestion de la langue</value>
+  </data>
+  <data name="plCategoryName.Help">
+    <value>Saisissez le nom de la catégorie</value>
+  </data>
+  <data name="plCategoryName.Text">
+    <value>Catégorie :</value>
+  </data>
+  <data name="plLocales.Help">
+    <value>Sélectionnez la langue</value>
+  </data>
+  <data name="plLocales.Text">
+    <value>Langue :</value>
+  </data>
+  <data name="plPropertyHelp.Help">
+    <value>Aide contextuelle dans la langue sélectionnée</value>
+  </data>
+  <data name="plPropertyHelp.Text">
+    <value>Aide contextuelle :</value>
+  </data>
+  <data name="plPropertyName.Help">
+    <value>Tapez le nom de la propriété dans la langue sélectionnée.</value>
+  </data>
+  <data name="plPropertyName.Text">
+    <value>Nom de la propriété :</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Validation">
+    <value>la propriété ne doit pas contenir d'espace</value>
+  </data>
+  <data name="AddProperty.Text">
+    <value>Ajouter une définition de profil</value>
+  </data>
+  <data name="EditProperty.Text">
+    <value>Editer la définition de profil</value>
+  </data>
+  <data name="plPropertyRequired.Help">
+    <value>Entrez le message d'erreur à afficher  lorsque la propriété est obligatoire mais pas présente.</value>
+  </data>
+  <data name="plPropertyRequired.Text">
+    <value>Message d'erreur si requis :</value>
+  </data>
+  <data name="plPropertyValidation.Help">
+    <value>Entrez le message d'erreur à afficher  lorsque la propriété échoue lors de la validation de l'expression régulière.</value>
+  </data>
+  <data name="plPropertyValidation.Text">
+    <value>Message d'erreur lors de la validation :</value>
+  </data>
+  <data name="RequiredTextBox.Text">
+    <value>Si vous utilisez un champ de la zone de texte, la longueur requise doit être supérieure à 0.</value>
+  </data>
+</root>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 28/07/2011 19:34:52   UTC: 2011-07-28 17:34:52Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="AddTab.Text">
+    <value>Ajouter</value>
+  </data>
+  <data name="AddTab.AlternateText">
+    <value>Ajouter une nouvelle page</value>
+  </data>
+  <data name="EditTab.Text">
+    <value>Editer</value>
+  </data>
+  <data name="EditTab.AlternateText">
+    <value>Paramètrer la page courante</value>
+  </data>
+  <data name="DeleteTab.Text">
+    <value>Effacer</value>
+  </data>
+  <data name="DeleteTab.AlternateText">
+    <value>Supprimer la Page courante</value>
+  </data>
+  <data name="DeleteTabConfirm.Text">
+    <value>Etes-vous sûr de vouloir supprimer cette Page ?</value>
+  </data>
+  <data name="CopyTab.Text">
+    <value>Copier</value>
+  </data>
+  <data name="CopyTab.AlternateText">
+    <value>Copier la Page courante</value>
+  </data>
+  <data name="Tab.Text">
+    <value>Origine :</value>
+  </data>
+  <data name="Module.Text">
+    <value>Module :</value>
+  </data>
+  <data name="Pane.Text">
+    <value>Zone :</value>
+  </data>
+  <data name="Title.Text">
+    <value>Titre :</value>
+  </data>
+  <data name="Align.Text">
+    <value>Aligner :</value>
+  </data>
+  <data name="AddModule.Text">
+    <value>Ajouter</value>
+  </data>
+  <data name="AddModule.AlternateText">
+    <value>Ajouter un nouveau module</value>
+  </data>
+  <data name="Site.Text">
+    <value>Site</value>
+  </data>
+  <data name="Site.AlternateText">
+    <value>Editer la paramètres du Site</value>
+  </data>
+  <data name="Users.Text">
+    <value>Util.</value>
+  </data>
+  <data name="Users.AlternateText">
+    <value>Ajouter un utilisateur</value>
+  </data>
+  <data name="Files.Text">
+    <value>Fichiers</value>
+  </data>
+  <data name="Files.AlternateText">
+    <value>Ajouter un fichier</value>
+  </data>
+  <data name="Help.Text">
+    <value>Aide</value>
+  </data>
+  <data name="Help.AlternateText">
+    <value>Aide</value>
+  </data>
+  <data name="PageFunctions.Text">
+    <value>Editeur de page</value>
+  </data>
+  <data name="AddNewModule.Text">
+    <value>Nouveau module</value>
+  </data>
+  <data name="CommonTasks.Text">
+    <value>Tâches communes</value>
+  </data>
+  <data name="optModuleTypeNew.Text">
+    <value>Nouveau module</value>
+  </data>
+  <data name="optModuleTypeExisting.Text">
+    <value>Cloner un module</value>
+  </data>
+  <data name="SelectModule.Text">
+    <value>choisir un module</value>
+  </data>
+  <data name="SelectPage.Text">
+    <value>choisir la page</value>
+  </data>
+  <data name="Permission.Text">
+    <value>Visibilité :</value>
+  </data>
+  <data name="Position.Text">
+    <value>Insérer :</value>
+  </data>
+  <data name="Top.Text">
+    <value>En haut</value>
+  </data>
+  <data name="Bottom.Text">
+    <value>En bas</value>
+  </data>
+  <data name="PermissionView.Text">
+    <value>Héritée de la page</value>
+  </data>
+  <data name="PermissionEdit.Text">
+    <value>Editeurs seulement</value>
+  </data>
+  <data name="Roles.AlternateText">
+    <value>Gestion des rôles</value>
+  </data>
+  <data name="Roles.Text">
+    <value>Rôles</value>
+  </data>
+  <data name="Mode.Text">
+    <value>Mode :</value>
+  </data>
+  <data name="ModeEdit.Text">
+    <value>Edition</value>
+  </data>
+  <data name="ModeView.Text">
+    <value>Aperçu</value>
+  </data>
+  <data name="hypUpgrade.Text">
+    <value>Cliquez ici pour obtenir la dernière version</value>
+  </data>
+  <data name="ExportTab.AlternateText">
+    <value>Exporter la page et son contenu</value>
+  </data>
+  <data name="ExportTab.Text">
+    <value>Exporter</value>
+  </data>
+  <data name="ImportTab.AlternateText">
+    <value>Import une page et son contenu</value>
+  </data>
+  <data name="ImportTab.Text">
+    <value>Importer</value>
+  </data>
+  <data name="ModeLayout.Text">
+    <value>Design</value>
+  </data>
+  <data name="Above.Text">
+    <value>Ci-dessus</value>
+  </data>
+  <data name="Below.Text">
+    <value>Ci-dessous</value>
+  </data>
+  <data name="cmdAdmin.Text">
+    <value>Site</value>
+  </data>
+  <data name="cmdHost.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="DefaultModule.Text">
+    <value>DNN_HTML</value>
+  </data>
+  <data name="Extensions.AlternateText">
+    <value>Voir les extensions</value>
+  </data>
+  <data name="Extensions.Text">
+    <value>Extensions</value>
+  </data>
+  <data name="hypMessageUrl.Text">
+    <value>http://www.dotnetnuke.com</value>
+  </data>
+  <data name="imgAdmin.AlternateText">
+    <value>Page Site</value>
+  </data>
+  <data name="imgHost.AlternateText">
+    <value>Page Hôte</value>
+  </data>
+  <data name="Instance.Text">
+    <value>Module:</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

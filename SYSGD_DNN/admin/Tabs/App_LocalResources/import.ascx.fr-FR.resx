@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 08:50:47   UTC: 2011-07-29 06:50:47Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="plFolder.Text">
+    <value>Dossier :</value>
+  </data>
+  <data name="plFolder.Help">
+    <value>Sélectionnez le dossier ou se trouve les gabarits</value>
+  </data>
+  <data name="plTemplate.Text">
+    <value>Gabarit :</value>
+  </data>
+  <data name="plTemplate.Help">
+    <value>Sélectionnez le gabarit à importer.</value>
+  </data>
+  <data name="cmdImport.Text">
+    <value>Importer</value>
+  </data>
+  <data name="ControlTitle_importtab.Text">
+    <value>Import de page</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Import de page/h1&gt;&lt;p&gt;Les administrateurs peuvent importer du contenu pour la page spécifiée.&lt;/p&gt;</value>
+  </data>
+  <data name="Error.Text">
+    <value>Erreur lors de l'importation</value>
+  </data>
+  <data name="NotCorrectType.Text">
+    <value>Le fichier importé n'est pas d'un type correct pour cette page.</value>
+  </data>
+  <data name="NotValidXml.Text">
+    <value>La structure XML n'est pas valide</value>
+  </data>
+  <data name="Root.Text">
+    <value>Racine</value>
+  </data>
+  <data name="ModeAdd.Text">
+    <value>Créer une nouvelle page</value>
+  </data>
+  <data name="ModeReplace.Text">
+    <value>Remplacer la page courante</value>
+  </data>
+  <data name="ModeSettings.Text">
+    <value>Editer la page importée</value>
+  </data>
+  <data name="ModeView.Text">
+    <value>Voir la page importée</value>
+  </data>
+  <data name="plMode.Help">
+    <value>Sélectionnez le mode à utiliser pour l'importation</value>
+  </data>
+  <data name="plMode.Text">
+    <value>Action :</value>
+  </data>
+  <data name="plRedirect.Help">
+    <value>Sélectionnez l'action qui suivra l'importation d'une page.</value>
+  </data>
+  <data name="plRedirect.Text">
+    <value>Mode redirection ?</value>
+  </data>
+  <data name="plTabName.Help">
+    <value>Donner un nom à cette page.</value>
+  </data>
+  <data name="plTabName.Text">
+    <value>Nom de la page :</value>
+  </data>
+  <data name="SpecifyFile.Text">
+    <value>Spécifier le fichier à importer</value>
+  </data>
+  <data name="SpecifyMode.Text">
+    <value>Spécifiez l'action qui suit l'importation.</value>
+  </data>
+  <data name="InsertAfter.Text">
+    <value>Après</value>
+  </data>
+  <data name="InsertAtEnd.Text">
+    <value>Ajouter en bas</value>
+  </data>
+  <data name="InsertBefore.Text">
+    <value>Avant</value>
+  </data>
+  <data name="InsertPosition.Help">
+    <value>Insérez la page Avant ou Après cette page.</value>
+  </data>
+  <data name="InsertPosition.Text">
+    <value>Insérer la page</value>
+  </data>
+  <data name="plParentTab.Help">
+    <value>Sélectionnez la page parente de votre page.</value>
+  </data>
+  <data name="plParentTab.Text">
+    <value>Page parente</value>
+  </data>
+  <data name="SpecifyName.Text">
+    <value>Vous devez donner un nom à la page</value>
+  </data>
+  <data name="valTemplate.ErrorMessage">
+    <value>Sélectionnez un gabarit, svp</value>
+  </data>
+  <data name="TabExists.Text">
+    <value>Le nom de la page que vous avez choisi est déjà utilisé par une autre page au même niveau de la hiérarchie.</value>
+  </data>
+  <data name="TabRecycled.Text">
+    <value>Une page avec ce nom existe dans la Corbeille.  Pour restaurer cette page utiliser la Corbeille.</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Header">
+    <value>Nom complet</value>
+  </data>
+  <data name="Username.Header">
+    <value>Utilisateur</value>
+  </data>
+  <data name="Address.Header">
+    <value>Adresse</value>
+  </data>
+  <data name="Telephone.Header">
+    <value>Téléphone</value>
+  </data>
+  <data name="Email.Header">
+    <value>Courriel</value>
+  </data>
+  <data name="LastLogin.Header">
+    <value>Dernier accès</value>
+  </data>
+  <data name="Authorized.Header">
+    <value>Autorisé</value>
+  </data>
+  <data name="DeleteUnauthorized.Text">
+    <value>Supprimer les comptes non-autorisés</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Ajouter un nouvel utilisateur</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Gestion des utilisateurs</value>
+  </data>
+  <data name="Search.Text">
+    <value>Rechercher :</value>
+  </data>
+  <data name="RecordsPage.Text">
+    <value>Enregistrements par page :</value>
+  </data>
+  <data name="First.Text">
+    <value>Premier</value>
+  </data>
+  <data name="Next.Text">
+    <value>Suivant</value>
+  </data>
+  <data name="Previous.Text">
+    <value>Précédent</value>
+  </data>
+  <data name="Last.Text">
+    <value>Dernier</value>
+  </data>
+  <data name="CreatedDate.Header">
+    <value>Date de création</value>
+  </data>
+  <data name="DisplayDate.Text">
+    <value>Date affichée :</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du module &amp;quot;User Account&amp;quot;&lt;/h1&gt;&lt;p&gt;Ce module permet la gestion des 
+paramètres de compte par l'utilisateur.&lt;/p&gt;</value>
+  </data>
+  <data name="Biography.Text">
+    <value>Biographie</value>
+  </data>
+  <data name="Cell.Text">
+    <value>Portable</value>
+  </data>
+  <data name="City.Text">
+    <value>Ville</value>
+  </data>
+  <data name="Country.Text">
+    <value>Pays</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Effacer</value>
+  </data>
+  <data name="DeleteUnAuthorized.Action">
+    <value>Supprimer les comptes non-autorisés</value>
+  </data>
+  <data name="DisplayName.Header">
+    <value>Nom complet</value>
+  </data>
+  <data name="Fax.Text">
+    <value>Télécopie</value>
+  </data>
+  <data name="Filter.Text">
+    <value>A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</value>
+  </data>
+  <data name="FirstName.Header">
+    <value>Prénom</value>
+  </data>
+  <data name="FirstName.Text">
+    <value>Prénom</value>
+  </data>
+  <data name="IM.Text">
+    <value>IM</value>
+  </data>
+  <data name="LastName.Header">
+    <value>Nom</value>
+  </data>
+  <data name="LastName.Text">
+    <value>Nom</value>
+  </data>
+  <data name="ManageProfile.Action">
+    <value>Gestion des propriétés de profil</value>
+  </data>
+  <data name="MiddleName.Text">
+    <value>Second prénom</value>
+  </data>
+  <data name="PostalCode.Text">
+    <value>Code postal</value>
+  </data>
+  <data name="PreferredLocale.Text">
+    <value>Langue préférée</value>
+  </data>
+  <data name="Prefix.Text">
+    <value>Civilité</value>
+  </data>
+  <data name="Region.Text">
+    <value>Région</value>
+  </data>
+  <data name="Street.Text">
+    <value>Rue</value>
+  </data>
+  <data name="Suffix.Text">
+    <value>Suffixe</value>
+  </data>
+  <data name="Telephone.Text">
+    <value>Téléphone</value>
+  </data>
+  <data name="TimeZone.Text">
+    <value>Fuseau horaire</value>
+  </data>
+  <data name="Unit.Text">
+    <value>Numéro</value>
+  </data>
+  <data name="UserDeleted.Text">
+    <value>Compte supprimé avec succès</value>
+  </data>
+  <data name="UserRoles.Text">
+    <value>Gestion des rôles et groupes de rôles</value>
+  </data>
+  <data name="UserSettings.Action">
+    <value>Configuration des utilisateurs</value>
+  </data>
+  <data name="Website.Text">
+    <value>Site Web</value>
+  </data>
+  <data name="Email.Text">
+    <value>Courriel</value>
+  </data>
+  <data name="Username.Text">
+    <value>Utilisateur</value>
+  </data>
+</root>

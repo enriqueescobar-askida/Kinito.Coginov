@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 10:25:07   UTC: 2011-08-03 08:25:07Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="Description.Help">
+    <value>Description du Pack</value>
+  </data>
+  <data name="Description.Text">
+    <value>Description :</value>
+  </data>
+  <data name="Name.Help">
+    <value>Le nom du Package (ex. NomEntreprise)</value>
+  </data>
+  <data name="Name.Text">
+    <value>Nom :</value>
+  </data>
+  <data name="PackageType.Help">
+    <value>Type de pack</value>
+  </data>
+  <data name="PackageType.Text">
+    <value>Type :</value>
+  </data>
+  <data name="Version.Help">
+    <value>Version du pack. Doit être incrémentée pour permettre les mises à jour.</value>
+  </data>
+  <data name="Version.Text">
+    <value>Version</value>
+  </data>
+  <data name="FriendlyName.Help">
+    <value>Le nom convivial pour ce pack, libre</value>
+  </data>
+  <data name="FriendlyName.Text">
+    <value>Nom convivial :</value>
+  </data>
+  <data name="License.Help">
+    <value>Type de licence pour ce pack, indiquant par exemple les conditions de redistribution et de modification</value>
+  </data>
+  <data name="License.Text">
+    <value>Licence :</value>
+  </data>
+  <data name="ReleaseNotes.Help">
+    <value>Les notes de version pour cette version.</value>
+  </data>
+  <data name="ReleaseNotes.Text">
+    <value>Notes de version :</value>
+  </data>
+  <data name="Name.Required">
+    <value>Le nom est un champ obligatoire</value>
+  </data>
+  <data name="Version.Required">
+    <value>La version est un champ obligatoire</value>
+  </data>
+  <data name="PackageType.Required">
+    <value>Le type de pack est un champ obligatoire.</value>
+  </data>
+  <data name="Version.Validation">
+    <value>Un paquet doit avoir un numéro de version de la forme  ##. ##. ##</value>
+  </data>
+  <data name="Owner.Help">
+    <value>Le propriétaire ou auteur du pack</value>
+  </data>
+  <data name="Owner.Text">
+    <value>Propriétaire :</value>
+  </data>
+  <data name="Email.Help">
+    <value>Adresse de courriel de l'auteur paquet</value>
+  </data>
+  <data name="Email.Text">
+    <value>Adresse de Courriel :</value>
+  </data>
+  <data name="Organization.Help">
+    <value>Entité ou personne qui gère la distribution du pack </value>
+  </data>
+  <data name="Organization.Text">
+    <value>Organisation :</value>
+  </data>
+  <data name="Url.Help">
+    <value>Url de l'auteur</value>
+  </data>
+  <data name="Url.Text">
+    <value>URL :</value>
+  </data>
+  <data name="FriendlyName.Required">
+    <value>Le nom convivial est requis.</value>
+  </data>
+  <data name="Email.Validation">
+    <value>L'adresse e-mail doit être valide</value>
+  </data>
+  <data name="IconFile.Help">
+    <value>Le nom de l'icône illustrant ce pack.</value>
+  </data>
+  <data name="IconFile.Text">
+    <value>Fichier d'icône :</value>
+  </data>
+  <data name="feedEndpoint.Text">
+    <value>Catalog.DotNetNuke.com</value>
+  </data>
+  <data name="setupCredentials.Text">
+    <value>Entrez vos informations d'identification de client dans le Store DNN</value>
+  </data>
+  <data name="WebserviceFailure.Text">
+    <value>Nous ne pouvons pas vous connecter au webservice</value>
+  </data>
+  <data name="WebservicePermission.Text">
+    <value>Ce site ne permet pas de connexions aux webservices externes</value>
+  </data>
+  <data name="StoreFile.Text">
+    <value>https://www.snowcovered.com/Snowcovered2/AppGalleryHandler.ashx ?PortalID = 0</value>
+  </data>
+  <data name="fetchExtensions.Text">
+    <value>Extraire la liste des Extensions</value>
+  </data>
+  <data name="PurchasedHelp.Text">
+    <value>Ici vous pouvez visualiser et extensions achetée,  et éventuellement les télécharger </value>
+  </data>
+  <data name="PurchasedTitle.Text">
+    <value>Extensions achetées</value>
+  </data>
+  <data name="deleteCredentials.Text">
+    <value>Changer votre profil dans Store</value>
+  </data>
+  <data name="updateCredentials.Text">
+    <value>Mise à jour des identifiants Store</value>
+  </data>
+  <data name="deploy.Text">
+    <value>Déployer</value>
+  </data>
+  <data name="deploySuccess.Text">
+    <value>Extension-{0} - déployée avec succès au site.  Sélectionnez installer l'Extension pour installer votre nouveau étendu</value>
+  </data>
+  <data name="download.Text">
+    <value>Télécharger</value>
+  </data>
+  <data name="extensionDescLabel.Help">
+    <value>La description de l'extension à déployer</value>
+  </data>
+  <data name="extensionDescLabel.Text">
+    <value>Description :</value>
+  </data>
+  <data name="extensionNamelabel.Help">
+    <value>Le nom de l'extension que vous avez sélectionnée pour le déploiement.</value>
+  </data>
+  <data name="extensionNamelabel.Text">
+    <value>Nom de l'extension :</value>
+  </data>
+  <data name="extensionTypeLabel.Help">
+    <value>Le type d'extension que vous avez sélectionné pour le déploiement.</value>
+  </data>
+  <data name="extensionTypeLabel.Text">
+    <value>Type d'extension :</value>
+  </data>
+  <data name="Help.Text">
+    <value>Une demande est sur le point d'être faite pour un fichier externe - si vous n'attendaient pas à faire cette demande</value>
+  </data>
+  <data name="install.Text">
+    <value>Installez l'Extension</value>
+  </data>
+  <data name="Title.Text">
+    <value>Déployer et installer l'Extension</value>
+  </data>
+  <data name="unexpectedRequest.Text">
+    <value>Une tentative a été faite pour accéder à un fichier externe inattendu.</value>
+  </data>
+  <data name="NoData.Text">
+    <value>Il n'y a pas de données à afficher</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

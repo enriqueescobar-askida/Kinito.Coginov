@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 10:06:49   UTC: 2011-08-03 08:06:49Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="cmdUpdate.Text">
+    <value>Mettre à jour les paramètres d'authentification</value>
+  </data>
+  <data name="HostHelp.Text">
+    <value>Cet éditeur vous permet de configurer le providerr d'authentification.  Vous pouvez configurer l'emplacement du</value>
+  </data>
+  <data name="AdminHelp.Text">
+    <value>Cet éditeur vous permet de configurer le provider d'authentification.</value>
+  </data>
+  <data name="NoSettings.Text">
+    <value>Ce système d'authentification n'a aucun paramètre à configurer.</value>
+  </data>
+  <data name="AuthenticationType.Text">
+    <value>Type d'authentification :</value>
+  </data>
+  <data name="AuthenticationType.Help">
+    <value>Le type de système d'authentification (p. ex. LiveID, OpenID etc.)</value>
+  </data>
+  <data name="IsEnabled.Help">
+    <value>Cocher pour activer ce système d'authentification.</value>
+  </data>
+  <data name="IsEnabled.Text">
+    <value>Activé ?</value>
+  </data>
+  <data name="LoginControlSrc.Help">
+    <value>La source du contrôle Login pour ce système d'authentification</value>
+  </data>
+  <data name="LoginControlSrc.Text">
+    <value>Source de contrôle de connexion :</value>
+  </data>
+  <data name="LogoffControlSrc.Help">
+    <value>Source du contrôle de déconnexion pour ce système d'authentification</value>
+  </data>
+  <data name="LogoffControlSrc.Text">
+    <value>Source du contrôle de déconnexion</value>
+  </data>
+  <data name="SettingsControlSrc.Help">
+    <value>La source du contrôle des paramètres pour ce système d'authentification</value>
+  </data>
+  <data name="SettingsControlSrc.Text">
+    <value>Source de contrôle de paramètres :</value>
+  </data>
+  <data name="AuthenticationSettings.Text">
+    <value>Paramètres d'authentification</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 12:05:03   UTC: 2011-07-29 10:05:03Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="AssociateHelp.Text">
+    <value>Vous pouvez associez vos identifiants à un compte en saisissant votre nom d'utilisateur et votre mot de passe.</value>
+  </data>
+  <data name="AssociateTitle.Text">
+    <value>Associer à un compte existant</value>
+  </data>
+  <data name="AuthenticatedHelp.Text">
+    <value>Vous vous êtes correctement identifiés. Cependant, cette identité n'est pas membre de ce site. Vous pouvez associer cette identité à votre compte (après vous être identifié avec votre nom d'utilisateur classique) ou après avoir créé un nouveau compte.</value>
+  </data>
+  <data name="AuthenticatedTitle.Text">
+    <value>Identifié</value>
+  </data>
+  <data name="cmdAssociate.Text">
+    <value>Associé au compte</value>
+  </data>
+  <data name="cmdCreate.Text">
+    <value>Créé un compte</value>
+  </data>
+  <data name="cmdForgotPassword.Text">
+    <value>Mot de passe oublié ?</value>
+  </data>
+  <data name="cmdPassword.Text">
+    <value>Envoyer le mot de passe</value>
+  </data>
+  <data name="cmdProceed.Text">
+    <value>Continuer (Changer de mot de passe plus tard)</value>
+  </data>
+  <data name="cmdRegister.Text">
+    <value>Inscription</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Identification</value>
+  </data>
+  <data name="ControlTitle_login.Text">
+    <value>Identification</value>
+  </data>
+  <data name="ControlTitle_signin.Text">
+    <value>Identification</value>
+  </data>
+  <data name="CreateTitle.Text">
+    <value>Créér un nouveau compte</value>
+  </data>
+  <data name="EnterCode.Text">
+    <value>Saisissez votre code de vérification</value>
+  </data>
+  <data name="InvalidCode.Text">
+    <value>Code de vérification invalide</value>
+  </data>
+  <data name="LoginFailed.Text">
+    <value>Echec de connexion.</value>
+  </data>
+  <data name="PasswordExpired.Text">
+    <value>Votre mot de passe a expiré le {0}.  Vous devez changer de mot de passe avant de continuer.</value>
+  </data>
+  <data name="PasswordExpiring.Text">
+    <value>Votre mot de passe expirera le {0}.  Nous vous conseillons de le changer dès maintenant.</value>
+  </data>
+  <data name="PasswordInvalid.Text">
+    <value>Mot de passe invalide.  Contactez l'administrateur du site pour connaitre le nombre de caractères minimum.</value>
+  </data>
+  <data name="PasswordMismatch.Text">
+    <value>Les mots de passe saisis ne correspondent pas.</value>
+  </data>
+  <data name="PasswordMissing.Text">
+    <value>Vous devez spécifier votre mot de passe actuel avant de pouvoir le changer.</value>
+  </data>
+  <data name="PasswordNotDifferent.Text">
+    <value>Le mot de passe saisi est le même que l'ancien. Vous devez choisir un mot de passe différent.</value>
+  </data>
+  <data name="PasswordSent.Text">
+    <value>Le mot de passe a été envoyé&lt;br&gt;à l'adresse Email associée à votre compte</value>
+  </data>
+  <data name="PasswordUpdate.Text">
+    <value>Mettez à jour votre mot de passe pour pouvoir continuer.</value>
+  </data>
+  <data name="plToken.Help">
+    <value>Le code unique qui identifie cet utilisateur.</value>
+  </data>
+  <data name="plToken.Text">
+    <value>Code utilisateur :</value>
+  </data>
+  <data name="plType.Help">
+    <value>Type d'identification</value>
+  </data>
+  <data name="plType.Text">
+    <value>Type :</value>
+  </data>
+  <data name="ProfileUpdate.Text">
+    <value>Vous devez mettre à jour votre profil avant de continuer.</value>
+  </data>
+  <data name="RegisterTitle.Text">
+    <value>Créer un nouveau compte</value>
+  </data>
+  <data name="Remember.Text">
+    <value>Reconnexion automatique</value>
+  </data>
+  <data name="UserLockedOut.Text">
+    <value>Ce compte a été bloqué après un trop grand nombre de tentative d'identification. Attendez 10 minutes avant d'essayer à nouveau.&lt;br&gt;Si vous avez oublié votre mot de passe, utilisez la fonction "Mot de passe oublié ?" avant de contacter l'administrateur du site.</value>
+  </data>
+  <data name="UsernameError.Text">
+    <value>L'utilisateur n'existe pas</value>
+  </data>
+  <data name="UserNotAuthorized.Text">
+    <value>Vous n'êtes pas autorisé à vous connecter sur ce site.</value>
+  </data>
+  <data name="AssociationFailed.Text">
+    <value>Erreur lors de l'association.  (Les noms d'utilisateurs et les mots de passe sont sensibles aux minuscules et majuscules).</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plPortalID.Text">
+    <value>Portail&amp;nbsp;</value>
+  </data>
+  <data name="plPortalID.Help">
+    <value>Sélectionnez le portail dont vous voullez afficher les évènements</value>
+  </data>
+  <data name="plLogType.Text">
+    <value>Type</value>
+  </data>
+  <data name="plLogType.Help">
+    <value>Vous pouvez choisir de n'afficher que certains types d'évènements</value>
+  </data>
+  <data name="plShowRecords.Text">
+    <value>Entrées</value>
+  </data>
+  <data name="plShowRecords.Help">
+    <value>Sélectionnez la plage d'enregistremenst à afficher</value>
+  </data>
+  <data name="ColorCoding.Text">
+    <value>Activer le codage des évènements par couleurs</value>
+  </data>
+  <data name="Settings.Text">
+    <value>Paramètres du journal</value>
+  </data>
+  <data name="Legend.Text">
+    <value>Légende des couleurs</value>
+  </data>
+  <data name="Date.Text">
+    <value>Date</value>
+  </data>
+  <data name="Type.Text">
+    <value>Type d'évènement</value>
+  </data>
+  <data name="Username.Text">
+    <value>Utilisateur</value>
+  </data>
+  <data name="Portal.Text">
+    <value>Site</value>
+  </data>
+  <data name="Summary.Text">
+    <value>Résumé</value>
+  </data>
+  <data name="btnDelete.Text">
+    <value>Effacer l'exception sélectionnée</value>
+  </data>
+  <data name="btnClear.Text">
+    <value>Effacer les logs</value>
+  </data>
+  <data name="SendExceptions.Text">
+    <value>Envoyer les exceptions</value>
+  </data>
+  <data name="ExceptionsWarning.Text">
+    <value>&lt;p align="left"&gt;&lt;b&gt;AVERTISSEMENT &lt;/b&gt;: En utilisant cette fonction, vous vous 
+apprêtez à envoyer des informations sensibles sur internet. Elles circuleront en 
+clair (pas d'encryptage). Avant d&amp;#146;envoyer ces informations, vérifiez qu&amp;#146;elles ne 
+contiennent pas d&amp;#146;informations sensibles pour la sécurité de votre site. Seules 
+les entrées cochées seront envoyées. &lt;/p&gt;</value>
+  </data>
+  <data name="SendExceptionsEmail.Text">
+    <value>Envoyer les exceptions par courriel</value>
+  </data>
+  <data name="plEmailAddress.Text">
+    <value>Adresse e-mail</value>
+  </data>
+  <data name="plEmailAddress.Help">
+    <value>Saisissez l'adresse de courriel de la personne a qui vous souhaitez envoyer l'enregistrement.        </value>
+  </data>
+  <data name="SendMessage.Text">
+    <value>Message (optionnel)&amp;nbsp;</value>
+  </data>
+  <data name="SendMessage.Help">
+    <value>Vous pouvez saisir un message qui permettra au destinataire de vous aider</value>
+  </data>
+  <data name="btnEmail.Text">
+    <value>Envoyer l&amp;#146exception sélectionnée</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Edition des paramètres de logs</value>
+  </data>
+  <data name="NoEntries.Text">
+    <value>Il n'y a pas de log.</value>
+  </data>
+  <data name="Showing.Text">
+    <value>Affichage de {0} à {1} sur {2}</value>
+  </data>
+  <data name="DeleteSuccess.Text">
+    <value> L'exception sélectionnée a été effacée avec succès</value>
+  </data>
+  <data name="EmailSuccess.Text">
+    <value>Votre message a été envoyé.</value>
+  </data>
+  <data name="EmailFailure.Text">
+    <value>Votre message &lt;b&gt;n'a pas&lt;/b&gt; été envoyé.</value>
+  </data>
+  <data name="ServiceUnavailable.Text">
+    <value>Les services web sont indisponibles pour le moment.</value>
+  </data>
+  <data name="ServerName.Text">
+    <value>&lt;b&gt;Nom du serveur&lt;/b&gt;: </value>
+  </data>
+  <data name="LogCleared.Text">
+    <value>Les logs ont été effacé.</value>
+  </data>
+  <data name="ClickRow.Text">
+    <value>Cliquez sur une ligne pour afficher les détails</value>
+  </data>
+  <data name="ExceptionCode.Text">
+    <value>Exception</value>
+  </data>
+  <data name="ItemCreatedCode.Text">
+    <value>Objet créé</value>
+  </data>
+  <data name="ItemUpdatedCode.Text">
+    <value>Objet mis à jour</value>
+  </data>
+  <data name="ItemDeletedCode.Text">
+    <value>Objet effacé</value>
+  </data>
+  <data name="SuccessCode.Text">
+    <value>Operation réussie</value>
+  </data>
+  <data name="FailureCode.Text">
+    <value>Echec de l'opération</value>
+  </data>
+  <data name="AdminOpCode.Text">
+    <value>Operation administrative</value>
+  </data>
+  <data name="AdminAlertCode.Text">
+    <value>Alerte !</value>
+  </data>
+  <data name="HostAlertCode.Text">
+    <value>Alerte de l'hôte</value>
+  </data>
+  <data name="ToEmail.Text">
+    <value>à l'adresse e-mail spécifiée</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Journal des logs</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du journal des logs &lt;/h1&gt;&lt;p&gt;Cet outil vous permet d'afficher les enregistrements d'évènements du site.&lt;/p&gt;</value>
+  </data>
+  <data name="SecurityException.Text">
+    <value>Exception de sécurité</value>
+  </data>
+  <data name="InavlidEmailAddress.Text">
+    <value>'{0}' n'est pas une adresse valide.</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Saisissez un sujet.</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Sujet</value>
+  </data>
+</root>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LogType.Header">
+    <value>Type de log&amp;nbsp;</value>
+  </data>
+  <data name="Portal.Header">
+    <value>Site&amp;nbsp;</value>
+  </data>
+  <data name="Active.Header">
+    <value>Actif</value>
+  </data>
+  <data name="FileName.Header">
+    <value>Nom du fichier</value>
+  </data>
+  <data name="Edit.EditText">
+    <value>Editer</value>
+  </data>
+  <data name="Settings.Text">
+    <value>Paramètres d&amp;#146;enregistrement</value>
+  </data>
+  <data name="plIsActive.Text">
+    <value>Enregistrements activés&amp;nbsp;</value>
+  </data>
+  <data name="plIsActive.Help">
+    <value>Voulez-vous activer les enregistrements</value>
+  </data>
+  <data name="plLogTypeKey.Text">
+    <value>Type de log&amp;nbsp;</value>
+  </data>
+  <data name="plLogTypeKey.Help">
+    <value>Quel est le type d&amp;#146;évènement</value>
+  </data>
+  <data name="plLogTypePortalID.Text">
+    <value>Site&amp;nbsp;</value>
+  </data>
+  <data name="plLogTypePortalID.Help">
+    <value>Quel est le site associé à cet évènement</value>
+  </data>
+  <data name="plKeepMostRecent.Text">
+    <value>Conserver les plus récents</value>
+  </data>
+  <data name="plFileName.Text">
+    <value>Nom du fichier&amp;nbsp;</value>
+  </data>
+  <data name="plFileName.Help">
+    <value>Saisissez le nom pour ces enregistrements.</value>
+  </data>
+  <data name="plEmailNotificationStatus.Text">
+    <value>Notification par Email activée&amp;nbsp;</value>
+  </data>
+  <data name="plEmailNotificationStatus.Help">
+    <value>Voulez-vous qu'un message vous soit envoyé si cet évènement intervient ?</value>
+  </data>
+  <data name="plThreshold.Text">
+    <value>Nombre d&amp;#146;occurrences&amp;nbsp;</value>
+  </data>
+  <data name="plMailFromAddress.Text">
+    <value>Expéditeur&amp;nbsp;</value>
+  </data>
+  <data name="plMailFromAddress.Help">
+    <value>Adresse Email utilisée pour envoyer la notification</value>
+  </data>
+  <data name="plMailToAddress.Text">
+    <value>Destinataire&amp;nbsp;</value>
+  </data>
+  <data name="plMailToAddress.Help">
+    <value>Adresse Email du destinataire du message</value>
+  </data>
+  <data name="EmailSettings.Text">
+    <value>Paramètres de notification par Email</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Ajouter un enregistrement</value>
+  </data>
+  <data name="ConfigDeleted.Text">
+    <value>L&amp;#146;enregistrement spécifié a été supprimé.</value>
+  </data>
+  <data name="ConfigUpdated.Text">
+    <value>La configuration a été mise à jour.</value>
+  </data>
+  <data name="ConfigAdded.Text">
+    <value>Un enregistrement a été ajouté.</value>
+  </data>
+  <data name="LogEntry.Text">
+    <value>Entrée des logs</value>
+  </data>
+  <data name="LogEntries.Text">
+    <value>Entrées des logs</value>
+  </data>
+  <data name="In.Text">
+    <value>dans</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Paramètres d&amp;#146;enregistrement</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du journal des logs&lt;/h1&gt;&lt;p&gt;Cet outil vous permet de tracer les évènements survenus sur votre système.&lt;/p&gt;</value>
+  </data>
+  <data name="DeleteError.Text">
+    <value>Cette configuration ne peut pas être supprimée. Vous devez supprimer toutes les entrées avant.</value>
+  </data>
+  <data name="Occurence.Text">
+    <value> Occurrence</value>
+  </data>
+  <data name="Occurences.Text">
+    <value> Occurrences</value>
+  </data>
+</root>

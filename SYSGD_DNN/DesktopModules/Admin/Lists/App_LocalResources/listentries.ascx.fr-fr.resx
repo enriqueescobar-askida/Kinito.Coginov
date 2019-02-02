@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plListParent.Text" xml:space="preserve">
+    <value>Parente :</value>
+  </data>
+  <data name="plListParent.Help" xml:space="preserve">
+    <value>Parente</value>
+  </data>
+  <data name="plListName.Text" xml:space="preserve">
+    <value>Nom de la liste :</value>
+  </data>
+  <data name="plListName.Help" xml:space="preserve">
+    <value>Nom de la liste</value>
+  </data>
+  <data name="plEntryCount.Text" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="plEntryCount.Help" xml:space="preserve">
+    <value>Nombre d'entrées</value>
+  </data>
+  <data name="cmdAddEntry.Text" xml:space="preserve">
+    <value>Ajouter une entrée</value>
+  </data>
+  <data name="cmdDeleteList.Text" xml:space="preserve">
+    <value>Effacer cette liste</value>
+  </data>
+  <data name="btnEdit.AlternateText" xml:space="preserve">
+    <value>Edition de l'entrée</value>
+  </data>
+  <data name="btnUp.AlternateText" xml:space="preserve">
+    <value>Déplacer vers le haut</value>
+  </data>
+  <data name="btnDown.AlternateText" xml:space="preserve">
+    <value>Déplacer vers le bas</value>
+  </data>
+  <data name="plParentKey.Text" xml:space="preserve">
+    <value>Parente:</value>
+  </data>
+  <data name="plParentKey.Help" xml:space="preserve">
+    <value>Parente</value>
+  </data>
+  <data name="plSelectList.Text" xml:space="preserve">
+    <value>Liste parente :</value>
+  </data>
+  <data name="plSelectList.Help" xml:space="preserve">
+    <value>Sélectionnez la liste parente de cette liste</value>
+  </data>
+  <data name="plSelectParent.Text" xml:space="preserve">
+    <value>Entrée parente :</value>
+  </data>
+  <data name="plSelectParent.Help" xml:space="preserve">
+    <value>Sélectionnez l'entrée parente de cette liste</value>
+  </data>
+  <data name="plEntryName.Text" xml:space="preserve">
+    <value>Nom de la liste :</value>
+  </data>
+  <data name="plEntryName.Help" xml:space="preserve">
+    <value>Nom de la liste</value>
+  </data>
+  <data name="plEntryText.Text" xml:space="preserve">
+    <value>Texte :</value>
+  </data>
+  <data name="plEntryText.Help" xml:space="preserve">
+    <value>Texte à afficher</value>
+  </data>
+  <data name="plEntryValue.Text" xml:space="preserve">
+    <value>Valeur :</value>
+  </data>
+  <data name="plEntryValue.Help" xml:space="preserve">
+    <value>Valeur de l'entrée</value>
+  </data>
+  <data name="plEnableSortOrder.Text" xml:space="preserve">
+    <value>Activer le tri :</value>
+  </data>
+  <data name="plEnableSortOrder.Help" xml:space="preserve">
+    <value>Sélectionnez cette option pour activer le tri sur cette liste</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="cmdDeleteEntry.Text" xml:space="preserve">
+    <value>Effacer l'entrée</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="valEntryText.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Un texte est requis</value>
+  </data>
+  <data name="valEntryValue.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Une valeur est requise</value>
+  </data>
+  <data name="Entries.Text">
+    <value>entrées</value>
+  </data>
+</root>

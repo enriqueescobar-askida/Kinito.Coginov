@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 11:59:17   UTC: 2011-07-29 09:59:17Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="HostInfo_DataProvider.Help">
+    <value>Le fournisseur de données par défaut pour le site (Data provider).</value>
+  </data>
+  <data name="HostInfo_DataProvider.Text">
+    <value>Fournisseur de données :</value>
+  </data>
+  <data name="HostInfo_HostGUID.Help">
+    <value>Identificateur unique du site.</value>
+  </data>
+  <data name="HostInfo_HostGUID.Text">
+    <value>Hôte GUID :</value>
+  </data>
+  <data name="HostInfo_HtmlEditorProvider.Help">
+    <value>Editeur Html par défaut pour le site.</value>
+  </data>
+  <data name="HostInfo_HtmlEditorProvider.Text">
+    <value>Provider de l'éditeur HTML :</value>
+  </data>
+  <data name="HostInfo_LoggingProvider.Help">
+    <value>Provider de logs pour le site.</value>
+  </data>
+  <data name="HostInfo_LoggingProvider.Text">
+    <value>Provider de logs</value>
+  </data>
+  <data name="HostInfo_Version.Help">
+    <value>Version de DNN</value>
+  </data>
+  <data name="HostInfo_Version.Text">
+    <value>Version de DNN :</value>
+  </data>
+  <data name="HostInfo_CachingProvider.Help">
+    <value>Le fournisseur de mise en cache par défaut pour le site.</value>
+  </data>
+  <data name="HostInfo_CachingProvider.Text">
+    <value>Fournisseur de mise en cache :</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlProvider.Help">
+    <value>Friendly url provider par défaut pour le site.</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlProvider.Text">
+    <value>Provider d'URL conviviales :</value>
+  </data>
+  <data name="HostInfo_Permissions.Help">
+    <value>Les autorisations de Code Access Security (CAS) disponibles pour ce site.</value>
+  </data>
+  <data name="HostInfo_Permissions.Text">
+    <value>Autorisations de CAS :</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlEnabled.Help">
+    <value>Affiche si les URL conviviales sont activées pour le site.</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlEnabled.Text">
+    <value>URL conviviales activées :</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlType.Help">
+    <value>Affiche le type d'URL conviviales, utilisé pour le site.</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlType.Text">
+    <value>Forme des URL conviviales :</value>
+  </data>
+  <data name="HostInfo_SchedulerMode.Help">
+    <value>La méthode de Timer maintient un thread séparé pour exécuter les tâches planifiées tandis que le processus de travail est</value>
+  </data>
+  <data name="HostInfo_SchedulerMode.Text">
+    <value>Mode du planificateur :</value>
+  </data>
+  <data name="HostInfo_WebFarmEnabled.Help">
+    <value>Ce paramètre détermine si le site fonctionne en mode de ferme de serveurs.</value>
+  </data>
+  <data name="HostInfo_WebFarmEnabled.Text">
+    <value>Ferme de serveurs web activée :</value>
+  </data>
+  <data name="plHost.Help">
+    <value>Affiche sélectionné paramètres qui affectent tous les portails dans cette installation.</value>
+  </data>
+  <data name="plHost.Text">
+    <value>Paramètres de DotNetNuke hôte :</value>
+  </data>
+  <data name="HostInfo_Product.Help">
+    <value>L'application de DotNetNuke que vous exécutez</value>
+  </data>
+  <data name="HostInfo_Product.Text">
+    <value>DotNetNuke produit :</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

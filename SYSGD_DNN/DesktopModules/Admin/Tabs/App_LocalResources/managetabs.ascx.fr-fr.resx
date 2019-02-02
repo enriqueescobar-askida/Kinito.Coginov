@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text">
+    <value>Paramètres de base</value>
+  </data>
+  <data name="BasicSettingsHelp.Text">
+    <value>Dans cette section vous pouvez définir les paramètres basiques pour cette page</value>
+  </data>
+  <data name="TabName.Text">
+    <value>Nom de la page&amp;nbsp;</value>
+  </data>
+  <data name="TabNameHelp.Text">
+    <value>Donnez le nom de cette page. Ce nom apparaitra dans le menu du site</value>
+  </data>
+  <data name="Title.Text">
+    <value>Titre&amp;nbsp;</value>
+  </data>
+  <data name="TitleHelp.Text">
+    <value>Saisissez le titre de la page. Il apparaitra dans la barre de titre du navigateur. Si vous ne spécifiez pas de titre, c'est le nom de votre site apparaitra suivi du nom de la page</value>
+  </data>
+  <data name="Description.Text">
+    <value>Description&amp;nbsp;</value>
+  </data>
+  <data name="DescriptionHelp.Text">
+    <value>Saisissez la description de votre page. Ce texte permettra aux moteurs de recherche de mieux indexer le contenu de votre site.</value>
+  </data>
+  <data name="ParentTab.Text">
+    <value>Page parente&amp;nbsp;</value>
+  </data>
+  <data name="Url.Text">
+    <value>Lien&amp;nbsp;</value>
+  </data>
+  <data name="UrlHelp.Text">
+    <value>Vous pouvez lier cette page à une URL (externe ou interne), à une page interne du site ou à un fichier</value>
+  </data>
+  <data name="Copy.Text">
+    <value>Copie de modules existants</value>
+  </data>
+  <data name="CopyModules.Text">
+    <value>Page source&amp;nbsp;</value>
+  </data>
+  <data name="CopyModulesHelp.Text">
+    <value>Sélectionnez la page dont vous souhaitez copier les modules : ils seront placés dans les mêmes zones que la page d'origine mais ils seront vides de tout contenu. (voir ci-dessous)</value>
+  </data>
+  <data name="CopyContent.Text">
+    <value>Eléments à copier&amp;nbsp;</value>
+  </data>
+  <data name="CopyContentHelp.Text">
+    <value>Sélectionnez cette option si vous souhaitez copier le contenu des modules également. ATTENTION, dans ce cas vous obtiendrez un clone du module qui sera modifié en même temps que l'original !</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>Paramètres avancés (Apparence, planification et lien)</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>Utilisez cette section pour paramétrer les options avancées de la page.</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>Apparence</value>
+  </data>
+  <data name="Icon.Text">
+    <value>Icône&amp;nbsp;</value>
+  </data>
+  <data name="IconHelp.Text">
+    <value>Cette fonction permet de faire apparaître une icône dans le menu, devant le nom de la page.</value>
+  </data>
+  <data name="TabSkin.Text">
+    <value>Thème&amp;nbsp;</value>
+  </data>
+  <data name="TabSkinHelp.Text">
+    <value>Sélectionnez le thème qui sera appliqué à cette page.</value>
+  </data>
+  <data name="TabContainer.Text">
+    <value>Container&amp;nbsp;</value>
+  </data>
+  <data name="TabContainerHelp.Text">
+    <value>Sélectionnez le type de container par défaut pour cette page.</value>
+  </data>
+  <data name="Disabled.Text">
+    <value>Clic désactivé&amp;nbsp;</value>
+  </data>
+  <data name="DisabledHelp.Text">
+    <value>Si le clic sur la page est désactivé, elle apparaitra dans le menu mais le lien sera inactif. Vous pouvez utilisez cette option pour commencer une nouvelle arborescence</value>
+  </data>
+  <data name="SecuritySettings.Text">
+    <value>Paramètres de Sécurité</value>
+  </data>
+  <data name="Permissions.Text">
+    <value>Permissions&amp;nbsp;</value>
+  </data>
+  <data name="PermissionsHelp.Text">
+    <value>Choisissez les groupes d'utilisateurs qui ont accès à cette page.</value>
+  </data>
+  <data name="OtherSettings.Text">
+    <value>Planification et lien</value>
+  </data>
+  <data name="KeyWords.Text">
+    <value>Mots clés</value>
+  </data>
+  <data name="KeyWordsHelp.Text">
+    <value>Saisissez une série de mots séparés par des virgules (,) qui permettrons aux moteurs de recherche d'indexer votre site.</value>
+  </data>
+  <data name="plStartDate.Text">
+    <value>Date de début :</value>
+  </data>
+  <data name="plStartDate.Help">
+    <value>Spécifiez la date à laquelle cette page sera affichée dans le menu.</value>
+  </data>
+  <data name="plEndDate.Text">
+    <value>Date de fin :</value>
+  </data>
+  <data name="plEndDate.Help">
+    <value>Spécifiez la date à laquelle cette page ne sera plus affichée dans le menu.</value>
+  </data>
+  <data name="SubmitToGoogle.Text">
+    <value>Soumettre la page à Google</value>
+  </data>
+  <data name="ControlTitle_tab.Text">
+    <value>Gestion de la page</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Edition de la page</value>
+  </data>
+  <data name="valTabName.ErrorMessage">
+    <value>&lt;br /&gt;Le nom de la page est requis</value>
+  </data>
+  <data name="DeleteSpecialPage.Text">
+    <value>Les pages définies comme page d&amp;#146;accueil, de pré-accueil, de connexion ou comme page utilisateur ne peuvent pas être supprimées.</value>
+  </data>
+  <data name="valStartDate.ErrorMessage">
+    <value>&lt;br /&gt;Date de début invalide</value>
+  </data>
+  <data name="valEndDate.ErrorMessage">
+    <value>&lt;br /&gt;Date de fin invalide</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Gestion de la page&lt;/h1&gt;&lt;p align="justify"&gt;Cette section vous permet de spécifier des éléments essentiels à l'intégration de votre page dans votre site, mais également dans les moteurs de recherche comme Google&amp;#153; qui utiliseront les champs &amp;quot;Description&amp;quot; et &amp;quot;Mots clés&amp;quot; pour l&amp;#146;indexer.&lt;/p&gt;
+&lt;p align="justify"&gt;Par défaut, chaque page créée est uniquement visible par le groupe  &lt;b&gt;&amp;quot;administrateurs&amp;quot;&lt;/b&gt;.&lt;br&gt;
+Pour la rendre visible aux autres groupes, modifiez les permissions en conséquence.&lt;/p&gt;
+&lt;p align="justify"&gt;Exemple :&lt;br&gt;
+Cochez la case &amp;quot;Tous les utilisateurs&amp;quot; dans &amp;quot;Permissions&amp;quot; &amp;gt; &amp;quot;Afficher&amp;quot; pour rendre 
+visible cette page à tous les utilisateurs.&lt;/p&gt;&lt;p align="justify"&gt;&amp;nbsp;&lt;/p&gt;</value>
+  </data>
+  <data name="PageDetails.Text">
+    <value>Détails de la page</value>
+  </data>
+  <data name="RefreshInterval.Text">
+    <value>Rafraichissement &amp;nbsp;</value>
+  </data>
+  <data name="RefreshInterval.Help">
+    <value>Saisissez un interval en secondes pour le rafraichissement automatique de la page. (Exemple : Saisissez "60" pour un rafraichissement toutes les 1 minutes ou laissez vide pour désactiver.)</value>
+  </data>
+  <data name="PageHeadText.Text">
+    <value>Entête HTML (HEADER)
+&amp;nbsp;</value>
+  </data>
+  <data name="PageHeadText.Help">
+    <value>Permet d'insérer des balises entre le &amp;lt;HEAD&amp;gt; et le &amp;lt;/HEAD&amp;gt; de la page HTML (par exemple des balises META)</value>
+  </data>
+  <data name="DefaultTemplate.Text">
+    <value>Défaut</value>
+  </data>
+  <data name="ModuleCopy.Text">
+    <value>Avec le contenu</value>
+  </data>
+  <data name="ModuleNew.Text">
+    <value>Sans contenu</value>
+  </data>
+  <data name="ModuleReference.Text">
+    <value>Clone du module</value>
+  </data>
+  <data name="cmdCopyPerm.Text">
+    <value>Appliquer aux enfants</value>
+  </data>
+  <data name="cmdCopySkin.Text">
+    <value>Appliquer aux enfants</value>
+  </data>
+  <data name="ExceededQuota.Text">
+    <value>Vous ne pouvez pas ajouter de page car votre quota est atteint. Contactez l'hébergeur afin d'augmenter le nombre de page que vous pouvez créer.</value>
+  </data>
+  <data name="plCopyPerm.Help">
+    <value>Propager les permissions de cette pages aux pages enfants.</value>
+  </data>
+  <data name="plCopyPerm.Text">
+    <value>Diffuser les permissions :</value>
+  </data>
+  <data name="plCopySkin.Help">
+    <value>Appliquer le thème aux pages enfants de cette page (thème et containers).</value>
+  </data>
+  <data name="plCopySkin.Text">
+    <value>Diffuser le thème :</value>
+  </data>
+  <data name="Menu.Text">
+    <value>Visible dans le menu&amp;nbsp;</value>
+  </data>
+  <data name="MenuHelp.Text">
+    <value>Vous avez la possibilité de faire apparaitre cette page ou non dans le menu de votre site. Si la case n'est pas cochée, la page sera invisible dans le menu mais vous pourrez la lier grâce à son URL. Elle est accessible par le menu "Site" &gt; "Arborescence".</value>
+  </data>
+  <data name="plSecure.Help">
+    <value>Spécifiez si cette page doit utiliser une connexion sécurisée (SSL). Cette option n'est activée que si l'administrateur a activé SSL dans "Site" &gt; "Paramétrages".</value>
+  </data>
+  <data name="plSecure.Text">
+    <value>Page sécurisée ?</value>
+  </data>
+  <data name="plFolder.Help">
+    <value>Sélectionner le dossier à utiliser pour le gabarits</value>
+  </data>
+  <data name="plFolder.Text">
+    <value>Dossier des gabarits :</value>
+  </data>
+  <data name="plTemplate.Help">
+    <value>Sélectionner le gabarit à utiliser pour créer votre page.</value>
+  </data>
+  <data name="plTemplate.Text">
+    <value>Gabarit de page :</value>
+  </data>
+  <data name="Root.Text">
+    <value>Racine</value>
+  </data>
+  <data name="InvalidTabName.Text">
+    <value>Ceci est un nom de page invalide</value>
+  </data>
+  <data name="TabExists.Text">
+    <value>Le nom de page que vous avez choisi est déjà utilisé pour une autre page au même niveau de l'arborescence.</value>
+  </data>
+  <data name="DesignCopied.Text">
+    <value>Design appliqué avec succès</value>
+  </data>
+  <data name="DesignCopyError.Text">
+    <value>Erreur lors de l'application du design</value>
+  </data>
+  <data name="InsertAfter.Text">
+    <value>Après</value>
+  </data>
+  <data name="InsertAtEnd.Text">
+    <value>A la fin</value>
+  </data>
+  <data name="InsertBefore.Text">
+    <value>Avant</value>
+  </data>
+  <data name="InsertPosition.Help">
+    <value>Votre page sera insérée avant ou après la page sélectionnée ou bien ajoutée au niveau courant.</value>
+  </data>
+  <data name="InsertPosition.Text">
+    <value>Insérer la page :</value>
+  </data>
+  <data name="ParentTab.Help">
+    <value>Sélectionnez la page parent de cette page.</value>
+  </data>
+  <data name="PermissionCopyError.Text">
+    <value>Erreur lors de la copie des permissions</value>
+  </data>
+  <data name="PermissionsCopied.Text">
+    <value>Permissions copièes avec succès</value>
+  </data>
+  <data name="valEndDate2.ErrorMessage">
+    <value>&lt;br&gt;La date de fin doit être après à la date de début</value>
+  </data>
+  <data name="DeletePermissionError.Text">
+    <value>Vous n'avez pas l'autorisation de supprimer cette page.</value>
+  </data>
+  <data name="IconLarge.Text">
+    <value>Grande Icône</value>
+  </data>
+  <data name="IconLargeHelp.Text">
+    <value>Cette fonction permet de faire apparaître une icône dans la console.</value>
+  </data>
+  <data name="InvalidTabDates.Text">
+    <value>Vous avez saisi une date de début et de fin non valide - la page ne sera jamais affichée.</value>
+  </data>
+  <data name="plPermanentRedirect.Help">
+    <value>Cochez ceci si vous souhaitez informer le client que cette page doit être considérée comme déplacée définitivement.  Ceci permettra aux moteurs de recherche de modifier  les Urls afin de pointer directement sur le nouveau lien.  Ceci est ignoré si le LinkType est défini à aucun.</value>
+  </data>
+  <data name="plPermanentRedirect.Text">
+    <value>Redirection permanente ?</value>
+  </data>
+  <data name="plPriority.Help">
+    <value>Saisissez la priorité désirée (entre 0 et 1.0).  Ceci aide à déterminer comment cette page est classée dans Google tout en respectant les autres pages de votre site (0.5 est la valeur par défaut).</value>
+  </data>
+  <data name="plPriority.Text">
+    <value>Priorité de "SiteMap" :</value>
+  </data>
+  <data name="TabRecycled.Text">
+    <value>Une page contenant le même nom existe dans la corbeille. Pour restaurer cette page, veuillez utiliser la corbeille.</value>
+  </data>
+  <data name="BadTemplate.Text">
+    <value>Le modèle de page n'est pas un document xml valide.  Veuillez sélectionner un autre modèle, puis essayez à nouveau.</value>
+  </data>
+  <data name="CacheDuration.Help">
+    <value>Saisissez la durée de cache dela page (en secondes). Ce doit être un entier.</value>
+  </data>
+  <data name="CacheDuration.Text">
+    <value>Durée de cache (en secondes)</value>
+  </data>
+  <data name="CacheDurationInfo.Text">
+    <value>&lt;br&gt;* Remarque, il y a une tâche planifiée pour purger le cache de sortie. La tâche se doit d'être exécutée plus fréquemment que la durée de cache que vous spécifiez ici.</value>
+  </data>
+  <data name="CacheIncludeExclude.Help">
+    <value>Si la valeur est INCLUDE, toutes les variations de valeur de paramètre querystring ajouteront un nouvel élément dans le cache de sortie.  Si la valeur est EXCLUDE, il n'y aura pas de modification.</value>
+  </data>
+  <data name="CacheIncludeExclude.Text">
+    <value>Paramètre Include/Exclude par défaut</value>
+  </data>
+  <data name="CacheMaxVaryByCount.Help">
+    <value>Entrez le nombre maximal de variations de cache pour cette page.  Ce doit être un entier. (Notez, cette fonction empêche les éventuelles attaques par déni de service).</value>
+  </data>
+  <data name="CacheMaxVaryByCount.Text">
+    <value>Variation par limite</value>
+  </data>
+  <data name="CacheProvider.Help">
+    <value>Sélectionnez le fournisseur à utiliser pour cette page.</value>
+  </data>
+  <data name="CacheProvider.Text">
+    <value>Fournisseur de cache de sortie</value>
+  </data>
+  <data name="cmdClearAllPageCache.Text">
+    <value>Clear Cache - All Pages</value>
+  </data>
+  <data name="cmdClearPageCache.Text">
+    <value>Clear Cache - This Page</value>
+  </data>
+  <data name="ExcludeVaryBy.Help">
+    <value>Une liste de noms de paramètre querystring (séparés par des virgules) pour être exclue dans les variations des pages mises en cache.  Ce paramètre n'est valide que lorsque la valeur par défaut ci-dessus est défini sur INCLUDE.</value>
+  </data>
+  <data name="ExcludeVaryBy.Text">
+    <value>Exclure de la variation de cache</value>
+  </data>
+  <data name="IncludeVaryBy.Help">
+    <value>Une liste des noms de paramètre querystring (séparés par des virgules) pour être inclus dans les variations des pages mises en cache.  Ce paramètre n'est valide que lorsque la valeur par défaut ci-dessus est définie pour exclure des paramètres querystring variations de page mise en cache.</value>
+  </data>
+  <data name="IncludeVaryBy.Text">
+    <value>Inclure dans variation de cache</value>
+  </data>
+  <data name="lblCachedItemCount.Text">
+    <value>Décompte de cache: {0} variation(s) pour cette page</value>
+  </data>
+  <data name="plTags.Help">
+    <value>Sélectionnez des éléments dans le menu déroulant pour taguer cette page.</value>
+  </data>
+  <data name="plTags.Text">
+    <value>Tags :</value>
+  </data>
+  <data name="valCacheTime.ErrorMessage">
+    <value>&lt;br&gt;La durée du cache doit être un nombre.</value>
+  </data>
+  <data name="valCacheVaryByLimit.ErrorMessage">
+    <value>&lt;br&gt;La limite de variation doit être un nombre.</value>
+  </data>
+</root>

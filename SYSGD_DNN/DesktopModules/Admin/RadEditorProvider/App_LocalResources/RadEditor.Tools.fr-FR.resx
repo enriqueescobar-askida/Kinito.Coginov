@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 31/08/2011 16:10:50   UTC: 2011-08-31 14:10:50Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="ReservedResource">
+    <value>SVP, ne supprimez pas de cette chaîne. RadEditor en a besoin pour déterminer si un fichier de ressources externes est p</value>
+  </data>
+  <data name="AboutDialog">
+    <value>A propos de RadEditor</value>
+  </data>
+  <data name="AbsolutePosition">
+    <value>Position absolue</value>
+  </data>
+  <data name="AjaxSpellCheck">
+    <value>Correcteur orthographique AJAX</value>
+  </data>
+  <data name="ApplyClass">
+    <value>Appliquer la classe CSS</value>
+  </data>
+  <data name="BackColor">
+    <value>Couleur d'arrière-plan</value>
+  </data>
+  <data name="Bold">
+    <value>Gras</value>
+  </data>
+  <data name="ConvertToLower">
+    <value>Convertir en minuscule</value>
+  </data>
+  <data name="ConvertToUpper">
+    <value>Convertir en majuscules</value>
+  </data>
+  <data name="Copy">
+    <value>Copie</value>
+  </data>
+  <data name="Cut">
+    <value>Couper</value>
+  </data>
+  <data name="DecreaseSize">
+    <value>Diminution de la taille</value>
+  </data>
+  <data name="DeleteCell">
+    <value>Supprimer la cellule</value>
+  </data>
+  <data name="DeleteColumn">
+    <value>Supprimez la colonne</value>
+  </data>
+  <data name="DeleteRow">
+    <value>Supprimez la ligne</value>
+  </data>
+  <data name="DeleteTable">
+    <value>Supprimer la Table</value>
+  </data>
+  <data name="DocumentManager">
+    <value>Gestionnaire de document</value>
+  </data>
+  <data name="FindAndReplace">
+    <value>Rechercher et remplacer</value>
+  </data>
+  <data name="FlashManager">
+    <value>Gestionnaire de Flash</value>
+  </data>
+  <data name="FontName">
+    <value>Nom de la police</value>
+  </data>
+  <data name="FontSize">
+    <value>Taille</value>
+  </data>
+  <data name="ForeColor">
+    <value>Couleur de premier plan</value>
+  </data>
+  <data name="FormatBlock">
+    <value>Style de paragraphe</value>
+  </data>
+  <data name="FormatCodeBlock">
+    <value>Formater le bloc de Code</value>
+  </data>
+  <data name="FormatStripper">
+    <value>Format décapant</value>
+  </data>
+  <data name="Help">
+    <value>Aide</value>
+  </data>
+  <data name="ImageManager">
+    <value>Gestionnaire d'images</value>
+  </data>
+  <data name="ImageMapDialog">
+    <value>Éditeur de carte d'image</value>
+  </data>
+  <data name="IncreaseSize">
+    <value>Augmentation de la taille</value>
+  </data>
+  <data name="Indent">
+    <value>Tiret</value>
+  </data>
+  <data name="InsertAnchor">
+    <value>Insérez l'ancre</value>
+  </data>
+  <data name="InsertColumnLeft">
+    <value>Insérez la colonne à gauche</value>
+  </data>
+  <data name="InsertColumnRight">
+    <value>Insérez la colonne à droite</value>
+  </data>
+  <data name="InsertCustomLink">
+    <value>Liens personnalisés</value>
+  </data>
+  <data name="InsertDate">
+    <value>Insérer la Date</value>
+  </data>
+  <data name="InsertEmailLink">
+    <value>Insérer le lien Email</value>
+  </data>
+  <data name="InsertFormButton">
+    <value>Bouton Insérer</value>
+  </data>
+  <data name="InsertFormCheckbox">
+    <value>Insérez Checkbox</value>
+  </data>
+  <data name="InsertFormElement">
+    <value>Insérez l'élément de formulaire</value>
+  </data>
+  <data name="InsertFormForm">
+    <value>Insérer la forme</value>
+  </data>
+  <data name="InsertFormHidden">
+    <value>INSERT caché</value>
+  </data>
+  <data name="InsertFormPassword">
+    <value>Insérez mot de passe</value>
+  </data>
+  <data name="InsertFormRadio">
+    <value>Insérez Radio</value>
+  </data>
+  <data name="InsertFormReset">
+    <value>Insérer Reset</value>
+  </data>
+  <data name="InsertFormSelect">
+    <value>Insérer Select</value>
+  </data>
+  <data name="InsertFormSubmit">
+    <value>Insérez soumettre</value>
+  </data>
+  <data name="InsertFormText">
+    <value>Insérer le contrôle Textbox</value>
+  </data>
+  <data name="InsertFormTextarea">
+    <value>Inséret Textarea</value>
+  </data>
+  <data name="InsertGroupbox">
+    <value>Insérer Groupbox</value>
+  </data>
+  <data name="InsertHorizontalRule">
+    <value>Règle horizontale</value>
+  </data>
+  <data name="InsertOrderedList">
+    <value>Liste numérotée</value>
+  </data>
+  <data name="InsertParagraph">
+    <value>Nouveau paragraphe</value>
+  </data>
+  <data name="InsertRowAbove">
+    <value>Insérer la ligne ci-dessus</value>
+  </data>
+  <data name="InsertRowBelow">
+    <value>Insérer la ligne ci-dessous</value>
+  </data>
+  <data name="InsertSnippet">
+    <value>Insérez l'extrait de Code</value>
+  </data>
+  <data name="InsertSymbol">
+    <value>Insérer le symbole</value>
+  </data>
+  <data name="InsertTable">
+    <value>Insérer le tableau</value>
+  </data>
+  <data name="InsertTime">
+    <value>Insérez des temps</value>
+  </data>
+  <data name="InsertUnorderedList">
+    <value>Liste de balle</value>
+  </data>
+  <data name="Italic">
+    <value>Italique</value>
+  </data>
+  <data name="JustifyCenter">
+    <value>Aligner Centre</value>
+  </data>
+  <data name="JustifyFull">
+    <value>Justifier</value>
+  </data>
+  <data name="JustifyLeft">
+    <value>Aligner gauche</value>
+  </data>
+  <data name="JustifyNone">
+    <value>Supprimer l'alignement</value>
+  </data>
+  <data name="JustifyRight">
+    <value>Aligner à droite</value>
+  </data>
+  <data name="LinkManager">
+    <value>Gestionnaire de lien hypertexte</value>
+  </data>
+  <data name="MediaManager">
+    <value>Gestionnaire de médias</value>
+  </data>
+  <data name="MergeColumns">
+    <value>Fusionner les cellules horizontalement</value>
+  </data>
+  <data name="MergeRows">
+    <value>Fusionner les cellules verticalement</value>
+  </data>
+  <data name="ModuleManager">
+    <value>Gestionnaire de module</value>
+  </data>
+  <data name="Outdent">
+    <value>Haussez</value>
+  </data>
+  <data name="PageProperties">
+    <value>Propriétés de la page</value>
+  </data>
+  <data name="Paste">
+    <value>Coller</value>
+  </data>
+  <data name="PasteAsHtml">
+    <value>Coller comme Html</value>
+  </data>
+  <data name="PasteFromWord">
+    <value>Coller à partir de Word</value>
+  </data>
+  <data name="PasteFromWordNoFontsNoSizes">
+    <value>Collez du mot, police de bande</value>
+  </data>
+  <data name="PastePlainText">
+    <value>Texte brut de pâte</value>
+  </data>
+  <data name="PasteStrip">
+    <value>Options de collage</value>
+  </data>
+  <data name="Print">
+    <value>Imprimer</value>
+  </data>
+  <data name="RealFontSize">
+    <value>Taille de police Real</value>
+  </data>
+  <data name="Redo">
+    <value>Répét</value>
+  </data>
+  <data name="RepeatLastCommand">
+    <value>Répéter la dernière commande</value>
+  </data>
+  <data name="SelectAll">
+    <value>Choisissez tous</value>
+  </data>
+  <data name="SetCellProperties">
+    <value>Propriétés de cellule</value>
+  </data>
+  <data name="SetImageProperties">
+    <value>Propriétés...</value>
+  </data>
+  <data name="SetLinkProperties">
+    <value>Propriétés...</value>
+  </data>
+  <data name="SetTableProperties">
+    <value>Propriétés du tableau</value>
+  </data>
+  <data name="SpellCheck">
+    <value>Correcteur orthographique</value>
+  </data>
+  <data name="SplitCell">
+    <value>Cellule de Split</value>
+  </data>
+  <data name="StrikeThrough">
+    <value>Barré</value>
+  </data>
+  <data name="StripAll">
+    <value>Bande de tout le formatage</value>
+  </data>
+  <data name="StripCss">
+    <value>Css de bande de mise en forme</value>
+  </data>
+  <data name="StripFont">
+    <value>Reformater les éléments de police</value>
+  </data>
+  <data name="StripSpan">
+    <value>Reformater les éléments Span</value>
+  </data>
+  <data name="StripWord">
+    <value>Mot de bande de mise en forme</value>
+  </data>
+  <data name="StyleBuilder">
+    <value>Générateur de styles</value>
+  </data>
+  <data name="Subscript">
+    <value>Indice</value>
+  </data>
+  <data name="Superscript">
+    <value>Exposant</value>
+  </data>
+  <data name="TableWizard">
+    <value>Assistant Tableau</value>
+  </data>
+  <data name="TemplateManager">
+    <value>Gestionnaire de modèle</value>
+  </data>
+  <data name="ToggleDocking">
+    <value>Quai tous flottant Toolbars/Modules</value>
+  </data>
+  <data name="ToggleScreenMode">
+    <value>Basculer en Mode d'écran complet</value>
+  </data>
+  <data name="ToggleTableBorder">
+    <value>Afficher/masquer frontière</value>
+  </data>
+  <data name="Underline">
+    <value>Souligner</value>
+  </data>
+  <data name="Undo">
+    <value>Annuler</value>
+  </data>
+  <data name="Unlink">
+    <value>Supprimer le lien</value>
+  </data>
+  <data name="Zoom">
+    <value>Zoom</value>
+  </data>
+  <data name="ImageEditor">
+    <value>Éditeur d'images</value>
+  </data>
+  <data name="SilverlightManager">
+    <value>Gestionnaire de Silverlight</value>
+  </data>
+  <data name="TrackChangesDialog">
+    <value>Suivi des modifications</value>
+  </data>
+  <data name="XhtmlValidator">
+    <value>Validateur XHTML</value>
+  </data>
+  <data name="SplitCellHorizontal">
+    <value>Scinder la cellule horizontalement</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

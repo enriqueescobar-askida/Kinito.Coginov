@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 02/08/2011 17:20:11   UTC: 2011-08-02 15:20:11Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="plStreet.Text">
+    <value>Adresse :</value>
+  </data>
+  <data name="plStreet.Help">
+    <value>Saisissez le numéro suivi du nom de la rue</value>
+  </data>
+  <data name="plUnit.Text">
+    <value>Numéro :</value>
+  </data>
+  <data name="plUnit.Help">
+    <value>Saisissez un complément d'adresse</value>
+  </data>
+  <data name="plCity.Text">
+    <value>Ville :</value>
+  </data>
+  <data name="plCity.Help">
+    <value>Saisissez un nom de ville</value>
+  </data>
+  <data name="plCountry.Text">
+    <value>Pays :</value>
+  </data>
+  <data name="plCountry.Help">
+    <value>Choisissez un pays</value>
+  </data>
+  <data name="StreetRequired.Text">
+    <value>&lt;br&gt;La rue est requise.</value>
+  </data>
+  <data name="CityRequired.Text">
+    <value>&lt;br&gt;Le nom de la ville est requis.</value>
+  </data>
+  <data name="CountryRequired.Text">
+    <value>&lt;br&gt;Le nom de votre pays est requis.</value>
+  </data>
+  <data name="StateRequired.Text">
+    <value>&lt;br&gt;L'Etat est requis.</value>
+  </data>
+  <data name="ProvinceRequired.Text">
+    <value>&lt;br&gt;La Province est requise.</value>
+  </data>
+  <data name="RegionRequired.Text">
+    <value>&lt;br&gt;Le département est requis.</value>
+  </data>
+  <data name="PostalRequired.Text">
+    <value>&lt;br&gt;Le code postal est requis.</value>
+  </data>
+  <data name="plTelephone.Text">
+    <value>Téléphone :</value>
+  </data>
+  <data name="plTelephone.Help">
+    <value>Saisissez un numéro de téléphone.</value>
+  </data>
+  <data name="TelephoneRequired.Text">
+    <value>&lt;br&gt;Le numéro de téléphone est requis.</value>
+  </data>
+  <data name="plCell.Text">
+    <value>Mobile :</value>
+  </data>
+  <data name="plCell.Help">
+    <value>Saisissez un numéro de mobile.</value>
+  </data>
+  <data name="CellRequired.Text">
+    <value>&lt;br&gt;Le numéro de téléphone GSM est requis.</value>
+  </data>
+  <data name="plFax.Text">
+    <value>Télécopie :</value>
+  </data>
+  <data name="plFax.Help">
+    <value>Saisissez le numéro de télécopie.</value>
+  </data>
+  <data name="FaxRequired.Text">
+    <value>&lt;br&gt;Le numéro de télécopie est requis.</value>
+  </data>
+  <data name="plState.Text">
+    <value>Etat :</value>
+  </data>
+  <data name="plProvince.Text">
+    <value>Province :</value>
+  </data>
+  <data name="plState.Help">
+    <value>Sélectionnez un Etat dans la liste</value>
+  </data>
+  <data name="plProvince.Help">
+    <value>Sélectionnez une Province dans la liste</value>
+  </data>
+  <data name="plRegion.Text">
+    <value>Département :</value>
+  </data>
+  <data name="plRegion.Help">
+    <value>Sélectionnez un département dans la liste</value>
+  </data>
+  <data name="plPostal.Text">
+    <value>Code postal :</value>
+  </data>
+  <data name="plPostal.Help">
+    <value>Saisissez le code postal</value>
+  </data>
+  <data name="plZip.Text">
+    <value>Code ZIP :</value>
+  </data>
+  <data name="plZip.Help">
+    <value>Saisissez le code ZIP</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

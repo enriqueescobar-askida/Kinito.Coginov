@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 02/08/2011 17:49:30   UTC: 2011-08-02 15:49:30Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="ControlTitle_.Text">
+    <value>extensions</value>
+  </data>
+  <data name="CreateExtension.Action">
+    <value>Créer une nouvelle extension</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Désinstaller cette extension</value>
+  </data>
+  <data name="ExtensionInstall.Action">
+    <value>Assistant d'installation</value>
+  </data>
+  <data name="Language.Header">
+    <value>Langue ?</value>
+  </data>
+  <data name="Name.Header">
+    <value>Nom</value>
+  </data>
+  <data name="plPackageTypes.Help">
+    <value>Choissez un mode de filtre.</value>
+  </data>
+  <data name="plPackageTypes.Text">
+    <value>Filtrer par :</value>
+  </data>
+  <data name="Title.Text">
+    <value>{0} extensions installées</value>
+  </data>
+  <data name="TreeHeader.Text">
+    <value>Extensions installées</value>
+  </data>
+  <data name="Type.Header">
+    <value>type</value>
+  </data>
+  <data name="Upgrade.Header">
+    <value>Mettre à jour ?</value>
+  </data>
+  <data name="Version.Header">
+    <value>version</value>
+  </data>
+  <data name="Description.Header">
+    <value>description</value>
+  </data>
+  <data name="ImportModule.Action">
+    <value>Inporter une définition de module</value>
+  </data>
+  <data name="CreateLanguagePack.Action">
+    <value>Créer un nouveau pack de langue</value>
+  </data>
+  <data name="CreateModule.Action">
+    <value>Créer un nouveau module</value>
+  </data>
+  <data name="LanguagePackInstall.Action">
+    <value>Installer le pack de langue</value>
+  </data>
+  <data name="ModuleInstall.Action">
+    <value>Installer le module</value>
+  </data>
+  <data name="CreateSkin.Action">
+    <value>Créer un nouveau thème</value>
+  </data>
+  <data name="EditSkins.Action">
+    <value>Gérer les thèmes</value>
+  </data>
+  <data name="SkinInstall.Action">
+    <value>Installer un Thème</value>
+  </data>
+  <data name="plLocales.Text">
+    <value>Pack de langue trouvés :</value>
+  </data>
+  <data name="plLocales.Help">
+    <value>Choisissez une langue dans la liste pour voir quels extenstions disposent d'un pack de langue. Si un pack de langue est trouvé, cliquez sur le lien pour le télécharger et l'installer.</value>
+  </data>
+  <data name="CreateContainer.Action">
+    <value>Créer un nouveau conteneur</value>
+  </data>
+  <data name="InstallExtensions.Action">
+    <value>Extensions disponibles</value>
+  </data>
+  <data name="AppTitle.Text">
+    <value></value>
+  </data>
+  <data name="AppType.Text">
+    <value></value>
+  </data>
+  <data name="AppDescription.Text">
+    <value></value>
+  </data>
+  <data name="UpgradeMessage.Text">
+    <value>Cliquez ici pour obtenir la mise à jour</value>
+  </data>
+  <data name="LanguageMessage.Text">
+    <value>Cliquez ici pour obtenir le pack de langue</value>
+  </data>
+  <data name="Portal.Header">
+    <value>Site</value>
+  </data>
+  <data name="lblUpdate.Text">
+    <value>Cette application contient un service de mise à jour qui affiche une icône lorsqu'une nouvelle version d'une extension est disponible. L'icône affichée contient une indication visuelle si une extension installée actuellement contient une faille de sécurité potentielle. Si une faille de sécurité est identifiée, il est fortement recommandé de mettre à niveau vers la version la plus récente de l'extension. Cliquer sur l'icône vous redirigera vers un emplacement où vous pourrez acquérir l'extension pour installation immédiate.</value>
+  </data>
+  <data name="CheckLanguage.Text">
+    <value>Utilisez le service de mise à jour pour vérifier la disponibilité d'un pack de langue pour les extensions</value>
+  </data>
+  <data name="Language.Text">
+    <value>Editer le pack de langue</value>
+  </data>
+  <data name="Extensions.Text">
+    <value>extensions</value>
+  </data>
+  <data name="NoResults.Text">
+    <value>Pas d'extension trouvée</value>
+  </data>
+  <data name="Edit.Text">
+    <value>Editer cette extension</value>
+  </data>
+  <data name="InstalledOnHost.Tooltip">
+    <value>Installés sur cet hôte</value>
+  </data>
+  <data name="InstalledOnPortal.Tooltip">
+    <value>Installés sur {0}</value>
+  </data>
+  <data name="Auth_System.Type">
+    <value>Systèmes d'authentification</value>
+  </data>
+  <data name="Container.Type">
+    <value>containers</value>
+  </data>
+  <data name="CoreLanguagePack.Type">
+    <value>Packs de langue Core</value>
+  </data>
+  <data name="DashboardControl.Type">
+    <value>Controles de tableau de bord</value>
+  </data>
+  <data name="ExtensionLanguagePack.Type">
+    <value>Language Packs d'extension</value>
+  </data>
+  <data name="Library.Type">
+    <value>libraries</value>
+  </data>
+  <data name="Module.Type">
+    <value>modules</value>
+  </data>
+  <data name="MoreExtensions.Text">
+    <value>Plus d'extensions...</value>
+  </data>
+  <data name="Provider.Type">
+    <value>providers</value>
+  </data>
+  <data name="Skin.Type">
+    <value>Thèmes</value>
+  </data>
+  <data name="SkinObject.Type">
+    <value>Skin Objets</value>
+  </data>
+  <data name="Widget.Type">
+    <value>Gadgets</value>
+  </data>
+  <data name="InstalledExtensions.Text">
+    <value>Extensions installées</value>
+  </data>
+  <data name="AvailableExtensions.Text">
+    <value>Extensions disponibles</value>
+  </data>
+  <data name="ExpandAll.Text">
+    <value>Tout ouvrir</value>
+  </data>
+  <data name="AuthSystem.Type">
+    <value>Systèmes d'authentification</value>
+  </data>
+  <data name="Language.Type">
+    <value>Packs de langue</value>
+  </data>
+  <data name="Catalog.Text">
+    <value>Extension Feed</value>
+  </data>
+  <data name="CatalogModule.Text">
+    <value>module</value>
+  </data>
+  <data name="CatalogSearchTitle.Text">
+    <value>Options de recherche et de filtre</value>
+  </data>
+  <data name="CatalogSkin.Text">
+    <value>Thème</value>
+  </data>
+  <data name="SearchLabel.Help">
+    <value>Touche Entrée pour rechercher. Echap. pour annuler</value>
+  </data>
+  <data name="SearchLabel.Text">
+    <value>Rercherche:</value>
+  </data>
+  <data name="TypeLabel.Help">
+    <value>Choisir le type d'extension</value>
+  </data>
+  <data name="TypeLabel.Text">
+    <value>Type :</value>
+  </data>
+  <data name="ClearSearch.Text">
+    <value>RAZ recherche</value>
+  </data>
+  <data name="NameAZ.Text">
+    <value>Nom: A-Z.</value>
+  </data>
+  <data name="NameZA.Text">
+    <value>Nom: Z-A</value>
+  </data>
+  <data name="PriceHighLow.Text">
+    <value>Prix : haut - bas</value>
+  </data>
+  <data name="PriceLowHigh.Text">
+    <value>Price: bas - haut</value>
+  </data>
+  <data name="Search.Text">
+    <value>Chercher</value>
+  </data>
+  <data name="By.Text">
+    <value>par</value>
+  </data>
+  <data name="TagCloud.Text">
+    <value>Nuage de tags</value>
+  </data>
+  <data name="NotSpecified.Text">
+    <value>Non spécifié</value>
+  </data>
+  <data name="MoreInformation.Text">
+    <value>Plus d'Information</value>
+  </data>
+  <data name="DetailsLabel.Text">
+    <value>Détails</value>
+  </data>
+  <data name="LicenseLabel.Text">
+    <value>license</value>
+  </data>
+  <data name="TagLabel.Text">
+    <value>Tag :</value>
+  </data>
+  <data name="VendorLabel.Text">
+    <value>Vendeur:</value>
+  </data>
+  <data name="ExtensionsLabel.Text">
+    <value>extensions</value>
+  </data>
+  <data name="NoneLabel.Text">
+    <value>Aucun</value>
+  </data>
+  <data name="ErrorLabel.Text">
+    <value>Erreur...</value>
+  </data>
+  <data name="LoadingLabel.Text">
+    <value>Chargement en cours</value>
+  </data>
+  <data name="OrderLabel.Text">
+    <value>Commande :</value>
+  </data>
+  <data name="InUse.Header">
+    <value>en cours d'utilisation</value>
+  </data>
+  <data name="PurchasedExtensions.Text">
+    <value>Extensions achetées</value>
+  </data>
+  <data name="installExtension.Text">
+    <value>Installer</value>
+  </data>
+  <data name="Version.Text">
+    <value>Version minimale souhaitée :</value>
+  </data>
+  <data name="DescriptionLabel.Text">
+    <value>Description du produit</value>
+  </data>
+  <data name="ExtensionDetail.Text">
+    <value>Plus de détails</value>
+  </data>
+  <data name="License.Text">
+    <value>Licence :</value>
+  </data>
+  <data name="ListExtensions.Text">
+    <value>Pour en savoir plus sur la façon d'offrir vos extensions&lt;a href="http://www.dotnetnuke.com/app-gallery.aspx "  href="http://www.dotnetnuke.com/App-Gallery.aspx "&gt;&lt;/a href="http://www.dotnetnuke.com/app-gallery.aspx " &gt;</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

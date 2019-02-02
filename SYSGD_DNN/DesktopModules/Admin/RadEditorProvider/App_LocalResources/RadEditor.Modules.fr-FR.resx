@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 31/08/2011 16:07:40   UTC: 2011-08-31 14:07:40Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="ReservedResource">
+    <value>SVP, ne supprimez pas de cette chaîne. RadEditor en a besoin pour déterminer si un fichier de ressources externes est p</value>
+    <comment></comment>
+  </data>
+  <data name="blank">
+    <value>Nouvelle fenêtre</value>
+    <comment></comment>
+  </data>
+  <data name="media">
+    <value>Volet Media</value>
+    <comment></comment>
+  </data>
+  <data name="parent">
+    <value>Fenêtre parente</value>
+    <comment></comment>
+  </data>
+  <data name="search">
+    <value>Volet recherche</value>
+    <comment></comment>
+  </data>
+  <data name="self">
+    <value>Même fenêtre</value>
+    <comment></comment>
+  </data>
+  <data name="top">
+    <value>Fenêtre de navigateur</value>
+    <comment></comment>
+  </data>
+  <data name="action">
+    <value>Action</value>
+    <comment></comment>
+  </data>
+  <data name="align">
+    <value>Alignement</value>
+    <comment></comment>
+  </data>
+  <data name="alt">
+    <value>Info-bulle</value>
+    <comment></comment>
+  </data>
+  <data name="bgColor">
+    <value>Arrière-plan</value>
+    <comment></comment>
+  </data>
+  <data name="border">
+    <value>Largeur de la bordure</value>
+    <comment></comment>
+  </data>
+  <data name="borderColor">
+    <value>Couleur de bordure</value>
+    <comment></comment>
+  </data>
+  <data name="cellPadding">
+    <value>CellPadding</value>
+    <comment></comment>
+  </data>
+  <data name="cellSpacing">
+    <value>CellSpacing</value>
+    <comment></comment>
+  </data>
+  <data name="className">
+    <value>ClassName</value>
+    <comment></comment>
+  </data>
+  <data name="cols">
+    <value>Colonnes</value>
+    <comment></comment>
+  </data>
+  <data name="Doctype">
+    <value>Sélectionnez Doctype</value>
+    <comment></comment>
+  </data>
+  <data name="DomInspectorRemoveElement">
+    <value>RemoveElement</value>
+    <comment></comment>
+  </data>
+  <data name="ExpandValidator">
+    <value>Développez volet de rapport</value>
+    <comment></comment>
+  </data>
+  <data name="height">
+    <value>Hauteur</value>
+    <comment></comment>
+  </data>
+  <data name="href">
+    <value>URL</value>
+    <comment></comment>
+  </data>
+  <data name="id">
+    <value>ID</value>
+    <comment></comment>
+  </data>
+  <data name="name">
+    <value>Nom</value>
+    <comment></comment>
+  </data>
+  <data name="NodeInspectorInvalidValue">
+    <value>Valeur non valide. Veuillez entrer un numéro.</value>
+    <comment></comment>
+  </data>
+  <data name="NodeInspectorSelectedElement">
+    <value>L'élément sélectionné est</value>
+    <comment></comment>
+  </data>
+  <data name="noWrap">
+    <value>NoWrap</value>
+    <comment></comment>
+  </data>
+  <data name="RadEditorDomInspector">
+    <value>Inspecteur de balises</value>
+    <comment></comment>
+  </data>
+  <data name="RadEditorHtmlInspector">
+    <value>Affichage en temps réel de HTML</value>
+    <comment></comment>
+  </data>
+  <data name="RadEditorNodeInspector">
+    <value>Inspecteur Propriétés</value>
+    <comment></comment>
+  </data>
+  <data name="RadEditorStatistics">
+    <value>Statistiques</value>
+    <comment></comment>
+  </data>
+  <data name="RadEditorXhtmlValidator">
+    <value>Validateur XHTML</value>
+    <comment></comment>
+  </data>
+  <data name="rows">
+    <value>Lignes</value>
+    <comment></comment>
+  </data>
+  <data name="StatisticsCharacters">
+    <value>Caractères :</value>
+    <comment></comment>
+  </data>
+  <data name="StatisticsWords">
+    <value>Mots :</value>
+    <comment></comment>
+  </data>
+  <data name="target">
+    <value>Cible</value>
+    <comment></comment>
+  </data>
+  <data name="title">
+    <value>Info-bulle</value>
+    <comment></comment>
+  </data>
+  <data name="ValidateXHTML">
+    <value>Validation XHTML</value>
+    <comment></comment>
+  </data>
+  <data name="vAlign">
+    <value>Alignement vertical</value>
+    <comment></comment>
+  </data>
+  <data name="value">
+    <value>Valeur</value>
+    <comment></comment>
+  </data>
+  <data name="width">
+    <value>Largeur</value>
+    <comment></comment>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

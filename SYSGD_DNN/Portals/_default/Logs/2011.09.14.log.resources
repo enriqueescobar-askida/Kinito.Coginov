@@ -1,0 +1,377 @@
+2011-09-14 09:28:03,987 [enrique-lap][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 72
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 249
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 09:28:04,226 [enrique-lap][Thread:8][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentNullException: Value cannot be null.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 72
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 249
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 09:29:39,570 [enrique-lap][Thread:11][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 70
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 249
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 09:29:39,586 [enrique-lap][Thread:11][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 70
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 249
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 09:56:00,256 [enrique-lap][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Item has already been added. Key in dictionary: 'Telerik.Web.SkinsAssembly'  Key being added: 'Telerik.Web.SkinsAssembly'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Specialized.NameObjectCollectionBase.BaseAdd(String name, Object value)
+   at Telerik.Web.SkinRegistrar.GetDefaultSkinsAssemblyName()
+   at Telerik.Web.SkinRegistrar.GetAllEmbeddedSkinAttributes(RadSkinManager skinManager, Type controlType)
+   at Telerik.Web.UI.Common.BaseClass.GetValueFromConfig(String keyFormat, Control control)
+   at Telerik.Web.UI.Common.BaseClass.GetGlobalEnableEmbeddedSkins(Control control)
+   at Telerik.Web.SkinRegistrar.GetEmbeddedSkinAttributes(ISkinnableControl control, Type controlType)
+   at Telerik.Web.UI.RadStyleSheetManager.RegisterSkinnableControl(ISkinnableControl control)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 09:56:00,358 [enrique-lap][Thread:5][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentException: Item has already been added. Key in dictionary: 'Telerik.Web.SkinsAssembly'  Key being added: 'Telerik.Web.SkinsAssembly'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Specialized.NameObjectCollectionBase.BaseAdd(String name, Object value)
+   at Telerik.Web.SkinRegistrar.GetDefaultSkinsAssemblyName()
+   at Telerik.Web.SkinRegistrar.GetAllEmbeddedSkinAttributes(RadSkinManager skinManager, Type controlType)
+   at Telerik.Web.UI.Common.BaseClass.GetValueFromConfig(String keyFormat, Control control)
+   at Telerik.Web.UI.Common.BaseClass.GetGlobalEnableEmbeddedSkins(Control control)
+   at Telerik.Web.SkinRegistrar.GetEmbeddedSkinAttributes(ISkinnableControl control, Type controlType)
+   at Telerik.Web.UI.RadStyleSheetManager.RegisterSkinnableControl(ISkinnableControl control)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:04:48,386 [enrique-lap][Thread:20][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 70
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 252
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:04:48,395 [enrique-lap][Thread:20][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 70
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 252
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:07:02,515 [enrique-lap][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 71
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 253
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:07:02,534 [enrique-lap][Thread:23][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 71
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 253
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:09:01,295 [enrique-lap][Thread:21][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 71
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:09:23,418 [enrique-lap][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: 'System.String' does not contain a property with the name 'Employeur'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 17
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 85
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:09:23,518 [enrique-lap][Thread:28][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - DataBinding: 'System.String' does not contain a property with the name 'Employeur'.
+DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: 'System.String' does not contain a property with the name 'Employeur'. ---> System.Web.HttpException: DataBinding: 'System.String' does not contain a property with the name 'Employeur'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 17
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 85
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-09-14 10:14:47,994 [enrique-lap][Thread:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: 'System.String' does not contain a property with the name 'Employeur'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 17
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 85
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:14:48,046 [enrique-lap][Thread:15][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - DataBinding: 'System.String' does not contain a property with the name 'Employeur'.
+DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: 'System.String' does not contain a property with the name 'Employeur'. ---> System.Web.HttpException: DataBinding: 'System.String' does not contain a property with the name 'Employeur'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 17
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 85
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-09-14 10:16:18,712 [enrique-lap][Thread:25][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: 'System.String' does not contain a property with the name 'str'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 17
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 85
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:16:18,762 [enrique-lap][Thread:25][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - DataBinding: 'System.String' does not contain a property with the name 'str'.
+DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: 'System.String' does not contain a property with the name 'str'. ---> System.Web.HttpException: DataBinding: 'System.String' does not contain a property with the name 'str'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 17
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 85
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-09-14 10:16:35,558 [enrique-lap][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: 'System.String' does not contain a property with the name 'ficheEmployeur'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 17
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 85
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 10:16:35,589 [enrique-lap][Thread:28][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - DataBinding: 'System.String' does not contain a property with the name 'ficheEmployeur'.
+DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: 'System.String' does not contain a property with the name 'ficheEmployeur'. ---> System.Web.HttpException: DataBinding: 'System.String' does not contain a property with the name 'ficheEmployeur'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 17
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 85
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 255
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-09-14 11:25:22,019 [enrique-lap][Thread:26][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'fieldIDs'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBinding__control4(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 87
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 257
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 11:25:22,169 [enrique-lap][Thread:26][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'fieldIDs'.
+DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'fieldIDs'. ---> System.Web.HttpException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'fieldIDs'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBinding__control4(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 87
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 257
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-09-14 11:28:34,766 [enrique-lap][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'employeID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBinding__control4(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 87
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 257
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 11:28:34,766 [enrique-lap][Thread:32][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)
+2011-09-14 11:28:34,806 [enrique-lap][Thread:27][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'employeID'.
+DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'employeID'. ---> System.Web.HttpException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'employeID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx.__DataBinding__control4(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx:line 18
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.LoadData(String s) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 87
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 257
+   at Coginov.Modules.EditToolbar.WebEditToolBar.SendIMC(ModuleCommunicationEventArgs args) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 106
+   at Coginov.Modules.EditToolbar.WebEditToolBar.imgBtnSearch_Click(Object sender, ImageClickEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\EditToolbar\WebEditToolBar.ascx.cs:line 88
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-09-14 15:14:19,883 [enrique-lap][Thread:10][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidCastException: Unable to cast object of type 'ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx' to type 'System.Web.UI.WebControls.LinkButton'.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 267
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Btn_Search(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 188
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-09-14 15:14:20,227 [enrique-lap][Thread:10][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.InvalidCastException: Unable to cast object of type 'ASP.desktopmodules_coginov_sysgd_resultatsrecherche_viewresultatsrecherche_ascx' to type 'System.Web.UI.WebControls.LinkButton'.
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.OnModuleCommunication(Object s, ModuleCommunicationEventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 267
+   at Coginov.Modules.SYSGD_ResultatsRecherche.ViewResultatsRecherche.Btn_Search(Object sender, EventArgs e) in c:\coginov\SYSGD_DNN\DesktopModules\Coginov\SYSGD_ResultatsRecherche\ViewResultatsRecherche.ascx.cs:line 188
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 10:10:08   UTC: 2011-08-03 08:10:08Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="Add.Title">
+    <value>Créer un module</value>
+  </data>
+  <data name="Edit.Title">
+    <value>Editer le module</value>
+  </data>
+  <data name="cmdCreate.Text">
+    <value>Créer le module</value>
+  </data>
+  <data name="Control.Text">
+    <value>Contrôle</value>
+  </data>
+  <data name="Manifest.Text">
+    <value>Manifeste</value>
+  </data>
+  <data name="New.Text">
+    <value>Nouveau</value>
+  </data>
+  <data name="plAddPage.Help">
+    <value>Cochez cette case pour créer une page de test pour votre nouveau module.</value>
+  </data>
+  <data name="plAddPage.Text">
+    <value>Ajouter une page de test ?</value>
+  </data>
+  <data name="plCreate.Help">
+    <value>Vous pouvez créer un nouveau module de trois façons.  Sélectionnez la méthode à utiliser.  Nouveau - crée un nouveau module de contrôle, contrôle - crée un module à partir d'un contrôle existant, manifeste - crée un module à partir d'un manifeste existant.</value>
+  </data>
+  <data name="plCreate.Text">
+    <value>Créer le module à partir de :</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Vous pouvez fournir une description de votre module.</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Description :</value>
+  </data>
+  <data name="plFile1.Help">
+    <value>Sélectionnez la ressource à utiliser pour créer votre module.</value>
+  </data>
+  <data name="plFile1.Text">
+    <value>Ressource :</value>
+  </data>
+  <data name="plModule1.Help">
+    <value>C'est le dossier où votre module de fichiers et de dossiers sont stockés.</value>
+  </data>
+  <data name="plModule1.Text">
+    <value>Dossier du module :</value>
+  </data>
+  <data name="plName.Help">
+    <value>Entrez un nom pour votre module.</value>
+  </data>
+  <data name="plName.Text">
+    <value>Nom du module :</value>
+  </data>
+  <data name="plOwner1.Help">
+    <value>Les développeurs sont encouragés à utiliser un dossier "unique" à l'intérieur de DesktopModules pour le développement, afin d'éviter les conflits potentiels avec d'autres développeurs.  Sélectionnez le dossier que vous souhaitez utiliser pour le développement de votre module. Remarque : Les dossiers avec les contrôles utilisateur (fichiers .ascx) et le dossier admin de base sont exclus de cette liste.</value>
+  </data>
+  <data name="plOwner1.Text">
+    <value>Dossier du propriétaire :</value>
+  </data>
+  <data name="Template.Text">
+    <value>Gabarit</value>
+  </data>
+  <data name="cmdAdd.Text">
+    <value>Ajouter un dossier</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Annuler</value>
+  </data>
+  <data name="cmdSave.Text">
+    <value>Créer le dossier</value>
+  </data>
+  <data name="CSharp.Text">
+    <value>C# (C sharp.)</value>
+  </data>
+  <data name="LanguageError.Text">
+    <value>Vous devez sélectionner une langue pour le contrôle de votre module.</value>
+  </data>
+  <data name="ModuleControlTemplate.Text">
+    <value>&lt;%@ Control Language="{0}" ClassName="{1}" Inherits="DotNetNuke.Entities.Modules.PortalModuleBase" %&gt;
+&lt;h1&gt;Félicitations&lt;/h1&gt;
+&lt;p&gt;Vous avez créé votre module.  Vous pouvez modifier la source du module contrôle en sélectionnant "affichage de la source" dans le Menu Action.&lt;/p&gt;
+&lt;script runat="server"&gt;
+
+&lt;/script&gt;</value>
+  </data>
+  <data name="plFile2.Help">
+    <value>Entrez un nom pour le nouveau contrôle de module</value>
+  </data>
+  <data name="plFile2.Text">
+    <value>Nom du fichier :</value>
+  </data>
+  <data name="VisualBasic.Text">
+    <value>Visual Basic (VB)</value>
+  </data>
+  <data name="FileExists.Text">
+    <value>Le nom du fichier que vous avez déjà choisi existe.  Veuillez utiliser un autre nom.</value>
+  </data>
+  <data name="ModuleFolder.Text">
+    <value>Vous devez sélectionner un dossier pour le module.  Vous pouvez en créer un si nécessaire.</value>
+  </data>
+  <data name="TabExists.Text">
+    <value>Le nom de la page existe pour ce nom de module.  Le module a été créé, mais la page de test n'a été générée.</value>
+  </data>
+  <data name="plModule2.Help">
+    <value>Entrez un nom pour le nouveau dossier de module.</value>
+  </data>
+  <data name="plModule2.Text">
+    <value>Nom du dossier :</value>
+  </data>
+  <data name="plOwner2.Help">
+    <value>Entrez un nom pour le nouveau dossier de propriétaire.</value>
+  </data>
+  <data name="plOwner2.Text">
+    <value>Nom du dossier :</value>
+  </data>
+  <data name="plLang.Help">
+    <value>Choisissez la langue à utiliser.</value>
+  </data>
+  <data name="plLang.Text">
+    <value>Langue :</value>
+  </data>
+  <data name="ImportControl.ErrorMessage">
+    <value>Il y a eu une erreur d'importation du contrôle de module, veuillez consulter le journal des événements pour plus de détails</value>
+  </data>
+  <data name="InvalidFilename.Text">
+    <value>Les noms de fichier ne peut pas contenir de caractères non valides</value>
+  </data>
+  <data name="MissingControl.Text">
+    <value>Vous devez fournir un nom de fichier pour le contrôle du module</value>
+  </data>
+  <data name="MissingFriendlyname.Text">
+    <value>Vous devez fournir un nom pour le module</value>
+  </data>
+  <data name="NonuniqueName.Text">
+    <value>Un package existe déjà avec ce nom - Veuillez fournir un autre nom.</value>
+  </data>
+  <data name="MissingManifest.Text">
+    <value>Vous devez fournir un fichier mainfest (.dnn ou .dnn5)</value>
+  </data>
+  <data name="NoControl.Text">
+    <value>Vous devez sélectionner un contrôle dans la liste des "Ressources"</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

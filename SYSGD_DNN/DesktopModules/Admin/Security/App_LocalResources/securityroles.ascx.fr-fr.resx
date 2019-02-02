@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserName.Header">
+    <value>Utilisateur</value>
+  </data>
+  <data name="SecurityRole.Header">
+    <value>Membre du groupe</value>
+  </data>
+  <data name="ExpiryDate.Header">
+    <value>Expire le</value>
+  </data>
+  <data name="plUsers.Text">
+    <value>Utilisateur</value>
+  </data>
+  <data name="plUsers.Help">
+    <value>Choisissez l'utilisateur</value>
+  </data>
+  <data name="plRoles.Text">
+    <value>Groupe</value>
+  </data>
+  <data name="plRoles.Help">
+    <value>Choisissez un groupe</value>
+  </data>
+  <data name="plExpiryDate.Text">
+    <value>Jusqu'au</value>
+  </data>
+  <data name="plExpiryDate.Help">
+    <value>Spécifiez la date à laquelle l'appartenance à ce groupe arrive à échéance (optionnel). Ne spécifiez pas de valeur pour une durée illimitée.</value>
+  </data>
+  <data name="SendNotification.Text">
+    <value>Informer l'utilisateur de la modification par courriel ?</value>
+  </data>
+  <data name="cmdAdd.Text">
+    <value>Attribuer le rôle</value>
+  </data>
+  <data name="valExpiryDate.Text">
+    <value>&lt;br&gt;Date d'expiration non valide</value>
+  </data>
+  <data name="RoleRemoveError.Text">
+    <value>Vous ne pouvez pas supprimer l'administrateur du site ou le groupe de l'utilisateur enregistré</value>
+  </data>
+  <data name="ControlTitle_user roles.Text">
+    <value>Utilisateur &amp; Groupes</value>
+  </data>
+  <data name="UserTitle.Text">
+    <value>Gestion des droits pour : {0} (Id : {1})</value>
+  </data>
+  <data name="RoleTitle.Text">
+    <value>Gestion des utilisateurs ayant le rôle "&lt;b&gt;{0}&lt;/b&gt;" (Id: {1})</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos de la gestion des rôles&lt;/h1&gt;&lt;p&gt;Cet outil permet de gérer les rôles 
+de sécurité associés au site.&lt;/p&gt;</value>
+  </data>
+  <data name="AddUser.Text">
+    <value>Ajouter l'utilisateur à ce rôle</value>
+  </data>
+  <data name="AddRole.Text">
+    <value>Ajouter ce rôle</value>
+  </data>
+  <data name="cmdValidate.Text">
+    <value>Validé</value>
+  </data>
+  <data name="EffectiveDate.Header">
+    <value>Rôle obtenu le</value>
+  </data>
+  <data name="plEffectiveDate.Help">
+    <value>Spécifiez la date à laquelle l'adhésion commencera (optionnel). N'entrez pas de valeur si vous souhaitez que l'adhésion débute immédiatement.</value>
+  </data>
+  <data name="plEffectiveDate.Text">
+    <value>A compter du</value>
+  </data>
+  <data name="valDates.Text">
+    <value>&lt;br&gt;La date d'expiration doit être postérieure à la date de début</value>
+  </data>
+  <data name="valEffectiveDate.Text">
+    <value>&lt;br&gt;Date de début non valide</value>
+  </data>
+  <data name="UpdateRole.Text">
+    <value>Ajouter</value>
+  </data>
+  <data name="NotAuthorized.Text">
+    <value>Vous n'êtes pas autorisé(e) à modifier ce rôle.</value>
+  </data>
+</root>

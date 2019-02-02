@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbLocales.Text">
+    <value>Langues disponibles</value>
+  </data>
+  <data name="ResourceName.Text">
+    <value>Ressource :</value>
+  </data>
+  <data name="Value.Text">
+    <value>Valeur localisée</value>
+  </data>
+  <data name="RequiredField.ErrorMessage">
+    <value>&lt;br&gt;Champ requis</value>
+  </data>
+  <data name="lbLocales.Help">
+    <value>Selectionnez la langue</value>
+  </data>
+  <data name="DefaultValue.Text">
+    <value>Valeur par défaut</value>
+  </data>
+  <data name="DeleteItem.Text">
+    <value>Etes vous certain de voulir supprimer ce fichier de Langue ?</value>
+  </data>
+  <data name="Delete.ErrorMessage">
+    <value>La langue de base (en-US) ne peut être supprimée</value>
+  </data>
+  <data name="Save.ErrorMessage">
+    <value>Echec de l'opération sur le fichier. Vérifiez les permissions sur ce fichier de Ressources.</value>
+  </data>
+  <data name="SelectedFile.Text">
+    <value>Ressource </value>
+  </data>
+  <data name="SaveWarning.Text">
+    <value>Toutes les modifications effectuées seront perdues si vous continuez. Etes-vous certain de vouloir continuer ?</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Localisation personnelle</value>
+  </data>
+  <data name="DuplicateEntry.Text">
+    <value>Ce fichier contient plus d&amp;#146;une entrée pour : &lt;b&gt;{0}&lt;/b&gt;. Vous devriez éditer le fichier et supprimer les entrées dupliquées.</value>
+  </data>
+  <data name="Highlight.Text">
+    <value>Entourer les traductions manquantes</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos de l'éditeur de langue&lt;/h1&gt;&lt;p&gt;Le Superutilisateur peut utiliser cet outil pour gèrer les packs de langues installés sur le système.&lt;/p&gt;</value>
+  </data>
+  <data name="Deleted.Text">
+    <value>Le fichier {0} a été correctement effacé</value>
+  </data>
+  <data name="lbMode.Help">
+    <value>Choisissez "Système" pour éditer le pack de langue global ou "Hôte" afin de créer une version personnelle du pack de langue.</value>
+  </data>
+  <data name="lbMode.Text">
+    <value>Mode :</value>
+  </data>
+  <data name="ModeHost.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="ModePortal.Text">
+    <value>Site</value>
+  </data>
+  <data name="ModeSystem.Text">
+    <value>Système</value>
+  </data>
+  <data name="Obsolete.Text">
+    <value>Ce fichier contient des ressources obsolètes. Cliquer sur "Enregistrer" pour les supprimer de manière permanente.</value>
+  </data>
+  <data name="DisplayEnglish.Text">
+    <value>version anglaise</value>
+  </data>
+  <data name="DisplayNative.Text">
+    <value>version native</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Retour</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>Supprimer la ressource</value>
+  </data>
+  <data name="cmdParent.Text">
+    <value>Revenir sur la page principale</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Enregistrer la ressource</value>
+  </data>
+  <data name="ControlTitle_editlanguage.Text">
+    <value>Editeur de langue</value>
+  </data>
+</root>

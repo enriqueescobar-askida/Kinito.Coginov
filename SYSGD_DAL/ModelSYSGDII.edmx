@@ -1,0 +1,1713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SYSGEDIIModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="SYSGEDIIModelStoreContainer">
+          <EntitySet Name="Affectation" EntityType="SYSGEDIIModel.Store.Affectation" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Agent" EntityType="SYSGEDIIModel.Store.Agent" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AssociationPatronales" EntityType="SYSGEDIIModel.Store.AssociationPatronales" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Contact" EntityType="SYSGEDIIModel.Store.Contact" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Employeur" EntityType="SYSGEDIIModel.Store.Employeur" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="EmployeurSyndicat" EntityType="SYSGEDIIModel.Store.EmployeurSyndicat" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Episode" EntityType="SYSGEDIIModel.Store.Episode" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FicheContact" EntityType="SYSGEDIIModel.Store.FicheContact" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FicheEmployeur" EntityType="SYSGEDIIModel.Store.FicheEmployeur" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FicheSalarie" EntityType="SYSGEDIIModel.Store.FicheSalarie" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Langues" EntityType="SYSGEDIIModel.Store.Langues" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="NatureEntreprises" EntityType="SYSGEDIIModel.Store.NatureEntreprises" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PeriodePaies" EntityType="SYSGEDIIModel.Store.PeriodePaies" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PeriodeReferences" EntityType="SYSGEDIIModel.Store.PeriodeReferences" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Pilotage" EntityType="SYSGEDIIModel.Store.Pilotage" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Role" EntityType="SYSGEDIIModel.Store.Role" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Salarie" EntityType="SYSGEDIIModel.Store.Salarie" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SemainePaies" EntityType="SYSGEDIIModel.Store.SemainePaies" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Sexes" EntityType="SYSGEDIIModel.Store.Sexes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Syndicats" EntityType="SYSGEDIIModel.Store.Syndicats" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TypeRMPs" EntityType="SYSGEDIIModel.Store.TypeRMPs" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TypeTelephones" EntityType="SYSGEDIIModel.Store.TypeTelephones" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Version" EntityType="SYSGEDIIModel.Store.Version" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Affectation_Contact" Association="SYSGEDIIModel.Store.FK_Affectation_Contact">
+            <End Role="Contact" EntitySet="Contact" />
+            <End Role="Affectation" EntitySet="Affectation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Affectation_Employeur" Association="SYSGEDIIModel.Store.FK_Affectation_Employeur">
+            <End Role="Employeur" EntitySet="Employeur" />
+            <End Role="Affectation" EntitySet="Affectation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Affectation_Role" Association="SYSGEDIIModel.Store.FK_Affectation_Role">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="Affectation" EntitySet="Affectation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AgentSalarie" Association="SYSGEDIIModel.Store.FK_AgentSalarie">
+            <End Role="Agent" EntitySet="Agent" />
+            <End Role="Salarie" EntitySet="Salarie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ContactFicheContact" Association="SYSGEDIIModel.Store.FK_ContactFicheContact">
+            <End Role="Contact" EntitySet="Contact" />
+            <End Role="FicheContact" EntitySet="FicheContact" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmployeurEmployeurSyndicat" Association="SYSGEDIIModel.Store.FK_EmployeurEmployeurSyndicat">
+            <End Role="Employeur" EntitySet="Employeur" />
+            <End Role="EmployeurSyndicat" EntitySet="EmployeurSyndicat" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmployeurFicheEmployeur" Association="SYSGEDIIModel.Store.FK_EmployeurFicheEmployeur">
+            <End Role="Employeur" EntitySet="Employeur" />
+            <End Role="FicheEmployeur" EntitySet="FicheEmployeur" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmployeurSalarie" Association="SYSGEDIIModel.Store.FK_EmployeurSalarie">
+            <End Role="Employeur" EntitySet="Employeur" />
+            <End Role="Salarie" EntitySet="Salarie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SalarieEpisode" Association="SYSGEDIIModel.Store.FK_SalarieEpisode">
+            <End Role="Salarie" EntitySet="Salarie" />
+            <End Role="Episode" EntitySet="Episode" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SalarieFicheSalarie" Association="SYSGEDIIModel.Store.FK_SalarieFicheSalarie">
+            <End Role="Salarie" EntitySet="Salarie" />
+            <End Role="FicheSalarie" EntitySet="FicheSalarie" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SyndicatEmployeurSyndicat" Association="SYSGEDIIModel.Store.FK_SyndicatEmployeurSyndicat">
+            <End Role="Syndicats" EntitySet="Syndicats" />
+            <End Role="EmployeurSyndicat" EntitySet="EmployeurSyndicat" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SyndicatFicheSalarie" Association="SYSGEDIIModel.Store.FK_SyndicatFicheSalarie">
+            <End Role="Syndicats" EntitySet="Syndicats" />
+            <End Role="FicheSalarie" EntitySet="FicheSalarie" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Affectation">
+          <Key>
+            <PropertyRef Name="AffectationID" />
+          </Key>
+          <Property Name="AffectationID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="RoleID" Type="int" Nullable="false" />
+          <Property Name="DebutAffectation" Type="datetime" Nullable="false" />
+          <Property Name="FinAffectation" Type="datetime" />
+          <Property Name="EmployeurID" Type="int" Nullable="false" />
+          <Property Name="ContactID" Type="int" Nullable="false" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+          <Property Name="DateUpdate" Type="datetime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Agent">
+          <Key>
+            <PropertyRef Name="AgentID" />
+          </Key>
+          <Property Name="AgentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NomOriginal" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="PrenomOriginal" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="NASOriginal" Type="nchar" Nullable="false" MaxLength="9" />
+          <Property Name="DateUpdate" Type="datetime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="int" Nullable="false" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AssociationPatronales">
+          <Key>
+            <PropertyRef Name="AssociationPatronaleID" />
+          </Key>
+          <Property Name="AssociationPatronaleID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Contact">
+          <Key>
+            <PropertyRef Name="ContactID" />
+          </Key>
+          <Property Name="ContactID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Prenom" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Titre" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="DataUpdate" Type="datetime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="int" Nullable="false" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Employeur">
+          <Key>
+            <PropertyRef Name="EmployeurID" />
+          </Key>
+          <Property Name="EmployeurID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NomOriginal" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="DateUpdate" Type="datetime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="int" Nullable="false" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EmployeurSyndicat">
+          <Key>
+            <PropertyRef Name="EmployeurSyndicatID" />
+          </Key>
+          <Property Name="EmployeurSyndicatID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeurID" Type="int" Nullable="false" />
+          <Property Name="SyndicatID" Type="int" Nullable="false" />
+          <Property Name="DateUpdate" Type="datetime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="int" Nullable="false" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Episode">
+          <Key>
+            <PropertyRef Name="EpisodeID" />
+          </Key>
+          <Property Name="EpisodeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SalarieID" Type="int" Nullable="false" />
+          <Property Name="DateDebut" Type="datetime" Nullable="false" />
+          <Property Name="DateFin" Type="datetime" Nullable="false" />
+          <Property Name="DateUpdate" Type="datetime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="int" Nullable="false" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FicheContact">
+          <Key>
+            <PropertyRef Name="FicheContactID" />
+          </Key>
+          <Property Name="FicheContactID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ContactID" Type="int" Nullable="false" />
+          <Property Name="NoCivique" Type="nvarchar" Nullable="false" MaxLength="15" />
+          <Property Name="Rue" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Ville" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Region" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Pays" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Valide" Type="bit" Nullable="false" />
+          <Property Name="Telephone1" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="TypeTelephone1" Type="int" Nullable="false" />
+          <Property Name="Telephone2" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="TypeTelephone2" Type="int" Nullable="false" />
+          <Property Name="Telecopieur" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="Courriel" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Notes" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FicheEmployeur">
+          <Key>
+            <PropertyRef Name="FicheEmployeurID" />
+          </Key>
+          <Property Name="FicheEmployeurID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeurID" Type="int" Nullable="false" />
+          <Property Name="ParentEmployeurID" Type="int" />
+          <Property Name="LangueCorespondanceID" Type="int" Nullable="false" />
+          <Property Name="TypeRMPID" Type="int" Nullable="false" />
+          <Property Name="NatureEntrepriseID" Type="int" Nullable="false" />
+          <Property Name="PeriodeReferenceID" Type="int" Nullable="false" />
+          <Property Name="AssociationPatronaleID" Type="int" Nullable="false" />
+          <Property Name="PeriodePaieID" Type="int" Nullable="false" />
+          <Property Name="SemainePaieID" Type="int" Nullable="false" />
+          <Property Name="NoEmployeur" Type="nvarchar" Nullable="false" MaxLength="6" />
+          <Property Name="RaisonSociale1" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="RaisonSocialeAbregee" Type="nvarchar" Nullable="false" MaxLength="25" />
+          <Property Name="DateDebutActivite" Type="datetime" Nullable="false" />
+          <Property Name="DateDebutRMP" Type="datetime" />
+          <Property Name="Actif" Type="bit" Nullable="false" />
+          <Property Name="Telecopieur" Type="nvarchar" MaxLength="20" />
+          <Property Name="Telephone" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="NoCivique" Type="nvarchar" Nullable="false" MaxLength="15" />
+          <Property Name="Rue" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Ville" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Region" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Pays" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CodePostal" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="RetenirCorrespondance" Type="bit" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FicheSalarie">
+          <Key>
+            <PropertyRef Name="FicheSalarieID" />
+          </Key>
+          <Property Name="FicheSalarieID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SalarieID" Type="int" Nullable="false" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Prenom" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="SexeID" Type="int" Nullable="false" />
+          <Property Name="SyndicatID" Type="int" Nullable="false" />
+          <Property Name="DateNaissance" Type="datetime" Nullable="false" />
+          <Property Name="NAS" Type="nchar" Nullable="false" MaxLength="9" />
+          <Property Name="NoEmploye" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="NoCivique" Type="nvarchar" Nullable="false" MaxLength="15" />
+          <Property Name="Rue" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Ville" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Region" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Pays" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CodePostal" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="Telephone1" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="TypeTelephone1" Type="int" Nullable="false" />
+          <Property Name="Telephone2" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="TypeTelephone2" Type="int" Nullable="false" />
+          <Property Name="Couriel" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Langues">
+          <Key>
+            <PropertyRef Name="LangueID" />
+          </Key>
+          <Property Name="LangueID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="NatureEntreprises">
+          <Key>
+            <PropertyRef Name="NatureEntrepriseID" />
+          </Key>
+          <Property Name="NatureEntrepriseID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="PeriodePaies">
+          <Key>
+            <PropertyRef Name="PeriodePaieID" />
+          </Key>
+          <Property Name="PeriodePaieID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="PeriodeReferences">
+          <Key>
+            <PropertyRef Name="PeriodeReferenceID" />
+          </Key>
+          <Property Name="PeriodeReferenceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Pilotage">
+          <Key>
+            <PropertyRef Name="PilotageID" />
+          </Key>
+          <Property Name="PilotageID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="type" Type="nvarchar" Nullable="false" MaxLength="30" />
+          <Property Name="Nom" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="RoleID" />
+          </Key>
+          <Property Name="RoleID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Obligatoire" Type="bit" Nullable="false" />
+          <Property Name="Ordre" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Salarie">
+          <Key>
+            <PropertyRef Name="SalarieID" />
+          </Key>
+          <Property Name="SalarieID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AgentID" Type="int" Nullable="false" />
+          <Property Name="EmployeurID" Type="int" Nullable="false" />
+          <Property Name="DateUpdate" Type="datetime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="int" Nullable="false" />
+          <Property Name="DateInsert" Type="datetime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SemainePaies">
+          <Key>
+            <PropertyRef Name="SemainePaieID" />
+          </Key>
+          <Property Name="SemainePaieID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Sexes">
+          <Key>
+            <PropertyRef Name="SexeID" />
+          </Key>
+          <Property Name="SexeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="Syndicats">
+          <Key>
+            <PropertyRef Name="SyndicatID" />
+          </Key>
+          <Property Name="SyndicatID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TypeRMPs">
+          <Key>
+            <PropertyRef Name="TypeRMPID" />
+          </Key>
+          <Property Name="TypeRMPID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TypeTelephones">
+          <Key>
+            <PropertyRef Name="TypeTelephoneID" />
+          </Key>
+          <Property Name="TypeTelephoneID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Qualifiant" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Version">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <Association Name="FK_Affectation_Contact">
+          <End Role="Contact" Type="SYSGEDIIModel.Store.Contact" Multiplicity="1" />
+          <End Role="Affectation" Type="SYSGEDIIModel.Store.Affectation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contact">
+              <PropertyRef Name="ContactID" />
+            </Principal>
+            <Dependent Role="Affectation">
+              <PropertyRef Name="ContactID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Affectation_Employeur">
+          <End Role="Employeur" Type="SYSGEDIIModel.Store.Employeur" Multiplicity="1" />
+          <End Role="Affectation" Type="SYSGEDIIModel.Store.Affectation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employeur">
+              <PropertyRef Name="EmployeurID" />
+            </Principal>
+            <Dependent Role="Affectation">
+              <PropertyRef Name="EmployeurID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Affectation_Role">
+          <End Role="Role" Type="SYSGEDIIModel.Store.Role" Multiplicity="1" />
+          <End Role="Affectation" Type="SYSGEDIIModel.Store.Affectation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="RoleID" />
+            </Principal>
+            <Dependent Role="Affectation">
+              <PropertyRef Name="RoleID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AgentSalarie">
+          <End Role="Agent" Type="SYSGEDIIModel.Store.Agent" Multiplicity="1" />
+          <End Role="Salarie" Type="SYSGEDIIModel.Store.Salarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Agent">
+              <PropertyRef Name="AgentID" />
+            </Principal>
+            <Dependent Role="Salarie">
+              <PropertyRef Name="AgentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ContactFicheContact">
+          <End Role="Contact" Type="SYSGEDIIModel.Store.Contact" Multiplicity="1" />
+          <End Role="FicheContact" Type="SYSGEDIIModel.Store.FicheContact" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contact">
+              <PropertyRef Name="ContactID" />
+            </Principal>
+            <Dependent Role="FicheContact">
+              <PropertyRef Name="ContactID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmployeurEmployeurSyndicat">
+          <End Role="Employeur" Type="SYSGEDIIModel.Store.Employeur" Multiplicity="1" />
+          <End Role="EmployeurSyndicat" Type="SYSGEDIIModel.Store.EmployeurSyndicat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employeur">
+              <PropertyRef Name="EmployeurID" />
+            </Principal>
+            <Dependent Role="EmployeurSyndicat">
+              <PropertyRef Name="EmployeurID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmployeurFicheEmployeur">
+          <End Role="Employeur" Type="SYSGEDIIModel.Store.Employeur" Multiplicity="1" />
+          <End Role="FicheEmployeur" Type="SYSGEDIIModel.Store.FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employeur">
+              <PropertyRef Name="EmployeurID" />
+            </Principal>
+            <Dependent Role="FicheEmployeur">
+              <PropertyRef Name="EmployeurID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmployeurSalarie">
+          <End Role="Employeur" Type="SYSGEDIIModel.Store.Employeur" Multiplicity="1" />
+          <End Role="Salarie" Type="SYSGEDIIModel.Store.Salarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employeur">
+              <PropertyRef Name="EmployeurID" />
+            </Principal>
+            <Dependent Role="Salarie">
+              <PropertyRef Name="EmployeurID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SalarieEpisode">
+          <End Role="Salarie" Type="SYSGEDIIModel.Store.Salarie" Multiplicity="1" />
+          <End Role="Episode" Type="SYSGEDIIModel.Store.Episode" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Salarie">
+              <PropertyRef Name="SalarieID" />
+            </Principal>
+            <Dependent Role="Episode">
+              <PropertyRef Name="SalarieID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SalarieFicheSalarie">
+          <End Role="Salarie" Type="SYSGEDIIModel.Store.Salarie" Multiplicity="1" />
+          <End Role="FicheSalarie" Type="SYSGEDIIModel.Store.FicheSalarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Salarie">
+              <PropertyRef Name="SalarieID" />
+            </Principal>
+            <Dependent Role="FicheSalarie">
+              <PropertyRef Name="SalarieID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SyndicatEmployeurSyndicat">
+          <End Role="Syndicats" Type="SYSGEDIIModel.Store.Syndicats" Multiplicity="1" />
+          <End Role="EmployeurSyndicat" Type="SYSGEDIIModel.Store.EmployeurSyndicat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Syndicats">
+              <PropertyRef Name="SyndicatID" />
+            </Principal>
+            <Dependent Role="EmployeurSyndicat">
+              <PropertyRef Name="SyndicatID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SyndicatFicheSalarie">
+          <End Role="Syndicats" Type="SYSGEDIIModel.Store.Syndicats" Multiplicity="1" />
+          <End Role="FicheSalarie" Type="SYSGEDIIModel.Store.FicheSalarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Syndicats">
+              <PropertyRef Name="SyndicatID" />
+            </Principal>
+            <Dependent Role="FicheSalarie">
+              <PropertyRef Name="SyndicatID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SYSGDIIModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="SYSGDIIEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AgentSet" EntityType="SYSGDIIModel.Agent" />
+          <EntitySet Name="AssociationPatronales" EntityType="SYSGDIIModel.AssociationPatronales" />
+          <EntitySet Name="ContactSet" EntityType="SYSGDIIModel.Contact" />
+          <EntitySet Name="EmployeurSet" EntityType="SYSGDIIModel.Employeur" />
+          <EntitySet Name="EmployeurSyndicatSet" EntityType="SYSGDIIModel.EmployeurSyndicat" />
+          <EntitySet Name="EpisodeSet" EntityType="SYSGDIIModel.Episode" />
+          <EntitySet Name="FicheContactSet" EntityType="SYSGDIIModel.FicheContact" />
+          <EntitySet Name="FicheEmployeurSet" EntityType="SYSGDIIModel.FicheEmployeur" />
+          <EntitySet Name="FicheSalarieSet" EntityType="SYSGDIIModel.FicheSalarie" />
+          <EntitySet Name="Langues" EntityType="SYSGDIIModel.Langues" />
+          <EntitySet Name="NatureEntreprises" EntityType="SYSGDIIModel.NatureEntreprises" />
+          <EntitySet Name="PeriodePaies" EntityType="SYSGDIIModel.PeriodePaies" />
+          <EntitySet Name="PeriodeReferences" EntityType="SYSGDIIModel.PeriodeReferences" />
+          <EntitySet Name="PilotageSet" EntityType="SYSGDIIModel.Pilotage" />
+          <EntitySet Name="SalarieSet" EntityType="SYSGDIIModel.Salarie" />
+          <EntitySet Name="SemainePaies" EntityType="SYSGDIIModel.SemainePaies" />
+          <EntitySet Name="Sexes" EntityType="SYSGDIIModel.Sexes" />
+          <EntitySet Name="SyndicatSet" EntityType="SYSGDIIModel.Syndicat" />
+          <EntitySet Name="TypeRMPs" EntityType="SYSGDIIModel.TypeRMPs" />
+          <EntitySet Name="TypeTelephones" EntityType="SYSGDIIModel.TypeTelephones" />
+          <EntitySet Name="Versions" EntityType="SYSGDIIModel.Versions" />
+          <AssociationSet Name="FK_AgentSalarie" Association="SYSGDIIModel.FK_AgentSalarie">
+            <End Role="Agent" EntitySet="AgentSet" />
+            <End Role="Salaries" EntitySet="SalarieSet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ContactFicheContact" Association="SYSGDIIModel.FK_ContactFicheContact">
+            <End Role="Contact" EntitySet="ContactSet" />
+            <End Role="FicheContacts" EntitySet="FicheContactSet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmployeurEmployeurSyndicat" Association="SYSGDIIModel.FK_EmployeurEmployeurSyndicat">
+            <End Role="Employeur" EntitySet="EmployeurSet" />
+            <End Role="EmployeurSyndicats" EntitySet="EmployeurSyndicatSet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmployeurFicheEmployeur" Association="SYSGDIIModel.FK_EmployeurFicheEmployeur">
+            <End Role="Employeur" EntitySet="EmployeurSet" />
+            <End Role="FicheEmployeurs" EntitySet="FicheEmployeurSet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmployeurSalarie" Association="SYSGDIIModel.FK_EmployeurSalarie">
+            <End Role="Employeur" EntitySet="EmployeurSet" />
+            <End Role="Salaries" EntitySet="SalarieSet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SyndicatEmployeurSyndicat" Association="SYSGDIIModel.FK_SyndicatEmployeurSyndicat">
+            <End Role="Syndicats" EntitySet="SyndicatSet" />
+            <End Role="EmployeurSyndicats" EntitySet="EmployeurSyndicatSet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SalarieEpisode" Association="SYSGDIIModel.FK_SalarieEpisode">
+            <End Role="Salarie" EntitySet="SalarieSet" />
+            <End Role="Episodes" EntitySet="EpisodeSet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SalarieFicheSalarie" Association="SYSGDIIModel.FK_SalarieFicheSalarie">
+            <End Role="Salarie" EntitySet="SalarieSet" />
+            <End Role="FicheSalaries" EntitySet="FicheSalarieSet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SyndicatFicheSalarie" Association="SYSGDIIModel.FK_SyndicatFicheSalarie">
+            <End Role="Syndicats" EntitySet="SyndicatSet" />
+            <End Role="FicheSalaries" EntitySet="FicheSalarieSet" />
+          </AssociationSet>
+          <AssociationSet Name="TelephoneFicheSalarie" Association="SYSGDIIModel.TelephoneFicheSalarie">
+            <End Role="Telephone" EntitySet="PilotageSet" />
+            <End Role="FicheSalarie" EntitySet="FicheSalarieSet" />
+          </AssociationSet>
+          <AssociationSet Name="TelephoneFicheSalarie1" Association="SYSGDIIModel.TelephoneFicheSalarie1">
+            <End Role="Telephone" EntitySet="PilotageSet" />
+            <End Role="FicheSalarie" EntitySet="FicheSalarieSet" />
+          </AssociationSet>
+          <AssociationSet Name="TelephoneFicheContact" Association="SYSGDIIModel.TelephoneFicheContact">
+            <End Role="Telephone" EntitySet="PilotageSet" />
+            <End Role="FicheContact" EntitySet="FicheContactSet" />
+          </AssociationSet>
+          <AssociationSet Name="TelephoneFicheContact1" Association="SYSGDIIModel.TelephoneFicheContact1">
+            <End Role="Telephone" EntitySet="PilotageSet" />
+            <End Role="FicheContact" EntitySet="FicheContactSet" />
+          </AssociationSet>
+          <AssociationSet Name="TypeRMPFicheEmployeur" Association="SYSGDIIModel.TypeRMPFicheEmployeur">
+            <End Role="TypeRMP" EntitySet="PilotageSet" />
+            <End Role="FicheEmployeur" EntitySet="FicheEmployeurSet" />
+          </AssociationSet>
+          <AssociationSet Name="PeriodeReferenceFicheEmployeur" Association="SYSGDIIModel.PeriodeReferenceFicheEmployeur">
+            <End Role="PeriodeReference" EntitySet="PilotageSet" />
+            <End Role="FicheEmployeur" EntitySet="FicheEmployeurSet" />
+          </AssociationSet>
+          <AssociationSet Name="PeriodePaieFicheEmployeur" Association="SYSGDIIModel.PeriodePaieFicheEmployeur">
+            <End Role="PeriodePaie" EntitySet="PilotageSet" />
+            <End Role="FicheEmployeur" EntitySet="FicheEmployeurSet" />
+          </AssociationSet>
+          <AssociationSet Name="NatureEntrepriseFicheEmployeur" Association="SYSGDIIModel.NatureEntrepriseFicheEmployeur">
+            <End Role="NatureEntreprise" EntitySet="PilotageSet" />
+            <End Role="FicheEmployeur" EntitySet="FicheEmployeurSet" />
+          </AssociationSet>
+          <AssociationSet Name="LangueFicheEmployeur" Association="SYSGDIIModel.LangueFicheEmployeur">
+            <End Role="Langue" EntitySet="PilotageSet" />
+            <End Role="FicheEmployeur" EntitySet="FicheEmployeurSet" />
+          </AssociationSet>
+          <AssociationSet Name="AssociationPatronaleFicheEmployeur" Association="SYSGDIIModel.AssociationPatronaleFicheEmployeur">
+            <End Role="AssociationPatronale" EntitySet="PilotageSet" />
+            <End Role="FicheEmployeur" EntitySet="FicheEmployeurSet" />
+          </AssociationSet>
+          <AssociationSet Name="SemainePaieFicheEmployeur" Association="SYSGDIIModel.SemainePaieFicheEmployeur">
+            <End Role="SemainePaie" EntitySet="PilotageSet" />
+            <End Role="FicheEmployeur" EntitySet="FicheEmployeurSet" />
+          </AssociationSet>
+          <AssociationSet Name="SexeFicheSalarie" Association="SYSGDIIModel.SexeFicheSalarie">
+            <End Role="Sexe" EntitySet="PilotageSet" />
+            <End Role="FicheSalarie" EntitySet="FicheSalarieSet" />
+          </AssociationSet>
+          <EntitySet Name="Affectation" EntityType="SYSGDIIModel.Affectation" />
+          <EntitySet Name="Role" EntityType="SYSGDIIModel.Role" />
+          <AssociationSet Name="FK_Affectation_Contact" Association="SYSGDIIModel.FK_Affectation_Contact">
+            <End Role="Contact" EntitySet="ContactSet" />
+            <End Role="Affectation" EntitySet="Affectation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Affectation_Employeur" Association="SYSGDIIModel.FK_Affectation_Employeur">
+            <End Role="Employeur" EntitySet="EmployeurSet" />
+            <End Role="Affectation" EntitySet="Affectation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Affectation_Role" Association="SYSGDIIModel.FK_Affectation_Role">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="Affectation" EntitySet="Affectation" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="Agent">
+          <Key>
+            <PropertyRef Name="AgentID" />
+          </Key>
+          <Property Name="AgentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NomOriginal" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="PrenomOriginal" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="NASOriginal" Type="String" Nullable="false" MaxLength="9" Unicode="true" FixedLength="true" />
+          <Property Name="DateUpdate" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="Int32" Nullable="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Salaries" Relationship="SYSGDIIModel.FK_AgentSalarie" FromRole="Agent" ToRole="Salaries" />
+        </EntityType>
+        <EntityType Name="AssociationPatronales">
+          <Key>
+            <PropertyRef Name="AssociationPatronaleID" />
+          </Key>
+          <Property Name="AssociationPatronaleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Contact">
+          <Key>
+            <PropertyRef Name="ContactID" />
+          </Key>
+          <Property Name="ContactID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Prenom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DataUpdate" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="Int32" Nullable="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="FicheContacts" Relationship="SYSGDIIModel.FK_ContactFicheContact" FromRole="Contact" ToRole="FicheContacts" />
+          <NavigationProperty Name="Affectations" Relationship="SYSGDIIModel.FK_Affectation_Contact" FromRole="Contact" ToRole="Affectation" />
+          <Property Type="String" Name="Titre" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Employeur">
+          <Key>
+            <PropertyRef Name="EmployeurID" />
+          </Key>
+          <Property Name="EmployeurID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NomOriginal" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateUpdate" Type="DateTime" Nullable="false" ConcurrencyMode="Fixed" />
+          <Property Name="AuteurUpdate" Type="Int32" Nullable="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="EmployeurSyndicats" Relationship="SYSGDIIModel.FK_EmployeurEmployeurSyndicat" FromRole="Employeur" ToRole="EmployeurSyndicats" />
+          <NavigationProperty Name="FicheEmployeurs" Relationship="SYSGDIIModel.FK_EmployeurFicheEmployeur" FromRole="Employeur" ToRole="FicheEmployeurs" />
+          <NavigationProperty Name="Salaries" Relationship="SYSGDIIModel.FK_EmployeurSalarie" FromRole="Employeur" ToRole="Salaries" />
+          <NavigationProperty Name="Affectations" Relationship="SYSGDIIModel.FK_Affectation_Employeur" FromRole="Employeur" ToRole="Affectation" />
+        </EntityType>
+        <EntityType Name="EmployeurSyndicat">
+          <Key>
+            <PropertyRef Name="EmployeurSyndicatID" />
+          </Key>
+          <Property Name="EmployeurSyndicatID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeurID" Type="Int32" Nullable="false" />
+          <Property Name="SyndicatID" Type="Int32" Nullable="false" />
+          <Property Name="DateUpdate" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="Int32" Nullable="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employeur" Relationship="SYSGDIIModel.FK_EmployeurEmployeurSyndicat" FromRole="EmployeurSyndicats" ToRole="Employeur" />
+          <NavigationProperty Name="Syndicats" Relationship="SYSGDIIModel.FK_SyndicatEmployeurSyndicat" FromRole="EmployeurSyndicats" ToRole="Syndicats" />
+        </EntityType>
+        <EntityType Name="Episode">
+          <Key>
+            <PropertyRef Name="EpisodeID" />
+          </Key>
+          <Property Name="EpisodeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SalarieID" Type="Int32" Nullable="false" />
+          <Property Name="DateDebut" Type="DateTime" Nullable="false" />
+          <Property Name="DateFin" Type="DateTime" Nullable="false" />
+          <Property Name="DateUpdate" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="Int32" Nullable="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Salarie" Relationship="SYSGDIIModel.FK_SalarieEpisode" FromRole="Episodes" ToRole="Salarie" />
+        </EntityType>
+        <EntityType Name="FicheContact">
+          <Key>
+            <PropertyRef Name="FicheContactID" />
+          </Key>
+          <Property Name="FicheContactID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ContactID" Type="Int32" Nullable="false" />
+          <Property Name="NoCivique" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+          <Property Name="Rue" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Ville" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Region" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Pays" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Valide" Type="Boolean" Nullable="false" />
+          <Property Name="Telephone1" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="TypeTelephone1" Type="Int32" Nullable="false" />
+          <Property Name="Telephone2" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="TypeTelephone2" Type="Int32" Nullable="false" />
+          <Property Name="Notes" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Contact" Relationship="SYSGDIIModel.FK_ContactFicheContact" FromRole="FicheContacts" ToRole="Contact" />
+          <NavigationProperty Name="Telephone" Relationship="SYSGDIIModel.TelephoneFicheContact" FromRole="FicheContact" ToRole="Telephone" />
+          <NavigationProperty Name="Telephone_1" Relationship="SYSGDIIModel.TelephoneFicheContact1" FromRole="FicheContact" ToRole="Telephone" />
+          <Property Type="String" Name="Telecopieur" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Courriel" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FicheEmployeur">
+          <Key>
+            <PropertyRef Name="FicheEmployeurID" />
+          </Key>
+          <Property Name="FicheEmployeurID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeurID" Type="Int32" Nullable="false" />
+          <Property Name="LangueCorespondanceID" Type="Int32" Nullable="false" />
+          <Property Name="TypeRMPID" Type="Int32" Nullable="false" />
+          <Property Name="NatureEntrepriseID" Type="Int32" Nullable="false" />
+          <Property Name="PeriodeReferenceID" Type="Int32" Nullable="false" />
+          <Property Name="NoEmployeur" Type="String" Nullable="false" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="RaisonSociale1" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="RaisonSocialeAbregee" Type="String" Nullable="false" MaxLength="25" Unicode="true" FixedLength="false" />
+          <Property Name="Actif" Type="Boolean" Nullable="false" />
+          <Property Name="PeriodePaieID" Type="Int32" Nullable="false" />
+          <Property Name="SemainePaieID" Type="Int32" Nullable="false" />
+          <Property Name="AssociationPatronaleID" Type="Int32" Nullable="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employeur" Relationship="SYSGDIIModel.FK_EmployeurFicheEmployeur" FromRole="FicheEmployeurs" ToRole="Employeur" />
+          <NavigationProperty Name="TypeRMP" Relationship="SYSGDIIModel.TypeRMPFicheEmployeur" FromRole="FicheEmployeur" ToRole="TypeRMP" />
+          <NavigationProperty Name="PeriodeReference" Relationship="SYSGDIIModel.PeriodeReferenceFicheEmployeur" FromRole="FicheEmployeur" ToRole="PeriodeReference" />
+          <NavigationProperty Name="PeriodePaie" Relationship="SYSGDIIModel.PeriodePaieFicheEmployeur" FromRole="FicheEmployeur" ToRole="PeriodePaie" />
+          <NavigationProperty Name="NatureEntreprise" Relationship="SYSGDIIModel.NatureEntrepriseFicheEmployeur" FromRole="FicheEmployeur" ToRole="NatureEntreprise" />
+          <NavigationProperty Name="Langue" Relationship="SYSGDIIModel.LangueFicheEmployeur" FromRole="FicheEmployeur" ToRole="Langue" />
+          <NavigationProperty Name="AssociationPatronale" Relationship="SYSGDIIModel.AssociationPatronaleFicheEmployeur" FromRole="FicheEmployeur" ToRole="AssociationPatronale" />
+          <NavigationProperty Name="SemainePaie" Relationship="SYSGDIIModel.SemainePaieFicheEmployeur" FromRole="FicheEmployeur" ToRole="SemainePaie" />
+          <Property Type="DateTime" Name="DateDebutActivite" Nullable="false" />
+          <Property Type="DateTime" Name="DateDebutRMP" />
+          <Property Type="String" Name="Telecopieur" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="RetenirCorrespondance" />
+          <Property Type="Int32" Name="ParentEmployeurID" />
+          <Property Type="String" Name="NoCivique" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Rue" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Ville" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Region" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Pays" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="CodePostal" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Telephone" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FicheSalarie">
+          <Key>
+            <PropertyRef Name="FicheSalarieID" />
+          </Key>
+          <Property Name="FicheSalarieID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SalarieID" Type="Int32" Nullable="false" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Prenom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SexeID" Type="Int32" Nullable="false" />
+          <Property Name="SyndicatID" Type="Int32" Nullable="false" />
+          <Property Name="DateNaissance" Type="DateTime" Nullable="false" />
+          <Property Name="NAS" Type="String" Nullable="false" MaxLength="9" Unicode="true" FixedLength="true" />
+          <Property Name="NoEmploye" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="NoCivique" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+          <Property Name="Rue" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Ville" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Region" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Pays" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CodePostal" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="Telephone1" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="TypeTelephone1" Type="Int32" Nullable="false" />
+          <Property Name="Telephone2" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="TypeTelephone2" Type="Int32" Nullable="false" />
+          <Property Name="Couriel" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Salarie" Relationship="SYSGDIIModel.FK_SalarieFicheSalarie" FromRole="FicheSalaries" ToRole="Salarie" />
+          <NavigationProperty Name="Syndicat" Relationship="SYSGDIIModel.FK_SyndicatFicheSalarie" FromRole="FicheSalaries" ToRole="Syndicats" />
+          <NavigationProperty Name="Telephone" Relationship="SYSGDIIModel.TelephoneFicheSalarie" FromRole="FicheSalarie" ToRole="Telephone" />
+          <NavigationProperty Name="Telephone_1" Relationship="SYSGDIIModel.TelephoneFicheSalarie1" FromRole="FicheSalarie" ToRole="Telephone" />
+          <NavigationProperty Name="Sexe" Relationship="SYSGDIIModel.SexeFicheSalarie" FromRole="FicheSalarie" ToRole="Sexe" />
+        </EntityType>
+        <EntityType Name="Langues">
+          <Key>
+            <PropertyRef Name="LangueID" />
+          </Key>
+          <Property Name="LangueID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="NatureEntreprises">
+          <Key>
+            <PropertyRef Name="NatureEntrepriseID" />
+          </Key>
+          <Property Name="NatureEntrepriseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="PeriodePaies">
+          <Key>
+            <PropertyRef Name="PeriodePaieID" />
+          </Key>
+          <Property Name="PeriodePaieID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Description" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="PeriodeReferences">
+          <Key>
+            <PropertyRef Name="PeriodeReferenceID" />
+          </Key>
+          <Property Name="PeriodeReferenceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Description" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Pilotage" Abstract="true">
+          <Key>
+            <PropertyRef Name="PilotageID" />
+          </Key>
+          <Property Name="PilotageID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Salarie">
+          <Key>
+            <PropertyRef Name="SalarieID" />
+          </Key>
+          <Property Name="SalarieID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AgentID" Type="Int32" Nullable="false" />
+          <Property Name="EmployeurID" Type="Int32" Nullable="false" />
+          <Property Name="DateUpdate" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurUpdate" Type="Int32" Nullable="false" />
+          <Property Name="DateInsert" Type="DateTime" Nullable="false" />
+          <Property Name="AuteurInsert" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Agent" Relationship="SYSGDIIModel.FK_AgentSalarie" FromRole="Salaries" ToRole="Agent" />
+          <NavigationProperty Name="Employeur" Relationship="SYSGDIIModel.FK_EmployeurSalarie" FromRole="Salaries" ToRole="Employeur" />
+          <NavigationProperty Name="Episodes" Relationship="SYSGDIIModel.FK_SalarieEpisode" FromRole="Salarie" ToRole="Episodes" />
+          <NavigationProperty Name="FicheSalaries" Relationship="SYSGDIIModel.FK_SalarieFicheSalarie" FromRole="Salarie" ToRole="FicheSalaries" />
+        </EntityType>
+        <EntityType Name="SemainePaies">
+          <Key>
+            <PropertyRef Name="SemainePaieID" />
+          </Key>
+          <Property Name="SemainePaieID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Description" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Sexes">
+          <Key>
+            <PropertyRef Name="SexeID" />
+          </Key>
+          <Property Name="SexeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Syndicat">
+          <Key>
+            <PropertyRef Name="SyndicatID" />
+          </Key>
+          <Property Name="SyndicatID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="EmployeurSyndicats" Relationship="SYSGDIIModel.FK_SyndicatEmployeurSyndicat" FromRole="Syndicats" ToRole="EmployeurSyndicats" />
+          <NavigationProperty Name="FicheSalaries" Relationship="SYSGDIIModel.FK_SyndicatFicheSalarie" FromRole="Syndicats" ToRole="FicheSalaries" />
+        </EntityType>
+        <EntityType Name="TypeRMPs">
+          <Key>
+            <PropertyRef Name="TypeRMPID" />
+          </Key>
+          <Property Name="TypeRMPID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TypeTelephones">
+          <Key>
+            <PropertyRef Name="TypeTelephoneID" />
+          </Key>
+          <Property Name="TypeTelephoneID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Qualifiant" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Versions">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <Association Name="FK_AgentSalarie">
+          <End Role="Agent" Type="SYSGDIIModel.Agent" Multiplicity="1" />
+          <End Role="Salaries" Type="SYSGDIIModel.Salarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Agent">
+              <PropertyRef Name="AgentID" />
+            </Principal>
+            <Dependent Role="Salaries">
+              <PropertyRef Name="AgentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ContactFicheContact">
+          <End Role="Contact" Type="SYSGDIIModel.Contact" Multiplicity="1" />
+          <End Role="FicheContacts" Type="SYSGDIIModel.FicheContact" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contact">
+              <PropertyRef Name="ContactID" />
+            </Principal>
+            <Dependent Role="FicheContacts">
+              <PropertyRef Name="ContactID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmployeurEmployeurSyndicat">
+          <End Role="Employeur" Type="SYSGDIIModel.Employeur" Multiplicity="1" />
+          <End Role="EmployeurSyndicats" Type="SYSGDIIModel.EmployeurSyndicat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employeur">
+              <PropertyRef Name="EmployeurID" />
+            </Principal>
+            <Dependent Role="EmployeurSyndicats">
+              <PropertyRef Name="EmployeurID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmployeurFicheEmployeur">
+          <End Role="Employeur" Type="SYSGDIIModel.Employeur" Multiplicity="1" />
+          <End Role="FicheEmployeurs" Type="SYSGDIIModel.FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employeur">
+              <PropertyRef Name="EmployeurID" />
+            </Principal>
+            <Dependent Role="FicheEmployeurs">
+              <PropertyRef Name="EmployeurID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmployeurSalarie">
+          <End Role="Employeur" Type="SYSGDIIModel.Employeur" Multiplicity="1" />
+          <End Role="Salaries" Type="SYSGDIIModel.Salarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employeur">
+              <PropertyRef Name="EmployeurID" />
+            </Principal>
+            <Dependent Role="Salaries">
+              <PropertyRef Name="EmployeurID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SyndicatEmployeurSyndicat">
+          <End Role="Syndicats" Type="SYSGDIIModel.Syndicat" Multiplicity="1" />
+          <End Role="EmployeurSyndicats" Type="SYSGDIIModel.EmployeurSyndicat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Syndicats">
+              <PropertyRef Name="SyndicatID" />
+            </Principal>
+            <Dependent Role="EmployeurSyndicats">
+              <PropertyRef Name="SyndicatID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SalarieEpisode">
+          <End Role="Salarie" Type="SYSGDIIModel.Salarie" Multiplicity="1" />
+          <End Role="Episodes" Type="SYSGDIIModel.Episode" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Salarie">
+              <PropertyRef Name="SalarieID" />
+            </Principal>
+            <Dependent Role="Episodes">
+              <PropertyRef Name="SalarieID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SalarieFicheSalarie">
+          <End Role="Salarie" Type="SYSGDIIModel.Salarie" Multiplicity="1" />
+          <End Role="FicheSalaries" Type="SYSGDIIModel.FicheSalarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Salarie">
+              <PropertyRef Name="SalarieID" />
+            </Principal>
+            <Dependent Role="FicheSalaries">
+              <PropertyRef Name="SalarieID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SyndicatFicheSalarie">
+          <End Role="Syndicats" Type="SYSGDIIModel.Syndicat" Multiplicity="1" />
+          <End Role="FicheSalaries" Type="SYSGDIIModel.FicheSalarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Syndicats">
+              <PropertyRef Name="SyndicatID" />
+            </Principal>
+            <Dependent Role="FicheSalaries">
+              <PropertyRef Name="SyndicatID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Telephone" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheSalarie" Relationship="SYSGDIIModel.TelephoneFicheSalarie" FromRole="Telephone" ToRole="FicheSalarie" />
+          <NavigationProperty Name="FicheSalarie_1" Relationship="SYSGDIIModel.TelephoneFicheSalarie1" FromRole="Telephone" ToRole="FicheSalarie" />
+          <NavigationProperty Name="FicheContact" Relationship="SYSGDIIModel.TelephoneFicheContact" FromRole="Telephone" ToRole="FicheContact" />
+          <NavigationProperty Name="FicheContact_1" Relationship="SYSGDIIModel.TelephoneFicheContact1" FromRole="Telephone" ToRole="FicheContact" />
+        </EntityType>
+        <Association Name="TelephoneFicheSalarie">
+          <End Type="SYSGDIIModel.Telephone" Role="Telephone" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheSalarie" Role="FicheSalarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Telephone">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheSalarie">
+              <PropertyRef Name="TypeTelephone1" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="TelephoneFicheSalarie1">
+          <End Type="SYSGDIIModel.Telephone" Role="Telephone" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheSalarie" Role="FicheSalarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Telephone">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheSalarie">
+              <PropertyRef Name="TypeTelephone2" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="TelephoneFicheContact">
+          <End Type="SYSGDIIModel.Telephone" Role="Telephone" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheContact" Role="FicheContact" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Telephone">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheContact">
+              <PropertyRef Name="TypeTelephone1" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="TelephoneFicheContact1">
+          <End Type="SYSGDIIModel.Telephone" Role="Telephone" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheContact" Role="FicheContact" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Telephone">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheContact">
+              <PropertyRef Name="TypeTelephone2" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TypeRMP" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheEmployeur" Relationship="SYSGDIIModel.TypeRMPFicheEmployeur" FromRole="TypeRMP" ToRole="FicheEmployeur" />
+        </EntityType>
+        <Association Name="TypeRMPFicheEmployeur">
+          <End Type="SYSGDIIModel.TypeRMP" Role="TypeRMP" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheEmployeur" Role="FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TypeRMP">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheEmployeur">
+              <PropertyRef Name="TypeRMPID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="PeriodeReference" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheEmployeur" Relationship="SYSGDIIModel.PeriodeReferenceFicheEmployeur" FromRole="PeriodeReference" ToRole="FicheEmployeur" />
+        </EntityType>
+        <Association Name="PeriodeReferenceFicheEmployeur">
+          <End Type="SYSGDIIModel.PeriodeReference" Role="PeriodeReference" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheEmployeur" Role="FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PeriodeReference">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheEmployeur">
+              <PropertyRef Name="PeriodeReferenceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="PeriodePaie" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheEmployeur" Relationship="SYSGDIIModel.PeriodePaieFicheEmployeur" FromRole="PeriodePaie" ToRole="FicheEmployeur" />
+        </EntityType>
+        <Association Name="PeriodePaieFicheEmployeur">
+          <End Type="SYSGDIIModel.PeriodePaie" Role="PeriodePaie" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheEmployeur" Role="FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PeriodePaie">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheEmployeur">
+              <PropertyRef Name="PeriodePaieID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="NatureEntreprise" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheEmployeur" Relationship="SYSGDIIModel.NatureEntrepriseFicheEmployeur" FromRole="NatureEntreprise" ToRole="FicheEmployeur" />
+        </EntityType>
+        <Association Name="NatureEntrepriseFicheEmployeur">
+          <End Type="SYSGDIIModel.NatureEntreprise" Role="NatureEntreprise" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheEmployeur" Role="FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NatureEntreprise">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheEmployeur">
+              <PropertyRef Name="NatureEntrepriseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="SemainePaie" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheEmployeur" Relationship="SYSGDIIModel.SemainePaieFicheEmployeur" FromRole="SemainePaie" ToRole="FicheEmployeur" />
+        </EntityType>
+        <EntityType Name="AssociationPatronale" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheEmployeur" Relationship="SYSGDIIModel.AssociationPatronaleFicheEmployeur" FromRole="AssociationPatronale" ToRole="FicheEmployeur" />
+        </EntityType>
+        <EntityType Name="Langue" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheEmployeur" Relationship="SYSGDIIModel.LangueFicheEmployeur" FromRole="Langue" ToRole="FicheEmployeur" />
+        </EntityType>
+        <Association Name="LangueFicheEmployeur">
+          <End Type="SYSGDIIModel.Langue" Role="Langue" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheEmployeur" Role="FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Langue">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheEmployeur">
+              <PropertyRef Name="LangueCorespondanceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AssociationPatronaleFicheEmployeur">
+          <End Type="SYSGDIIModel.AssociationPatronale" Role="AssociationPatronale" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheEmployeur" Role="FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AssociationPatronale">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheEmployeur">
+              <PropertyRef Name="AssociationPatronaleID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SemainePaieFicheEmployeur">
+          <End Type="SYSGDIIModel.SemainePaie" Role="SemainePaie" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheEmployeur" Role="FicheEmployeur" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SemainePaie">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheEmployeur">
+              <PropertyRef Name="SemainePaieID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Sexe" BaseType="SYSGDIIModel.Pilotage" >
+          <Property Type="String" Name="nom" Nullable="false" />
+          <NavigationProperty Name="FicheSalarie" Relationship="SYSGDIIModel.SexeFicheSalarie" FromRole="Sexe" ToRole="FicheSalarie" />
+        </EntityType>
+        <Association Name="SexeFicheSalarie">
+          <End Type="SYSGDIIModel.Sexe" Role="Sexe" Multiplicity="1" />
+          <End Type="SYSGDIIModel.FicheSalarie" Role="FicheSalarie" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sexe">
+              <PropertyRef Name="PilotageID" />
+            </Principal>
+            <Dependent Role="FicheSalarie">
+              <PropertyRef Name="SexeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Affectation">
+          <Key>
+            <PropertyRef Name="AffectationID" />
+          </Key>
+          <Property Type="Int32" Name="AffectationID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="RoleID" Nullable="false" />
+          <Property Type="DateTime" Name="DebutAffectation" Nullable="false" />
+          <Property Type="DateTime" Name="FinAffectation" />
+          <Property Type="Int32" Name="EmployeurID" Nullable="false" />
+          <Property Type="Int32" Name="ContactID" Nullable="false" />
+          <Property Type="DateTime" Name="DateInsert" Nullable="false" />
+          <Property Type="Int32" Name="AuteurInsert" Nullable="false" />
+          <Property Type="DateTime" Name="DateUpdate" Nullable="false" />
+          <Property Type="Int32" Name="AuteurUpdate" Nullable="false" />
+          <NavigationProperty Name="Contact" Relationship="SYSGDIIModel.FK_Affectation_Contact" FromRole="Affectation" ToRole="Contact" />
+          <NavigationProperty Name="Employeur" Relationship="SYSGDIIModel.FK_Affectation_Employeur" FromRole="Affectation" ToRole="Employeur" />
+          <NavigationProperty Name="Role" Relationship="SYSGDIIModel.FK_Affectation_Role" FromRole="Affectation" ToRole="Role" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="RoleID" />
+          </Key>
+          <Property Type="Int32" Name="RoleID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Nom" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Obligatoire" Nullable="false" />
+          <Property Type="Int32" Name="Ordre" Nullable="false" />
+          <NavigationProperty Name="Affectations" Relationship="SYSGDIIModel.FK_Affectation_Role" FromRole="Role" ToRole="Affectation" />
+        </EntityType>
+        <Association Name="FK_Affectation_Contact">
+          <End Type="SYSGDIIModel.Contact" Role="Contact" Multiplicity="1" />
+          <End Type="SYSGDIIModel.Affectation" Role="Affectation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contact">
+              <PropertyRef Name="ContactID" />
+            </Principal>
+            <Dependent Role="Affectation">
+              <PropertyRef Name="ContactID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Affectation_Employeur">
+          <End Type="SYSGDIIModel.Employeur" Role="Employeur" Multiplicity="1" />
+          <End Type="SYSGDIIModel.Affectation" Role="Affectation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employeur">
+              <PropertyRef Name="EmployeurID" />
+            </Principal>
+            <Dependent Role="Affectation">
+              <PropertyRef Name="EmployeurID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Affectation_Role">
+          <End Type="SYSGDIIModel.Role" Role="Role" Multiplicity="1" />
+          <End Type="SYSGDIIModel.Affectation" Role="Affectation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="RoleID" />
+            </Principal>
+            <Dependent Role="Affectation">
+              <PropertyRef Name="RoleID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SYSGEDIIModelStoreContainer" CdmEntityContainer="SYSGDIIEntities">
+          <EntitySetMapping Name="AgentSet"><EntityTypeMapping TypeName="SYSGDIIModel.Agent"><MappingFragment StoreEntitySet="Agent">
+            <ScalarProperty Name="AgentID" ColumnName="AgentID" />
+            <ScalarProperty Name="NomOriginal" ColumnName="NomOriginal" />
+            <ScalarProperty Name="PrenomOriginal" ColumnName="PrenomOriginal" />
+            <ScalarProperty Name="NASOriginal" ColumnName="NASOriginal" />
+            <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+            <ScalarProperty Name="AuteurUpdate" ColumnName="AuteurUpdate" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AssociationPatronales"><EntityTypeMapping TypeName="SYSGDIIModel.AssociationPatronales"><MappingFragment StoreEntitySet="AssociationPatronales">
+            <ScalarProperty Name="AssociationPatronaleID" ColumnName="AssociationPatronaleID" />
+            <ScalarProperty Name="Nom" ColumnName="Nom" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="ContactSet"><EntityTypeMapping TypeName="SYSGDIIModel.Contact"><MappingFragment StoreEntitySet="Contact">
+                <ScalarProperty Name="Titre" ColumnName="Titre" />
+                <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+            <ScalarProperty Name="Nom" ColumnName="Nom" />
+            <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+            <ScalarProperty Name="DataUpdate" ColumnName="DataUpdate" />
+            <ScalarProperty Name="AuteurUpdate" ColumnName="AuteurUpdate" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="EmployeurSet"><EntityTypeMapping TypeName="SYSGDIIModel.Employeur"><MappingFragment StoreEntitySet="Employeur">
+            <ScalarProperty Name="EmployeurID" ColumnName="EmployeurID" />
+            <ScalarProperty Name="NomOriginal" ColumnName="NomOriginal" />
+            <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+            <ScalarProperty Name="AuteurUpdate" ColumnName="AuteurUpdate" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="EmployeurSyndicatSet"><EntityTypeMapping TypeName="SYSGDIIModel.EmployeurSyndicat"><MappingFragment StoreEntitySet="EmployeurSyndicat">
+            <ScalarProperty Name="EmployeurSyndicatID" ColumnName="EmployeurSyndicatID" />
+            <ScalarProperty Name="EmployeurID" ColumnName="EmployeurID" />
+            <ScalarProperty Name="SyndicatID" ColumnName="SyndicatID" />
+            <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+            <ScalarProperty Name="AuteurUpdate" ColumnName="AuteurUpdate" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="EpisodeSet"><EntityTypeMapping TypeName="SYSGDIIModel.Episode"><MappingFragment StoreEntitySet="Episode">
+            <ScalarProperty Name="EpisodeID" ColumnName="EpisodeID" />
+            <ScalarProperty Name="SalarieID" ColumnName="SalarieID" />
+            <ScalarProperty Name="DateDebut" ColumnName="DateDebut" />
+            <ScalarProperty Name="DateFin" ColumnName="DateFin" />
+            <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+            <ScalarProperty Name="AuteurUpdate" ColumnName="AuteurUpdate" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="FicheContactSet"><EntityTypeMapping TypeName="SYSGDIIModel.FicheContact"><MappingFragment StoreEntitySet="FicheContact">
+            <ScalarProperty Name="Courriel" ColumnName="Courriel" />
+                <ScalarProperty Name="Telecopieur" ColumnName="Telecopieur" />
+                <ScalarProperty Name="FicheContactID" ColumnName="FicheContactID" />
+            <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+            <ScalarProperty Name="NoCivique" ColumnName="NoCivique" />
+            <ScalarProperty Name="Rue" ColumnName="Rue" />
+            <ScalarProperty Name="Ville" ColumnName="Ville" />
+            <ScalarProperty Name="Region" ColumnName="Region" />
+            <ScalarProperty Name="Pays" ColumnName="Pays" />
+            <ScalarProperty Name="Valide" ColumnName="Valide" />
+            <ScalarProperty Name="Telephone1" ColumnName="Telephone1" />
+            <ScalarProperty Name="TypeTelephone1" ColumnName="TypeTelephone1" />
+            <ScalarProperty Name="Telephone2" ColumnName="Telephone2" />
+            <ScalarProperty Name="TypeTelephone2" ColumnName="TypeTelephone2" />
+            <ScalarProperty Name="Notes" ColumnName="Notes" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="FicheEmployeurSet"><EntityTypeMapping TypeName="SYSGDIIModel.FicheEmployeur"><MappingFragment StoreEntitySet="FicheEmployeur">
+                <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+                <ScalarProperty Name="CodePostal" ColumnName="CodePostal" />
+                <ScalarProperty Name="Pays" ColumnName="Pays" />
+                <ScalarProperty Name="Region" ColumnName="Region" />
+                <ScalarProperty Name="Ville" ColumnName="Ville" />
+                <ScalarProperty Name="Rue" ColumnName="Rue" />
+                <ScalarProperty Name="NoCivique" ColumnName="NoCivique" />
+                <ScalarProperty Name="ParentEmployeurID" ColumnName="ParentEmployeurID" />
+                <ScalarProperty Name="RetenirCorrespondance" ColumnName="RetenirCorrespondance" />
+                <ScalarProperty Name="Telecopieur" ColumnName="Telecopieur" />
+                <ScalarProperty Name="DateDebutRMP" ColumnName="DateDebutRMP" />
+                <ScalarProperty Name="DateDebutActivite" ColumnName="DateDebutActivite" />
+                <ScalarProperty Name="FicheEmployeurID" ColumnName="FicheEmployeurID" />
+            <ScalarProperty Name="EmployeurID" ColumnName="EmployeurID" />
+            <ScalarProperty Name="LangueCorespondanceID" ColumnName="LangueCorespondanceID" />
+            <ScalarProperty Name="TypeRMPID" ColumnName="TypeRMPID" />
+            <ScalarProperty Name="NatureEntrepriseID" ColumnName="NatureEntrepriseID" />
+            <ScalarProperty Name="PeriodeReferenceID" ColumnName="PeriodeReferenceID" />
+            <ScalarProperty Name="NoEmployeur" ColumnName="NoEmployeur" />
+            <ScalarProperty Name="RaisonSociale1" ColumnName="RaisonSociale1" />
+            <ScalarProperty Name="RaisonSocialeAbregee" ColumnName="RaisonSocialeAbregee" />
+            <ScalarProperty Name="Actif" ColumnName="Actif" />
+            <ScalarProperty Name="PeriodePaieID" ColumnName="PeriodePaieID" />
+            <ScalarProperty Name="SemainePaieID" ColumnName="SemainePaieID" />
+            <ScalarProperty Name="AssociationPatronaleID" ColumnName="AssociationPatronaleID" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="FicheSalarieSet"><EntityTypeMapping TypeName="SYSGDIIModel.FicheSalarie"><MappingFragment StoreEntitySet="FicheSalarie">
+            <ScalarProperty Name="FicheSalarieID" ColumnName="FicheSalarieID" />
+            <ScalarProperty Name="SalarieID" ColumnName="SalarieID" />
+            <ScalarProperty Name="Nom" ColumnName="Nom" />
+            <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+            <ScalarProperty Name="SexeID" ColumnName="SexeID" />
+            <ScalarProperty Name="SyndicatID" ColumnName="SyndicatID" />
+            <ScalarProperty Name="DateNaissance" ColumnName="DateNaissance" />
+            <ScalarProperty Name="NAS" ColumnName="NAS" />
+            <ScalarProperty Name="NoEmploye" ColumnName="NoEmploye" />
+            <ScalarProperty Name="NoCivique" ColumnName="NoCivique" />
+            <ScalarProperty Name="Rue" ColumnName="Rue" />
+            <ScalarProperty Name="Ville" ColumnName="Ville" />
+            <ScalarProperty Name="Region" ColumnName="Region" />
+            <ScalarProperty Name="Pays" ColumnName="Pays" />
+            <ScalarProperty Name="CodePostal" ColumnName="CodePostal" />
+            <ScalarProperty Name="Telephone1" ColumnName="Telephone1" />
+            <ScalarProperty Name="TypeTelephone1" ColumnName="TypeTelephone1" />
+            <ScalarProperty Name="Telephone2" ColumnName="Telephone2" />
+            <ScalarProperty Name="TypeTelephone2" ColumnName="TypeTelephone2" />
+            <ScalarProperty Name="Couriel" ColumnName="Couriel" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Langues"><EntityTypeMapping TypeName="SYSGDIIModel.Langues"><MappingFragment StoreEntitySet="Langues">
+            <ScalarProperty Name="LangueID" ColumnName="LangueID" />
+            <ScalarProperty Name="Nom" ColumnName="Nom" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="NatureEntreprises"><EntityTypeMapping TypeName="SYSGDIIModel.NatureEntreprises"><MappingFragment StoreEntitySet="NatureEntreprises">
+            <ScalarProperty Name="NatureEntrepriseID" ColumnName="NatureEntrepriseID" />
+            <ScalarProperty Name="Nom" ColumnName="Nom" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="PeriodePaies"><EntityTypeMapping TypeName="SYSGDIIModel.PeriodePaies"><MappingFragment StoreEntitySet="PeriodePaies">
+            <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="PeriodePaieID" ColumnName="PeriodePaieID" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="PeriodeReferences"><EntityTypeMapping TypeName="SYSGDIIModel.PeriodeReferences"><MappingFragment StoreEntitySet="PeriodeReferences">
+            <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="PeriodeReferenceID" ColumnName="PeriodeReferenceID" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="PilotageSet">
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.Pilotage)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.Telephone)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="Telephone" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.TypeRMP)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="TypeRMP" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.PeriodeReference)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="PeriodeReferences" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.PeriodePaie)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="PeriodePaies" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.NatureEntreprise)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="NatureEntreprises" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.SemainePaie)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="SemainePaies" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.AssociationPatronale)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="AssociationPatronales" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.Langue)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="Langues" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(SYSGDIIModel.Sexe)">
+              <MappingFragment StoreEntitySet="Pilotage">
+                <ScalarProperty Name="nom" ColumnName="Nom" />
+                <ScalarProperty Name="PilotageID" ColumnName="PilotageID" />
+                <Condition ColumnName="type" Value="Sexe" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            </EntitySetMapping>
+          <EntitySetMapping Name="SalarieSet"><EntityTypeMapping TypeName="SYSGDIIModel.Salarie"><MappingFragment StoreEntitySet="Salarie">
+            <ScalarProperty Name="SalarieID" ColumnName="SalarieID" />
+            <ScalarProperty Name="AgentID" ColumnName="AgentID" />
+            <ScalarProperty Name="EmployeurID" ColumnName="EmployeurID" />
+            <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+            <ScalarProperty Name="AuteurUpdate" ColumnName="AuteurUpdate" />
+            <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+            <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="SemainePaies"><EntityTypeMapping TypeName="SYSGDIIModel.SemainePaies"><MappingFragment StoreEntitySet="SemainePaies">
+            <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="SemainePaieID" ColumnName="SemainePaieID" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Sexes"><EntityTypeMapping TypeName="SYSGDIIModel.Sexes"><MappingFragment StoreEntitySet="Sexes">
+            <ScalarProperty Name="SexeID" ColumnName="SexeID" />
+            <ScalarProperty Name="Nom" ColumnName="Nom" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="SyndicatSet"><EntityTypeMapping TypeName="SYSGDIIModel.Syndicat"><MappingFragment StoreEntitySet="Syndicats">
+            <ScalarProperty Name="SyndicatID" ColumnName="SyndicatID" />
+            <ScalarProperty Name="Nom" ColumnName="Nom" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="TypeRMPs"><EntityTypeMapping TypeName="SYSGDIIModel.TypeRMPs"><MappingFragment StoreEntitySet="TypeRMPs">
+            <ScalarProperty Name="TypeRMPID" ColumnName="TypeRMPID" />
+            <ScalarProperty Name="Nom" ColumnName="Nom" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="TypeTelephones"><EntityTypeMapping TypeName="SYSGDIIModel.TypeTelephones"><MappingFragment StoreEntitySet="TypeTelephones">
+            <ScalarProperty Name="TypeTelephoneID" ColumnName="TypeTelephoneID" />
+            <ScalarProperty Name="Qualifiant" ColumnName="Qualifiant" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Versions"><EntityTypeMapping TypeName="SYSGDIIModel.Versions"><MappingFragment StoreEntitySet="Version">
+            <ScalarProperty Name="Id" ColumnName="Id" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Affectation">
+            <EntityTypeMapping TypeName="SYSGDIIModel.Affectation">
+              <MappingFragment StoreEntitySet="Affectation">
+                <ScalarProperty Name="AuteurUpdate" ColumnName="AuteurUpdate" />
+                <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+                <ScalarProperty Name="AuteurInsert" ColumnName="AuteurInsert" />
+                <ScalarProperty Name="DateInsert" ColumnName="DateInsert" />
+                <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+                <ScalarProperty Name="EmployeurID" ColumnName="EmployeurID" />
+                <ScalarProperty Name="FinAffectation" ColumnName="FinAffectation" />
+                <ScalarProperty Name="DebutAffectation" ColumnName="DebutAffectation" />
+                <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+                <ScalarProperty Name="AffectationID" ColumnName="AffectationID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Role">
+            <EntityTypeMapping TypeName="SYSGDIIModel.Role">
+              <MappingFragment StoreEntitySet="Role">
+                <ScalarProperty Name="Ordre" ColumnName="Ordre" />
+                <ScalarProperty Name="Obligatoire" ColumnName="Obligatoire" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+                <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="ModelSYSGDII" ZoomLevel="86" ShowGrid="true">
+        <EntityTypeShape EntityType="SYSGDIIModel.Agent" Width="1.5" PointX="0.75" PointY="0.5" Height="2.7494921874999996" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.AssociationPatronales" Width="1.5" PointX="21.125" PointY="9.875" Height="1.4033821614583326" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Contact" Width="1.5" PointX="16.75" PointY="0.5" Height="2.5571907552083331" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Employeur" Width="1.875" PointX="3.25" PointY="0.5" Height="2.941793619791667" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.EmployeurSyndicat" Width="1.75" PointX="4.375" PointY="4" Height="2.7494921874999978" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Episode" Width="1.5" PointX="0.5" PointY="6.625" Height="2.7494921874999996" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.FicheContact" Width="1.5" PointX="16.75" PointY="4.25" Height="4.8648079427083335" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.FicheEmployeur" Width="2" PointX="8.125" PointY="1.25" Height="7.7493294270833335" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.FicheSalarie" Width="1.5" PointX="2.375" PointY="7.75" Height="6.2109179687499978" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Langues" Width="1.5" PointX="20.625" PointY="8.125" Height="1.4033821614583331" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.NatureEntreprises" Width="1.5" PointX="19" PointY="10.125" Height="1.4033821614583331" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.PeriodePaies" Width="1.5" PointX="19.75" PointY="4.125" Height="1.4033821614583326" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.PeriodeReferences" Width="1.5" PointX="20.625" PointY="11.75" Height="1.4033821614583326" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Pilotage" Width="1.5" PointX="12.875" PointY="11.625" Height="1.2110807291666657" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Salarie" Width="1.5" PointX="2.375" PointY="4" Height="3.1340950520833317" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.SemainePaies" Width="1.5" PointX="19.5" PointY="6.125" Height="1.4033821614583326" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Sexes" Width="1.5" PointX="19.875" PointY="13.5" Height="1.4033821614583335" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Syndicat" Width="1.875" PointX="4.375" PointY="8" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.TypeRMPs" Width="1.5" PointX="18.25" PointY="14.125" Height="1.4033821614583335" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.TypeTelephones" Width="1.5" PointX="18.75" PointY="11.875" Height="1.4033821614583335" IsExpanded="true" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Versions" Width="1.5" PointX="19.75" PointY="0.5" Height="1.2110807291666674" IsExpanded="true" />
+        <AssociationConnector Association="SYSGDIIModel.FK_AgentSalarie" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="3.2494921874999996" />
+          <ConnectorPoint PointX="2.625" PointY="3.6244921874999996" />
+          <ConnectorPoint PointX="2.625" PointY="3.625" />
+          <ConnectorPoint PointX="2" PointY="3.625" />
+          <ConnectorPoint PointX="2.375" PointY="4" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_ContactFicheContact" ManuallyRouted="false">
+          <ConnectorPoint PointX="17.5" PointY="3.4417936197916665" />
+          <ConnectorPoint PointX="17.5" PointY="4.25" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_EmployeurEmployeurSyndicat" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.75" PointY="3.441793619791667" />
+          <ConnectorPoint PointX="4.75" PointY="4" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_EmployeurFicheEmployeur" ManuallyRouted="false">
+          <ConnectorPoint PointX="5.125" PointY="2.3458968098958337" />
+          <ConnectorPoint PointX="8.125" PointY="2.3458968098958337" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_EmployeurSalarie" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.5625" PointY="3.441793619791667" />
+          <ConnectorPoint PointX="3.5625" PointY="4" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_SyndicatEmployeurSyndicat" ManuallyRouted="false">
+          <ConnectorPoint PointX="5.25" PointY="8" />
+          <ConnectorPoint PointX="5.25" PointY="6.7494921874999978" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_SalarieEpisode" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.375" PointY="6.8795475260416659" />
+          <ConnectorPoint PointX="2" PointY="6.8795475260416659" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_SalarieFicheSalarie" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.125" PointY="7.1340950520833317" />
+          <ConnectorPoint PointX="3.125" PointY="7.75" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_SyndicatFicheSalarie" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.375" PointY="8.8939925130208337" />
+          <ConnectorPoint PointX="3.875" PointY="8.8939925130208337" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.Telephone" Width="1.5" PointX="10.75" PointY="12.75" Height="2.5571907552083317" />
+        <InheritanceConnector EntityType="SYSGDIIModel.Telephone" ManuallyRouted="false" >
+          <ConnectorPoint PointX="13.625" PointY="12.836080729166666" />
+          <ConnectorPoint PointX="13.625" PointY="13.462234537760415" />
+          <ConnectorPoint PointX="12.25" PointY="13.462234537760415" />
+        </InheritanceConnector>
+        <AssociationConnector Association="SYSGDIIModel.TelephoneFicheSalarie">
+          <ConnectorPoint PointX="10.75" PointY="14.538955595999051" />
+          <ConnectorPoint PointX="3.125" PointY="14.538955595999051" />
+          <ConnectorPoint PointX="3.125" PointY="13.960917968749998" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.TelephoneFicheSalarie1">
+          <ConnectorPoint PointX="10.75" PointY="13.38573645089782" />
+          <ConnectorPoint PointX="3.875" PointY="13.38573645089782" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.TelephoneFicheContact">
+          <ConnectorPoint PointX="12.25" PointY="14.299695396335849" />
+          <ConnectorPoint PointX="17.6816396875" PointY="14.299695396335849" />
+          <ConnectorPoint PointX="17.6816396875" PointY="9.1148079427083335" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.TelephoneFicheContact1" ManuallyRouted="false">
+          <ConnectorPoint PointX="12.25" PointY="13.80062462396268" />
+          <ConnectorPoint PointX="17.184567343749997" PointY="13.80062462396268" />
+          <ConnectorPoint PointX="17.184567343749997" PointY="9.1148079427083335" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.TypeRMP" Width="1.5" PointX="10.75" PointY="10.875" Height="1.4033821614583317" />
+        <InheritanceConnector EntityType="SYSGDIIModel.TypeRMP" ManuallyRouted="false" >
+          <ConnectorPoint PointX="12.875" PointY="11.951691080729166" />
+          <ConnectorPoint PointX="12.25" PointY="11.951691080729166" />
+        </InheritanceConnector>
+        <AssociationConnector Association="SYSGDIIModel.TypeRMPFicheEmployeur">
+          <ConnectorPoint PointX="10.75" PointY="11.576691080729166" />
+          <ConnectorPoint PointX="9.125" PointY="11.576691080729166" />
+          <ConnectorPoint PointX="9.125" PointY="8.9993294270833335" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.PeriodeReference" Width="1.5" PointX="10.75" PointY="9.25" Height="1.4033821614583317" />
+        <InheritanceConnector EntityType="SYSGDIIModel.PeriodeReference" ManuallyRouted="false" >
+          <ConnectorPoint PointX="13.625" PointY="11.625" />
+          <ConnectorPoint PointX="13.625" PointY="9.9398784611500837" />
+          <ConnectorPoint PointX="12.25" PointY="9.9398784611500837" />
+        </InheritanceConnector>
+        <AssociationConnector Association="SYSGDIIModel.PeriodeReferenceFicheEmployeur">
+          <ConnectorPoint PointX="10.75" PointY="9.25" />
+          <ConnectorPoint PointX="10.125" PointY="8.9993294270833335" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.PeriodePaie" Width="1.5" PointX="10.75" PointY="7.625" Height="1.4033821614583335" />
+        <InheritanceConnector EntityType="SYSGDIIModel.PeriodePaie" ManuallyRouted="false" >
+          <ConnectorPoint PointX="13.625" PointY="11.625" />
+          <ConnectorPoint PointX="13.625" PointY="8.3804399220956913" />
+          <ConnectorPoint PointX="12.25" PointY="8.3804399220956913" />
+        </InheritanceConnector>
+        <AssociationConnector Association="SYSGDIIModel.PeriodePaieFicheEmployeur">
+          <ConnectorPoint PointX="10.75" PointY="8.2809122135416722" />
+          <ConnectorPoint PointX="10.125" PointY="8.2809122135416722" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.NatureEntreprise" Width="1.5" PointX="10.75" PointY="6" Height="1.4033821614583335" />
+        <InheritanceConnector EntityType="SYSGDIIModel.NatureEntreprise" ManuallyRouted="false" >
+          <ConnectorPoint PointX="13.625" PointY="11.625" />
+          <ConnectorPoint PointX="13.625" PointY="6.653667110558712" />
+          <ConnectorPoint PointX="12.25" PointY="6.653667110558712" />
+        </InheritanceConnector>
+        <AssociationConnector Association="SYSGDIIModel.NatureEntrepriseFicheEmployeur">
+          <ConnectorPoint PointX="10.75" PointY="6.7016910807291659" />
+          <ConnectorPoint PointX="10.125" PointY="6.7016910807291659" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.SemainePaie" Width="1.5" PointX="10.75" PointY="4.375" Height="1.4033821614583335" />
+        <InheritanceConnector EntityType="SYSGDIIModel.SemainePaie" ManuallyRouted="false" >
+          <ConnectorPoint PointX="13.625" PointY="11.625" />
+          <ConnectorPoint PointX="13.625" PointY="4.95405372509058" />
+          <ConnectorPoint PointX="12.25" PointY="4.95405372509058" />
+        </InheritanceConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.AssociationPatronale" Width="1.5" PointX="10.75" PointY="2.75" Height="1.4033821614583335" />
+        <InheritanceConnector EntityType="SYSGDIIModel.AssociationPatronale" ManuallyRouted="false" >
+          <ConnectorPoint PointX="13.625" PointY="11.625" />
+          <ConnectorPoint PointX="13.625" PointY="3.6725402462121224" />
+          <ConnectorPoint PointX="12.25" PointY="3.6725402462121224" />
+        </InheritanceConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.Langue" Width="1.5" PointX="10.75" PointY="1.125" Height="1.4033821614583339" />
+        <InheritanceConnector EntityType="SYSGDIIModel.Langue" ManuallyRouted="true" >
+          <ConnectorPoint PointX="13.625" PointY="11.625" />
+          <ConnectorPoint PointX="13.625" PointY="1.9486189424818841" />
+          <ConnectorPoint PointX="12.25" PointY="1.9486189424818841" />
+        </InheritanceConnector>
+        <AssociationConnector Association="SYSGDIIModel.LangueFicheEmployeur">
+          <ConnectorPoint PointX="10.75" PointY="1.8891910807291663" />
+          <ConnectorPoint PointX="10.125" PointY="1.8891910807291663" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.AssociationPatronaleFicheEmployeur">
+          <ConnectorPoint PointX="10.75" PointY="3.4516910807291667" />
+          <ConnectorPoint PointX="10.125" PointY="3.4516910807291667" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.SemainePaieFicheEmployeur">
+          <ConnectorPoint PointX="10.75" PointY="5.0766910807291667" />
+          <ConnectorPoint PointX="10.125" PointY="5.0766910807291667" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.Sexe" Width="1.5" PointX="5.625" PointY="11.75" Height="1.4033821614583317" />
+        <InheritanceConnector EntityType="SYSGDIIModel.Sexe" ManuallyRouted="false" >
+          <ConnectorPoint PointX="12.875" PointY="12.546418350242741" />
+          <ConnectorPoint PointX="7.125" PointY="12.546418350242741" />
+        </InheritanceConnector>
+        <AssociationConnector Association="SYSGDIIModel.SexeFicheSalarie">
+          <ConnectorPoint PointX="5.625" PointY="12.451691080729166" />
+          <ConnectorPoint PointX="3.875" PointY="12.451691080729166" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SYSGDIIModel.Affectation" Width="1.5" PointX="14.375" PointY="0.5" Height="3.5186979166666674" />
+        <EntityTypeShape EntityType="SYSGDIIModel.Role" Width="1.5" PointX="14.375" PointY="4.75" Height="1.9802864583333246" />
+        <AssociationConnector Association="SYSGDIIModel.FK_Affectation_Contact" >
+          <ConnectorPoint PointX="16.75" PointY="1.8747460937500002" />
+          <ConnectorPoint PointX="15.875" PointY="1.8747460937500002" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_Affectation_Employeur" >
+          <ConnectorPoint PointX="5.125" PointY="0.78125000000000044" />
+          <ConnectorPoint PointX="14.375" PointY="0.78125000000000044" />
+        </AssociationConnector>
+        <AssociationConnector Association="SYSGDIIModel.FK_Affectation_Role" >
+          <ConnectorPoint PointX="15.125" PointY="4.75" />
+          <ConnectorPoint PointX="15.125" PointY="4.0186979166666674" />
+        </AssociationConnector>
+        </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

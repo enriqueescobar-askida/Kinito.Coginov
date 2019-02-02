@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_edit.Text">
+    <value>Edition du compte</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du module Gestion des utilisateurs&lt;/h1&gt;
+&lt;p&gt;Ce module permet à l'administrateur de gérer les utilisateurs enregistrés sur le site.&lt;/p&gt;</value>
+  </data>
+  <data name="UserLockedOut.Text">
+    <value>Ce compte est actuellement bloqué à cause d'un trop grand nombre de tentative de connexions infructueuses.</value>
+  </data>
+  <data name="InvalidUser.Text">
+    <value>Ce compte n'est pas un utilisateur de ce site.</value>
+  </data>
+  <data name="SuperUser.Text">
+    <value>Ce compte est un SuperUtilisateur.  Vous n'avez pas le droit de le modifier.</value>
+  </data>
+  <data name="NoUser.Text">
+    <value>Ce compte n'existe pas</value>
+  </data>
+  <data name="plNewPassword.Text">
+    <value>Nouveau mot de passe :</value>
+  </data>
+  <data name="plNewPassword.Help">
+    <value>Saisissez le nouveau mot de passe</value>
+  </data>
+  <data name="plNewConfirm.Text">
+    <value>Confirmez le mot de passe :</value>
+  </data>
+  <data name="plNewConfirm.Help">
+    <value>Re-saisissez le mot de passe en vous assurant de le taper correctement</value>
+  </data>
+  <data name="ResetPassword.Text">
+    <value>Réinitialisation du mot de passe</value>
+  </data>
+  <data name="cmdUpdatePassword.Text">
+    <value>Changer le mot de passe</value>
+  </data>
+  <data name="NewPassword.Text">
+    <value>Vous devez saisir un nouveau mot de passe.</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Ajouter un nouvel utilisateur</value>
+  </data>
+  <data name="AddUser.Text">
+    <value>Ajouter un nouvel utilisateur</value>
+  </data>
+  <data name="cmdPassword.Text">
+    <value>Mot de passe</value>
+  </data>
+  <data name="cmdProfile.Text">
+    <value>Informations complémentaires</value>
+  </data>
+  <data name="cmdRegister.Text">
+    <value>Enregistrer</value>
+  </data>
+  <data name="cmdRoles.Text">
+    <value>Gestion du rôle de cet utlisateur</value>
+  </data>
+  <data name="cmdServices.Text">
+    <value>Services et Rôles</value>
+  </data>
+  <data name="cmdUser.Text">
+    <value>Paramétres d'identification</value>
+  </data>
+  <data name="ControlTitle_profile.Text">
+    <value>Informations de compte </value>
+  </data>
+  <data name="ControlTitle_register.Text">
+    <value>Inscription</value>
+  </data>
+  <data name="ManageProfile.Action">
+    <value>Gestion des propriétés de compte</value>
+  </data>
+  <data name="MembershipTitle.Text">
+    <value>Information de compte</value>
+  </data>
+  <data name="NotAuthorized.Text">
+    <value>Vous n'êtes pas autorisé à modifier les paramétres de ce compte.</value>
+  </data>
+  <data name="Password.Action">
+    <value>Gestion du mot de passe utilisateur</value>
+  </data>
+  <data name="PasswordQAChanged.Text">
+    <value>Question et réponse de mot de passe mises à jour avec succès.</value>
+  </data>
+  <data name="Profile.Action">
+    <value>Gestion des profils utilisateur</value>
+  </data>
+  <data name="Roles.Action">
+    <value>Gestion des rôles pour cet utilisateur</value>
+  </data>
+  <data name="UserAuthorized.Text">
+    <value>Utilisateur autorisé avec succès</value>
+  </data>
+  <data name="UserTitle.Text">
+    <value>Utilisateur : {0} (Id: {1})</value>
+  </data>
+  <data name="UserUnAuthorized.Text">
+    <value>Modification d'autorisation effectuée avec succès</value>
+  </data>
+  <data name="ExceededRegisterQuota.Text">
+    <value>Vous ne pouvez pas vous inscrire sur ce site pour le moment. Contactez l'administrateur pour connaitre la date de réouverture des inscriptions.</value>
+  </data>
+  <data name="ExceededUserQuota.Text">
+    <value>Vous ne pouvez pas ajouter d'utilisateurs car vous avez atteint votre quota. Contactez l'hébergeur afin qu'il modifie vos permissions.</value>
+  </data>
+  <data name="UserSubscribed.Text">
+    <value>Votre inscription au groupe {0} a été prise en compte.</value>
+  </data>
+  <data name="UserUnSubscribed.Text">
+    <value>Votre désinscription au groupe {0} a été prise en compte.</value>
+  </data>
+  <data name="EmailError.Text">
+    <value>L'adresse de courriel saisie est déjà utilisée.</value>
+  </data>
+  <data name="AddUser.Title">
+    <value>Ajouter un nouvel utilisateur</value>
+  </data>
+  <data name="CannotAddUser.Text">
+    <value>La configuration actuelle impose l'utilisation d'une Question/Réponse pour le rappel du mot de passe, ce qui est incompatible avec la fonction d'ajout d'utilisateur par l'administrateur. La fonction a été désactivée.</value>
+  </data>
+  <data name="cmdLogin.Text">
+    <value>Passez à la connexion</value>
+  </data>
+  <data name="plCaptcha.Help">
+    <value>Saisissez le code ce sécurité</value>
+  </data>
+  <data name="plCaptcha.Text">
+    <value>Code de sécurité :</value>
+  </data>
+  <data name="Register.Text">
+    <value>Enregistrement d'utilisateur</value>
+  </data>
+  <data name="Register.Title">
+    <value>Enregistrement d'utilisateur</value>
+  </data>
+  <data name="RegisterWarning.Text">
+    <value> - &lt;em&gt;(&lt;strong&gt;Note :&lt;/strong&gt; - L'enregistrement peut prendre plusieurs secondes...&lt;/em&gt;</value>
+  </data>
+  <data name="UserPasswordUpdateChanged.Text">
+    <value>L'utilisateur doit mettre à jour son mot de passe lors de la prochaine connexion</value>
+  </data>
+</root>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 31/08/2011 17:45:29   UTC: 2011-08-31 15:45:29Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="cmdPreview.Text">
+    <value>Aperçu</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;P align=left&gt;Le module Texte/HTML vous permet saisir&amp;nbsp;du texte, du texte enrichi ou du code HTML. Vous disposez de cinq types d’affichage : &lt;/P&gt;
+&lt;OL&gt;
+&lt;LI align="left"&gt;
+&lt;DIV align=left&gt;&lt;STRONG&gt;Basic Text Box / Text &lt;/STRONG&gt;: Rendu de texte simple et affichage des balises HTML. Les sauts de lignes sont pris en compte. Le style de texte est par défaut "normal", rendu tel que spécifié dans votre feuille de style. &lt;/DIV&gt;
+&lt;LI align="left"&gt;
+&lt;DIV align=left&gt;&lt;STRONG&gt;Basic Text Box / HTML &lt;/STRONG&gt;: Affiche du texte simple. Les sauts de lignes ne sont pas automatiquement rendus. &lt;/DIV&gt;
+&lt;LI align="left"&gt;
+&lt;DIV align=left&gt;&lt;STRONG&gt;Basic Text Box / Raw &lt;/STRONG&gt;: Affiche du texte simple au format HTML. Les sauts de ligne ne sont pas automatiquement pris en compte. &lt;/DIV&gt;
+&lt;LI align="left"&gt;
+&lt;DIV align=left&gt;&lt;STRONG&gt;Rich Text Editor / HTML &lt;/STRONG&gt;: Vous pouvez utiliser du code HTML. &lt;/DIV&gt;
+&lt;LI align="left"&gt;
+&lt;DIV align=left&gt;&lt;STRONG&gt;Rich Text Editor / Design &lt;/STRONG&gt;: Un véritable traitement de texte WYSIWYG (What You See is What You Get) qui supporte des fonctionnalités telles que les liens hypertextes, lien vers une adresse Email, accès à la galerie d’images, puces, etc...&lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Editeur de Texte/HTML</value>
+  </data>
+  <data name="AddContent.Text">
+    <value>Ajoutez un contenu...</value>
+  </data>
+  <data name="chkPublish.Text">
+    <value>Publier les modifications ?</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Annuler</value>
+  </data>
+  <data name="cmdCancelSubmit.Text">
+    <value>Annuler</value>
+  </data>
+  <data name="cmdSave.Text">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Content Staging.Text">
+    <value>Test du contenu</value>
+  </data>
+  <data name="Date.Header">
+    <value>Date</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Supprimer cette version</value>
+  </data>
+  <data name="DeleteVersion.Confirm">
+    <value>Êtes-vous sûr de vouloir supprimer définitivement la version [VERSION] ([STATE]) qui a été créée le [DateCreated] par [USERNAME]?</value>
+  </data>
+  <data name="Direct Publish.Text">
+    <value>Publier directement</value>
+  </data>
+  <data name="Draft.Text">
+    <value>brouillard</value>
+  </data>
+  <data name="dshCurrentContent.Text">
+    <value>Contenu actuel</value>
+  </data>
+  <data name="dshHistory.Text">
+    <value>Historique de l'élément</value>
+  </data>
+  <data name="dshMaster.Text">
+    <value>Version langue primaire</value>
+  </data>
+  <data name="dshPreview.Text">
+    <value>Aperçu</value>
+  </data>
+  <data name="dshVersions.Text">
+    <value>Historique de version</value>
+  </data>
+  <data name="Edit.Text">
+    <value>Restaurer le contenu de cette version</value>
+  </data>
+  <data name="EditPreviewState.Text">
+    <value>Modifier l'aperçu</value>
+  </data>
+  <data name="False.Text">
+    <value>Faux</value>
+  </data>
+  <data name="Item.Text">
+    <value>Aperçu du contenu</value>
+  </data>
+  <data name="lblPreviewWorkflowState.Text">
+    <value>État</value>
+  </data>
+  <data name="plActionOnSave.Help">
+    <value>Action après sauvegarde.</value>
+  </data>
+  <data name="plActionOnSave.Text">
+    <value>Lors de l'enregistrement</value>
+  </data>
+  <data name="plCurrentWorkflowInUse.Help">
+    <value>Le flux de travail actuellement utilisé par ce module.</value>
+  </data>
+  <data name="plCurrentWorkflowInUse.Text">
+    <value>Workflow en cours d'utilisation</value>
+  </data>
+  <data name="plCurrentWorkflowState.Help">
+    <value>État du flux de travail utilisées par ce module.</value>
+  </data>
+  <data name="plCurrentWorkflowState.Text">
+    <value>L'état de flux de travail</value>
+  </data>
+  <data name="plCurrentWorkVersion.Help">
+    <value>Affiche le numéro de version de contenu</value>
+  </data>
+  <data name="plCurrentWorkVersion.Text">
+    <value>Version</value>
+  </data>
+  <data name="plMaxVersions.Help">
+    <value>Le nombre de versions maxi conservées pour tout contenu html.</value>
+  </data>
+  <data name="plMaxVersions.Text">
+    <value>Nombre maximal de versions</value>
+  </data>
+  <data name="plPreviewVersion.Help">
+    <value>Affiche le numéro de version du contenu</value>
+  </data>
+  <data name="plPreviewVersion.Text">
+    <value>Version</value>
+  </data>
+  <data name="plPreviewWorkflowInUse.Help">
+    <value>Le nom de la configuration du workflow que ce module utilise actuellement.</value>
+  </data>
+  <data name="plPreviewWorkflowInUse.Text">
+    <value>Workflow utilisé</value>
+  </data>
+  <data name="plPreviewWorkflowState.Help">
+    <value>L'état de flux de travail du contenu affiché.</value>
+  </data>
+  <data name="plPreviewWorkflowState.Text">
+    <value>L'état du Workflow</value>
+  </data>
+  <data name="plPublish.Help">
+    <value>Indiquez si le contenu est prêt pour la publication</value>
+  </data>
+  <data name="plPublish.Text">
+    <value>Publier</value>
+  </data>
+  <data name="plWorkflowState.Help">
+    <value>Affiche l'état actuel du contenu</value>
+  </data>
+  <data name="Published.Text">
+    <value>Publié</value>
+  </data>
+  <data name="State.Header">
+    <value>État</value>
+  </data>
+  <data name="True.Text">
+    <value>Vrai</value>
+  </data>
+  <data name="User.Header">
+    <value>Utilisateur</value>
+  </data>
+  <data name="Version.Header">
+    <value>Version</value>
+  </data>
+  <data name="lblNoRecords.Text">
+    <value>There is no history for this content.</value>
+  </data>
+  <data name="VersionsPreview.Text">
+    <value>Preview</value>
+  </data>
+  <data name="VersionsRemove.Text">
+    <value>Delete</value>
+  </data>
+  <data name="VersionsRollback.Text">
+    <value>Rollback</value>
+  </data>
+  <data name="NoVersions.Text">
+    <value>There is no version history for this content.</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

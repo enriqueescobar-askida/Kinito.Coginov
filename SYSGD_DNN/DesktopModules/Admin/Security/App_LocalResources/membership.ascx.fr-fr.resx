@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 03/08/2011 11:40:23   UTC: 2011-08-03 09:40:23Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="cmdAuthorize.Text">
+    <value>Autoriser l'utilisateur</value>
+  </data>
+  <data name="cmdUnAuthorize.Text">
+    <value>Interdire l'accès</value>
+  </data>
+  <data name="cmdUnLock.Text">
+    <value>Déverrouillage du compte</value>
+  </data>
+  <data name="cmdPassword.Text">
+    <value>Forcer le changement de mot de passe</value>
+  </data>
+  <data name="Approved.Text">
+    <value>Autorisé :</value>
+  </data>
+  <data name="Approved.Help">
+    <value>Utilisateur autorisé ?.</value>
+  </data>
+  <data name="CreatedDate.Text">
+    <value>Date de création :</value>
+  </data>
+  <data name="CreatedDate.Help">
+    <value>Date d'inscription de cet utilisateur</value>
+  </data>
+  <data name="LastActivityDate.Text">
+    <value>Date de la dernière activité :</value>
+  </data>
+  <data name="LastActivityDate.Help">
+    <value>Date of last activity by this user</value>
+  </data>
+  <data name="LastLoginDate.Text">
+    <value>Date de dernière connexion :</value>
+  </data>
+  <data name="LastLoginDate.Help">
+    <value>Date de dernière connexion :</value>
+  </data>
+  <data name="LastPasswordChangeDate.Text">
+    <value>Dernier changement de mot de passe :</value>
+  </data>
+  <data name="LastPasswordChangeDate.Help">
+    <value>Dernier changement de mot de passe :</value>
+  </data>
+  <data name="LastLockoutDate.Text">
+    <value>Dernière date de bloquage :</value>
+  </data>
+  <data name="LastLockoutDate.Help">
+    <value>Dernière date à laquelle l'utilisateur a été bloqué pour cause d'erreurs de saisie de mot de passe répétées</value>
+  </data>
+  <data name="IsOnLine.Text">
+    <value>L'utilisateur en ligne :</value>
+  </data>
+  <data name="IsOnLine.Help">
+    <value>L'utilisateur en ligne :</value>
+  </data>
+  <data name="LockedOut.Text">
+    <value>Verrouillé</value>
+  </data>
+  <data name="LockedOut.Help">
+    <value>Le compte est-il bloqué suite à un trop grand nombre de tentative de connexions infructueuses</value>
+  </data>
+  <data name="UpdatePassword.Text">
+    <value>Mise à jour du mot de passe :</value>
+  </data>
+  <data name="UpdatePassword.Help">
+    <value>Forcer l'utilisateur à mettre à jour son mot de passe</value>
+  </data>
+  <data name="IsDeleted.Text">
+    <value>Supprimé</value>
+  </data>
+  <data name="IsDeleted.Help">
+    <value>L'utilisateur a-t-il été supprimé</value>
+  </data>
+  <data name="Never.Text">
+    <value>Jamais</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

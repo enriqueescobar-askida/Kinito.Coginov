@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--http://www.dnn.fr   Last change local time: 27/07/2011 14:35:04   UTC: 2011-07-27 12:35:04Z 
+Localisation Française (c) 2004-2011 par David Thomas (Imatech) et Benoit Sarton (BSI) 
+Please report comments and corrections at benoit at dotnetnuke.fr or david at dotnetnuke.fr 
+
+Licence : this resource file can be freely used without any garantee 
+Any change must include this licence including the authors names
+
+Licence : Ce fichier peut être librement utilisé, modifié et redistribué
+Il n'implique aucune garantie
+Tout changement ou redistribution doit conserver la présente mention,
+Y compris le nom des auteurs.-->
+  <data name="After.Text">
+    <value>Après</value>
+  </data>
+  <data name="Before.Text">
+    <value>Avant</value>
+  </data>
+  <data name="Child.Text" xml:space="preserve">
+    <value>Enfant de...</value>
+  </data>
+  <data name="Err.DeserializePanesFailed" xml:space="preserve">
+    <value>Impossible de traiter le gabarit de page.</value>
+  </data>
+  <data name="Err.Header" xml:space="preserve">
+    <value>Une erreur c'est produite lors de l'ajout de page :</value>
+  </data>
+  <data name="Err.HostBeforeAfterError" xml:space="preserve">
+    <value>Vous ne pouvez pas ajouter ou déplacer une page avant ou après la page "Hôte".</value>
+  </data>
+  <data name="Err.PageEditorPermissionError" xml:space="preserve">
+    <value>Vous n'avez pas la permission de mettre une page à cet endroit. Vous ne pouvez déplacer ou modifier les pages enfants.</value>
+  </data>
+  <data name="Err.PageExists" xml:space="preserve">
+    <value>Une page portant le même nom existe déjà : choisissez un nom différent.</value>
+  </data>
+  <data name="Err.PageNameInvalid" xml:space="preserve">
+    <value>Le nom de la page est invalide : choisissez un nom différent.</value>
+  </data>
+  <data name="Err.PageNameRequired" xml:space="preserve">
+    <value>Vous devez spécifier un nom.</value>
+  </data>
+  <data name="IncludeInMenu.Text" xml:space="preserve">
+    <value>Inclure dans le menu</value>
+  </data>
+  <data name="Name.Text">
+    <value>Nom</value>
+  </data>
+  <data name="Name.ToolTip" xml:space="preserve">
+    <value>Nom de la page</value>
+  </data>
+  <data name="NoTemplate.Text">
+    <value></value>
+  </data>
+  <data name="Err.Title">
+    <value>Erreur</value>
+  </data>
+</root>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 12:05:38   UTC: 2011-07-29 10:05:38Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="AddContent.Action">
+    <value>Options des bannières</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du module &amp;quot;Bannières&amp;quot;&lt;/h1&gt;
+
+&lt;p&gt;Ce module affiche les bannières publicitaires des annonceurs du site ou de 
+l'hôte.&lt;/p&gt;
+
+&lt;h1&gt;Options des bannières&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Ajouter une module &lt;b&gt;Bannières&lt;/b&gt;, ou modifiez un module existant.&lt;/li&gt;
+&lt;li&gt;Cliquez sur les &lt;b&gt;Options des bannières&lt;/b&gt;&lt;li&gt;Spécifiez la source : &lt;b&gt;Site&lt;/b&gt; 
+	ou &lt;b&gt;Hôte&lt;/b&gt;. 
+&lt;li&gt;Sélectionnez le type de bannière.
+&lt;li&gt;Ajouter un compteur de bannière. 
+&lt;li&gt;Cliquez sur &lt;b&gt;Mettre à jour &lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Template.Help">
+    <value>&lt;p&gt;Vous pouvez construire votre site à partir d'un modèle existant (gabarit).&lt;/p&gt;&lt;p&gt;Attention, vous devrez arbitrer entre les modules existant déjà sur votre site et ceux se trouvant dans le gabarit&lt;/p&gt;
+		</value>
+  </data>
+  <data name="TemplateDetail.Text">
+    <value>Construction à partir d&amp;#146;un gabarit</value>
+  </data>
+  <data name="MergeDetail.Text">
+    <value>Choisissez comment traiter les modules en doubles&lt;br&gt;(les modules qui sont dans le gabarit mais également sur le site).</value>
+  </data>
+  <data name="Ignore.Text">
+    <value>Ignorer</value>
+  </data>
+  <data name="Replace.Text">
+    <value>Remplacer</value>
+  </data>
+  <data name="Merge.Text">
+    <value>Fusionner</value>
+  </data>
+  <data name="MergeWarning.Text">
+    <value>&lt;p class="NormalRed"&gt;Note : Si vous choisissez "Remplacer&amp;quot;, le contenu existant sur les pages du gabarit sera perdu.&lt;/p&gt;</value>
+  </data>
+  <data name="TemplateRequired.Text">
+    <value>Si la case "Construction à partir d'un gabarit" est cochée, vous devez en choisir un avant de continuer.</value>
+  </data>
+  <data name="InvalidTemplate.Text">
+    <value>{0} n'est pas un fichier de gabarit valide.</value>
+  </data>
+  <data name="Skin.Help">
+    <value>&lt;p&gt;Vous pouvez choisir un thème à partir du sélecteur. Vous pourrez spécifier un autre thème à partir des paramètres du site.&lt;/p&gt;</value>
+  </data>
+  <data name="Details.Title">
+    <value>Ajouter des détails pour ce site</value>
+  </data>
+  <data name="lblPortalName.Text">
+    <value>Nom/Titre :</value>
+  </data>
+  <data name="lblPortalName.Help">
+    <value>Nom qui sera affiché dans la barre de titre du navigateur.</value>
+  </data>
+  <data name="lblDescription.Text">
+    <value>Description :</value>
+  </data>
+  <data name="lblDescription.Help">
+    <value>Décrivez votre site en quelques mots</value>
+  </data>
+  <data name="lblKeyWords.Text">
+    <value>Mots clés :</value>
+  </data>
+  <data name="lblKeyWords.Help">
+    <value>Spécifiez des mots clés (séparés par des virgules).</value>
+  </data>
+  <data name="Details.Help">
+    <value>&lt;p&gt;Cette page vous permet de fournir les informations de base de votre site comme son titre, sa description, les mots clés pour les moteurs de recherche&lt;/p&gt;</value>
+  </data>
+  <data name="lblLogo.Text">
+    <value>Logo :</value>
+  </data>
+  <data name="lblLogo.Help">
+    <value>Choisissez le logo.</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Assistant de création de site</value>
+  </data>
+  <data name="Container.Help">
+    <value>&lt;p&gt;Les containers choisis seront appliqués à tous les modules de votre site. Vous pourrez toutefois modifier les propriétés en éditant les paramètres du module et choisir un container différent&lt;/p&gt;
+		</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos de l'assistant de création de site&lt;/h1&gt;&lt;p&gt;L'administrateur peut 
+utiliser cet outil pour paramétrer certaines option du site.&lt;/p&gt;</value>
+  </data>
+  <data name="IncludeAll.Text">
+    <value>Voir tous les containers :</value>
+  </data>
+  <data name="Complete.Help">
+    <value>&lt;p&gt;La création de votre site est terminée&lt;/p&gt;&lt;p&gt;Le thème sera appliqué dès que vous quitterez cette page&lt;/p&gt;
+        </value>
+  </data>
+  <data name="Complete.Title">
+    <value>Choisissez un thème pour votre site</value>
+  </data>
+  <data name="Container.Title">
+    <value>Choisissez un container par défaut pour le site</value>
+  </data>
+  <data name="Finish.Text">
+    <value>Terminer</value>
+  </data>
+  <data name="Introduction.Help">
+    <value>Le configurateur de site permet de créer rapidement un site en choisissant un gabarit, un thème et les containers.</value>
+  </data>
+  <data name="Introduction.Title">
+    <value>Configurateur de site</value>
+  </data>
+  <data name="Next.Text">
+    <value>Suivant</value>
+  </data>
+  <data name="Previous.Text">
+    <value>Précédent</value>
+  </data>
+  <data name="Skin.Title">
+    <value>Choisissez un thème</value>
+  </data>
+  <data name="Template.Title">
+    <value>Choisissez un gabarit</value>
+  </data>
+  <data name="EditOnly.Text">
+    <value>Ce module est uniquement disponible pour les utilisateurs qui ont reçu l'autorisation de modifier.  Veuillez contacter l'administrateur du site si vous pensez que vous devriez avoir cette autorisation.</value>
+  </data>
+</root>

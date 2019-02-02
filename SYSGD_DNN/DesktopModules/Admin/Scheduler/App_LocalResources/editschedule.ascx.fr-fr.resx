@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContentOptions.Action">
+    <value>Statut des planifications</value>
+  </data>
+  <data name="ScheduleHistory.Action">
+    <value>Historique des planifications</value>
+  </data>
+  <data name="plEnabled.Text">
+    <value>Planifiée</value>
+  </data>
+  <data name="plTimeLapse.Text">
+    <value>Récurrence :</value>
+  </data>
+  <data name="plTimeLapse.Help">
+    <value>Exemple: "5" et "Minutes" pour lancer la tâche toutes les 5 minutes. Laissez vide pour désactiver la temporisation.</value>
+  </data>
+  <data name="Minutes.Text">
+    <value>Minutes</value>
+  </data>
+  <data name="Days.Text">
+    <value>Jours</value>
+  </data>
+  <data name="Hours.Text">
+    <value>Heures</value>
+  </data>
+  <data name="plRetryTimeLapse.Text">
+    <value>Nouvelle tentative</value>
+  </data>
+  <data name="plRetryTimeLapse.Help">
+    <value>Example : "5" et "Minutes" pour tenter de relancer la tâche toutes les 5 minutes. Laisser vide pour désactiver cette option.</value>
+  </data>
+  <data name="plRetainHistoryNum.Text">
+    <value>Historique :</value>
+  </data>
+  <data name="plRetainHistoryNum.Help">
+    <value>Example: Sélectionnez "10" pour ne retenir que les lignes les plus récentes.</value>
+  </data>
+  <data name="plAttachToEvent.Text">
+    <value>Demarrage sur :</value>
+  </data>
+  <data name="plAttachToEvent.Help">
+    <value>Exemple : sélectionnez "APPLICATION_START" pour démarrer cet événement au moment du lancement d'application web. Important, Les événements utilisant "APPLICATION_END" ne fonctionne pas sur certains hôtes.</value>
+  </data>
+  <data name="None.Text">
+    <value>Aucune</value>
+  </data>
+  <data name="APPLICATION_START.Text">
+    <value>APPLICATION_START</value>
+  </data>
+  <data name="plCatchUpEnabled.Text">
+    <value>Catch Up actif :</value>
+  </data>
+  <data name="plCatchUpEnabled.Help">
+    <value>Si cette option est cochée, en cas d'indisponibilité du serveur, l'évènement sera lancé une seule fois pour toutes les planifications n'ayant pas été lancées durant la période d'indisponibilité.</value>
+  </data>
+  <data name="plObjectDependencies.Text">
+    <value>Objet dépendant :</value>
+  </data>
+  <data name="plObjectDependencies.Help">
+    <value>Saisissez le nom de la table ou des objets dont cet évènement est dépendant. Example: "SiteLog,Users,UsersOnline"</value>
+  </data>
+  <data name="UpdateSuccess.Text">
+    <value>Vos modifications ont été enregistrée.</value>
+  </data>
+  <data name="DeleteSuccess.Text">
+    <value>La planification a été supprimée.</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Edition des planifications</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du planificateur de tâches&lt;/h1&gt;&lt;p&gt;Vous permet de spécifier des tâches qui s'exécuteront à intervalle régulier.&lt;/p&gt;</value>
+  </data>
+  <data name="plType.Text">
+    <value>Nom complet de la Class et de l'Assembly</value>
+  </data>
+  <data name="plType.Help">
+    <value>Nom complet de la classe suivie par le nom de l'assembly.  Exemple : "DotNetNuke.Entities.Users.PurgeUsersOnline, DOTNETNUKE"</value>
+  </data>
+  <data name="plServers.Text">
+    <value>Lancer sur les serveurs :</value>
+  </data>
+  <data name="plServers.Help">
+    <value>Saisissez la liste des serveurs (séparés par des points-virgules) sur lesquels la tâche doit être lancée.</value>
+  </data>
+  <data name="Seconds.Text">
+    <value>Secondes</value>
+  </data>
+  <data name="plEnabled.Help">
+    <value>Cochez pour activer la planification.</value>
+  </data>
+  <data name="cmdRun.Text">
+    <value>Run Now</value>
+  </data>
+  <data name="plFriendlyName.Help">
+    <value>Entrez un nom pour la tâche planifiée.</value>
+  </data>
+  <data name="plFriendlyName.Text">
+    <value>Nom convivial :</value>
+  </data>
+  <data name="RunNow.Text">
+    <value>Elément ajouté au planificateur pour une exécution immédiate</value>
+  </data>
+</root>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plLocales.Text" xml:space="preserve">
+    <value>Langues disponibles :</value>
+  </data>
+  <data name="ResourceName.Text" xml:space="preserve">
+    <value>Nom de la ressource :</value>
+  </data>
+  <data name="Value.Text" xml:space="preserve">
+    <value>Valeur traduite</value>
+  </data>
+  <data name="RequiredField.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Champ requis</value>
+  </data>
+  <data name="plLocales.Help" xml:space="preserve">
+    <value>Sélectionner la langue</value>
+  </data>
+  <data name="DefaultValue.Text" xml:space="preserve">
+    <value>Valeur par défaut</value>
+  </data>
+  <data name="DeleteItem.Text" xml:space="preserve">
+    <value>Etes vous sûr(e) de vouloir supprimer cette traduction ?</value>
+  </data>
+  <data name="Delete.ErrorMessage" xml:space="preserve">
+    <value>La langue système (en-US) ne peut pas être supprimée</value>
+  </data>
+  <data name="Save.ErrorMessage" xml:space="preserve">
+    <value>Échec d'une opération sur le fichier. Veuillez vérifier les autorisations d'accès aux fichiers de ressources.</value>
+  </data>
+  <data name="plSelected.Text" xml:space="preserve">
+    <value>Fichier de ressource sélectionné :</value>
+  </data>
+  <data name="SaveWarning.Text" xml:space="preserve">
+    <value>Toutes les modifications non enregistrées seront perdues si vous continuez. Etes-vous certain de que vouloir continuer ?</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Langue du site personnalisée</value>
+  </data>
+  <data name="ControlTitle_editlanguage.Text" xml:space="preserve">
+    <value>Editeur de langue</value>
+  </data>
+  <data name="DuplicateEntry.Text" xml:space="preserve">
+    <value>Ce fichier contient plus d'une entrée pour : &lt;b&gt;{0}&lt;/b&gt;. Vous devriez l'éditer et supprimer les doublons.</value>
+  </data>
+  <data name="Highlight.Text" xml:space="preserve">
+    <value>Mettre en évidence les traductions en attente</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ModeHost.Text" xml:space="preserve">
+    <value>Hôte</value>
+  </data>
+  <data name="ModeSystem.Text" xml:space="preserve">
+    <value>Système</value>
+  </data>
+  <data name="ModePortal.Text" xml:space="preserve">
+    <value>Portail</value>
+  </data>
+  <data name="plMode.Text" xml:space="preserve">
+    <value>Mode :</value>
+  </data>
+  <data name="plMode.Help" xml:space="preserve">
+    <value>Sélectionnez le fichier de langue à modifier ; l'hôte créera une version personnalisée du fichier localisé pour cette instance.</value>
+  </data>
+  <data name="Deleted.Text" xml:space="preserve">
+    <value>fichier(s) correctement effacé(s) : {0}</value>
+  </data>
+  <data name="Obsolete.Text" xml:space="preserve">
+    <value>Le fichier contient des traductions obsolètes. Cliquez sur Enregistrer pour les supprimer de manière permanente.</value>
+  </data>
+  <data name="DisplayEnglish.Text" xml:space="preserve">
+    <value>Afficher les noms anglais</value>
+  </data>
+  <data name="DisplayNative.Text" xml:space="preserve">
+    <value>Afficher les noms natifs</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Supprimer le fichier de ressource</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Enregistrer le fichier de ressource</value>
+  </data>
+  <data name="cmdParent.Text" xml:space="preserve">
+    <value>Aller sur la page principale</value>
+  </data>
+  <data name="plSelected.Help" xml:space="preserve">
+    <value>Afficher le chemin de la ressource actuellement editée</value>
+  </data>
+  <data name="plResources.Help" xml:space="preserve">
+    <value>Sélectionnez le fichier de ressources à modifier</value>
+  </data>
+  <data name="plResources.Text" xml:space="preserve">
+    <value>Ressources :</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>Modifier la langue</value>
+  </data>
+  <data name="FileSaved.Text" xml:space="preserve">
+    <value>Fichier de ressources mis à jour avec succès</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>Afficher la valeur par défaut</value>
+  </data>
+  <data name="ControlTitle_editor.Text">
+    <value>Editeur de langue</value>
+  </data>
+  <data name="plEditingLanguage.Help">
+    <value>Il s'agit de la langue sélectionnée pour lequel vous modifiez les ressources linguistiques. Pour sélectionner une autre langue, cliquez sur Annuler au bas de la page.</value>
+  </data>
+  <data name="plEditingLanguage.Text">
+    <value>Langue :</value>
+  </data>
+</root>

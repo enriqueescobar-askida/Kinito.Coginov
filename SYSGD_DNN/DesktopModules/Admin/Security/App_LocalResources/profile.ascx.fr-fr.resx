@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProfileProperties_FirstName.Text">
+    <value>Prénom :</value>
+  </data>
+  <data name="ProfileProperties_LastName.Text">
+    <value>Nom :</value>
+  </data>
+  <data name="ProfileProperties_MiddleName.Text">
+    <value>Deuxième Prénom :</value>
+  </data>
+  <data name="ProfileProperties_Prefix.Text">
+    <value>Civilité :</value>
+  </data>
+  <data name="ProfileProperties_FirstName.Help">
+    <value>Saisissez votre Prénom</value>
+  </data>
+  <data name="ProfileProperties_LastName.Help">
+    <value>Saisissez votre Nom</value>
+  </data>
+  <data name="ProfileProperties_MiddleName.Help">
+    <value>Deuxième Prénom :</value>
+  </data>
+  <data name="ProfileProperties_Prefix.Help">
+    <value>Saisissez votre civilité (ex. Mr. Mme.)</value>
+  </data>
+  <data name="ProfileProperties_Suffix.Text">
+    <value>Suffixe :</value>
+  </data>
+  <data name="ProfileProperties_Suffix.Help">
+    <value>Saisissez un suffixe (ex. BSc, PhD)</value>
+  </data>
+  <data name="ProfileProperties_Unit.Text">
+    <value>Complément :</value>
+  </data>
+  <data name="ProfileProperties_Unit.Help">
+    <value>Saisissez le numéro de rue correpondant à votre adresse</value>
+  </data>
+  <data name="ProfileProperties_Street.Text">
+    <value>Adresse :</value>
+  </data>
+  <data name="ProfileProperties_Street.Help">
+    <value>Saisissez le nom de la rue</value>
+  </data>
+  <data name="ProfileProperties_City.Text">
+    <value>Ville :</value>
+  </data>
+  <data name="ProfileProperties_City.Help">
+    <value>Saisissez le nom de votre ville</value>
+  </data>
+  <data name="ProfileProperties_Region.Text">
+    <value>Département :</value>
+  </data>
+  <data name="ProfileProperties_Region.Help">
+    <value>Saisissez le nom de votre département (Etat, province, région ou département)</value>
+  </data>
+  <data name="ProfileProperties_Country.Text">
+    <value>Pays :</value>
+  </data>
+  <data name="ProfileProperties_Country.Help">
+    <value>Saisissez le nom de votre Pays</value>
+  </data>
+  <data name="ProfileProperties_PostalCode.Text">
+    <value>Code postal :</value>
+  </data>
+  <data name="ProfileProperties_PostalCode.Help">
+    <value>Saisissez votre code postal</value>
+  </data>
+  <data name="ProfileProperties_Telephone.Text">
+    <value>Téléphone :</value>
+  </data>
+  <data name="ProfileProperties_Telephone.Help">
+    <value>Saisissez votre numéro de téléphone</value>
+  </data>
+  <data name="ProfileProperties_Cell.Text">
+    <value>Portable :</value>
+  </data>
+  <data name="ProfileProperties_Cell.Help">
+    <value>Saisissez votre numéro de portable</value>
+  </data>
+  <data name="ProfileProperties_Fax.Text">
+    <value>Télécopie :</value>
+  </data>
+  <data name="ProfileProperties_Fax.Help">
+    <value>Saisissez votre numéro de télécopie</value>
+  </data>
+  <data name="ProfileProperties_Website.Text">
+    <value>Site web :</value>
+  </data>
+  <data name="ProfileProperties_Website.Help">
+    <value>URL de site web.</value>
+  </data>
+  <data name="ProfileProperties_IM.Text">
+    <value>IM :</value>
+  </data>
+  <data name="ProfileProperties_IM.Help">
+    <value>Saisissez votre pseudo "messenger" (AOL, MSN, Yahoo etc...)</value>
+  </data>
+  <data name="ProfileProperties_TimeZone.Text">
+    <value>Fuseau horaire :</value>
+  </data>
+  <data name="ProfileProperties_TimeZone.Help">
+    <value>Sélectionnez votre fuseau horaire</value>
+  </data>
+  <data name="ProfileProperties_PreferredLocale.Text">
+    <value>Langue favorite :</value>
+  </data>
+  <data name="ProfileProperties_PreferredLocale.Help">
+    <value>Sélectionnez votre langue préférée.</value>
+  </data>
+  <data name="ProfileTitle.Text">
+    <value>Edition du profil - {0} (Id: {1})</value>
+  </data>
+  <data name="ProfileProperties_Cell.Required">
+    <value>Le numéro de portable est requis</value>
+  </data>
+  <data name="ProfileProperties_City.Required">
+    <value>Le champ ville est requis</value>
+  </data>
+  <data name="ProfileProperties_Country.Required">
+    <value>Le Pays est requis</value>
+  </data>
+  <data name="ProfileProperties_Fax.Required">
+    <value>Le numéro de télécopie est requis</value>
+  </data>
+  <data name="ProfileProperties_FirstName.Required">
+    <value>Le Prénom est requis</value>
+  </data>
+  <data name="ProfileProperties_IM.Required">
+    <value>Votre pseudo "messenger" est requis</value>
+  </data>
+  <data name="ProfileProperties_LastName.Required">
+    <value>Le Nom est requis</value>
+  </data>
+  <data name="ProfileProperties_MiddleName.Required">
+    <value>Le deuxième Prénom est requis</value>
+  </data>
+  <data name="ProfileProperties_PostalCode.Required">
+    <value>Le code postal est requis</value>
+  </data>
+  <data name="ProfileProperties_PreferredLocale.Required">
+    <value>La langue est requise</value>
+  </data>
+  <data name="ProfileProperties_Prefix.Required">
+    <value>Le champ civilité est requis</value>
+  </data>
+  <data name="ProfileProperties_Region.Required">
+    <value>Le nom de région est requis</value>
+  </data>
+  <data name="ProfileProperties_Street.Required">
+    <value>Le nom de rue est requis</value>
+  </data>
+  <data name="ProfileProperties_Suffix.Required">
+    <value>Le suffixe est requis</value>
+  </data>
+  <data name="ProfileProperties_Telephone.Required">
+    <value>Le numéro de téléphone est requis</value>
+  </data>
+  <data name="ProfileProperties_TimeZone.Required">
+    <value>Vous devez choisir un fuseau horaire</value>
+  </data>
+  <data name="ProfileProperties_Unit.Required">
+    <value>Le numéro est requis</value>
+  </data>
+  <data name="ProfileProperties_Website.Required">
+    <value>Vous devez saisir une URL pour vos paramètres de site web</value>
+  </data>
+  <data name="ProfileProperties_Biography.Text">
+    <value>Biographie :</value>
+  </data>
+  <data name="ProfileProperties_Biography.Help">
+    <value>Utiliser l'éditeur </value>
+  </data>
+  <data name="ProfileProperties_Biography.Required">
+    <value>Vous devez saisir votre biographie</value>
+  </data>
+  <data name="ProfileProperties_Country.Not Specified">
+    <value>Non spécifié</value>
+  </data>
+  <data name="ProfileProperties_Address.Header">
+    <value>Adresse</value>
+  </data>
+  <data name="ProfileProperties_Contact Info.Header">
+    <value>Information de contact</value>
+  </data>
+  <data name="ProfileProperties_Name.Header">
+    <value>Nom</value>
+  </data>
+  <data name="ProfileProperties_Preferences.Header">
+    <value>Préférences</value>
+  </data>
+  <data name="ProfileProperties_Photo.Help">
+    <value>Sélectionnez une photo, ou télécharger une image de votre système de fichiers local.</value>
+  </data>
+  <data name="ProfileProperties_Photo.Required">
+    <value>Une photo est nécessaire</value>
+  </data>
+  <data name="ProfileProperties_Photo.Text">
+    <value>Photo :</value>
+  </data>
+</root>

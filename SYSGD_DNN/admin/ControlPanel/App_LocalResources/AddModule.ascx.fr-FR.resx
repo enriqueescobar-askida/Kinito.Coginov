@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 06/08/2011 17:58:33   UTC: 2011-08-06 15:58:33Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="Above.Text">
+    <value>Au dessus</value>
+  </data>
+  <data name="Below.Text">
+    <value>Au-dessous</value>
+  </data>
+  <data name="Bottom.Text">
+    <value>En bas</value>
+  </data>
+  <data name="CopyModuleDefault.Text">
+    <value>Copier</value>
+  </data>
+  <data name="CopyModuleWcontent.Text">
+    <value>Copier (contenu inclus)</value>
+  </data>
+  <data name="CopyModuleWcontent.ToolTip">
+    <value>Cela crée une instance indépendante du module qui contient les paramètres et le contenu de l'original.</value>
+  </data>
+  <data name="CopyModuleWOcontent.Text">
+    <value>Copier (sans le contenu)</value>
+  </data>
+  <data name="CopyModuleWOcontent.ToolTip">
+    <value>Cela crée une instance indépendante du module contenant uniquement les paramètres de l'original. Le contenu ne peut être copié, car le module ne prend pas en charge l'interface IPortable.</value>
+  </data>
+  <data name="DefaultModule.Text">
+    <value>DNN_HTML</value>
+  </data>
+  <data name="Module.Text">
+    <value>Module</value>
+  </data>
+  <data name="Page.Text">
+    <value>Page</value>
+  </data>
+  <data name="PermissionEdit.Text">
+    <value>Editeurs seulement</value>
+  </data>
+  <data name="PermissionView.Text">
+    <value>Identique à la page</value>
+  </data>
+  <data name="Top.Text">
+    <value>En haut</value>
+  </data>
+  <data name="Visibility.Text">
+    <value>Visibilité</value>
+  </data>
+  <data name="AllCategories.Text">
+    <value>Toutes les catégories</value>
+  </data>
+  <data name="hlMoreExtensions.Text">
+    <value>Plus d'extensions...</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

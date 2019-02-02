@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserInfo_Username.Text" xml:space="preserve">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="UserInfo_Username.Help" xml:space="preserve">
+    <value>Saisissez un nom d'utilisateur</value>
+  </data>
+  <data name="UserInfo_FirstName.Text" xml:space="preserve">
+    <value>Prénom :</value>
+  </data>
+  <data name="UserInfo_FirstName.Help" xml:space="preserve">
+    <value>Saisissez votre prénom</value>
+  </data>
+  <data name="UserInfo_LastName.Text" xml:space="preserve">
+    <value>Nom :</value>
+  </data>
+  <data name="UserInfo_LastName.Help" xml:space="preserve">
+    <value>Saisissez votre Nom</value>
+  </data>
+  <data name="UserInfo_Email.Text" xml:space="preserve">
+    <value>Adresse Email :</value>
+  </data>
+  <data name="UserInfo_Email.Help" xml:space="preserve">
+    <value>Saisissez une adresse Email valide</value>
+  </data>
+  <data name="UserInfo_DisplayName.Text" xml:space="preserve">
+    <value>Pseudonyme :</value>
+  </data>
+  <data name="UserInfo_DisplayName.Help" xml:space="preserve">
+    <value>Saisissez un pseudonyme</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Ajouter un utilisateur</value>
+  </data>
+  <data name="UserInfo_Username.Required" xml:space="preserve">
+    <value>Le nom d'utilisateur est requis</value>
+  </data>
+  <data name="UserInfo_FirstName.Required" xml:space="preserve">
+    <value>Le prénom est requis</value>
+  </data>
+  <data name="UserInfo_LastName.Required" xml:space="preserve">
+    <value>Le nom est requis</value>
+  </data>
+  <data name="UserInfo_Email.Required" xml:space="preserve">
+    <value>L'adresse Email est requise</value>
+  </data>
+  <data name="plAuthorize.Text" xml:space="preserve">
+    <value>Autorisé :</value>
+  </data>
+  <data name="plAuthorize.Help" xml:space="preserve">
+    <value>Autoriser cet utilisateur</value>
+  </data>
+  <data name="plNotify.Text" xml:space="preserve">
+    <value>Notification :</value>
+  </data>
+  <data name="plNotify.Help" xml:space="preserve">
+    <value>Envoyez un message à l'adresse Email de l'utilisateur</value>
+  </data>
+  <data name="CreateUser.Text" xml:space="preserve">
+    <value>Créer l'utilisateur</value>
+  </data>
+  <data name="plPassword.Text" xml:space="preserve">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>Saisissez votre mot de passe</value>
+  </data>
+  <data name="plConfirm.Text" xml:space="preserve">
+    <value>Confirmation :</value>
+  </data>
+  <data name="plConfirm.Help" xml:space="preserve">
+    <value>Re-saisissez le mot de passe pour confirmation</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="PasswordHelpUser.Text" xml:space="preserve">
+    <value>Saisissez un mot de passe</value>
+  </data>
+  <data name="PasswordHelpAdmin.Text" xml:space="preserve">
+    <value>Saisissez un mot de passe pour cet utilisateur ou laissez le système se charger de sa création</value>
+  </data>
+  <data name="plRandom.Text" xml:space="preserve">
+    <value>Mot de passe auto généré</value>
+  </data>
+  <data name="plRandom.Help" xml:space="preserve">
+    <value>Cochez cette case afin d'obtenir un mot de passe généré automatiquement par le système</value>
+  </data>
+  <data name="InvalidCaptcha.Text" xml:space="preserve">
+    <value>Code de sécurité incorrect</value>
+  </data>
+  <data name="CaptchaText.Text" xml:space="preserve">
+    <value>Saisissez le code apparaissant ci-dessus</value>
+  </data>
+  <data name="UserInfo_Email.Validation" xml:space="preserve">
+    <value>Vous devez saisir une adresse Email valide</value>
+  </data>
+  <data name="UserInfo_DisplayName.Required" xml:space="preserve">
+    <value>Le nom pseudonyme est requis</value>
+  </data>
+  <data name="ConfirmUnRegister.Text">
+    <value>Etes-vous certain(e) de vouloir vous désinscrire ?</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Supprimer</value>
+  </data>
+  <data name="UnRegister.Text">
+    <value>Désinscription</value>
+  </data>
+  <data name="plAnswer.Help">
+    <value>Saisissez la réponse à la question secrète.</value>
+  </data>
+  <data name="plAnswer.Text">
+    <value>Réponse secrète :</value>
+  </data>
+  <data name="plQuestion.Help">
+    <value>Saisissez une question secrète qui vous aidera à retrouver le mot de passe</value>
+  </data>
+  <data name="plQuestion.Text">
+    <value>Question secrète :</value>
+  </data>
+</root>

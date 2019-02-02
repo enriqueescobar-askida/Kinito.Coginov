@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text">
+    <value>&lt;P&gt;Ce module vous permet de vérifier tous les &amp;quot;Packs de Langues&amp;quot; installés sur 
+le portail et de tester leurs statuts vis à vis du système de langue par défaut. 
+Le processus de vérification effectuera l&amp;#146;analyse de toutes les ressources qui 
+seront comparées&amp;nbsp; au système de langue par défaut.&lt;/P&gt; &lt;P&gt;Le rapport 
+généré, si des erreurs sont trouvées,&amp;nbsp; vous pourrez utiliser &lt;STRONG&gt;L&amp;#146;éditeur 
+de Langue&lt;/STRONG&gt;.&lt;/P&gt; &lt;P&gt;Trois types d&amp;#146;erreurs peuvent être rapportées :&lt;/P&gt; &lt;UL&gt; &lt;LI&gt;
+	&lt;span class="SubHead"&gt;Fichier manquant &lt;/span&gt;: Un fichier de ressources est 
+	manquant. Utilisez &lt;STRONG&gt;L&amp;#146;éditeur de Langue&lt;/STRONG&gt; pour générer 
+	automatiquement cette ressource puis la traduire.&lt;LI&gt;&lt;span class="SubHead"&gt;
+	Entrées manquantes :&lt;/span&gt; Certaines entrées d&amp;#146;un fichier de ressources 
+	sont manquantes. Utilisez &lt;STRONG&gt;L&amp;#146;éditeur de Langue&lt;/STRONG&gt; pour 
+	localiser les valeurs non traduites du fichier de ressources. &lt;LI&gt;
+	&lt;span class="SubHead"&gt;Entrées obsolètes &lt;/span&gt;: Le fichier de ressources 
+	comporte des entrées qui n&amp;#146;existent pas dans le fichier de ressources 
+	système par défaut. Utilisez &lt;STRONG&gt;L&amp;#146;éditeur de Langue&lt;/STRONG&gt; afin de 
+	supprimer les entrées qui ne sont pas neccessaires pour la ressource spécifiée.&lt;/LI&gt;&lt;/UL&gt;</value>
+  </data>
+  <data name="cmdVerify.Text">
+    <value>Lancer la vérification</value>
+  </data>
+  <data name="Locale.Text">
+    <value>Localisation :&amp;nbsp; </value>
+  </data>
+  <data name="MissingFiles.Text">
+    <value>Fichiers de ressources manquants :&amp;nbsp;</value>
+  </data>
+  <data name="MissingEntries.Text">
+    <value>Fichiers avec entrées manquantes :&amp;nbsp;</value>
+  </data>
+  <data name="ObsoleteEntries.Text">
+    <value>Fichiers contenant des entrées obsolètes :&amp;nbsp;</value>
+  </data>
+  <data name="ControlTitle_verify.Text">
+    <value>Analyseur de ressources</value>
+  </data>
+  <data name="OldFiles.Text">
+    <value>Fichiers plus anciens que le système par défaut :&amp;nbsp;</value>
+  </data>
+  <data name="DuplicateEntries.Text">
+    <value>Fichiers avec entrées dupliquées :&amp;nbsp;</value>
+  </data>
+  <data name="ErrorFiles.Text">
+    <value>Format de fichier de ressource incorrect :&amp;nbsp;</value>
+  </data>
+</root>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 08:49:37   UTC: 2011-07-29 06:49:37Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="AlternateTemplate.Default">
+    <value></value>
+  </data>
+  <data name="CommonFooterTemplate.Default">
+    <value></value>
+  </data>
+  <data name="CommonHeaderTemplate.Default">
+    <value></value>
+  </data>
+  <data name="FooterTemplate.Default">
+    <value></value>
+  </data>
+  <data name="HeaderTemplate.Default">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="ItemTemplate.Default">
+    <value>&lt;a href="[URL]" class="Language" title="[CULTURE:NATIVENAME]"&gt;&lt;img src="[I][FLAGSRC]" alt="[CULTURE:NATIVENAME]" border="0" /&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="Label.Text">
+    <value>Langue à utiliser :</value>
+  </data>
+  <data name="SeparatorTemplate.Default">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="SelectedItemTemplate.Default">
+    <value>&lt;span class="Language selected" title="[CULTURE:NATIVENAME]" &gt;&lt;img src="[I][FLAGSRC]" alt="[CULTURE:NAME]" /&gt;&lt;/span&gt;</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

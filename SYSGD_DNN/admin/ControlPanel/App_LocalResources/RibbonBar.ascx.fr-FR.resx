@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 06/08/2011 17:48:11   UTC: 2011-08-06 15:48:11Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="Module.Text">
+    <value>Module:</value>
+  </data>
+  <data name="Mode.Text">
+    <value>Mode:</value>
+  </data>
+  <data name="ModeView.Text">
+    <value>Visiteur</value>
+  </data>
+  <data name="ModeEdit.Text">
+    <value>Editeur</value>
+  </data>
+  <data name="ModeLayout.Text">
+    <value>Designer</value>
+  </data>
+  <data name="hypUpgrade.Text">
+    <value>Cliquez ici pour obtenir la dernière version</value>
+  </data>
+  <data name="hypMessageUrl.Text">
+    <value>http://www.dotnetnuke.com</value>
+  </data>
+  <data name="AdminConsole.Text">
+    <value>Site</value>
+  </data>
+  <data name="HostConsole.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="Tool.Console.Text">
+    <value>Console</value>
+  </data>
+  <data name="Tool.CopyPage.Text">
+    <value>Copier</value>
+  </data>
+  <data name="Tool.DeletePage.Confirm">
+    <value>Etes-vous certain de vouloir supprimer cette page ?</value>
+  </data>
+  <data name="Tool.DeletePage.Text">
+    <value>Effacer</value>
+  </data>
+  <data name="Tool.ExportPage.Text">
+    <value>Exporter</value>
+  </data>
+  <data name="Tool.Help.Text">
+    <value>Aide</value>
+  </data>
+  <data name="Tool.HostConsole.Text">
+    <value>Console</value>
+  </data>
+  <data name="Tool.ImportPage.Text">
+    <value>Importer</value>
+  </data>
+  <data name="Tool.NewPage.Text">
+    <value>Nouveau</value>
+  </data>
+  <data name="Tool.PageSettings.Text">
+    <value>Editer</value>
+  </data>
+  <data name="AdminConsole.ToolTip">
+    <value>Gestion du site</value>
+  </data>
+  <data name="HostConsole.ToolTip">
+    <value>Gestion de l'hôte</value>
+  </data>
+  <data name="Tool.CopyPage.ToolTip">
+    <value>Copier la page</value>
+  </data>
+  <data name="Tool.DeletePage.ToolTip">
+    <value>Effacer la page</value>
+  </data>
+  <data name="Tool.ExportPage.ToolTip">
+    <value>Exporter la page</value>
+  </data>
+  <data name="Tool.ImportPage.ToolTip">
+    <value>Importer la page</value>
+  </data>
+  <data name="Tool.NewPage.ToolTip">
+    <value>Créer une nouvelle page</value>
+  </data>
+  <data name="Tool.PageSettings.ToolTip">
+    <value>Editer les paramètres de la page</value>
+  </data>
+  <data name="CurrentTabEditPage.Text">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="CurrentTabHelp.Text">
+    <value>Aide</value>
+  </data>
+  <data name="CurrentTabSettings.Text">
+    <value>Paramètres</value>
+  </data>
+  <data name="CommonTabActions.Text">
+    <value>Actions</value>
+  </data>
+  <data name="CommonTabAddPage.Text">
+    <value>Insérer une page</value>
+  </data>
+  <data name="CommonTabInsertModule.Text">
+    <value>Insérer un module</value>
+  </data>
+  <data name="SiteTabAddPage.Text">
+    <value>Insérer</value>
+  </data>
+  <data name="SiteTabFeatures.Text">
+    <value>Fonctionnalités</value>
+  </data>
+  <data name="SiteTabManage.Text">
+    <value>Gestion</value>
+  </data>
+  <data name="SiteTabRestore.Text">
+    <value>Restaurer</value>
+  </data>
+  <data name="SiteTabSettings.Text">
+    <value>Paramètres</value>
+  </data>
+  <data name="SystemTabInformation.Text">
+    <value>Information</value>
+  </data>
+  <data name="SystemTabManage.Text">
+    <value>Gestion</value>
+  </data>
+  <data name="SystemTabMarketplace.Text">
+    <value>Boutique</value>
+  </data>
+  <data name="SystemTabSettings.Text">
+    <value>Paramètres</value>
+  </data>
+  <data name="SystemTabSwitchSite.Text">
+    <value>Changer de site</value>
+  </data>
+  <data name="SystemTabTools.Text">
+    <value>Outils</value>
+  </data>
+  <data name="Tool.Console.ToolTip">
+    <value>Gestion du site</value>
+  </data>
+  <data name="Tab_CurrentPage.Text">
+    <value>Page courante</value>
+  </data>
+  <data name="Tab_CommonTasks.Text">
+    <value>Tâches</value>
+  </data>
+  <data name="Tab_Host.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="Tab_Site.Text">
+    <value>Site</value>
+  </data>
+  <data name="CurrentTabCopyToChildren.Text">
+    <value>Actions de copier</value>
+  </data>
+  <data name="Tool.CopyDesignToChildren.Confirm">
+    <value>Le thème sera remplacé pour toutes les pages enfants.&lt;br /&gt;&lt;br /&gt;Etes-vous certain de vouloir continuer ?</value>
+  </data>
+  <data name="Tool.CopyDesignToChildren.Text">
+    <value>Appliquer le thème aux enfants</value>
+  </data>
+  <data name="Tool.CopyPermissionsToChildren.Confirm">
+    <value>Les permissions de toutes les pages enfants seront remplacées.&lt;br /&gt;&lt;br /&gt;Etes-vous certain de vouloir continuer ?</value>
+  </data>
+  <data name="Tool.CopyPermissionsToChildren.Text">
+    <value>Copier les permissions sur les pages enfants</value>
+  </data>
+  <data name="Tool.CopyDesignToChildrenPageEditor.Confirm">
+    <value>Le thème sera remplacé pour les pages enfants de la page courante auxquelles vous avez accès.&lt;br /&gt;&lt;br /&gt;Etes-vous certain de vouloir continuer ?</value>
+  </data>
+  <data name="Tool.DeletePage.Special.ToolTip">
+    <value>Impossible de supprimer cette page car elle est en cours d'utilisation ou c'est une page système. Allez dans "Site"&gt;"Pages" pour obtenir plus d'informations ou contacter l'administrateur du site.</value>
+  </data>
+  <data name="Tool.CopyDesignToChildren.ToolTip">
+    <value>Copier les information de thème sur les enfants</value>
+  </data>
+  <data name="CurrentTabActions.Text">
+    <value>Actions</value>
+  </data>
+  <data name="SiteTabLogging.Text">
+    <value>Logs</value>
+  </data>
+  <data name="SiteTabUsers.Text">
+    <value>Sécurité des utilisateurs</value>
+  </data>
+  <data name="Tool.CopyPermissionsToChildrenPageEditor.Confirm">
+    <value>Les permissions seront remplacées sur toutes les pages auxquelles vous avez accès.&lt;br /&gt;&lt;br /&gt;Etes-vous certain de vouloir continuer ?</value>
+  </data>
+  <data name="Tool.NewRole.Text">
+    <value>Ajouter un rôle</value>
+  </data>
+  <data name="Tool.NewUser.Text">
+    <value>Ajouter un utilisateur</value>
+  </data>
+  <data name="SiteNewPage.Text">
+    <value>Ajouter</value>
+  </data>
+  <data name="SiteNewPage.ToolTip">
+    <value>Créer une nouvelle page</value>
+  </data>
+  <data name="Tool.UploadFile.Text">
+    <value>Charger un fichier</value>
+  </data>
+  <data name="Tool.HealthMonitoring.Text">
+    <value>Performances</value>
+  </data>
+  <data name="Tool.ImpersonateUser.Text">
+    <value>Prendre l'identité</value>
+  </data>
+  <data name="Tool.WebServerManager.Text">
+    <value>Serveurs Web</value>
+  </data>
+  <data name="Tool.HealthMonitoring.ToolTip">
+    <value>Moniteur de performances</value>
+  </data>
+  <data name="Tool.ImpersonateUser.ToolTip">
+    <value>Prendre l'identité</value>
+  </data>
+  <data name="Tool.IntegrityChecker.Text">
+    <value>Integrité</value>
+  </data>
+  <data name="Tool.IntegrityChecker.ToolTip">
+    <value>Intégrité de l'application</value>
+  </data>
+  <data name="Tool.SupportTickets.Text">
+    <value>Support</value>
+  </data>
+  <data name="Tool.SupportTickets.ToolTip">
+    <value>Tickets de support</value>
+  </data>
+  <data name="Tool.WebServerManager.ToolTip">
+    <value>Gestion des serveurs Web</value>
+  </data>
+  <data name="IncludeInMenu.Text">
+    <value>Inclure dans le menu</value>
+  </data>
+  <data name="Tool.CopyPermissionsToChildren.ToolTip">
+    <value>Etendre les permissions aux descendants</value>
+  </data>
+  <data name="Tool.Help.ToolTip">
+    <value>Aide en ligne</value>
+  </data>
+  <data name="Tool.NewRole.ToolTip">
+    <value>Ajouter le nouveau rôle</value>
+  </data>
+  <data name="Tool.NewUser.ToolTip">
+    <value>Ajouter le nouvel utilisateur</value>
+  </data>
+  <data name="Tool.UploadFile.ToolTip">
+    <value>Charger le fichier vers le serveur</value>
+  </data>
+  <data name="AddButton.Text">
+    <value>Ajouter la Page</value>
+  </data>
+  <data name="Location.Text">
+    <value>Insérer</value>
+  </data>
+  <data name="Template.Text">
+    <value>Modèle</value>
+  </data>
+  <data name="AddExisting.Text">
+    <value>Ajouter Module existant</value>
+  </data>
+  <data name="AddModule.Text">
+    <value>Ajouter module</value>
+  </data>
+  <data name="AddNew.Text">
+    <value>Ajouter nouveau module</value>
+  </data>
+  <data name="Category.Text">
+    <value>Catégorie</value>
+  </data>
+  <data name="Disabled.Text">
+    <value>Désactivé</value>
+  </data>
+  <data name="Insert.Text">
+    <value>Insérer</value>
+  </data>
+  <data name="Name.Text">
+    <value>Nom</value>
+  </data>
+  <data name="Pane.Text">
+    <value>Zone</value>
+  </data>
+  <data name="Skin.Text">
+    <value>Thème</value>
+  </data>
+  <data name="SwitchButton.Text">
+    <value>Switch site</value>
+  </data>
+  <data name="Title.Text">
+    <value>Titre</value>
+  </data>
+  <data name="UpdateButton.Text">
+    <value>Mise à jour de la Page</value>
+  </data>
+  <data name="CurrentTabAddPage.Text">
+    <value>Ajoutez une page</value>
+  </data>
+  <data name="LocateModule.Text">
+    <value>Emplacement du module</value>
+  </data>
+  <data name="SelectModule.Text">
+    <value>Sélection de module</value>
+  </data>
+  <data name="Tool.ClearCache.Text">
+    <value>Vider le Cache</value>
+  </data>
+  <data name="Tool.RecycleApp.Text">
+    <value>Recycler le Pool d'applications</value>
+  </data>
+  <data name="Tool.ClearCache.ToolTip">
+    <value>Forcer la purge du cache.</value>
+  </data>
+  <data name="Tool.RecycleApp.ToolTip">
+    <value>Recycler le pool d'applications. Votre site sera indisponible pour quelques instants.</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 02/08/2011 17:29:49   UTC: 2011-08-02 15:29:49Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="AdminUser.Text">
+    <value>Administrateur du Site</value>
+  </data>
+  <data name="AdminUserError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur pour l'utilisateur Administrateur :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="Auto.Text">
+    <value>&lt;b&gt;Auto&lt;/b&gt; - L'installation "Auto" court-circuite l'assistant et utilise l'ancienne procédure d'auto installation.</value>
+  </data>
+  <data name="ChooseDatabase.Text">
+    <value>Sélectionnez la base de données :</value>
+  </data>
+  <data name="ChooseDbError.Text">
+    <value>Vous devez choisir un type de base de données</value>
+  </data>
+  <data name="ChooseInstall.Text">
+    <value>&lt;h3&gt;Sélectionnez la méthode d'installation :&lt;/h3&gt;</value>
+  </data>
+  <data name="ChooseLanguage.Text">
+    <value>&lt;h3&gt;Choisissez la langue :&lt;/h3&gt;</value>
+  </data>
+  <data name="Complete.Text">
+    <value>Installation terminée</value>
+  </data>
+  <data name="CompleteDetail.Text">
+    <value>&lt;p&gt;Félicitations, vous avez correctement installé DotNetNuke.&lt;/p&gt;</value>
+  </data>
+  <data name="CompleteTitle.Text">
+    <value>Félicitations</value>
+  </data>
+  <data name="Confirm.Text">
+    <value>Confirmez le mot de passe :</value>
+  </data>
+  <data name="ConfirmPassword.Text">
+    <value>Le mot de passe de confirmation saisi diffère du mot de passe initial.</value>
+  </data>
+  <data name="ConnectError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur(s) à la Connexion:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="ConnectSuccess.Text">
+    <value>&lt;b&gt;&lt;font color='green'&gt;Succès de la connexion &lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="Containers.Text">
+    <value>Conteneurs</value>
+  </data>
+  <data name="Database.Text">
+    <value>Base de données :</value>
+  </data>
+  <data name="DatabaseFile.Text">
+    <value>Nom du fichier :</value>
+  </data>
+  <data name="DatabaseFileHelp.Text">
+    <value>Entrez le nom du fichier de la base de données (situé dans le répertoire App_Data)</value>
+  </data>
+  <data name="DatabaseHelp.Text">
+    <value>Entrez le nom de la base de données</value>
+  </data>
+  <data name="Email.Text">
+    <value>Adresse e-mail :</value>
+  </data>
+  <data name="Failure.Text">
+    <value>ECHEC</value>
+  </data>
+  <data name="FileCreate.Text">
+    <value>Créer le fichier</value>
+  </data>
+  <data name="FileDelete.Text">
+    <value>Supprimer le fichier</value>
+  </data>
+  <data name="Finished.Text">
+    <value>Terminé (accéder au site)</value>
+  </data>
+  <data name="FirstName.Text">
+    <value>Prénom :</value>
+  </data>
+  <data name="FolderCreate.Text">
+    <value>Créer le répertoire</value>
+  </data>
+  <data name="FolderDelete.Text">
+    <value>Supprimer le répertoire</value>
+  </data>
+  <data name="Full.Text">
+    <value>&lt;b&gt;Personnalisée&lt;/b&gt; - La méthode d’installation « Personnalisée » vous permet de personnaliser entièrement votre installation de DotNetNuke. Sélectionnez cette option si vous souhaitez contrôler les composants optionnels à installer.</value>
+  </data>
+  <data name="HomePage.Text">
+    <value>Page d'accueil</value>
+  </data>
+  <data name="HostUserError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur pour l'utilisateur Hôte :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="Install.Error">
+    <value>Il y a eu un problème durant l'installation de la base de données.</value>
+  </data>
+  <data name="Install.Text">
+    <value>Installer les scripts de la base de données</value>
+  </data>
+  <data name="InstallComplete.Text">
+    <value>Installation des scripts de la base de données achevée</value>
+  </data>
+  <data name="InstallDatabase.Text">
+    <value>Installation de la base de données - Version {0}</value>
+  </data>
+  <data name="Installed.Text">
+    <value>&lt;p&gt;DotNetNuke est déjà installé sur ce système.&lt;/p&gt;</value>
+  </data>
+  <data name="Installing.Text">
+    <value>Installation des scripts en base de données ...</value>
+  </data>
+  <data name="InstallModuleError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur à l'installation du (des) Module(s) :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="InstallPortalError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur à l'installation du Site :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="InstallScript.Text">
+    <value>Mise à jour vers la Version {0}</value>
+  </data>
+  <data name="Integrated.Text">
+    <value>Sécurité intégrée :</value>
+  </data>
+  <data name="IntegratedHelp.Text">
+    <value>Cochez si vous utilisez l'authentification SQL Server intégrée, ce qui implique que vous utiliserez le compte Windows en charge du processus Asp.net pour accéder à SQL Server. Si vous  utilisez SQL Server Express, alors vous devrez très probablement sélectionner cette option. Si on vous a fourni un nom d’utilisateur/mot de passe pour accéder à votre base de données, laissez la case décochée et saisissez votre identifiant de connexion.</value>
+  </data>
+  <data name="InValidEmail.Text">
+    <value>L'adresse de courriel est invalide</value>
+  </data>
+  <data name="Languages.Text">
+    <value>Langues</value>
+  </data>
+  <data name="LastName.Text">
+    <value>Nom :</value>
+  </data>
+  <data name="MachineKey.Error">
+    <value>Erreur à la mise à jour de la clé d'encryption Machine(fichier Web.config)</value>
+  </data>
+  <data name="MinUserNamelength.Text">
+    <value>Le nom d'utilisateur doit comprendre au moins 4 caractères</value>
+  </data>
+  <data name="Modules.Text">
+    <value>Modules</value>
+  </data>
+  <data name="NoContainers.Text">
+    <value>Il n'y a pas de container optionnel à installer</value>
+  </data>
+  <data name="NoLanguages.Text">
+    <value>Il n'y a pas de langue à installer.</value>
+  </data>
+  <data name="NoModules.Text">
+    <value>Il n'y a pas de module à installer</value>
+  </data>
+  <data name="NoPassword.Text">
+    <value>Vous devez fournir un mot de passe pour l'utilisateur</value>
+  </data>
+  <data name="NoSkins.Text">
+    <value>Il n'y a pas de thème optionnel à installer</value>
+  </data>
+  <data name="Oracle.Text">
+    <value>Base de données Oracle</value>
+  </data>
+  <data name="Owner.Text">
+    <value>Exécuter les requêtes en base en tant que propriétaire (db Owner) :</value>
+  </data>
+  <data name="OwnerHelp.Text">
+    <value>Cochez si vous accédez à la base de données en tant que propriétaire (db Owner)- Si vous laissez la case décochée, vous utiliserez la base avec le nom d'utilisateur spécifié.</value>
+  </data>
+  <data name="Page0.Title">
+    <value>Bienvenue</value>
+  </data>
+  <data name="IntroDetail.Text">
+    <value>&lt;p&gt;Bienvenue dans l’Assistant d’installation de DotNetNuke. Cet assistant vous guidera tout au long de l’installation de DotNetNuke.&lt;/p&gt;
+&lt;p&gt;Vous pouvez naviguer dans l’assistant à l’aide des boutons Suivant et Précèdent. Dans certaines pages, vous verrez un troisième bouton « Test… ». Ce bouton vous permettra de tester certains points de configuration avant de continuer, afin de voir les effets de vos changements.&lt;/p&gt;
+&lt;p&gt;La première étape consiste à sélectionner la méthode d’installation à utiliser et à choisir la langue que vous souhaitez utiliser pour l’installation.&lt;/p&gt;</value>
+  </data>
+  <data name="IntroTitle.Text">
+    <value>Assistant d'Installation de DotNetNuke - Version {0}</value>
+  </data>
+  <data name="Page1.Title">
+    <value>Permissions des fichiers</value>
+  </data>
+  <data name="PermissionsDetail.Text">
+    <value>&lt;p&gt;DotNetNuke a des fonctionnalités de chargement en ligne pour les contenus, langues,  modules et thèmes graphiques. Ces fonctions nécessitent des paramètres de sécurité appropriés pour que l’application puisse créer et supprimer les fichiers de votre site web.&lt;/p&gt;
+&lt;p&gt;Cette page vérifie les permissions d’accès aux répertoires fichiers afin de s’assurer que ces fonctionnalités s’exécuteront correctement.&lt;/p&gt;</value>
+  </data>
+  <data name="PermissionsTitle.Text">
+    <value>Vérification des permissions d'accès aux fichiers</value>
+  </data>
+  <data name="Page2.Title">
+    <value>Configuration de la base de données</value>
+  </data>
+  <data name="DatabaseConfigDetail.Text">
+    <value>&lt;p&gt;Vous pouvez configurer les paramètres de base de données de DotNetNuke dans cette page. Si vous installez DotNetNuke sur un compte d’hébergement, votre hébergeur devrait vous avoir fourni les informations appropriées.&lt;/p&gt;
+&lt;p&gt;Il y a deux options pour SQL Server 2005. SQL Server 2005 supporte l’accès aux bases de données par fichier. Dans la plupart des cas, vous devriez utiliser l’option base de données, mais si vous utilisez SQL Server 2005 Express, alors vous devriez utiliser l’option Fichier.&lt;/p&gt;</value>
+  </data>
+  <data name="DatabaseConfigTitle.Text">
+    <value>Configurez la connexion à la base de données</value>
+  </data>
+  <data name="Page3.Title">
+    <value>Installation de la base de données</value>
+  </data>
+  <data name="DatabaseInstallDetail.Text">
+    <value>&lt;p&gt;L’installation des scripts de la base de données devrait avoir démarré au chargement de cette page. Les boutons Précèdent et Suivant seront désactivés jusqu’à ce que les scripts soient installés&lt;/p&gt;</value>
+  </data>
+  <data name="DatabaseInstallTitle.Text">
+    <value>Exécution des scripts d'installation de la base de données</value>
+  </data>
+  <data name="Page4.Title">
+    <value>Utilisateur Hôte</value>
+  </data>
+  <data name="HostUserDetail.Text">
+    <value>&lt;p&gt;Dans cette page, vous devez fournir les informations pour la création du super-utilisateur ou hôte. Cet utilisateur a accès à tous les portails créés sur le site, et une attention particulière doit être portée pour fournir un compte correctement sécurisé (complexité nom d’utilisateur / mot de passe).&lt;/p&gt;</value>
+  </data>
+  <data name="HostUserTitle.Text">
+    <value>Configuration de l'utilisateur Hôte</value>
+  </data>
+  <data name="Page5.Title">
+    <value>Installation de Modules</value>
+  </data>
+  <data name="ModulesDetail.Text">
+    <value>&lt;p&gt;DotNetNuke est un système fortement extensible, par l’implémentation du concept de modules « installables ». &lt;/p&gt;&lt;p&gt;Dans cette page, vous pouvez choisir les modules optionnels à installer. Installer les modules les rend accessibles depuis l’éditeur de page.&lt;/p&gt;</value>
+  </data>
+  <data name="ModulesTitle.Text">
+    <value>Installation de Modules optionnels</value>
+  </data>
+  <data name="Page9.Title">
+    <value>Installation du site</value>
+  </data>
+  <data name="PortalDetail.Text">
+    <value>&lt;p&gt;Dans cette page, vous configurez le site hôte (site web initial). &lt;/p&gt;
+&lt;p&gt;Vous devrez fournir un compte administrateur. Cet utilisateur accède à l’ensemble des fonctionnalités du portail et  comme pour le compte hôte, une attention particulière doit être portée pour fournir un compte correctement sécurisé (complexité nom d’utilisateur / mot de passe). &lt;/p&gt;</value>
+  </data>
+  <data name="Page7.Title">
+    <value>Installation des thèmes</value>
+  </data>
+  <data name="SkinsDetail.Text">
+    <value>&lt;p&gt;DotNetNuke possède un puissant système de personnalisation du design, par le biais de thèmes et containers graphiques. Dans cette page vous pouvez choisir les thèmes et containers optionnels à installer. &lt;/p&gt;
+&lt;p&gt;L’installation d’un thème ou d’un container ne l’active pas automatiquement, mais vous la rend accessible.&lt;/p&gt;</value>
+  </data>
+  <data name="SkinsTitle.Text">
+    <value>Installation des thèmes et containers optionnels</value>
+  </data>
+  <data name="Page8.Title">
+    <value>Installation des langues</value>
+  </data>
+  <data name="LanguagesDetail.Text">
+    <value>&lt;p&gt;DotNetNuke est entièrement localisable. Dans cette page, vous pouvez choisir les langues que vous souhaitez installer. &lt;/p&gt;
+&lt;p&gt;Installer une langue ne l’active pas automatiquement, mais vous la rend accessible&lt;/p&gt;</value>
+  </data>
+  <data name="LanguagesTitle.Text">
+    <value>Installation des packs de langues</value>
+  </data>
+  <data name="Password.Text">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="PasswordHelp.Text">
+    <value>Entrez le mot de passe pour la base de données</value>
+  </data>
+  <data name="PasswordLength.Text">
+    <value>le mot de passe doit contenir au moins {0} caractères.</value>
+  </data>
+  <data name="PasswordUser.Text">
+    <value>Vous ne devez pas définir un mot de passe identique au nom d'utilisateur.</value>
+  </data>
+  <data name="Permissions.Text">
+    <value>Résumé des permissions fichiers :</value>
+  </data>
+  <data name="PermissionsError.Text">
+    <value>&lt;img alt="Image illustrant les paramètres de sécurité du répertoire à la racine du site web ; ils doivent être définis à Lire, Ecrire et Modification pour le compte ASPNET ou NTAUTHORITY/NETWORK SERVICE / SERVICE RESEAU (identité asp.net selon la version de Windows)." src="..\403-3.gif" align="right" hspace="10"&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color='red'&gt;Votre site n'a pas passé la vérification des permissions.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+En utilisant l'explorateur windows, naviguez au répertoire racine du site (C:\DotNetNuke par défaut). Ouvrez les propriétés du répertoire, l'onglet Sécurité  (notez que sous Windows XP, vous pouvez avoir besoin d’ &lt;a href="http://www.commentcamarche.net/configuration-reseau/partage-fichiers.php3" target="_blank"&gt;activer le partage de fichiers simplifié&lt;/a&gt;  avant que ces options ne soient disponibles). Ajoutez le compte approprié et attribuez les permissions.
+&lt;br/&gt;&lt;br/&gt;
+&lt;h3&gt;Sous Windows XP/2000 - IIS5&lt;/h3&gt;
+&lt;p&gt;Le compte {Server}\ASPNET  doit avoir les permissions en lecture, écriture et modification à la racine du site web. &lt;/p&gt;
+&lt;h3&gt;Sous Windows 2003 - IIS6&lt;/h3&gt;
+&lt;p&gt;le compte  NT AUTHORITY\NETWORK SERVICE\SERVICE RESEAU doit avoir les permissions en lecture, écriture et modification à la racine du site web. &lt;/p&gt;</value>
+  </data>
+  <data name="PermissionsOk.Text">
+    <value>&lt;b&gt;&lt;font color='green'&gt;Votre site a validé la vérification des permissions fichiers.&lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="Portal.Text">
+    <value>Propriétés du site</value>
+  </data>
+  <data name="PortalTemplate.Text">
+    <value>Gabarit :</value>
+  </data>
+  <data name="PortalTitle.Text">
+    <value>Titre du site :</value>
+  </data>
+  <data name="Qualifier.Text">
+    <value>Préfixe des objets en base :</value>
+  </data>
+  <data name="QualifierHelp.Text">
+    <value>Entrez un préfixe optionnel à rajouter à tous les objets en base de données - Ceci peut aider à éviter les conflits de dénomination.</value>
+  </data>
+  <data name="ScriptError.Text">
+    <value>Voir {0} pour plus d'information</value>
+  </data>
+  <data name="Server.Text">
+    <value>Serveur :</value>
+  </data>
+  <data name="ServerHelp.Text">
+    <value>Saisissez le nom ou l'adresse IP de l'ordinateur ou la base de données est située.  (Si vous utilisez Oracle, entrez la source de données (SID))</value>
+  </data>
+  <data name="Skins.Text">
+    <value>Thèmes</value>
+  </data>
+  <data name="SQLServer.Text">
+    <value>Base de données SQL Server 2000/2005</value>
+  </data>
+  <data name="SQLServerXPress.Text">
+    <value>Fichier SQL Server 2005 (Express)</value>
+  </data>
+  <data name="Success.Text">
+    <value>Succès</value>
+  </data>
+  <data name="TestDB.Text">
+    <value>Test de la connexion à la base de données</value>
+  </data>
+  <data name="TestPerm.Text">
+    <value>Test des Permissions sur les fichiers</value>
+  </data>
+  <data name="Title.Text">
+    <value>Assistant d'installation de DotNetNuke</value>
+  </data>
+  <data name="Typical.Text">
+    <value>&lt;b&gt;Typique&lt;/b&gt;  - L'installation "typique" pré remplit certains paramètres avec des valeurs courantes.</value>
+  </data>
+  <data name="Upgrade.Text">
+    <value>&lt;p&gt;DotNetNuke est déjà installé en version {0}. Cliquez le bouton suivant pour mettre à jour vers la nouvelle version.&lt;/p&gt;</value>
+  </data>
+  <data name="UpgradeTitle.Text">
+    <value>Assistant de mise à jour de DotNetNuke - Version {0}</value>
+  </data>
+  <data name="UserHelp.Text">
+    <value>Entrez l'identifiant utilisateur pour la base de données</value>
+  </data>
+  <data name="UserId.Text">
+    <value>ID Utilisateur :</value>
+  </data>
+  <data name="UserName.Text">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="WhatsNext.Text">
+    <value>La suite</value>
+  </data>
+  <data name="Next.Text">
+    <value>Suivant</value>
+  </data>
+  <data name="NoPackages.Text">
+    <value>Il n'y a pas de système d'authentification à installer</value>
+  </data>
+  <data name="Page6.Title">
+    <value>Installer des service d'identification</value>
+  </data>
+  <data name="Previous.Text">
+    <value>Précédent</value>
+  </data>
+  <data name="AuthSystems.Text">
+    <value>Systèmes d'identification</value>
+  </data>
+  <data name="AuthSystemsDetail.Text">
+    <value>&lt;p&gt;DotNetNuke supporte différentes méthodes d'identification.  Vous pouvez choisir dans cette page les modes d'identification que vous souhaitez installer.&lt;/p&gt;
+&lt;p&gt;L'installation d'une méthode d'identification ne l'active pas automatiquement pour chaque portail, mais ils sont disponibles pour l'administrateur du portail.&lt;/p&gt;</value>
+  </data>
+  <data name="AuthSystemsTitle.Text">
+    <value>Installer les systèmes d'identification</value>
+  </data>
+  <data name="DatabaseWarning.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;L'option Auto a été désactivée car l'application DotNetNuke ne peut se connecter à une base de données SQL Server valide.  Vous pouvez poursuivre en utiilisant l'une des deux autres options de l'assistant et définir les paramètres d'accès à la base de données lors de l'étape dédiée.&lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="EmailErrorMessage.Text">
+    <value>Une erreur est survenue durant l'envoi du mail de test. L'erreur est :&lt;br /&gt;{0}</value>
+  </data>
+  <data name="EmailSentMessage.Text">
+    <value>Mail envoyé avec succès.</value>
+  </data>
+  <data name="EmailTestMessageSubject.Text">
+    <value>Test de la configuration SMTP</value>
+  </data>
+  <data name="EnableUpdate.Text">
+    <value>Souhaitez-vous qu'un indicateur visuel soit affiché afin de vous informer de la disponibilité d'une mise à jour ?</value>
+  </data>
+  <data name="HostWarning.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Votre nom d'hôte contient des caractère invalide (seulement A-Z, 0-9, - et . sont autorisés).  Modifiez le nom d'hôte.&lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="InstallAuthSystemError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur lors de l'installation du système d'identification :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="InstallContainerError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur d'installation du container :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="InstallFailed.Text">
+    <value>Défaillance dans l'installation des scripts de la base de données</value>
+  </data>
+  <data name="InstallLanguageError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur dans l'installation du pack de  langue :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="InstallProviderError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur en installant le fournisseur :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="InstallSkinError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur en installant le thème :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="No.Text">
+    <value>Non</value>
+  </data>
+  <data name="Page10.Title">
+    <value>Installer le site</value>
+  </data>
+  <data name="Providers.Text">
+    <value>Fournisseurs</value>
+  </data>
+  <data name="ProvidersDetail.Text">
+    <value>&lt;p&gt;DotNetNuke utilise un modèle de fournisseur pour les extensions.  Sur cette page, vous pouvez choisir les fournisseurs à installer.&lt;/p&gt;</value>
+  </data>
+  <data name="ProvidersTitle.Text">
+    <value>Installer les fournisseurs</value>
+  </data>
+  <data name="SMTPAnonymous.Text">
+    <value>Anonyme</value>
+  </data>
+  <data name="SMTPAuthentication.Text">
+    <value>Identification :</value>
+  </data>
+  <data name="SMTPBasic.Text">
+    <value>Basique</value>
+  </data>
+  <data name="SMTPEnableSSL.Text">
+    <value>Activer le SSL :</value>
+  </data>
+  <data name="SMTPError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Erreur(s) SMTP :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="SMTPNTLM.Text">
+    <value>NTLM:</value>
+  </data>
+  <data name="SMTPPassword.Text">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="SMTPServer.Text">
+    <value>Serveur :</value>
+  </data>
+  <data name="SMTPSettings.Text">
+    <value>Paramètres du serveur SMTP</value>
+  </data>
+  <data name="SMTPSettingsHelp.Text">
+    <value>Vous pouvez configurer et tester votre serveur SMTP.</value>
+  </data>
+  <data name="SMTPSuccess.Text">
+    <value>&lt;b&gt;&lt;font color='green'&gt;Réussite SMTP :&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="SMTPUsername.Text">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text">
+    <value>Vous devez préciser l'adresse mail de l'hôte</value>
+  </data>
+  <data name="TestSMTP.Text">
+    <value>Test des paramètres SMTP</value>
+  </data>
+  <data name="UpdateDetail.Text">
+    <value>Ce logiciel peut rechercher régulièrement les dernières mises à jour pour votre site.  Ces mises à jour peuvent inclure des mises à jour de sécurité, des mises à jour critiques et des correctifs. (Aucune information n'est collectée pour vous identifier ou vous contacter sans votre consentement explicite.)</value>
+  </data>
+  <data name="UpdateEmail.Text">
+    <value>Souhaitez-vous recevoir des notifications de mises à jour par mail concernant ce logiciel ?</value>
+  </data>
+  <data name="UpdateTitle.Text">
+    <value>Service de mise à jour - Vous aide à protéger l'intégrité de votre site Internet</value>
+  </data>
+  <data name="Yes.Text">
+    <value>Oui</value>
+  </data>
+  <data name="DbNameError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Vous devez donnez le nom de la base de données.&lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="Page11.Title">
+    <value>Installation terminée</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

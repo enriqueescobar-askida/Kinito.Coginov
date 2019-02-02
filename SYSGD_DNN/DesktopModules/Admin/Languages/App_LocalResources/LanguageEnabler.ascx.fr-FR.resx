@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 05/08/2011 18:50:21   UTC: 2011-08-05 16:50:21Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="plEnabled.Text">
+    <value>Activée</value>
+  </data>
+  <data name="EnglishName.Text" version="deprecated">
+    <value>Nom Anglais</value>
+  </data>
+  <data name="plLanguage.Text">
+    <value>Langue</value>
+  </data>
+  <data name="lblViewType.Text" version="deprecated">
+    <value>Type d'affichage :</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>A LanguageEnabler module</value>
+  </data>
+  <data name="NativeName.Text" version="deprecated">
+    <value>Nom natif</value>
+  </data>
+  <data name="PortalDefault.Text" version="deprecated">
+    <value>&lt;em&gt;[Langue pas défaut du site (ne peut pas être désactivé)]&lt;/em&gt;</value>
+  </data>
+  <data name="Fallback.Text">
+    <value>Langue de repli</value>
+  </data>
+  <data name="lblSiteDefault.Help" version="deprecated">
+    <value>Vous pouvez sélectionner la langue par défaut pour le site ici. Si la langue n'est pas encore activée, elle sera activés automatiquement.</value>
+  </data>
+  <data name="lblSiteDefault.Text" version="deprecated">
+    <value>Langue par défaut du site</value>
+  </data>
+  <data name="lblViewType.Help" version="deprecated">
+    <value>Sélectionnez le type d'affichage pour les langues sur cette page.</value>
+  </data>
+  <data name="plEnabled.Help">
+    <value>Ci-dessous, vous pouvez activer ou désactiver les langues pour ce site.</value>
+  </data>
+  <data name="plHost.Help" version="deprecated">
+    <value>Editer les ressources de l'hôte</value>
+  </data>
+  <data name="plHost.Text" version="deprecated">
+    <value>Hôte</value>
+  </data>
+  <data name="plLanguage.Help">
+    <value>Liste de tous les langues disponibles.&lt;br /&gt;</value>
+  </data>
+  <data name="plPortal.Help" version="deprecated">
+    <value>Editer les ressources de ce site</value>
+  </data>
+  <data name="plPortal.Text" version="deprecated">
+    <value>Site</value>
+  </data>
+  <data name="plSystem.Help" version="deprecated">
+    <value>Editer les ressources système</value>
+  </data>
+  <data name="plSystem.Text" version="deprecated">
+    <value>Système</value>
+  </data>
+  <data name="viewTypeLabel.Text">
+    <value>Type d'affichage</value>
+  </data>
+  <data name="PortalDefaultEnabled.Text">
+    <value>- &lt;em&gt;On ne peut pas désactiver la langue par défaut&lt;/em&gt;</value>
+  </data>
+  <data name="siteDefaultLabel.Help">
+    <value>You can select the default language for the site here. If the language is not enabled yet, it will be enabled automatically.  Also, once Content Localization is enabled this can no longer be changed.</value>
+  </data>
+  <data name="siteDefaultLabel.Text">
+    <value>Defaut pour le site :</value>
+  </data>
+  <data name="viewTypeLabel.Help">
+    <value>Select the display type for languages on this page</value>
+  </data>
+  <data name="Host.Help">
+    <value>Editer les clés de traduction au niveau de l'instance DNN</value>
+  </data>
+  <data name="Host.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="Portal.Help">
+    <value>Editer les clés de traduction au niveau du site</value>
+  </data>
+  <data name="Portal.Text">
+    <value>Local</value>
+  </data>
+  <data name="System.Help">
+    <value>Clés de traduction système</value>
+  </data>
+  <data name="System.Text">
+    <value>Système</value>
+  </data>
+  <data name="Culture.Header">
+    <value>Langue</value>
+  </data>
+  <data name="Active.Header">
+    <value>Actif</value>
+  </data>
+  <data name="Enabled.Header">
+    <value>Activée</value>
+  </data>
+  <data name="Static.Header">
+    <value>Ressources statique</value>
+  </data>
+  <data name="Content.Header">
+    <value>Multilinguisme</value>
+  </data>
+  <data name="Edit.Text">
+    <value>Configurer cette langue</value>
+  </data>
+  <data name="Available.Text">
+    <value>Langues disponibles</value>
+  </data>
+  <data name="AddLanguage.Text">
+    <value>Ajouter une Langue</value>
+  </data>
+  <data name="Update.Text">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="CreateLocalizedPages.Text">
+    <value>Créer les pages dans cette langue</value>
+  </data>
+  <data name="CreateLanguage.Text">
+    <value>Créer un pack de langue</value>
+  </data>
+  <data name="EnabledPublishedMessage.Text">
+    <value>&lt;em&gt;A language must be enabled before it can be activated and it must be deactivated before it can be disabled&lt;/em&gt;</value>
+  </data>
+  <data name="EnableLocalization.Text">
+    <value>Activer le multilinguisme (duplication des pages à traduire)</value>
+  </data>
+  <data name="InstallLanguage.Text">
+    <value>Installer le pack de langue</value>
+  </data>
+  <data name="PortalDefaultPublished.Text">
+    <value>- &lt;em&gt;La langue du site par défaut ne peut pas être désactivée ni supprimée&lt;/em&gt;</value>
+  </data>
+  <data name="Settings.Text">
+    <value>Edition</value>
+  </data>
+  <data name="TranslationStatus.Text">
+    <value>Click the link to go to the Translation Summary Page for this language</value>
+  </data>
+  <data name="Verify.Text">
+    <value>Vérifier les fichiers de ressource de traduction</value>
+  </data>
+  <data name="LanguageSettings.Text">
+    <value>Paramètres de langue</value>
+  </data>
+  <data name="TimeZones.Text">
+    <value>Editeur de fuseau horaire</value>
+  </data>
+  <data name="LocalizePages.Text">
+    <value>Nbre de pages</value>
+  </data>
+  <data name="TranslatedPages.Text">
+    <value>Pages traduites</value>
+  </data>
+  <data name="TranslationSummary.Text">
+    <value>Statut de la traduction</value>
+  </data>
+  <data name="HostOnly.Text">
+    <value>Droits de niveau hôte requis</value>
+  </data>
+  <data name="HostOnlyMessage.Text">
+    <value>DotNetNuke's security model requires that host users must create new languages.  As a site administrator you can manage existing languages.  If you would like more languages please contact the Host User for your site.</value>
+  </data>
+  <data name="systemDefaultLabel.Help">
+    <value>The SystemDefault Language is language that the application uses if no other language is available.  It is the ultimate fallback.</value>
+  </data>
+  <data name="systemDefaultLabel.Text">
+    <value>Défaut système</value>
+  </data>
+  <data name="detectBrowserLable.Help">
+    <value>Should the user's browser language be used to detect the user's prefered language?</value>
+  </data>
+  <data name="detectBrowserLable.Text">
+    <value>Enable Browser Language Detection?</value>
+  </data>
+  <data name="Publish.Header">
+    <value>Publier</value>
+  </data>
+  <data name="PublishTranslatedPages.Text">
+    <value>Pages publiées considérées comme traduites</value>
+  </data>
+  <data name="Publish.Confirm">
+    <value>Toutes la pages traduites en langue '{0}' sont publiées.</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

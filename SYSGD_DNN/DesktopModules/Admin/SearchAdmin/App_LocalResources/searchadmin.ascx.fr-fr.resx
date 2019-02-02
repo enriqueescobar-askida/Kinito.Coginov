@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdReIndex.Text">
+    <value>Ré-indexer le contenu</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Paramètres d'indexation</value>
+  </data>
+  <data name="SearchSettingsHelp">
+    <value>Le Moteur de Recherche vous permet de paramètrer la fonction de recherche du Site.</value>
+  </data>
+  <data name="plMaxWordLength.Text">
+    <value>Longueur maximale :</value>
+  </data>
+  <data name="plMaxWordLength.Help">
+    <value>Saisissez longueur maximale des mots à inclure dans l'index.</value>
+  </data>
+  <data name="plMinWordLength.Text">
+    <value>Longueur minimale :</value>
+  </data>
+  <data name="plMinWordLength.Help">
+    <value>Saisissez la longueur minimale d'un mot à inclure dans l'index.</value>
+  </data>
+  <data name="plIncludeCommon.Text">
+    <value>Inclure tous les mots :</value>
+  </data>
+  <data name="plIncludeCommon.Help">
+    <value>Cocher cette case pour inclure les mots communs dans l'index</value>
+  </data>
+  <data name="plIncludeNumeric.Text">
+    <value>Inclure les nombres :</value>
+  </data>
+  <data name="plIncludeNumeric.Help">
+    <value>Cocher cette case pour inclure les nombres dans l'index de recherche</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A Propos du moteur de recherche&lt;/h1&gt;&lt;p&gt;Ce Module permet aux administrateurs de paramétrer le moteur de recherche&lt;/p&gt;</value>
+  </data>
+  <data name="Indexed.Text">
+    <value>Contenu Reindexé.</value>
+  </data>
+</root>

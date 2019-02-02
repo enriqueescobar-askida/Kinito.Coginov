@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 11:53:43   UTC: 2011-07-29 09:53:43Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="DbInfo_ProductVersion.Help">
+    <value>La version de SQL Server</value>
+  </data>
+  <data name="DbInfo_ProductVersion.Text">
+    <value>Version de base de données :</value>
+  </data>
+  <data name="plBackups.Help">
+    <value>Affiche les 20 dernières sauvegardes de base de données pour cette installation DotNetNuke.  Cette liste peut ne pas être codeurs</value>
+  </data>
+  <data name="plBackups.Text">
+    <value>Historique des sauvegardes de base de données :</value>
+  </data>
+  <data name="plFiles.Help">
+    <value>Affiche la liste des fichiers journaux et de données pour cette installation DotNetNuke.</value>
+  </data>
+  <data name="plFiles.Text">
+    <value>Fichiers de base de données :</value>
+  </data>
+  <data name="plDbInfo.Help">
+    <value>Affiche des informations sur l'environnement de serveur de base de données.</value>
+  </data>
+  <data name="plDbInfo.Text">
+    <value>Informations de serveur de base de données :</value>
+  </data>
+  <data name="DbInfo_ProductEdition.Help">
+    <value>L'édition de SQL Server installée</value>
+  </data>
+  <data name="DbInfo_ProductEdition.Text">
+    <value>Édition du produit :</value>
+  </data>
+  <data name="DbInfo_ServicePack.Help">
+    <value>Service pack(s) installés</value>
+  </data>
+  <data name="DbInfo_ServicePack.Text">
+    <value>Service pack :</value>
+  </data>
+  <data name="DbInfo_SoftwarePlatform.Help">
+    <value>La description complète de la plate-forme de logiciel de serveur SQL installé.</value>
+  </data>
+  <data name="DbInfo_SoftwarePlatform.Text">
+    <value>Plate-forme logicielle :</value>
+  </data>
+  <data name="NoBackups.Text">
+    <value>Cette base de données n'a pas été sauvegardé.</value>
+  </data>
+  <data name="BackupName.Header">
+    <value>Nom de la sauvegarde</value>
+  </data>
+  <data name="BackupSize.Header">
+    <value>Taille (Kb)</value>
+  </data>
+  <data name="BackupType.Header">
+    <value>Type de sauvegarde</value>
+  </data>
+  <data name="FileName.Header">
+    <value>Nom de fichier</value>
+  </data>
+  <data name="FileType.Header">
+    <value>Type de fichier</value>
+  </data>
+  <data name="Finished.Header">
+    <value>Terminé</value>
+  </data>
+  <data name="Name.Header">
+    <value>Nom</value>
+  </data>
+  <data name="Size.Header">
+    <value>Taille</value>
+  </data>
+  <data name="Started.Header">
+    <value>Démarré</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

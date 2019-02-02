@@ -1,0 +1,184 @@
+2011-08-29 11:43:27,244 [Jean-PC][Thread:5][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-29 21:34:29,016 [Jean-PC][Thread:5][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-29 21:36:27,865 [Jean-PC][Thread:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-29 21:36:27,908 [Jean-PC][Thread:7][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-29 21:39:03,045 [Jean-PC][Thread:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-29 21:39:03,053 [Jean-PC][Thread:7][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-29 21:44:56,575 [Jean-PC][Thread:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-29 21:44:56,582 [Jean-PC][Thread:7][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-29 21:45:44,226 [Jean-PC][Thread:17][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-29 21:45:44,233 [Jean-PC][Thread:17][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-29 21:52:14,294 [Jean-PC][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-29 21:52:14,302 [Jean-PC][Thread:19][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-29 22:01:12,066 [Jean-PC][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-29 22:01:12,073 [Jean-PC][Thread:19][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-29 22:02:35,704 [Jean-PC][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-29 22:02:35,713 [Jean-PC][Thread:27][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-08-29 22:15:29,301 [Jean-PC][Thread:14][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-29 22:16:51,660 [Jean-PC][Thread:10][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)
+2011-08-29 22:23:30,031 [Jean-PC][Thread:25][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$ctr$ViewSource$txtSource="...trols" %>
+<dnn:DNNLabelEdit id...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-08-29 22:23:30,055 [Jean-PC][Thread:25][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$ctr$ViewSource$txtSource="...trols" %>
+<dnn:DNNLabelEdit id...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$ctr$ViewSource$txtSource="...trols" %>
+<dnn:DNNLabelEdit id..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$ctr$ViewSource$txtSource="...trols" %>
+<dnn:DNNLabelEdit id...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---

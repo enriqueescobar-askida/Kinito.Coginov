@@ -1,0 +1,7 @@
+2011-08-28 15:43:43,218 [Jean-PC][Thread:5][ERROR] DotNetNuke.Services.Upgrade.Upgrade - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateNode(XmlNode rootNode, XmlNode actionNode)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNode(XmlNode node)
+   at DotNetNuke.Services.Installer.XmlMerge.ProcessNodes(XmlNodeList nodes, Boolean saveConfig)
+   at DotNetNuke.Services.Installer.XmlMerge.UpdateConfigs()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(String configFile, Version version, String reason)

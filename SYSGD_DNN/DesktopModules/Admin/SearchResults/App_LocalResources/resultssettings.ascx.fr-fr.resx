@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    DotNetNuke - The Web of the future
+    Copyright (c) 2002-2008 by DotNetNuke Corp. ( http://www.dotnetnuke.com )
+    
+    Localisation Française (c) 2004-2010 par David Thomas, Imatech pour www.dotnetnuke.fr
+    Please report comments and corrections at http://www.dotnetnuke.fr
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plResults.Text">
+    <value>Nombre maxi. de résultats :</value>
+  </data>
+  <data name="plResults.Help">
+    <value>Saisissez le nombre maximal de résultat à afficher pour une recherche</value>
+  </data>
+  <data name="plTitle.Text">
+    <value>Longueur maximale du titre :</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>Saisissez le nombre maximal de caractères à afficher pour le titre (ne rien mettre si pas de limitation)</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Longueur maxi. de la description :</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Saisissez le nombre maximal de caractères à afficher pour le résumé (ne rien mettre si pas de limitation)</value>
+  </data>
+  <data name="plShowDescription.Text">
+    <value>Afficher la description ?</value>
+  </data>
+  <data name="plShowDescription.Help">
+    <value>Cochez cette case si vous desirez faire apparaitre la description dans le résultat de la recherche</value>
+  </data>
+  <data name="plPage.Text">
+    <value>Résultats par page :</value>
+  </data>
+  <data name="plPage.Help">
+    <value>Saisissez le nombre de résultats affichés par page.</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Paramètres des résultats de la recherche</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;A propos du module Résultat de la recherche &lt;/h1&gt;&lt;p&gt;Le module &amp;quot;Résultat de 
+la recherche&amp;quot; (Search Results) retourne une liste de résultat suite à la 
+recherche initié par un utilisateur du site. Ce module compte 5 paramètres :&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;div align="left"&gt;&lt;b&gt;Nombre maxi. de résultats&lt;/b&gt; – spécifier le nombre 
+	maximal de résultat à afficher. &lt;b&gt;&lt;/b&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div align="left"&gt;&lt;b&gt;Résultats par page &lt;/b&gt;- spécifiez le nombre de 
+	résultat à afficher par page.&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div align="left"&gt;&lt;b&gt;Longueur maximale du titre&lt;/b&gt; - spécifiez le nombre de 
+	caractères à afficher pour le titre.&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div align="left"&gt;&lt;b&gt;Longueur maxi. de la description&lt;/b&gt; - spécifiez le 
+	nombre maximal de caractères à afficher pour la description à l'issue d'une 
+	recherche.&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div align="left"&gt;&lt;b&gt;Afficher la description&lt;/b&gt; - cochez l&amp;#180;option afin 
+	d'afficher la description.&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Validation.ErrorMessage">
+    <value>&lt;br&gt;Doit être un entier supérieur à 0 !</value>
+  </data>
+</root>

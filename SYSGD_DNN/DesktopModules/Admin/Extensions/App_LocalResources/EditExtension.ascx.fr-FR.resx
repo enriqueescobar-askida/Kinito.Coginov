@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 29/07/2011 12:11:48   UTC: 2011-07-29 10:11:48Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="cmdEditor.Text">
+    <value>Paramètres</value>
+  </data>
+  <data name="cmdExtension.Text">
+    <value>Information</value>
+  </data>
+  <data name="cmdLicense.Text">
+    <value>Licence</value>
+  </data>
+  <data name="EditTitle.Text">
+    <value>Détails</value>
+  </data>
+  <data name="cmdReleaseNotes.Text">
+    <value>Note de mise à jour</value>
+  </data>
+  <data name="cmdSecurity.Text">
+    <value>Securité</value>
+  </data>
+  <data name="Permissions.Help">
+    <value>Cochez les cases à cocher pour définir des autorisations pour ce pack.</value>
+  </data>
+  <data name="Permissions.Text">
+    <value>Permissions de Package :</value>
+  </data>
+  <data name="chkDelete.Text">
+    <value>Supprimer les fichiers</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>Désinstaller l'extension</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="cmdUpdateLicense.Text">
+    <value>Mettre à jour la licence</value>
+  </data>
+  <data name="cmdUpdateReleaseNotes.Text">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdPackage.Text">
+    <value>Créer un package</value>
+  </data>
+  <data name="EditHelp.Text">
+    <value>Configurez ici les informations du Package de cette Extension.</value>
+  </data>
+  <data name="cmdCreate.Text">
+    <value>Ajouter une extension</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Edition de l'Extension</value>
+  </data>
+  <data name="ExtensionSettings.Text">
+    <value>Paramètres d'Extension</value>
+  </data>
+  <data name="PackageSettings.Text">
+    <value>Paramètres du Package</value>
+  </data>
+  <data name="Languages.Action">
+    <value>Editeur de Langue</value>
+  </data>
+  <data name="TimeZones.Action">
+    <value>Editeur de Fuseau Horaire</value>
+  </data>
+  <data name="ManageSkins.Action">
+    <value>Gestion des Thèmes</value>
+  </data>
+  <data name="cmdCreateLanguage.Text">
+    <value>Ajouter une Langue</value>
+  </data>
+  <data name="cmdCreateModule.Text">
+    <value>Ajouter un module</value>
+  </data>
+  <data name="cmdCreateSkin.Text">
+    <value>Ajouter un Thème</value>
+  </data>
+  <data name="cmdUpdateLanguage.Text">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="cmdUpdateModule.Text">
+    <value>Mettre à jour le Module</value>
+  </data>
+  <data name="cmdUpdateSkin.Text">
+    <value>Mise à jour du Thème</value>
+  </data>
+  <data name="EditLanguageHelp.Text">
+    <value>Configurez ici les informations de ce Pack de Langue.</value>
+  </data>
+  <data name="EditModuleHelp.Text">
+    <value>Configurez ici les informations du Package de ce Module.</value>
+  </data>
+  <data name="EditSkinHelp.Text">
+    <value>Configurez ici les informations du Package de ce Thème.</value>
+  </data>
+  <data name="DuplicateName.Text">
+    <value>Les noms de Packages doivent être uniques</value>
+  </data>
+  <data name="Core.Text">
+    <value>Core</value>
+  </data>
+  <data name="Package.Text">
+    <value>Package</value>
+  </data>
+  <data name="plPackageType.Help">
+    <value>Choisissez le type de Pack deLangue que vous souhaitez créer</value>
+  </data>
+  <data name="plPackageType.Text">
+    <value>Type de Pack de Langue :</value>
+  </data>
+  <data name="PackageType.Error">
+    <value>Vous devez sélectionner un type de Pack de Langue.</value>
+  </data>
+  <data name="cmdCreateContainer.Text">
+    <value>Ajouter un Container</value>
+  </data>
+  <data name="PackageUpdated.Text">
+    <value>Extension mise à jour</value>
+  </data>
+  <data name="UpgradeMessage.Text">
+    <value>Cliquez ici pour obtenir un mise à jour</value>
+  </data>
+  <data name="LanguageMessage.Text">
+    <value>Cliquez ici pour obtenir le Pack de Langue</value>
+  </data>
+  <data name="AdminHeading.Text">
+    <value>Configuration de {0} paramètres d'Extension pour ce site</value>
+  </data>
+  <data name="HostHeading.Text">
+    <value>Configuration de {0} paramètres d'Extension</value>
+  </data>
+  <data name="Controls.Help">
+    <value>Displays the Module Definition's Module Controls</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>

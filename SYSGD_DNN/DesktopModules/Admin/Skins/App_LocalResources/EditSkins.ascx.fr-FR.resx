@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--www.dnn.fr   Last change local time: 05/08/2011 17:49:11   UTC: 2011-08-05 15:49:11Z 
+Copyright 2004-2011 David Thomas (Imatech) and Benoit Sarton (BSI)
+Cette mention doit figurer dans tout fichier dérivé. Voir la mention légale complète en bas du fichier.
+See full terms and conditions at the bottom of this file.-->
+  <data name="lblMessage.Text">
+    <value>&lt;b&gt;NOTE :&lt;/b&gt;  Vous devez utiliser le gestionnaire de fichiers pour charger votre thème ou conteneur.</value>
+  </data>
+  <data name="Host.Text">
+    <value>Hôte</value>
+  </data>
+  <data name="Site.Text">
+    <value>Site</value>
+  </data>
+  <data name="plSkins.Text">
+    <value>Thèmes</value>
+  </data>
+  <data name="plContainers.Text">
+    <value>Conteneurs</value>
+  </data>
+  <data name="cmdRestore.Text">
+    <value>Restaurer le thème par défaut</value>
+  </data>
+  <data name="Portal.Text">
+    <value>Portail</value>
+  </data>
+  <data name="Admin.Text">
+    <value>Admin</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>Effacer le pack de thème</value>
+  </data>
+  <data name="cmdParse.Text">
+    <value>Parcourir le pack de thème</value>
+  </data>
+  <data name="ApplyTo.Text" version="deprecated">
+    <value>Appliquer à</value>
+  </data>
+  <data name="ParseOptions.Text">
+    <value>Options de parsing</value>
+  </data>
+  <data name="Localized.Text">
+    <value>Localisé</value>
+  </data>
+  <data name="Portable.Text">
+    <value>Portable</value>
+  </data>
+  <data name="NoSkin.ErrorMessage">
+    <value>Pas de fichier de thème dans le dossier</value>
+  </data>
+  <data name="cmdPreview.Text">
+    <value>Aperçu</value>
+  </data>
+  <data name="cmdApply.Text">
+    <value>Appliquer</value>
+  </data>
+  <data name="NoContainer.ErrorMessage">
+    <value>Pas de fichier de conteneur dans le dossier</value>
+  </data>
+  <data name="plSkins.Help">
+    <value>Choisir un pack de thème</value>
+  </data>
+  <data name="plContainers.Help">
+    <value>Choisir un conteneur</value>
+  </data>
+  <data name="SkinUpload.Action">
+    <value>Charger le thème</value>
+  </data>
+  <data name="ContainerUpload.Action">
+    <value>Charger le conteneur</value>
+  </data>
+  <data name="ControlTitle_editskins.Text">
+    <value>Gérer les thèmes</value>
+  </data>
+  <data name="plType.Text">
+    <value>Type de thème :</value>
+  </data>
+  <data name="plType.Help">
+    <value>Sélection du type de thème à afficher</value>
+  </data>
+  <data name="About.Text">
+    <value>A propos de {0}</value>
+  </data>
+  <data name="SkinDeleteFailure.Text">
+    <value>Seuls les Super utilisateurs peuvent supprimer les thèmes de l'hôte </value>
+  </data>
+  <data name="CannotDeleteContainer.ErrorMessage">
+    <value>Ce groupe de conteneurs ne peuvent être effacés car ils sont utilisés</value>
+  </data>
+  <data name="CannotDeleteSkin.ErrorMessage">
+    <value>Ce groupe de thèmes ne peuvent être effacés car ils sont utilisés</value>
+  </data>
+  <data name="LegacySkin.Text">
+    <value>Thème ancien</value>
+  </data>
+  <data name="UsePackageUnInstall.Text">
+    <value>Ce thème fait partie d'un pack de thèmes. Utiliser l'option de désinstallation de packs dans la grille principale</value>
+  </data>
+  <data name="lblApply.Text">
+    <value>Appliquer à</value>
+  </data>
+  <data name="lblApply.Help">
+    <value></value>
+  </data>
+  <data name="ParseOptions.Help">
+    <value>'Portable' exige des références graphiques relatives. Cela rend le thème plus portable mais nécessite plus de ressources système.</value>
+  </data>
+  <!--Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+The copyright notice on top of this file, and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+-->
+</root>
